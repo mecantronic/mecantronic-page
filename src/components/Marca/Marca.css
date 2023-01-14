@@ -1,0 +1,77 @@
+.marca {
+  background-color: #575757;
+  height: 512px;
+  width: 100%;
+}
+
+.marca-section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.marca-icon {
+ border-radius: 50%;
+ padding: 10px;
+ width: fit-content;
+ margin: auto;
+  background-color: #525252;
+  display: flex;
+  justify-content: center;
+
+}
+
+.marca-section > div > p:nth-child(2) {
+  /* Lorem impusm dolor */
+
+  width: 347.33px;
+  height: 120px;
+
+  /* H2 Bold */
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.marca-section > div > p:nth-child(3) {
+  width: 331.33px;
+  height: 84px;
+
+  /* Parrafo */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #e4e4e4;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}

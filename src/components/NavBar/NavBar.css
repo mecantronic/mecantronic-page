@@ -1,0 +1,57 @@
+.navbar{
+    width: 100%;
+    height: 104px;  
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(20px);
+}
+
+.navbar-menu{
+    width: 116px;
+height: 35px;
+
+/* Header */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height, or 146% */
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+/* Escala de grises/Blanco */
+
+color: #FCFCFC;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.contact-btn{
+  /* Auto layout */
+
+justify-content: center;
+align-items: center;
+padding: 24px 48px;
+gap: 8px;
+
+width: 203px;
+height: 66px;
+
+/* Escala de grises/Gray 800 */
+
+background: #4D4D4D;
+border-radius: 40px;
+
+}
