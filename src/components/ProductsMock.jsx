@@ -15,6 +15,8 @@ export const kuboxImg = [
     {src:"3"}
 ]
 
+export const kuboxSubtitle = "Impresora de uso dual diseñada para satisfacer más de un objetivo.";
+
 export const koronSeccion = [
     {title:"Modo seccionsKoron koron koron", description:"Permite imprimir por FDM con materiales convencionales, como PLA, ABS, PETG, y técnicos como NYLON, POM, PVOH."},
     {title:"Modo fresadora", description:"Previo cambio el cabezal y plataforma de trabajo, permite realizar mecanizados ligeros (ruteo de placas, grabado y fresado de materiales no ferrosos). Para el mecanizado se emplea un minitorno que no viene incluido y puede ser solicitado como un adicional."},
@@ -30,3 +32,5 @@ export const koronImg = [
     {src:"2"},
     {src:"3"}
 ]
+
+export const koronSubtitle = "Impresora diseñada para uso semi profesional, hobbista o para entornos educativos.";

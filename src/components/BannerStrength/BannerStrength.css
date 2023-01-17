@@ -1,8 +1,6 @@
 .strengths {
-    height: 100vh;
-    width: 100%;
     text-align: -webkit-center;
-    background-color: red;
+    margin: 250px 25px;
   }
   
   .strengths-titles {
@@ -11,18 +9,11 @@
   }
   
   .strengths-subtitle {
-    /* Subtitulo Nosotros */
-  
-    width: 251px;
-    height: 30px;
-  
     font-family: "Ubuntu";
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    /* identical to box height, or 150% */
-  
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
@@ -82,61 +73,40 @@
     flex-grow: 0;
   }
   .dividingLineStrengths{
-    background-color: black;
-    width: 10px;
-    height: 100px;
+    background-color: #CCCCCC;
+    width: 2px;
+    height: 240px;
   }
   
   .strengths-logo {
-    /* Ellipse 8 */
-  
-    position: relative;
-    width: fit-content;
-    height: fit-content;
-    padding: 4%;
-    border-radius: 50%;
-    top: -8%;
-    background-color: white;
-    box-shadow: 0px 16px 40px rgba(207, 207, 207, 0.25);
+    width: 45px;
   }
   
   .strengths-card-title {
-    /* H2 Bold */
-  
-    font-family: "Ubuntu";
+    width: 296px;
+    height: 16px;
+    font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
-    /* identical to box height, or 150% */
-  
-    letter-spacing: 0.06em;
-  
-    /* Escala de grises/Negro */
-  
-    color: #1a1a1a;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
   }
   
   .strengths-card-paragraph {
-    width: 376px;
-    height: 168px;
-  
-    /* Parrafo */
-  
+    width: 280px;
+    height: 90px;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 28px;
-    /* or 140% */
-  
+    line-height: 30px;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-  
-    /* Escala de grises/Gray 800 */
-  
-    color: #4d4d4d;
+    color: #2C2C2C;
   }
   
   .strengths-card-btn {

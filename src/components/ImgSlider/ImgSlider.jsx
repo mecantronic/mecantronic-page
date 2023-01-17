@@ -24,7 +24,7 @@ export const ImgSlider = ({product}) =>{
           speed={800}
           sliderPerView={1}
           modules={[EffectFade, Navigation, Pagination]}
-          className="mySwiper w-5/12"
+          className="mySwiper"
         >
         {listImgSrc.map((src)=>{
             return (
