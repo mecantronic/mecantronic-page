@@ -6,6 +6,7 @@ import { Marca } from '../components/Marca/Marca'
 import { NavBar } from '../components/NavBar/NavBar'
 import { Servicios } from '../components/Servicios/Servicios'
 import { Testimonios } from '../components/Testimonios/Testimonios'
+import { Footer } from '../components/Footer/Footer'
 
 export const Home = () => {
   return (
@@ -17,6 +18,7 @@ export const Home = () => {
     <CasosExito/>
     <BannerEmpresas/>
     <Testimonios/>
+    <Footer/>
     </>
   )
 }

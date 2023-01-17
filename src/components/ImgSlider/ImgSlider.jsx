@@ -12,7 +12,6 @@ import './ImgSlider.css'
 export const ImgSlider = ({product}) =>{
     let listImgSrc = product==="kubox"? kuboxImg:koronImg;
     
-    
     return (
         <>
         <Swiper

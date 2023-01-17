@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom"
 
 import { Accordion } from '../Accordion/Accordion'
 import { ImgSlider } from '../ImgSlider/ImgSlider'
-import { Footer } from "../Footer/Footer"
 
 
 export const ProductContainer = () =>{
@@ -28,8 +27,6 @@ export const ProductContainer = () =>{
                 </div>
             </div>
         </div>
-
-        <Footer/>
     </>
     )
 }
