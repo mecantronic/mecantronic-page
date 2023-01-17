@@ -5,7 +5,7 @@ export const NavBar = () => {
   return (
     <div className='navbar pl-20 pr-20'>
         <div>
-            <img src="./assets/mecantronic.svg" alt="MECANTRONIC" />
+            <img src="../assets/mecantronic.svg" alt="MECANTRONIC" />
         </div>
         <div>
             <span className='navbar-menu m-4'>Servicios</span>
