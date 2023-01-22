@@ -1,0 +1,25 @@
+.cardProducts {
+    text-align: center;
+}
+.cardProducts h3{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 240px;
+    margin-bottom: 8px;
+}
+
+.cardProducts h2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 80px;
+}
+
+.cardProductsContainer{
+    display: flex;
+}

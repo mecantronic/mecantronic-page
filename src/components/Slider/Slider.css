@@ -1,0 +1,50 @@
+.slide{
+    overflow: hidden;
+    text-align: center;
+    background-color: #FCFCFC;
+    box-shadow: 0px 16px 40px rgba(239, 239, 239, 0.25);
+    border-radius: 40px;
+}
+/* products container */
+
+.productsContainer .products{
+    width: 655px;
+    border: 1px solid rgb(0, 0, 0);
+}
+/* team container */
+.teamContainer{
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+.teamContainer .slide{
+    border: none;
+}
+.teamContainer .team{
+    width: 250px;
+}
+
+/* gallery container */
+.galleryContainer .slide{
+    border-radius: 0;
+}
+.galleryContainer .gallery{
+    width: 800px;
+}
+
+/* testimonios container */
+.testimoniosContainer .testimonios{
+}
+
+@media screen and (max-width:669px){
+    .slide{
+        width: 355px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .slide{
+        width: 355px;
+    }
+}
+
+

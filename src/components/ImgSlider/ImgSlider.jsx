@@ -4,14 +4,9 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { EffectFade, Navigation, Pagination } from "swiper";
-import { kuboxImg , koronImg } from "../ProductsMock";
-
 import './ImgSlider.css'
 
-
 export const ImgSlider = ({product}) =>{
-    let listImgSrc = product==="kubox"? kuboxImg:koronImg;
-    
     return (
         <>
         <Swiper
@@ -26,10 +21,10 @@ export const ImgSlider = ({product}) =>{
           modules={[EffectFade, Navigation, Pagination]}
           className="mySwiper"
         >
-        {listImgSrc.map((src)=>{
+        {product["img"].map((source)=>{
             return (
             <SwiperSlide className="swiperslide">
-                <img src={`../assets/products/${product}/${src["src"]}.png`}  key={`${src["src"]}`} alt={`Impresora ${product}`}/>
+                <img src={`../assets/products/${product["title"]}/${source["src"]}.png`}  key={`${source}`} alt={`Impresora ${product["title"]}`}/>
             </SwiperSlide >
             )
         })}

@@ -1,34 +1,29 @@
 import "./ProductContainer.css"
 import React from 'react'
-import { useParams } from "react-router-dom"
+
 
 import { Accordion } from '../Accordion/Accordion'
 import { ImgSlider } from '../ImgSlider/ImgSlider'
 import { BannerStrength } from '../BannerStrength/BannerStrength'
-import { FichaTecnica } from "../FichaTecnica/FichaTecnica"
-import { kuboxSubtitle , koronSubtitle } from "../ProductsMock"
+import { Datasheet } from "../Datasheet/Datasheet"
 
-
-export const ProductContainer = () =>{
-    const {product} =useParams();
-
+export const ProductContainer = ({productToShow}) =>{
     return (
     <>
         <div className='productContainer'>
-            <h3 className="productSubtitle">{product==="kubox"? kuboxSubtitle:koronSubtitle}</h3>
-            <h2 className="productTitle">{product}</h2>
+            <h3 className="productSubtitle">{productToShow["subtitle"]}</h3>
+            <h2 className="productTitle">{productToShow["title"]}</h2>
             
             <div className="productDetails">
-                <ImgSlider product={product}/>
+                <ImgSlider product={productToShow}/>
                 <div className="accordionContainer">
-                    <h3 className="detailsTitle">Impresora ......</h3>
-                    <p className="detailsText">La estructura garantiza una gran rigidez minimizando las vibraciones. 
-                        Exclusivo sistema de cabezales.</p>
-                    <Accordion product={product}/>      
+                    <h3 className="detailsTitle">{productToShow["detailsTitle"]}</h3>
+                    <p className="detailsText">{productToShow["detailsText"]}</p>
+                    <Accordion product={productToShow["accordion"]}/>      
                 </div>  
             </div>
-            <BannerStrength/>
-            <FichaTecnica/>
+            <BannerStrength data={productToShow["strengths"]}/>
+            <Datasheet product={productToShow}/>
         </div>
     </>
     )

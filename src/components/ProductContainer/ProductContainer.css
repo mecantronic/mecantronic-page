@@ -23,10 +23,11 @@
 }
 .productDetails{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 5vw;
 }
 .accordionContainer{
-    width: 45vw;
+    width: 40vw;
     padding: 30px;
 }
 .accordionContainer .detailsText{
@@ -35,13 +36,11 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-    /* or 150% */
-
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
-
     color: #000000;
+    margin-bottom: 85px;
 }
 .accordionContainer .detailsTitle{
     height: 60px;

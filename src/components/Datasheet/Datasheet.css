@@ -1,0 +1,73 @@
+.Datasheet{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FAFAFA;
+}
+
+
+
+
+.Datasheet h2{
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    margin-top: 8px;
+    margin-bottom: 88px;
+}
+
+.Datasheet h3{
+    margin-top: 64px;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+.Datasheet .specification{
+    border-bottom: 1px solid #5B5B5B;
+    display: flex;
+    margin-bottom: 10px;
+}
+.Datasheet .espTitle{
+    color: #1C1B1F;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-right: 24px;
+}
+
+.Datasheet p{
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 30px;
+    letter-spacing: 0.06em;
+    ;
+}
+
+.Datasheet button{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 20px 50px;
+    margin: auto;
+    margin-top: 115px;
+    margin-bottom: 90px;
+}

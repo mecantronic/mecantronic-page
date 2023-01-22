@@ -1,0 +1,43 @@
+.about {
+    margin-top: 240px;
+    display: flex;
+    justify-content: space-around;
+    gap: 160px;
+    margin-bottom: 230px;
+}
+.about img{
+    width: 650px;
+    margin-left: 160px;
+    
+}
+.about .textAbout{
+    width: 650px;
+    margin-right: 295px;
+}
+
+.about .textAbout .title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 8px;
+
+}
+.about .textAbout .subtitle{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 52px;
+
+}
+.about .textAbout .text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+}

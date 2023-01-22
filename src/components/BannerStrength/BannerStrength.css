@@ -59,28 +59,49 @@
   .strengths-cards {
     justify-content: space-around;
   }
-  
+
   .strengths-card {
     box-sizing: border-box;
     width: 20%;
     height: 15em;
-    background: rgba(255, 255, 255, 0.95);
-    /* Inside auto layout */
-    
-  
+    background: rgba(255, 255, 255, 0.95);  
     flex: none;
     order: 0;
     flex-grow: 0;
+  }
+
+  .aboutUsStrengths{
+    background: #575757;
+    height: 512px;
+    align-items: center;
+  }
+  .aboutUsStrengths .strengths-card {
+    background: none;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
   }
   .dividingLineStrengths{
     background-color: #CCCCCC;
     width: 2px;
     height: 240px;
   }
-  
+  .aboutUsStrengths .dividingLineStrengths{
+    background: #787878;
+  }
+  .dividingLineStrengths:last-of-type{
+    background-color: transparent;
+  }
   .strengths-logo {
     width: 45px;
   }
+
+  .aboutUsStrengths .strengths-logo {
+    width: 95px;
+  }
+
   
   .strengths-card-title {
     width: 296px;
@@ -92,6 +113,11 @@
     line-height: 16px;
     text-align: center;
     color: #000000;
+  }
+  .aboutUsStrengths .strengths-card-title{
+    color:#FFFFFF;
+    font-size: 40px;
+    line-height: 60px;
   }
   
   .strengths-card-paragraph {
@@ -107,6 +133,11 @@
     text-align: center;
     letter-spacing: 0.06em;
     color: #2C2C2C;
+  }
+
+  .aboutUsStrengths .strengths-card-paragraph{
+    color:#E4E4E4;
+
   }
   
   .strengths-card-btn {

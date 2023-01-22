@@ -1,0 +1,41 @@
+.partner{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* height: 400px; */
+    text-align: left;
+}
+
+.partner  img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+
+.partner .name{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 48px;
+
+}
+.partner .job{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 9px;
+}
+.partner .linkedin{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: red;
+    margin-top: 9px;
+}

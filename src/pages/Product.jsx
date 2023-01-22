@@ -1,31 +1,27 @@
 import React from 'react'
+import { useParams } from "react-router-dom"
 import { Banner } from '../components/Banner/Banner'
 import { NavBar } from '../components/NavBar/NavBar'
 import { ProductContainer } from '../components/ProductContainer/ProductContainer'
-import { Testimonios } from '../components/Testimonios/Testimonios'
+import { CardProductsContainer } from '../components/CardProductsContainer/CardProductsContainer'
+import { Slider } from '../components/Slider/Slider'
+import { BannerMoreInfo } from '../components/BannerMoreInfo/BannerMoreInfo'
 import { Footer} from '../components/Footer/Footer'
+import products from '../components/Utils/Products'
+import TestimoniosInfo from '../components/Utils/TestimoniosInfo'
 
 export const Product = () => {
+  const {product} =useParams();
+  const productToShow = products[parseInt(product)-1];
   return (
     <>
     <NavBar/>
-    <Banner bannerInfo={"KUBOX Impresora industrial"}/>
-    <ProductContainer/>
-    
-    <h1>AVERIGUAR CUAL ES LA IDEA DE ESTA SECCION..
-       ES MOSTRAR OTROS PRODUCTOS PARECIDOS? TESTIMONIOS SOBRE EL MISMO PRODUCTO?</h1>
-       <h1>AVERIGUAR CUAL ES LA IDEA DE ESTA SECCION..
-       ES MOSTRAR OTROS PRODUCTOS PARECIDOS? TESTIMONIOS SOBRE EL MISMO PRODUCTO?</h1>
-       <h1>AVERIGUAR CUAL ES LA IDEA DE ESTA SECCION..
-       ES MOSTRAR OTROS PRODUCTOS PARECIDOS? TESTIMONIOS SOBRE EL MISMO PRODUCTO?</h1>
-       <h1>AVERIGUAR CUAL ES LA IDEA DE ESTA SECCION..
-       ES MOSTRAR OTROS PRODUCTOS PARECIDOS? TESTIMONIOS SOBRE EL MISMO PRODUCTO?</h1>
-    <Testimonios/>
-    <h1>FALTA CARTEL QUIERO MAS INFO...</h1>
-    <h1>FALTA CARTEL QUIERO MAS INFO...</h1>
-    <h1>FALTA CARTEL QUIERO MAS INFO...</h1>
-    <h1>FALTA CARTEL QUIERO MAS INFO...</h1>
-    <h1>FALTA CARTEL QUIERO MAS INFO...</h1>
+    <Banner bannerInfo={productToShow["titleBanner"]}/>
+    <ProductContainer productToShow={productToShow}/>
+    <CardProductsContainer products={products} type="products"/>
+    {/* <Testimonios/> */}
+    <Slider elementos={TestimoniosInfo} type="testimonios"/>
+    <BannerMoreInfo/>
     <Footer/>
     </>
   )

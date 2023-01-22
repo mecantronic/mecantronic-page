@@ -1,13 +1,9 @@
-
-
 import { Disclosure} from '@headlessui/react'
-import { MinusIcon, PlusIcon } from '@heroicons/react/20/solid'
 import "./AccordionItem.css"
-export const AccordionItem = ({data})=>{
-    
+export const AccordionItem = ({data})=>{    
     const  {title, description} = data;
     return (
-        <Disclosure as="div"  className="border-b border-gray-200 py-6" key={title}>
+        <Disclosure as="div"  className="py-6 mt disclosure" key={title}>
                 {({ open }) => (
                 <>
                     <h3 className="-my-3 flow-root">
@@ -15,9 +11,9 @@ export const AccordionItem = ({data})=>{
                         <span className=" accordionTitle">{title}</span>
                         <span className="ml-6 flex items-center">
                         {open ? (
-                            <MinusIcon className="h-5 w-5" aria-hidden="true" />
+                            <img src='../assets/icons/chevron.png' alt='chevron' className='w-4 rotate-180'/>
                         ) : (
-                            <PlusIcon className="h-5 w-5" aria-hidden="true" />
+                            <img src='../assets/icons/chevron.png' alt='chevron' className='w-4'/>
                         )}
                         </span>
                     </Disclosure.Button>
