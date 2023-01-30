@@ -7,13 +7,15 @@ import { Slider } from '../components/Slider/Slider'
 import { BannerMoreInfo } from '../components/BannerMoreInfo/BannerMoreInfo'
 import products from '../components/Utils/Products'
 import TestimoniosInfo from '../components/Utils/TestimoniosInfo'
+import { ServiciosNav } from "../components/ServiciosNav/ServiciosNav";
 
 export const Product = () => {
   const {product} =useParams();
   const productToShow = products[parseInt(product)-1];
   return (
     <>
-    <Banner nombre={productToShow["title"]} bannerInfo={productToShow["titleBanner"]} />
+    <Banner info1={productToShow["title"]} info2={productToShow["titleBanner"]} />
+    <ServiciosNav/>
     <ProductContainer productToShow={productToShow}/>
     <CardProductsContainer products={products} type="products"/>
     <Slider elementos={TestimoniosInfo} type="testimonios"/>

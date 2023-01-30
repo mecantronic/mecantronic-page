@@ -135,6 +135,70 @@ const products = [
                 highlight:"Estructura fabricada en chapa de corte láser de 2.5mm de espesor. Transmisión eje Z con tornillo de rosca recta. Hotend simil e3d Lite6. Extrusor dual drive. Electrónica MKS de 8 bits con Marlin 2.0." 
             },            
         ]
+    },    
+    {
+        id:3,
+        titleBanner:"Pendiente",
+        title: "Pendiente",
+        subtitle: "Pendiente",
+        detailsTitle: "Pendiente",
+        detailsText: "Pendiente", 
+        accordion: [
+            {title:"Pendiente", description:"Pendiente"},
+            {title:"Pendiente", description:"Pendiente"},
+            {title:"Pendiente", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
+            {title:"Pendiente", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
+            {title:"Pendiente", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
+            {title:"Pendiente", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
+            {title:"Pendiente", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"}
+        ],
+        img:[
+            {src:"1"},
+            {src:"2"},
+            {src:"3"}
+        ],
+        datasheet: [
+            {specification:"Pendiente"},
+            {specification:"Pendiente"},
+            {specification:"Pendiente"},
+            {specification:"Pendiente"},
+            {specification:"Pendiente"},
+            {specification:"Pendiente"},
+            {specification:"Pendiente"}
+        ],
+        subtitleDatasheet: "Pendiente",
+        strengths: [
+            {
+                title: "Pendiente",
+                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
+            },    
+            {
+                title: "Pendiente",
+                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
+            },    
+            {
+                title: "Pendiente",
+                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
+            },   
+            {
+                title: "Pendiente",
+                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
+            }
+        ],
+        highlights: [
+            {
+                subtitle: "Pendiente", 
+                highlight:"Pendiente" 
+            },
+            {
+                subtitle: "Pendiente", 
+                highlight:"Pendiente",
+            },
+            {
+                subtitle: "Pendiente", 
+                highlight:"Pendiente" 
+            },            
+        ]
     }
 ]
 export default products;

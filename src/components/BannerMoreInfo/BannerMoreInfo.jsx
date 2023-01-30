@@ -9,7 +9,7 @@ export const BannerMoreInfo = () =>{
                     <button>Quiero mas info</button>
                 </a>
             </div>
-            <h1 className="text-red-600 text-5xl text-center">...VER DIRECCION DEL BOTON mas info...</h1>
+            <h1 className="text-yellow-400 text-5xl text-center">...VER DIRECCION DEL BOTON mas info...</h1>
         </div>
     )
 }

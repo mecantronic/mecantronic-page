@@ -10,14 +10,14 @@ import { Form } from '../components/Form/Form'
 export const Home = () => {
   return (
     <>
-    <Banner bannerInfo={"La tecnología más conveniente para desarrollar tu producto y "} especial={"potenciar tu empresa."}/>
+
+    <Banner info2={"La tecnología más conveniente para desarrollar tu producto y "} info3={"potenciar tu empresa."}/>
     <Marca/>
     <Servicios/>
     <CasosExito/>
     <BannerEmpresas/>
     <Testimonios/>
     <Form/>
-    
     </>
   )
 }

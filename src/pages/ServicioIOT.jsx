@@ -9,7 +9,7 @@ import { Testimonios } from "../components/Testimonios/Testimonios";
 export const ServicioIOT = () => {
   return (
     <>
-      <Banner bannerInfo={"IOT - Soluciones de ingenieria para tu empresa."} />
+      <Banner info2={"IOT - Soluciones de ingenieria para tu empresa."} />
       <ServiciosNav/>
       <SobreServicio/>
       <ServiciosExito/>

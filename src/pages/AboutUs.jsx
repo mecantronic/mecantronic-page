@@ -12,13 +12,14 @@ import { Slider } from '../components/Slider/Slider'
 export const AboutUs = () => {
   return (
     <> 
-    <Banner bannerInfo={AboutInfo[0]["titleBanner"]}/>
+    <Banner info1={AboutInfo[0]["bannerInfo1"]} info2={AboutInfo[0]["bannerInfo2"]}/>
     <About data={AboutInfo}/>
-    <BannerStrength data ={AboutInfo[0]["strengths"]}/>
-    
-    <h1>Imagenes hero, con algun efecto hover?</h1>
-    <h1>Imagenes hero, con algun efecto hover?</h1>
-    <h1>Imagenes hero, con algun efecto hover?</h1>
+    {/* 
+    APARENTEMENTE LO BORRARON DEL PROTO EN ALTA?
+
+        <BannerStrength data ={AboutInfo[0]["strengths"]}/>
+
+    */}
 
     <Slider elementos={AboutInfo} type="team"/>
     <Slider elementos={AboutInfo} type="gallery"/>

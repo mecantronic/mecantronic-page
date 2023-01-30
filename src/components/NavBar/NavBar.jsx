@@ -3,9 +3,12 @@ import './NavBar.css'
 import { ContactButton } from '../ContactButton/ContactButton'
 import {Link} from "react-router-dom"
 import { Dropdown } from 'flowbite-react'
+import { WhatsAppBtn } from '../WhatsAppBtn/WhatsAppBtn'
 
 export const NavBar = () => {
   return (
+    <>
+    <WhatsAppBtn/>
     <div className='navbar'>
       <Link to={"/"}>
             <img src="../assets/mecantronic.svg" alt="MECANTRONIC" />
@@ -40,6 +43,9 @@ export const NavBar = () => {
         <span className='m-4'><ContactButton/></span>
 
       </div>
+      
     </div>
+    
+    </>
   )
 }

@@ -15,7 +15,7 @@ export const Servicio3D = () => {
               "Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
             }
           />
-           <ServiciosNav/>
+      <ServiciosNav/>
       <SobreServicio/>
       <ServiciosExito/>
       <BannerEmpresas/>

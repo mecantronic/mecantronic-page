@@ -11,7 +11,7 @@ export const ServicioIA = () => {
   return (
     <>
       {" "}
-      <Banner bannerInfo={"IA - Inteligencia artificial para tu negocio."} />
+      <Banner info2={"IA - Inteligencia artificial para tu negocio."} />
       <ServiciosNav/>
       <SobreServicio/>
       <ServiciosExito/>

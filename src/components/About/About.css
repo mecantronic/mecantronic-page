@@ -1,18 +1,22 @@
-.about {
+.about{
     margin-top: 240px;
+    margin-bottom: 230px;
+}
+.aboutSection {
     display: flex;
     justify-content: space-around;
     gap: 160px;
-    margin-bottom: 230px;
+    margin: 200px 160px;
+}
+.aboutSection:nth-child(even) {
+    flex-direction: row-reverse;
 }
 .about img{
-    width: 650px;
-    margin-left: 160px;
-    
+    max-width: 650px;
+    height: auto;
 }
 .about .textAbout{
-    width: 650px;
-    margin-right: 295px;
+    width: 780px;
 }
 
 .about .textAbout .title{
@@ -22,7 +26,8 @@
     font-size: 40px;
     line-height: 60px;
     margin-bottom: 8px;
-
+    letter-spacing: 0.06em;
+    color: #FCFCFC;
 }
 .about .textAbout .subtitle{
     font-family: 'Ubuntu';
@@ -34,10 +39,11 @@
 
 }
 .about .textAbout .text{
-    font-family: 'Open Sans';
+    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #FCFCFC;
 }
