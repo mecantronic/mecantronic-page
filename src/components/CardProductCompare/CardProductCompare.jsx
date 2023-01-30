@@ -1,4 +1,5 @@
 import "./CardProductCompare.css"
+import { Link } from "react-router-dom"
 
 export const CardProductCompare = ({product}) =>{
     
@@ -18,7 +19,7 @@ export const CardProductCompare = ({product}) =>{
                     )
                 })}
             </div>
-            <button>Ver mas</button>
+            <Link to={`/products/${product["id"]}`}  className="cardProductCompareBtn">Ver más</Link>
         </div>
     )
 }

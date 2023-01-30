@@ -71,7 +71,7 @@
     color: #FCFCFC;
 }
 
-.CardProductCompare button{
+.CardProductCompare .cardProductCompareBtn{
     margin: auto;
     font-family: 'Ubuntu';
     font-style: normal;

@@ -2,6 +2,7 @@ import "./About.css"
 
 export const About = ({data}) =>{
     return (
+        <>
         <div className="about">
             {data[0]["about"].map((section,index)=>{
                 return(
@@ -17,5 +18,13 @@ export const About = ({data}) =>{
                 )
             })}
         </div>
+        <section className="nuestroEquipo">
+            <p>Nuestro equipo</p>
+            <div>  
+                <img src="../assets/team/6.jpg" alt="Fijador medicinal impreso en 3D"/>
+                <img src="../assets/about-us.jpg" alt="Equipo de mecantronic"/>
+            </div>
+        </section>
+        </>
     )
 }
