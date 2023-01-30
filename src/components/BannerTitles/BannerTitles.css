@@ -22,7 +22,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
   
-    color: #000000;
+    color: #FF5B68;
   
     /* Inside auto layout */
   
@@ -36,6 +36,7 @@
     text-align: center;
     justify-content: center;
     height: 60px;
+    margin-bottom: 130px;
   
     /* H2 Bold */
   
@@ -50,7 +51,7 @@
     align-items: center;
     letter-spacing: 0.06em;
   
-    color: #000000;
+    color: #FFFFFF;
   
     /* Inside auto layout */
   

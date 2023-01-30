@@ -5,16 +5,19 @@ import { CasosExito } from '../components/CasosExito/CasosExito'
 import { Marca } from '../components/Marca/Marca'
 import { Servicios } from '../components/Servicios/Servicios'
 import { Testimonios } from '../components/Testimonios/Testimonios'
+import { Form } from '../components/Form/Form'
 
 export const Home = () => {
   return (
     <>
-    <Banner bannerInfo={"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."}/>
+    <Banner bannerInfo={"La tecnología más conveniente para desarrollar tu producto y "} especial={"potenciar tu empresa."}/>
     <Marca/>
     <Servicios/>
     <CasosExito/>
     <BannerEmpresas/>
     <Testimonios/>
+    <Form/>
+    
     </>
   )
 }

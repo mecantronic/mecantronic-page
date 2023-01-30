@@ -65,9 +65,13 @@
     line-height: 18px;
     letter-spacing: 0.01em;
     border-radius: 30px;
-    border: 1px solid black;
+    border: 1px solid #56E1FF;
     padding: 20px 50px;
     margin: auto;
     margin-top: 115px;
     margin-bottom: 90px;
+    background: linear-gradient(111.43deg, #56E1FF 7.62%, #6BF2E4 77.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }

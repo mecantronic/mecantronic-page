@@ -9,8 +9,7 @@ export const Footer = ()=>{
                     <div>
                         <img src="../assets/mecantronic.svg" alt="MECANTRONIC" />
                     </div>
-                    <p>Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem
-                         in nemo fuga ut consequatur quis est repudiandae accusamus</p>
+                    <p>Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus</p>
                 </div>
 
                 <div className="aboutUs">
@@ -27,6 +26,7 @@ export const Footer = ()=>{
                         <li>Ubicacion de la empresa</li>
                         <li>Numero de contacto</li>
                         <li>Email de Contacto</li>
+                        <li> Alguna información adicional</li>
                     </ul>
                 </div>
 
@@ -49,7 +49,6 @@ export const Footer = ()=>{
                     </div>
                 </div>
             </span>
-            <span className="dividingLine"></span>
             <span className="copyrights">
                 <p>Copyright 2023 Todos los derechos reservados</p>
                 <p>©Mec&Tronic 2023</p>

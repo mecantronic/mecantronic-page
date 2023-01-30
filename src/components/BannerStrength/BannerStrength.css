@@ -1,6 +1,6 @@
 .strengths {
     text-align: -webkit-center;
-    margin: 250px 25px;
+    margin: 260px 25px;
   }
   
   .strengths-titles {
@@ -64,7 +64,6 @@
     box-sizing: border-box;
     width: 20%;
     height: 15em;
-    background: rgba(255, 255, 255, 0.95);  
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -112,7 +111,7 @@
     font-size: 32px;
     line-height: 16px;
     text-align: center;
-    color: #000000;
+    color: #FCFCFC;
   }
   .aboutUsStrengths .strengths-card-title{
     color:#FFFFFF;
@@ -132,7 +131,7 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #2C2C2C;
+    color: #FCFCFC;
   }
 
   .aboutUsStrengths .strengths-card-paragraph{

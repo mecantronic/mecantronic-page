@@ -2,50 +2,36 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* padding: 48px;
-  gap: 24px;  */
-
-  /* width: 385px;   */
   height: 368px;
-
-  background: #ffffff;
-  box-shadow: 0px 16px 40px rgba(209, 209, 209, 0.25);
+  background-color: #061F40;
+  box-shadow: 0px 16px 40px rgba(0, 59, 125, 0.18);
   border-radius: 32px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
+  backdrop-filter: blur(150px);
 }
 .user-testimonios {
   align-items: center;
 }
-
-.user-testimonios > span {
-  width: 196px;
-  height: 16px;
-
+.user-testimonios > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  margin-left: 16px;
+  color: #FCFCFC;
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 16px;
-  /* identical to box height, or 80% */
-
-  display: flex;
-  align-items: center;
   letter-spacing: 0.06em;
-
-  /* Escala de grises/Negro */
-
-  color: #1a1a1a;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+}
+.user-testimonios > div > p {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 16px;
 }
 .profilepicture {
   width: 40px;
@@ -82,6 +68,10 @@
 
 .rating {
   align-items: center;
+  color: red;
+}
+.rating p{
+  color: #FCFCFC;
 }
 
 /* Extra small devices (phones, 600px and down) */

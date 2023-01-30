@@ -1,13 +1,13 @@
 const products = [
         {
         id:1,
-        titleBanner:"este es el titulo para la impresora Kubox",
+        titleBanner:"Impresora de uso dual diseñada para ambientes y aplicaciones industriales",
         title: "Kubox",
         subtitle: "Impresora de uso dual diseñada para satisfacer más de un objetivo.",
         detailsTitle: "... ALGUN TITULO... ??",
         detailsText: "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.", 
         accordion: [
-            {title:"Modo seccions", description:"Permite imprimir por FDM con materiales convencionales, como PLA, ABS, PETG, y técnicos como NYLON, POM, PVOH."},
+            {title:"Gestión del consumo de combustible", description:"Permite imprimir por FDM con materiales convencionales, como PLA, ABS, PETG, y técnicos como NYLON, POM, PVOH."},
             {title:"Modo fresadora", description:"Previo cambio el cabezal y plataforma de trabajo, permite realizar mecanizados ligeros (ruteo de placas, grabado y fresado de materiales no ferrosos). Para el mecanizado se emplea un minitorno que no viene incluido y puede ser solicitado como un adicional."},
             {title:"Fácil de usar e intuitiva", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
             {title:"Robustez en uso continuo", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
@@ -38,7 +38,7 @@ const products = [
             {specification:"Plataforma de trabajo intercambiable (cama de impresión - mesa de mecanizado)."},
             {specification:"Patas regulables para asegurar un buen apoyo en la mesa de trabajo."}
         ],
-        subtitleDatasheet: "subtitleDatasheet subtitleDatasheet",
+        subtitleDatasheet: "subtitleDatasheet=>>>",
         strengths: [
             {
                 title: "Soporte kubooox",
@@ -74,7 +74,7 @@ const products = [
     },    
     {
         id:2,
-        titleBanner:"este es el titulo para la impresora Koron",
+        titleBanner:"Impresora de uso dual diseñada para ambientes y aplicaciones industriales",
         title: "Koron",
         subtitle: "Impresora diseñada para uso semi profesional, hobbista o para entornos educativos.",
         detailsTitle: "... ALGUN TITULO... ??",

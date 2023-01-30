@@ -7,17 +7,17 @@ import { BannerTitles } from "../BannerTitles/BannerTitles";
 export const CasosExito = () => {
   return (
     <div className="w-full casos">
-      <BannerTitles subtitle={"casos de exito"} title={"Ut recusandae fugit"}/>
+      <BannerTitles subtitle={"casos de exito"} title={"Descubrí nuestros trabajos"}/>
       <div className="flex p-8">
-        <div className="w-1/2 casos-img pl-20 pr-20">
-          <img src="./assets/placeholder.svg" alt="" />
+        <div className="w-1/2 casos-img pl-20 pr-20 imgExito">
+          <img src="./assets/casos-exito.png" alt="" />
         </div>
         <div className="w-1/2 casos-description-container">
-          <p>Lorem ipsum dolor.</p>
+          <p>Monitoreo remoto de profundidad de napas</p>
           <p className="mt-4">
-            Lorem ipsum dolor sit amet. Ut recusandae fugit et unde
-            exercitationem.
+          La profundidad de las napas en distintos puntos del campo constituye un activo importante para la toma de decisiones en la agricultura y ganadería. Desarrollamos un sistema que permite visualizar un mapa con las respectivas profundidades de napas en los puntos en que se han dispuesto sensores.
           </p>
+          {/*
           <div className="casos-wrapper mt-10 mb-10">
             <div className="casos-example">
               <div>
@@ -39,9 +39,10 @@ export const CasosExito = () => {
               <p>Lorem ipsum dolor sit amet.</p>
             </div>
           </div>
+          */}
           <div className="casos-conocermas">
-            <span className="pt-10 mr-2">Conocer mas </span>
-            <span className="pt-10">
+            <span className="conocerMasBtn">Conocer mas </span>
+            <span className="conocerMasBtn">
               <HiOutlineArrowNarrowRight />
             </span>
           </div>

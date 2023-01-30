@@ -1,13 +1,22 @@
 .accordionTitle{
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
     letter-spacing: 0.06em;
     color: #1A1A1A;
+    display: flex;
+    gap: 60px;
+    color: #FCFCFC;
+}
+.accordionTitle p{
+    font-weight: 500;
+}
+.disclosure {
+    border-bottom:1px solid #6bf2e4b0;
 }
 
-.disclosure {
-    border-bottom:1px solid #5B5B5B;
+.accordionDescription .detailsText{
+    color: red;
 }

@@ -1,6 +1,7 @@
 .bannerMoreInfo{
     height: 650px;
-    padding-top: 240px;
+    margin-top: 380px;
+    margin-bottom: 240px;
 }
 
 .bannerMoreInfo div{
@@ -14,6 +15,11 @@
     height: 178px;
     background: #4E4E4E;
     border-radius: 40px;
+padding: 53px 78px;
+gap: 70px;
+background: rgba(8, 32, 69, 0.5);
+backdrop-filter: blur(20px);
+border: 1px solid #3888C2;
 }
 
 .bannerMoreInfo h2{
@@ -34,5 +40,8 @@
     font-weight: 700;
     font-size: 24px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    line-height: 18px;
+    text-align: center;
+    color: #05173B;
+    background: linear-gradient(111.43deg, #56E1FF 7.62%, #6BF2E4 77.1%);
 }

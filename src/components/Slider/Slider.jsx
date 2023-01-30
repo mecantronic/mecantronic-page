@@ -42,8 +42,8 @@ export const Slider = ({elementos, type}) => {
                     <Carousel breakPoints={testimoniosBreakPoints}>
                         {elementos.map((testimonio,index)=>{
                             return (
-                                <div className="slide testimonios">
-                                    <CardTestimonios  className="w=1/4" rating={testimonio["rating"]} profileImg={testimonio["profileImg"]}  user={testimonio["user"]} opinion={testimonio["opinion"]}/>
+                                <div className="slide sliderTestimonios">
+                                    <CardTestimonios rating={testimonio["rating"]} profileImg={testimonio["profileImg"]}  user={testimonio["user"]} opinion={testimonio["opinion"]}/>
                                 </div >)})
                         }
                     </Carousel></div>)

@@ -1,4 +1,210 @@
-.formContainer{
+.contactContainer{
     height: 1500px;
-    background-color: rgba(2, 35, 2, 0.6);
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 240px;
+    font-family: 'Ubuntu';
+    font-style: normal;    
+    letter-spacing: 0.06em;
+    font-weight: 700;
 }
+.contactContainer h2{
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF5B68;
+}
+.contactContainer h3{
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+
+.formContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 340px;
+}
+.formContainer .contacData {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    color: #FCFCFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+.formContainer .contacData .contacDataContainer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+.formContainer .contacData .contacDataContainer .icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%; 
+    margin-top: 240px;
+    gap:5px;
+}
+.formContainer .contacData .contacDataContainer .icons >div{
+    border: 1px white solid;    
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formContainer .contacData .contacDataContainer .icons img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.formContainer .contacData .title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #FF5B68;
+}
+
+.formContainer .contacData .telefono{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #FF5B68;
+}
+.formContainer .contacData .telefono p{
+    color: #FCFCFC;
+}
+
+.formularioContacto{
+    width: 50%;
+    margin: 0px auto;
+    padding: 64px;
+    background: linear-gradient(205.78deg, rgba(28, 70, 120, 0.89) 0.98%, #153862 95.4%);
+    border-radius: 32px;
+
+
+}
+.formularioContacto .formulario{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.formularioContacto .labelFormContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.formularioContacto .labelFormContacto label{
+    text-align: left;
+    width: 100%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #FCFCFC;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.formularioContacto .labelFormContacto input, .formularioContacto textarea, .formularioContacto select{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #E4E4E4;
+    background: rgba(11, 41, 79, 0.7);
+    border-radius: 8px;
+    padding: 16px 24px;
+    width: 100%;
+
+}
+
+.formularioContacto label, .formularioContacto .labelFormContacto input, .formularioContacto textarea{
+    width: 100%;
+
+    
+    /* 
+    margin-bottom: 10px;
+    width: 50vw;
+    max-width: 500px;
+     */
+}
+.formularioContacto textarea{
+    height: 90px;
+}
+
+input.botonEnvio {
+    margin: auto;
+    margin-top: 64px;
+    padding: 24px 48px; 
+    gap: 8px;
+    width: 172px;
+    height: 62px;
+    background: linear-gradient(111.43deg, #56E1FF 7.62%, #6BF2E4 77.1%);
+    border-radius: 40px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #05173B;
+}
+.botonEnvio:hover{
+     /*
+    font-weight: 900;
+    cursor: pointer;
+    */
+}
+.errorForm{
+    color: red;
+}
+
+
+/* Media queries 
+@media (max-width: 550px) {
+    .formularioContacto  {
+        width: 100vw;
+        margin: auto;
+    }    
+    .formularioContacto label, .formularioContacto .labelFormContacto input, .formularioContacto textarea{
+        margin-bottom: 10px;
+        width: 75vw;
+        max-width: 500px;
+    }
+}
+*/

@@ -1,13 +1,14 @@
 import React from 'react'
+import "./ServiciosNav.css"
 
 export const ServiciosNav = () => {
 
   return (
-    <div className='flex'>
-        <span>Sobre el servicio</span>
-        <span>Casos de exito</span>
-        <span>Clientes</span>
-        <span>Testimonios</span>
+    <div className='serviciosNav'>
+        <span><p>Sobre el servicio</p></span>
+        <span><p>Casos de exito</p></span>
+        <span><p>Clientes</p></span>
+        <span><p>Testimonios</p></span>
     </div>
   )
 }

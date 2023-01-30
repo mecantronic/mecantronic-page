@@ -6,14 +6,13 @@ import { Accordion } from '../Accordion/Accordion'
 import { ImgSlider } from '../ImgSlider/ImgSlider'
 import { BannerStrength } from '../BannerStrength/BannerStrength'
 import { Datasheet } from "../Datasheet/Datasheet"
+import { BannerTitles } from "../BannerTitles/BannerTitles"
 
 export const ProductContainer = ({productToShow}) =>{
     return (
     <>
         <div className='productContainer'>
-            <h3 className="productSubtitle">{productToShow["subtitle"]}</h3>
-            <h2 className="productTitle">{productToShow["title"]}</h2>
-            
+            <BannerTitles subtitle={productToShow["subtitle"]} title={productToShow["title"]}/>
             <div className="productDetails">
                 <ImgSlider product={productToShow}/>
                 <div className="accordionContainer">

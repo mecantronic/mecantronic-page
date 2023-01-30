@@ -2,56 +2,57 @@
     width: 100%;
     height: 104px;  
     display: flex;
-    background-color: black;
+    background: #05173B;
+    backdrop-filter: blur(20px);
     color: white;
     align-items: center;
     justify-content: space-between;
-    backdrop-filter: blur(20px);
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.navbar .menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FCFCFC;
+  gap: 48px;
+  
 }
 
-.navbar-menu{
-    width: 116px;
-height: 35px;
-
-/* Header */
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 35px;
-/* identical to box height, or 146% */
-
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
-/* Escala de grises/Blanco */
-
-color: #FCFCFC;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.navbar .menu .navbar-menu{
+  background: linear-gradient(205.78deg, rgba(28, 70, 120, 0.89) 0.98%, #153862 95.4%);
+}
+.navbar .menu .navbar-menu:last-child{
+  background: none;
+}
+.navbar .menu .navbar-menu  span{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #FCFCFC;
+  padding: 16px 95px 16px 24px;
+}
+.navbar .menu .navbar-menu .navbar-menu-item:hover{
+  background-color: red;
 }
 
 .contact-btn{
-  /* Auto layout */
-
-justify-content: center;
-align-items: center;
-padding: 24px 48px;
-gap: 8px;
-
-width: 203px;
-height: 66px;
-
-/* Escala de grises/Gray 800 */
-
-background: #4D4D4D;
-border-radius: 40px;
-
+  justify-content: center;
+  align-items: center;
+  padding: 24px 48px;
+  gap: 8px;
+  width: 203px;
+  height: 66px;
+  border-radius: 40px;
 }

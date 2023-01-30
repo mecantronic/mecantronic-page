@@ -1,5 +1,4 @@
 .casos {
-  height: 100vh;
   width: 100%;
   text-align: -webkit-center;
 }
@@ -73,6 +72,7 @@
 
 .casos-description-container {
   text-align: left;
+
 }
 
 .casos-example {
@@ -106,50 +106,32 @@
 }
 
 .casos-description-container > p:nth-child(1) {
-  /* Subtitulo Nosotros */
-
   width: 520px;
-  height: 60px;
-
-  /* H2 Bold */
-
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
-  /* identical to box height, or 150% */
-
   display: flex;
   align-items: center;
   letter-spacing: 0.06em;
-
-  color: #000000;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
+  color: #FFFFFF;
+  margin-bottom: 24px;
 }
 
 .casos-description-container > p:nth-child(2) {
-  width: 539px;
-  height: 96px;
-
+  width: 790px;
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 48px;
-  /* or 200% */
-
-  display: flex;
-  align-items: center;
   letter-spacing: 0.06em;
-
-  color: #000000;
-
+  color: #FFFFFF;
+  margin-bottom: 70px;
 }
 
 .casos-conocermas{
@@ -167,10 +149,32 @@ align-items: center;
 letter-spacing: 0.01em;
 
 color: #000000;
-
+margin-bottom: 92px;
 
 }
 
+.casos-conocermas .conocerMasBtn{
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 18px;
+/* identical to box height, or 75% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+background: linear-gradient(269.04deg, #6BF2E4 0.82%, #56C5FF 91.9%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.casos-conocermas .conocerMasBtn svg{
+  color:#56c4ffe6;
+  margin-left: 6px;
+
+}
 .casos-example{
 
 width: 161px;
@@ -198,13 +202,15 @@ flex-grow: 0;
 }
 
 .casos-circles{
-    font-size: xx-small;
+    font-size: small;
     align-items: center;
+    color: #6BF2E4;;
 }
 
 .inactive-circle{
     font-size: 0.8em !important;
-    color: gray;
+    color: #2A8D83;
+
 }
 .casos-conocermas{
     display: flex;

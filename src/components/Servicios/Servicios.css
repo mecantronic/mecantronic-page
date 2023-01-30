@@ -74,46 +74,41 @@
   box-sizing: border-box;
   width: 32%;
   height: 35em;
-  
-  background: rgba(248, 248, 248, 0.95);
-  box-shadow: 0px 16px 32px rgba(232, 232, 232, 0.25);
   border-radius: 32px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
+  border: #3888c280 1px solid;
+  height: 675px;
+  background: rgba(8, 32, 69, 0.5);
+  backdrop-filter: blur(20px);
 }
 
 .servicios-logo {
-  /* Ellipse 8 */
-
-  position: relative;
-  width: fit-content;
-  height: fit-content;
   padding: 4%;
+  position: relative;
+  top: -11%;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
-  top: -8%;
-  background-color: white;
-  box-shadow: 0px 16px 40px rgba(207, 207, 207, 0.25);
+  border: #3888c280 1px solid;
+  background: #092144;
+  box-shadow: 0px 4px 40px rgba(107, 242, 228, 0.25);
+}
+.servicios-logo img {
+  width: 76px;
 }
 
 .servicios-card-title {
-  /* H2 Bold */
-
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
-  /* identical to box height, or 150% */
-
   letter-spacing: 0.06em;
-
-  /* Escala de grises/Negro */
-
-  color: #1a1a1a;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FCFCFC;
 }
 
 .servicios-card-paragraph {
@@ -132,66 +127,45 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
-  /* Escala de grises/Gray 800 */
-
   color: #4d4d4d;
+  font-family: 'Open Sans';
+  color: #F3F3F3;
 }
 
 .servicios-card-btn {
-  /* Input */
-
+  margin-top: 100px;
   width: 71px;
   height: 18px;
-
-  /* Boton */
-
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 18px;
-  /* identical to box height, or 75% */
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.01em;
-
-  /* Escala de grises/Negro */
-
   color: #1a1a1a;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
-
-  /* buttons */
-
   box-sizing: border-box;
-
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 24px 48px;
   gap: 8px;
-
   width: 249px;
   height: 72px;
-
-  /* Escala de grises/Gray 700 */
-
   border: 1px solid #808080;
   border-radius: 40px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
+  letter-spacing: 0.01em;
+  background: linear-gradient(267.74deg, #6BF2E4 0.51%, #56C5FF 93.86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }

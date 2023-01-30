@@ -1,7 +1,6 @@
 .marca {
-  background-color: #575757;
-  height: 512px;
   width: 100%;
+  margin-top: 300px;
 }
 
 .marca-section {
@@ -9,25 +8,30 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  
+  border-right: 1px #57e0ff80 solid;
 }
 
 .marca-icon {
- border-radius: 50%;
- padding: 10px;
- width: fit-content;
- margin: auto;
-  background-color: #525252;
+  border-radius: 50%;
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+  background: #071C41;
+  box-shadow: 4px -4px 40px rgba(124, 192, 241, 0.24), -4px 4px 40px rgba(124, 192, 241, 0.24);
   display: flex;
   justify-content: center;
-
+  margin-bottom: 40px;
+}
+.marca-section:last-child{
+  border: none;
 }
 
 .marca-section > div > p:nth-child(2) {
   /* Lorem impusm dolor */
-
+  
   width: 347.33px;
   height: 120px;
+  margin: auto;
 
   /* H2 Bold */
 
@@ -55,6 +59,7 @@
 .marca-section > div > p:nth-child(3) {
   width: 331.33px;
   height: 84px;
+  margin-top: 24px;
 
   /* Parrafo */
   font-style: normal;
@@ -75,4 +80,8 @@
   flex: none;
   order: 0;
   flex-grow: 1;
+
+
+  
 }
+
