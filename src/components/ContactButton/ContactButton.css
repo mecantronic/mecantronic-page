@@ -6,7 +6,7 @@
     padding: 0;
     
 }
-.max-w-2xl #modalFormConteiner{
+/* .max-w-2xl   */ #modalFormConteiner{
     width: 70vw;
     margin-left: -18vw;
     background: radial-gradient(57.02% 50% at 45.31% 50%, #022741 0%, #05173B 0.01%, #0C2E54 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
