@@ -1,35 +1,31 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { EffectFade, Navigation, Pagination } from "swiper";
 import './ImgSlider.css'
+import 'swiper/css/bundle';
+import { register } from 'swiper/element/bundle';
+import {Navigation, Pagination} from "swiper";
 
 export const ImgSlider = ({product}) =>{
+    register();
     return (
         <>
-        <Swiper
-          spaceBetween={30}
-          navigation={true}
-          pagination={{
-            clickable: true,
-          }}
-          loop
-          speed={800}
-          sliderPerView={1}
-          modules={[EffectFade, Navigation, Pagination]}
-          className="mySwiper"
-        >
-        {product["img"].map((source)=>{
-            return (
-            <SwiperSlide className="swiperslide">
-                <img src={`../assets/products/${product["title"]}/${source["src"]}.png`}  key={`${source}`} alt={`Impresora ${product["title"]}`}/>
-            </SwiperSlide >
-            )
-        })}
-        </Swiper>
-        
+        <swiper-container 
+                modules={[Navigation, Pagination]}
+                slides-per-view="1" 
+                // spaceBetween={5}
+                speed="500" 
+                loop="true" 
+                css-mode="true" 
+                navigation="true" 
+                pagination={{ clickable: true }}
+                id="swiperGalleryProduct">
+
+            {product["img"].map((source)=>{
+                    return (
+                    <swiper-slide> {/* className="swiperslide" */}
+                        <img src={`../assets/products/${product["title"]}/${source["src"]}.png`}  key={`${source}`} alt={`Impresora ${product["title"]}`}/>
+                    </swiper-slide >
+                    )
+                })}
+        </swiper-container>
         </>
     )
 }

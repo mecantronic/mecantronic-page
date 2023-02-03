@@ -21,8 +21,7 @@ export const Testimonios = () => {
           </div>
         </div>
       */}
-
-        <Slider elementos={TestimoniosInfo} type="testimonios"/>
+       <Slider elementos={TestimoniosInfo} type="testimonios"/>
    
     </div>
   )

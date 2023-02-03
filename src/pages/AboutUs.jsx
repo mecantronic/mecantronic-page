@@ -5,8 +5,6 @@ import { BannerStrength } from '../components/BannerStrength/BannerStrength'
 
 import { BannerMoreInfo } from '../components/BannerMoreInfo/BannerMoreInfo'
 import AboutInfo from "../components/Utils/AboutInfo"
-
-
 import { Slider } from '../components/Slider/Slider'
 
 export const AboutUs = () => {

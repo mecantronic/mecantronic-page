@@ -1,15 +1,15 @@
 import "./ProductContainer.css"
 import React from 'react'
-
-
 import { Accordion } from '../Accordion/Accordion'
 import { ImgSlider } from '../ImgSlider/ImgSlider'
 import { BannerStrength } from '../BannerStrength/BannerStrength'
 import { Datasheet } from "../Datasheet/Datasheet"
 import { BannerTitles } from "../BannerTitles/BannerTitles"
 
+
+
 export const ProductContainer = ({productToShow}) =>{
-    return (
+     return (
     <>
         <div className='productContainer'>
             <BannerTitles subtitle={productToShow["subtitle"]} title={productToShow["title"]}/>

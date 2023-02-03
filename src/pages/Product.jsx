@@ -17,8 +17,10 @@ export const Product = () => {
     <Banner info1={productToShow["title"]} info2={productToShow["titleBanner"]} />
     <ServiciosNav/>
     <ProductContainer productToShow={productToShow}/>
+
     <CardProductsContainer products={products} type="products"/>
     <Slider elementos={TestimoniosInfo} type="testimonios"/>
+    
     <BannerMoreInfo/>
     </>
   )

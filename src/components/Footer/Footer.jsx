@@ -33,17 +33,17 @@ export const Footer = ()=>{
                 <div className="socialMedia">
                     <p className="footerTitle">Conectemos</p>
                     <p>Seguinos en nuestras redes sociales.</p>
-                    <div className="icons bg-yellow-500">
-                        <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
+                    <div className="icons">
+                        <a href="https://www.facebook.com/mecantronic" target="_blank" rel="noreferrer">
                             <img src="../assets/icons/facebook.svg" alt="Facebook MECANTRONIC"/>
                         </a>
-                        <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
+                        <a href="https://www.instagram.com/mecantronic/?hl=es" target="_blank" rel="noreferrer">
                             <img src="../assets/icons/instagram.svg" alt="Instagram MECANTRONIC" />
                         </a>
-                        <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
+                        <a className="bg-yellow-500" href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
                             <img src="../assets/icons/twitter.svg" alt="Twitter MECANTRONIC" />
                         </a>
-                        <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/company/11534294/admin/" target="_blank" rel="noreferrer">
                             <img src="../assets/icons/linkedin.svg" alt="Linkedin MECANTRONIC" />
                         </a>
                     </div>
