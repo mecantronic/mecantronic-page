@@ -7,18 +7,22 @@ const AboutInfo = [
         about:[
             {
                 subtitle: "Una propuesta que surgue en un laboratorio universitario.", 
-                text: "El camino comienza con un club de jóvenes profesionales y estudiantes, que con el tiempo evolucionó y se transformó en un laboratorio de investigación y desarrollo. Este club sentó las bases de lo que hoy es nuestra empresa. Este recorrido nos confiere una identidad única y nos permite contar con un semillero de formación continua. El vínculo entre la industria, la academia, el sector privado y el sector público, se combina con la investigación científica y el desarrollo tecnológico. Así, se crea un círculo virtuoso en el que continuamente mejoramos nuestras prácticas y se retroalimentan las facetas involucradas de manera constante.",
-                img:"about-1.png"
+                text: "El camino comienza con un club de jóvenes profesionales y estudiantes, que con el tiempo evolucionó y se transformó en un laboratorio de investigación y desarrollo. Luego, el laboratorio sentó las bases de lo que hoy es nuestra empresa. Este recorrido nos confiere una identidad única y nos permite contar con un semillero de formación continua. El vínculo entre la industria, la academia, el sector privado y el sector público, se combina con la investigación científica y el desarrollo tecnológico. Así, se crea un círculo virtuoso en el que continuamente mejoramos nuestras prácticas y se retroalimentan las facetas involucradas de manera constante.",
+                img:"about-1.png",
+                boton:"Conocer Infiniem",
+                link:"https://infiniemlabs.com.ar/"
             },
             {
-                subtitle: "Nos enorgullece el sentido de pertenencia que logramos todos los que forman parte del proyecto.", 
-                text: "Nuestra experiencia y formación nos permite ofrecer una propuesta comercial especialmente enfocada en proyectos con impacto social y/o relacionados con la sustentabilidad. En Mecantronic, llevamos en nuestras raíces un fuerte espíritu emprendedor, el mismo con el que comenzamos con un club en el fondo de una aula. Este espíritu, junto con nuestra pasión por la docencia y amor por el conocimiento transformado en tecnología al servicio de la gente, nos da un gran sentido de responsabilidad social empresarial.",
+                subtitle: "Sentido de pertenencia e impacto genuino.", 
+                text: "Nuestra experiencia y formación nos permite ofrecer una propuesta comercial especialmente enfocada en proyectos con impacto social y/o relacionados con la sustentabilidad. En Mecantronic, llevamos en nuestras raíces un fuerte espíritu emprendedor, el mismo con el que comenzamos con un club en el fondo de un aula. Este espíritu, junto con nuestra pasión por la docencia y amor por el conocimiento transformado en tecnología al servicio de la gente, nos da un gran sentido de responsabilidad social empresarial.",
                 img:"about-2.png"
             },
             {
-                subtitle: "Al servicio del docente para enseñar y a favor de los alumnos para potenciar sus habilidades digitales.", 
-                text: "Todo en Mecantronic está teñido de docencia. La información se comparte, las habilidades se enseñan para que la mejora individual sume a la mejora del grupo. Tal es así que contamos con una división orientada a proyectos educativos tecnológicos, donde diseñamos propuestas para todos los niveles educativos en conjunto con el estado y otras entidades privadas.",
-                img:"about-3.png"
+                subtitle: "Para no dejar de aprender, no dejamos de enseñar", 
+                text: "TEXTO PENDIENTE... ?? Todo en Mecantronic está teñido de docencia. La información se comparte, las habilidades se enseñan para que la mejora individual sume a la mejora del grupo. Tal es así que contamos con una división orientada a proyectos educativos tecnológicos, donde diseñamos propuestas para todos los niveles educativos en conjunto con el estado y otras entidades privadas.",
+                img:"about-3.png",
+                boton:"Conocer Entender",
+                link:"https://infiniemlabs.com.ar/"
             }
             
         ],

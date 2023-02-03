@@ -41,20 +41,20 @@ const products = [
         subtitleDatasheet: "subtitleDatasheet=>>>",
         strengths: [
             {
-                title: "Soporte kubooox",
-                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
+                title: "Soporte técnico",
+                strength:"Te brindamos soporte técnico durante 1 año."
             },    
             {
                 title: "Instalación",
-                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
+                strength:"Instalación y configuración para que solo tengas que disfrutarla."
             },    
             {
                 title: "Mantenimiento",
-                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
+                strength:"Nos ocupamos del mantenimiento mensual."
             },   
             {
-                title: "Cursos",
-                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
+                title: "Capacitaciòn",
+                strength:"Capacitamos a tu equipo para sacarle el máximo provecho a tu impresora."
             }
         ],
         highlights: [
@@ -105,20 +105,20 @@ const products = [
         subtitleDatasheet: "subtitleDatasheet subtitleDatasheet",
         strengths: [
             {
-                title: "Soporte korooon",
-                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
+                title: "Soporte técnico",
+                strength:"Te brindamos soporte técnico durante 1 año."
             },    
             {
                 title: "Instalación",
-                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
+                strength:"Instalación y configuración para que solo tengas que disfrutarla."
             },    
             {
                 title: "Mantenimiento",
-                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
+                strength:"Nos ocupamos del mantenimiento mensual."
             },   
             {
-                title: "Cursos",
-                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
+                title: "Capacitaciòn",
+                strength:"Capacitamos a tu equipo para sacarle el máximo provecho a tu impresora."
             }
         ],
         highlights: [

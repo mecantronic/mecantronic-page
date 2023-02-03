@@ -9,10 +9,9 @@ export const About = ({data}) =>{
                 <div className="aboutSection" key={index}>
                     <img src={`./assets/team/${section["img"]}`} alt="Equipo Mecantronic"/>
                     <div className="textAbout">
-                        {/*<p className="title">{data[0]["title"]}</p> */}
                         <p className="title">{section["subtitle"]}</p>
-                        <p className="text">{section["text"]}
-                        </p>
+                        <p className="text">{section["text"]}</p>
+                        {section["boton"] && <a className="link" href={section["link"]} target="_blank" rel="noreferrer"><p>{section["boton"]}</p></a>}
                     </div>
                 </div>
                 )

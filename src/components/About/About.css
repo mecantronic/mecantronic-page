@@ -7,6 +7,7 @@
     justify-content: space-around;
     gap: 160px;
     margin: 200px 160px;
+    align-items: center;
 }
 .aboutSection:nth-child(even) {
     flex-direction: row-reverse;
@@ -17,6 +18,10 @@
 }
 .about .textAbout{
     width: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .about .textAbout .title{
@@ -36,7 +41,19 @@
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 52px;
+}
 
+.about .textAbout .link p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color:#56E1FF;
+    width: 100%;    
+    margin-top: 20px;
 }
 .about .textAbout .text{
     font-family: 'Ubuntu';

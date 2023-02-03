@@ -8,6 +8,8 @@ import { BannerMoreInfo } from '../components/BannerMoreInfo/BannerMoreInfo'
 import products from '../components/Utils/Products'
 import TestimoniosInfo from '../components/Utils/TestimoniosInfo'
 import { ServiciosNav } from "../components/ServiciosNav/ServiciosNav";
+import { BannerTitles } from '../components/BannerTitles/BannerTitles'
+
 
 export const Product = () => {
   const {product} =useParams();
@@ -19,6 +21,8 @@ export const Product = () => {
     <ProductContainer productToShow={productToShow}/>
 
     <CardProductsContainer products={products} type="products"/>
+    
+    <BannerTitles subtitle={"testimonios"} title={"¿Que dicen nuestros clientes?"} />
     <Slider elementos={TestimoniosInfo} type="testimonios"/>
     
     <BannerMoreInfo/>

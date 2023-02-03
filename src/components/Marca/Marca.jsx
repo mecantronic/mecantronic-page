@@ -11,7 +11,7 @@ export const Marca = () => {
           </div>
           <p>Tecnología de vanguardia</p>
           <p>
-          Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga. Lorem ipsum
+          Ofrecemos una propuesta comercial que aprovecha las virtudes de las tecnologías más avanzadas.
           </p>
         </div>
       </div>
@@ -23,7 +23,7 @@ export const Marca = () => {
           </div>
 
           <p>Soluciones adaptables</p>
-          <p>Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga.</p>
+          <p>Creamos un ecosistema centrado en las necesidades genuinas de nuestros clientes.</p>
         </div>
       </div>
 
@@ -33,7 +33,7 @@ export const Marca = () => {
               <img src="./assets/staricon.svg" alt="icon" />
           </div>
           <p>Impacto   social</p>
-          <p>Ofrecemos una propuesta comercial enfocada en proyectos con impacto social y/o sustentabilidad.</p>
+          <p>Nos enfocamos en proyectos que generen impacto social o contribuyan con procesos sustentables.</p>
         </div>
       </div>
     </div>

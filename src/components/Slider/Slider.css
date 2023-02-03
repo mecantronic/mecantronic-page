@@ -1,15 +1,34 @@
 #swiperProductsCompare{
+    margin: 0 295px;
+    padding: 0 50px;
+}
+#swiperProductsCompare .products{
+}
 
+
+/* products container */
+.productsContainer{
+    margin-top: -100px;
+}
+.productsContainer .products{
+    width: 655px;
+    border: 1px solid #D4D4D4;;
 }
 
 #swiperTestimonios{
 
 }
 #swiperTeam{
-    
+    margin-bottom: 250px;
 }
-#swiperGallery{
 
+#swiperGallery .gallery{
+    width: 800px;
+}
+#swiperGallery  img{
+    margin-left: -25vw;
+    width: 50vw;
+    padding: 0 20px;
 }
 
 .slide{
@@ -19,37 +38,9 @@
     box-shadow: 0px 16px 40px rgba(239, 239, 239, 0.25);
     border-radius: 40px;
 }
-/* products container */
-.productsContainer{
-    margin-top: -100px;
-}
-.productsContainer .products{
-    width: 655px;
-    border: 1px solid #D4D4D4;;
-}
-/* team container */
-.teamContainer{
-    margin-top: 250px;
-    margin-bottom: 250px;
-}
-.teamContainer .slide{
-    border: none;
-}
-.teamContainer .team{
-    width: 250px;
-    background-color: transparent;
-}
 
-/* gallery container */
-.galleryContainer{
-   /* transform: translateX(-30%); */
-}
-.galleryContainer .slide{
-    border-radius: 0;
-}
-.galleryContainer .gallery{
-    width: 800px;
-}
+
+
 
 /* testimonios container */
 .testimoniosContainer .sliderTestimonios{

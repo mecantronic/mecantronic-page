@@ -18,7 +18,9 @@ export const AboutUs = () => {
         <BannerStrength data ={AboutInfo[0]["strengths"]}/>
 
     */}
+
     <Slider elementos={AboutInfo} type="team"/>
+    
     <Slider elementos={AboutInfo} type="gallery"/>
     <BannerMoreInfo/>
     </>

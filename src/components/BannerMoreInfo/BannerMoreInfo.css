@@ -1,7 +1,5 @@
 .bannerMoreInfo{
-    height: 650px;
-    margin-top: 380px;
-    margin-bottom: 240px;
+    margin: 250px auto;
 }
 
 .bannerMoreInfo div{
@@ -15,11 +13,11 @@
     height: 178px;
     background: #4E4E4E;
     border-radius: 40px;
-padding: 53px 78px;
-gap: 70px;
-background: rgba(8, 32, 69, 0.5);
-backdrop-filter: blur(20px);
-border: 1px solid #3888C2;
+    padding: 53px 78px;
+    gap: 70px;
+    background: rgba(8, 32, 69, 0.5);
+    backdrop-filter: blur(20px);
+    border: 1px solid #3888C2;
 }
 
 .bannerMoreInfo h2{
