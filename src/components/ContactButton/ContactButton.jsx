@@ -4,7 +4,6 @@ import { Modal } from "flowbite-react"
 import { Form } from "../Form/Form"
 
 export const ContactButton = ({textoBoton}) =>{
-    let textoBtn = textoBoton? textoBoton : "Contacto"
     const [modal, setModal] = useState(false);
 
     function modalClick(){
@@ -13,7 +12,7 @@ export const ContactButton = ({textoBoton}) =>{
     return (
         <>
         <button className="contact-btn" onClick={modalClick}>  
-            <p>{textoBtn}</p>
+            <p>{textoBoton}</p>
         </button>
         <Modal show={modal} onClose={modalClick} position={"center"} dismissible={true}>
             <div id="modalFormConteiner">

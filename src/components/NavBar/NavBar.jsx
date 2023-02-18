@@ -9,6 +9,7 @@ export const NavBar = () => {
   return (
     <>
     <WhatsAppBtn/>
+    
     <div className='navbar'>
       <Link to={"/"}>
             <img src="../assets/mecantronic.svg" alt="MECANTRONIC" />
@@ -40,7 +41,7 @@ export const NavBar = () => {
 
         <Link to={"/aboutUs"}><span className='navbar-menu m-4'>Nosotros</span></Link>
 
-        <span className='m-4'><ContactButton/></span>
+        <span className='m-4'><ContactButton textoBoton={"Contacto"}/></span>
 
       </div>
       

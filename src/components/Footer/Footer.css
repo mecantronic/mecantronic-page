@@ -1,72 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;600&family=Plus+Jakarta+Sans&family=Ubuntu:wght@400;500;700&display=swap');
 
+/* MOBILE FIRST */
 .footer{
-    padding: 48px 160px 40px;
     background: #05173B;
+    padding: 24px 16px 16px 16px;
 }
 
 .socialMedia .icons img{
-    width: 40px;
 }
 
 .footer li, .footer .socialMedia p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    font-family: 'Open Sans', sans-serif;
-
-        
+    font-family: 'Open Sans', sans-serif;   
 }
-.footer .footerTitle, .footer p.footerTitle{
-    font-size: 20px;
+.footer .footerTitle{
     font-weight: 700;
-    line-height: 16px;
-    margin-bottom: 32px;
     font-family: 'Lato', sans-serif;
+    size: 14px;    
+    margin-bottom: 16px;
+    line-height: 16px;
+}
+.footer .aboutUs, .footer .contacData {
+    margin-bottom: 32px;
+}
+
+.footer .aboutUs ul, .footer .contacData ul{
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 80px;
 }
 .footer .icons{
     display: flex;
-    justify-content: space-around;
-    margin-top: 16px;
+}
+.footer .brand{
+    max-width: 330px;
+}
+.footer .brand div{
+    margin-bottom: 24px;
 }
 .footer .brand p{
-    width: 395px;
-    margin-top: 34px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 28px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
     font-family: 'Open Sans';
     font-style: normal;
     letter-spacing: 0.06em;
     color: #FCFCFC;
 }
 .footer .aboutUs{
-    margin-left: 300px;
-    width: 190px;
+    width: 50%;
 }
 .footer .contacData{
-    margin-left: 98px;
-    width: 253px;
+    width: 50%;
 }
 
-.footer .socialMedia{
-    margin-left: 98px;
-    width: 289px;
+.footer .socialMedia .footerSubTitle{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;    
+    margin-bottom: 8px;
 }
 .footer > span:first-child{
     border-bottom: 1px solid #B3B3B3;
-    padding-bottom: 32px;
 }
 
 .footer .copyrights{
-    margin-top: 32px;
-    display: flex;
-    justify-content: space-between;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.footer .copyrights p:first-of-type {
+    margin-top: 24px;
+}
+.footer .copyrights p{
+    margin-bottom: 16px;
 }
 
+.footer .icons{
+    
+}
 .footer .icons img{
     border: 1px white solid;
     border-radius: 50%;
+    width: 32px;
+    margin: 8px;
+    margin-bottom: 24px;
     padding: 5px;
 }
+@media (min-width: 600px) {
+    .footer span:first-of-type{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 15px;
+    }
+    .footer .brand{
+        width: 300px;
+    }
+    .footer .socialMedia{
+        margin-top: 32px;
+    }
+    .footer .copyrights{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .copyrights p{
+        margin: 24px 0 0 16px ;
+    }
+  }
