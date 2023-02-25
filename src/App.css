@@ -1,5 +1,8 @@
+:root{
+  width: 100vw;
+}
 body{
-  background: radial-gradient(57.02% 50% at 45.31% 50%, #022741 0%, #05173B 0.01%, #0C2E54 100%)
+  background: radial-gradient(57.02% 50% at 45.31% 50%, #022741 0%, #05173B 0.01%, #0C2E54 100%);
 }
 .App {
   text-align: center;

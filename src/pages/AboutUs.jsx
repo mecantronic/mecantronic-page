@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react'
 import { Banner } from '../components/Banner/Banner'
 import { About } from '../components/About/About'
@@ -14,13 +15,9 @@ export const AboutUs = () => {
     <About data={AboutInfo}/>
     {/* 
     APARENTEMENTE LO BORRARON DEL PROTO EN ALTA?
-
         <BannerStrength data ={AboutInfo[0]["strengths"]}/>
-
     */}
-
     <Slider elementos={AboutInfo} type="team"/>
-    
     <Slider elementos={AboutInfo} type="gallery"/>
     <BannerMoreInfo/>
     </>

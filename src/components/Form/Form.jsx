@@ -1,4 +1,5 @@
 import "./Form.css"
+import React from "react";
 import { useForm } from "react-hook-form";
 import {toast } from 'react-toastify';
 import { ToastContainer } from 'react-toastify';
@@ -111,6 +112,30 @@ export const Form = () =>{
                         </div>
                         <input type="submit" class="botonEnvio"/>
                     </form>
+                </div>
+                <div className="logosContacto">
+                    <div className="icons">
+                        <div>
+                            <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
+                                <img src="../assets/icons/facebook.svg" alt="Facebook MECANTRONIC"/>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
+                                <img src="../assets/icons/instagram.svg" alt="Instagram MECANTRONIC" />
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
+                                <img src="../assets/icons/twitter.svg" alt="Twitter MECANTRONIC" />
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
+                                <img src="../assets/icons/linkedin.svg" alt="Linkedin MECANTRONIC" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <ToastContainer

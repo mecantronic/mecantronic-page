@@ -11,8 +11,7 @@ import { Error404 } from "./pages/Error404";
 function App() {
   return (
     <BrowserRouter>
-    
-      <NavBar />      
+    { /* <NavBar />   */}
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/aboutUs" element={<AboutUs/>}></Route>
@@ -20,10 +19,8 @@ function App() {
         <Route path="/products/:product" element={<Product />}></Route>
         <Route path="*" element={<Error404 />}></Route>
       </Routes>
-
       <Footer />
     </BrowserRouter>
   );
 }
-
 export default App;

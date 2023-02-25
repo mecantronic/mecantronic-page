@@ -1,4 +1,5 @@
 import "./About.css"
+import React from "react"
 
 export const About = ({data}) =>{
     return (
@@ -20,7 +21,7 @@ export const About = ({data}) =>{
         <section className="nuestroEquipo">
             <p>Nuestro equipo</p>
             <div>  
-                <img src="../assets/team/6.jpg" alt="Fijador medicinal impreso en 3D"/>
+                <img src="../assets/team/about-2.png" alt="Fijador medicinal impreso en 3D"/>
                 <img src="../assets/about-us.jpg" alt="Equipo de mecantronic"/>
             </div>
         </section>

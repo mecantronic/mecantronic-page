@@ -1,4 +1,5 @@
 import "./BannerMoreInfo.css"
+import React from "react"
 import { ContactButton} from '../ContactButton/ContactButton'
 export const BannerMoreInfo = () =>{
     return (

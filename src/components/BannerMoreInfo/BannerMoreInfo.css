@@ -1,20 +1,17 @@
 .bannerMoreInfo{
-    margin: 250px auto;
+    margin: auto;
+    padding: 80px 16px;
 }
 
 .bannerMoreInfo div{
     margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    padding: 48px 80px;
-    gap: 80px;
-    width: 1156px;
-    height: 178px;
+    padding: 32px 16px;
+    gap: 24px;
     background: #4E4E4E;
     border-radius: 40px;
-    padding: 53px 78px;
-    gap: 70px;
     background: rgba(8, 32, 69, 0.5);
     backdrop-filter: blur(20px);
     border: 1px solid #3888C2;
@@ -24,22 +21,57 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 24px;
+    line-height: 32px;
     color: #FFFFFF;
+    text-align: center;
 }
 .bannerMoreInfo button{
-    width: 313px;
-    height: 82px;
+    width: 200px;
     background: #8D8D8D;
     border-radius: 40px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 16px;
     letter-spacing: 0.01em;
     line-height: 18px;
     text-align: center;
     color: #05173B;
     background: linear-gradient(111.43deg, #56E1FF 7.62%, #6BF2E4 77.1%);
+    padding: 16px 24px;
+}
+
+
+@media (min-width: 600px) {
+    .bannerMoreInfo{
+        margin: 250px auto;
+    }
+    
+    .bannerMoreInfo h2{
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 24px;
+    }
+    .bannerMoreInfo button{
+        width: 313px;
+        height: 82px;
+        border-radius: 40px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 18px;
+    }
+}
+
+@media (min-width: 800px) {
+    .bannerMoreInfo div{
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        border-radius: 40px;
+        padding: 53px 78px;
+        gap: 70px;
+        backdrop-filter: blur(20px);
+    }
 }

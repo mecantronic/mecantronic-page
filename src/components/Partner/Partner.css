@@ -3,16 +3,17 @@
 }
 .partner{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
-    /* height: 400px; */
-    text-align: left;
+    min-height: 300px;
+    text-align: center;
 }
 
 .partner  img{
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
 }
 
 
@@ -20,8 +21,8 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 14px; 
+    line-height: 16px;
     margin-top: 48px;
     letter-spacing: 0.06em;
     color: #FCFCFC;
@@ -30,18 +31,41 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 12px;
+    line-height: 20px;
     margin-top: 9px;
     letter-spacing: 0.06em;
     color: #FCFCFC;
+    margin: 5px;
+}
+.partner a .logoLinkedin {
+    height: 30px;
 }
 .partner .linkedin{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 12px;
+    line-height: 20px;
     color: red;
     margin-top: 9px;
+}
+
+@media (min-width: 600px){
+    .partner .name{
+        font-size: 20px; 
+        line-height: 30px;
+        margin-top: 48px;
+    }
+    .partner .job{
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 9px;
+    }
+    .partner .linkedin{
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 9px;
+    }
+
 }
