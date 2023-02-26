@@ -1,3 +1,7 @@
+#modalContacto{
+    max-height: 95vh;
+    margin-top: 5vh;
+}
 #modalContacto > div{
     height: auto;
 }
