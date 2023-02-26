@@ -1,6 +1,8 @@
 #modalContacto{
-    max-height: 95vh;
+    /*
+    max-height: 90vh;
     margin-top: 5vh;
+    */
 }
 #modalContacto > div{
     height: auto;
@@ -12,8 +14,9 @@
 }
 #modalFormConteiner .contactContainer{
     padding: 0;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     height: auto;
+    margin-top: 12vh;
 }
 
 #modalFormConteiner .contactContainer .formContainer{
