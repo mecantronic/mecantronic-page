@@ -32,7 +32,7 @@ export const ContactButton = ({textoBoton}) =>{
             </button>
             <Modal show={modal} onClose={modalClick} id="modalContacto" dismissible={true}>
                 <div id="modalFormConteiner">
-                    <Form/>
+                    <Form onClick={modalClick}/>
                 </div>
             </Modal>
         </>

@@ -12,7 +12,7 @@
       height: 100vh;
 }
 #modalContacto > div{
-    /* height: auto; */
+     height: auto; 
 }
 
 #modalFormConteiner{
@@ -28,7 +28,7 @@
 }
 
 #modalFormConteiner .contactContainer .formContainer{
-    padding: 45px 16px 30px 16px;
+    padding: 10px 16px 30px 16px;
     display: block;
 }
 #modalFormConteiner .contactContainer h3{
@@ -42,7 +42,7 @@
     margin-bottom: 4px;
 }
 #modalFormConteiner input.botonEnvio {
-    margin-top: 32px;
+    margin-top: 24px;
 }
 
 #modalFormConteiner .formContainer .contacData{
@@ -58,7 +58,7 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 30px;
-    padding-top: 45px;
+    /*  padding-top: 45px; */
 }
 #modalFormConteiner .logosContacto .icons{
     margin-top: 32px;

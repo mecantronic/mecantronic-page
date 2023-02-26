@@ -5,7 +5,7 @@ import {toast } from 'react-toastify';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-export const Form = () =>{
+export const Form = ({onClick}) =>{
     const { register, handleSubmit, formState: { errors } }  = useForm({
         defaultValues:{
             name: "",
@@ -34,6 +34,7 @@ export const Form = () =>{
 
     return (
         <div className="contactContainer">
+            <div><button onClick={onClick}>X</button></div>
             <h2>Contacto</h2>
             <h3>Dejanos tu consulta</h3>
             <div className="formContainer">
