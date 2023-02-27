@@ -1,7 +1,6 @@
 .productContainer {
-    padding-top: 80px;
+    padding-top: 40px;
 }
-
 
 .productContainer .productTitle{
     text-align: center;
@@ -26,35 +25,80 @@
     text-transform: uppercase;    
     margin-top: 190px;
 }
+
 .productDetails{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 5vw;
-    margin-top: -100px;
 }
+
 .accordionContainer{
-    width: 40vw;
     padding: 30px;
+    max-width: 1000px;
+    margin: auto;
 }
+
 .accordionContainer .detailsText{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 40px;
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
     margin-bottom: 85px;
     color: #FCFCFC;
 }
-.accordionContainer .detailsTitle{
-    height: 60px;
-    font-family: 'Ubuntu';
+
+.accordionContainer .detailsTitle{  
+    justify-content: center;
+    font-family: "Ubuntu";
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 24px;
+    line-height: 32px;  
     letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FF5B68;
 }
+
+@media (min-width: 1500px) {
+    .productContainer {
+        padding-top: 80px;
+    }
+    .productContainer .productTitle{
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 80px;
+    }
+    .productContainer .productSubtitle{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 190px;
+    }
+    .productDetails{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5vw;
+        margin-top: -100px;
+    }
+    .accordionContainer{
+        width: 40vw;
+        padding: 30px;
+    }
+    .accordionContainer .detailsText{
+        font-size: 24px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 85px;
+    }
+    .accordionContainer .detailsTitle{
+        height: 60px;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FF5B68;
+    }
+}
+
+
+
+

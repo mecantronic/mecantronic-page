@@ -16,15 +16,12 @@ export const Product = () => {
   const productToShow = products[parseInt(product)-1];
   return (
     <>
-    <Banner info1={productToShow["title"]} info2={productToShow["titleBanner"]} />
-    <ServiciosNav/>
+    <Banner info1={productToShow["title"]} info2={productToShow["titleBanner"]} info3={""}/>  
+    <ServiciosNav/>  
     <ProductContainer productToShow={productToShow}/>
-
     <CardProductsContainer products={products} type="products"/>
-    
     <BannerTitles subtitle={"testimonios"} title={"¿Que dicen nuestros clientes?"} />
     <Slider elementos={TestimoniosInfo} type="testimonios"/>
-    
     <BannerMoreInfo/>
     </>
   )

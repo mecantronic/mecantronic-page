@@ -1,4 +1,7 @@
+// @ts-nocheck
 import { AccordionItem } from "../AccordionItem/AccordionItem"
+import "./Accordion.css"
+import React from "react";
 export const Accordion = ({product}) => {
     let index =0;
     return (

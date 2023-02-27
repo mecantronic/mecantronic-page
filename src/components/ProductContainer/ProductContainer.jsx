@@ -6,8 +6,6 @@ import { BannerStrength } from '../BannerStrength/BannerStrength'
 import { Datasheet } from "../Datasheet/Datasheet"
 import { BannerTitles } from "../BannerTitles/BannerTitles"
 
-
-
 export const ProductContainer = ({productToShow}) =>{
      return (
     <>

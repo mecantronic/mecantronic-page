@@ -21,49 +21,89 @@ export const Slider = ({elementos, type}) => {
 
     function renderProducts(){
         return(
-            <swiper-container 
-                modules={[Navigation, Pagination]}
-                slides-per-view="2" 
-                // spaceBetween={5}
-                speed="500" 
-                loop="true" 
-                css-mode="true" 
-                navigation="true" 
-                pagination={{ clickable: true }}
-                id="swiperProductsCompare">
-
+            <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            navigation={true}
+            pagination={{
+            clickable: true,
+            }}
+            speed="500" 
+            loop="true" 
+            css-mode="true" 
+            pagination={{ clickable: true }}
+            id="swiperProductsCompare"
+            breakpoints={{
+            800: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            1300: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            }
+            }}                  
+            modules={[Pagination , Navigation]}
+            className="mySwiper"
+            >
                 {elementos.map((element,index)=>{
                     return (
-                    <swiper-slide className="products">
+                    <SwiperSlide className="products">
                         <CardProductCompare product={element} key={index}/>
-                    </swiper-slide >
+                    </SwiperSlide>
                     )
                 })}
-            </swiper-container>
+            </Swiper>
         )
     }
 
     function renderTestimonios(){
         return(
-            <swiper-container 
-                modules={[Navigation, Pagination]}
-                slides-per-view="4" 
-                // spaceBetween={5}
+            <Swiper
+                slidesPerView={1}
+                spaceBetween={10}
+                navigation={true}
+                pagination={{
+                clickable: true,
+                }}
                 speed="500" 
                 loop="true" 
                 css-mode="true" 
-                navigation="true" 
                 pagination={{ clickable: true }}
-                id="swiperTestimonios">
-    
+                id="swiperTestimonios"
+                breakpoints={{
+                700: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1100: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                1500: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+                1800: {
+                    slidesPerView: 5,
+                    spaceBetween: 30,
+                },
+                2200: {
+                    slidesPerView: 6,
+                    spaceBetween: 30,
+                },
+                }}                    
+                modules={[Pagination , Navigation]}
+                className="mySwiper"
+            >
                 {elementos.map((testimonio,index)=>{
                     return (
-                        <swiper-slide className="sliderTestimonios">
+                        <SwiperSlide className="sliderTestimonios">
                             <CardTestimonios rating={testimonio["rating"]} profileImg={testimonio["profileImg"]}  user={testimonio["user"]} opinion={testimonio["opinion"]}/>
-                        </swiper-slide >
+                        </SwiperSlide>
                         )
                 })}
-            </swiper-container>
+            </Swiper>
 
         )
     }

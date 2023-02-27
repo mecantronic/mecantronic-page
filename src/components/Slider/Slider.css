@@ -1,9 +1,23 @@
-#swiperProductsCompare{
-    margin: 0 295px;
-    padding: 0 50px;
+
+#swiperProductsCompare .CardProductCompare{
+    max-width: 750px;
+    margin: auto;
+    height: auto;
 }
-#swiperProductsCompare .products{
+#swiperProductsCompare .CardProductCompare .swiper-wrapper{
+    justify-content: space-around !important;
 }
+
+@media (min-width: 2000px) {
+    #swiperProductsCompare{
+        margin: 0 295px;
+        padding: 0 50px;
+    }
+    #swiperProductsCompare .products{
+    }
+    
+}
+
 
 /* products container */
 .productsContainer{

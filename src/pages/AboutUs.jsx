@@ -11,22 +11,11 @@ import { Slider } from '../components/Slider/Slider'
 export const AboutUs = () => {
   return (
     <> 
-   <Banner info1={AboutInfo[0]["bannerInfo1"]} info2={AboutInfo[0]["bannerInfo2"]}/>
-
-
-   <About data={AboutInfo}/>    
-    
-  <Slider elementos={AboutInfo} type="team"/>
-  <Slider elementos={AboutInfo} type="gallery"/>
-  <BannerMoreInfo/>
-
-    {/*  
-
-    */}
-    {/* 
-    APARENTEMENTE LO BORRARON DEL PROTO EN ALTA?
-        <BannerStrength data ={AboutInfo[0]["strengths"]}/>
-    */}
+    <Banner info1={AboutInfo[0]["bannerInfo1"]} info2={AboutInfo[0]["bannerInfo2"]}/>
+    <About data={AboutInfo}/>    
+    <Slider elementos={AboutInfo} type="team"/>
+    <Slider elementos={AboutInfo} type="gallery"/>
+    <BannerMoreInfo/>
     </>
   )
 }

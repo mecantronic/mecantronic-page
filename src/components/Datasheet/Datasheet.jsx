@@ -1,4 +1,5 @@
 import "./Datasheet.css"
+import React from "react"
 export const Datasheet = ({product}) =>{
     return(
         <>
@@ -9,7 +10,6 @@ export const Datasheet = ({product}) =>{
                 {product["datasheet"].map((specification)=>{
                     return (
                         <div className="specification">
-                            <p className="espTitle">Titulo:</p>
                             <p>{specification["specification"]}</p>
                         </div>
                     )

@@ -6,6 +6,6 @@ export const BannerTitles = ({subtitle, title}) => {
     <div className="bannertitles-titles">
         <p className="bannertitles-subtitle">{subtitle}</p>
         <p className="bannertitles-title">{title}</p>
-      </div>
+    </div>
   )
 }

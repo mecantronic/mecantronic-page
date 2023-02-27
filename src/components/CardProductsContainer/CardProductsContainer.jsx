@@ -1,4 +1,6 @@
+// @ts-nocheck
 import "./CardProductsContainer.css"
+import React from "react";
 import { Slider } from "../Slider/Slider";
 import { BannerTitles } from "../BannerTitles/BannerTitles"
 

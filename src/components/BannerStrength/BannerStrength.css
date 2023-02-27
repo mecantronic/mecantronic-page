@@ -1,8 +1,22 @@
 .strengths {
     text-align: -webkit-center;
-    margin: 260px 25px;
   }
-  
+
+
+  @media (min-width: 1500px){
+    .strengths {
+      margin: 260px 25px;
+    }
+    .strengths-cards{      
+      display: flex;
+    }
+    .strengths-card {
+      width: 25%;
+      height: 15em;
+    }
+  }
+
+
   .strengths-titles {
     padding-top: 6%;
     padding-bottom: 3%;
@@ -17,12 +31,8 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
-  
-    color: #000000;
-  
-    /* Inside auto layout */
-  
+    text-transform: uppercase;  
+    color: #000000;  
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -57,16 +67,16 @@
   }
   
   .strengths-cards {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
   }
 
   .strengths-card {
     box-sizing: border-box;
-    width: 20%;
     height: 15em;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    width: 320px;
+    margin-top: 50px;
   }
 
   .aboutUsStrengths{
@@ -82,17 +92,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .dividingLineStrengths{
-    background-color: #CCCCCC;
-    width: 2px;
-    height: 240px;
-  }
-  .aboutUsStrengths .dividingLineStrengths{
-    background: #787878;
-  }
-  .dividingLineStrengths:last-of-type{
-    background-color: transparent;
-  }
+
   .strengths-logo {
     width: 45px;
   }
@@ -101,10 +101,7 @@
     width: 95px;
   }
 
-  
   .strengths-card-title {
-    width: 296px;
-    height: 16px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
@@ -120,8 +117,6 @@
   }
   
   .strengths-card-paragraph {
-    width: 280px;
-    height: 90px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -132,6 +127,8 @@
     text-align: center;
     letter-spacing: 0.06em;
     color: #FCFCFC;
+    margin-top: 2rem;
+    width: 300px;
   }
 
   .aboutUsStrengths .strengths-card-paragraph{

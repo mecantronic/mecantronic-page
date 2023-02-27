@@ -2,61 +2,36 @@
 .bannertitles-titles {
     padding-top: 6%;
     padding-bottom: 3%;
+    max-width: 550px;
+    text-align: center;
+    margin: auto;
   }
   
-  .bannertitles-subtitle {
-    /* Subtitulo Nosotros */
-  
+  .bannertitles-subtitle {  
     justify-content: center;
-    height: 30px;
-  
     font-family: "Ubuntu";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    /* identical to box height, or 150% */
-  
-    display: flex;
-    align-items: center;
+    font-size: 24px;
+    line-height: 32px;  
     letter-spacing: 0.06em;
     text-transform: uppercase;
-  
     color: #FF5B68;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
   
-  .bannertitles-title {
-    /* Subtitulo Nosotros */
-    text-align: center;
-    justify-content: center;
-    height: 60px;
-    margin-bottom: 48px;
-  
-    /* H2 Bold */
-  
+  .bannertitles-title{
     font-family: "Ubuntu";
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
-    /* identical to box height, or 150% */
-  
-    display: flex;
-    align-items: center;
+    font-size: 24px;
+    line-height: 40px;
     letter-spacing: 0.06em;
-  
     color: #FFFFFF;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    margin-bottom: 50px;
   }
   
+  @media (min-width: 2000px) {
+    .bannertitles-titles{
+      max-width: 900px;
+    }
+  }
