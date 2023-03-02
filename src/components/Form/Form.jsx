@@ -43,7 +43,7 @@ export const Form = ({onClick}) =>{
                         <h3>Mecantronic</h3>
                         <div>
                             <p className="title">Oficinas</p>
-                            <p>Cabildo 1111, Buenos Aires, Argentina</p>
+                            <p>Cabildo 1111, Buenos Aires</p>
                         </div>
                         <h4 className="title">nombre@gmail.com</h4>
                         <h4 className="telefono">+54 <p>91123132</p></h4>

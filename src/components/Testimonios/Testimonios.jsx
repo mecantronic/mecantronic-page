@@ -8,7 +8,7 @@ import TestimoniosInfo from '../Utils/TestimoniosInfo'
 
 export const Testimonios = () => {
   return (
-    <div className='testimonios p-8'>
+    <div className='testimonios'>
         <BannerTitles subtitle={"testimonios"} title={"¿Que dicen nuestros clientes?"} />
         {/*  
         <div className='flex pl-8 pr-8 carousel-testimonios'>

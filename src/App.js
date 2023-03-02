@@ -11,20 +11,25 @@ import { Error404 } from "./pages/Error404";
 function App() {
   return (
     <BrowserRouter>
-    { /* <NavBar />   */}
+    <NavBar/>
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
+        <Route path="/" element={<Home/>}></Route> {/* RESPONSIVE PENDIENTE(Marca, Servicios y CasosExito) */}
         <Route path="/servicios/:servicio" element={<Servicios />}></Route>
-        <Route path="/*" element={<Error404 />}></Route>
+        
+        {/* HACER PAGINA ERROR =>> <Route path="/*" element={<Error404 />}></Route> */}
+        
 
-        {/* Responsive listo, rutas:
+        {/*
+         Responsive listo, rutas:
         -/aboutUs
         -/Product
         */}
         <Route path="/aboutUs" element={<AboutUs/>}></Route>
         <Route path="/products/:product" element={<Product />}></Route>
       </Routes>
+      {/*
       <Footer />  
+      */}
       
     </BrowserRouter>
   );
