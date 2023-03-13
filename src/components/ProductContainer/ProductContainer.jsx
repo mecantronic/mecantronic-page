@@ -1,10 +1,11 @@
+// @ts-nocheck
 import "./ProductContainer.css"
 import React from 'react'
 import { Accordion } from '../Accordion/Accordion'
-import { ImgSlider } from '../ImgSlider/ImgSlider'
 import { BannerStrength } from '../BannerStrength/BannerStrength'
 import { Datasheet } from "../Datasheet/Datasheet"
 import { BannerTitles } from "../BannerTitles/BannerTitles"
+import { Slider } from "../Slider/Slider"
 
 export const ProductContainer = ({productToShow}) =>{
      return (
@@ -12,7 +13,7 @@ export const ProductContainer = ({productToShow}) =>{
         <div className='productContainer'>
             <BannerTitles subtitle={productToShow["subtitle"]} title={productToShow["title"]}/>
             <div className="productDetails">
-                <ImgSlider product={productToShow}/>
+                <Slider elementos={productToShow} type="ImgProduct"/>
                 <div className="accordionContainer">
                     <h3 className="detailsTitle">{productToShow["detailsTitle"]}</h3>
                     <p className="detailsText">{productToShow["detailsText"]}</p>

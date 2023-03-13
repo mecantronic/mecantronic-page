@@ -12,15 +12,14 @@ export const  NavBar = () => {
     <Navbar fluid={true} rounded={true} className="navbar" >
       <Navbar.Brand>
         <Link to={"/"}>
-              <img src="../assets/mecantronic.svg" alt="MECANTRONIC" />
+              <img className='branNav' src="../assets/mecantronic.svg" alt="MECANTRONIC" />
         </Link>
       </Navbar.Brand>
       <div className="flex mr-3 md:order-2">        
-        <ContactButton textoBoton={"Contacto"} />
         <Navbar.Toggle className='navbarToggle'/>
       </div>
       <Navbar.Collapse className='navCollapse'>
-        <Link to={"/"} className=""><p>Home</p></Link>     
+        <Link to={"/"} className="navItem"><p>Home</p></Link>     
         <Dropdown label="Servicios" inline={true} className="navbar-menu menuDrop">
           <Dropdown.Item  className="navbar-menu-item">
             <Link to={"/servicios/Ia"}><span className=''><p>Servicios de IA</p></span></Link>
@@ -33,18 +32,19 @@ export const  NavBar = () => {
           </Dropdown.Item>
         </Dropdown> 
 
-        <Dropdown label="Productos" inline={true} className="navbar-menu menuDrop ">
+        <Dropdown label="Productos" inline={true} className="navbar-menu menuDrop">
           <Dropdown.Item className="navbar-menu-item">
-            <Link to={"/products/3"}><span className=''><p>Noisen</p></span></Link>
+            <Link to={"/products/3"}><span className='navItemCollapse'><p>Noisen</p></span></Link>
           </Dropdown.Item>
           <Dropdown.Item className="navbar-menu-item">
-            <Link to={"/products/1"}><span className=''><p>Kubox</p></span></Link>
+            <Link to={"/products/1"}><span className='navItemCollapse'><p>Kubox</p></span></Link>
           </Dropdown.Item>
           <Dropdown.Item  className="navbar-menu-item">
-            <Link to={"/products/2"}><span className=''><p>Koron</p></span></Link>
+            <Link to={"/products/2"}><span className='navItemCollapse'><p>Koron</p></span></Link>
           </Dropdown.Item>
         </Dropdown>  
-        <Link to={"/aboutUs"} className="">Nosotros</Link> 
+        <Link to={"/aboutUs"} className="navItem">Nosotros</Link> 
+        <ContactButton textoBoton={"Contacto"} />
         </Navbar.Collapse>
     </Navbar>
     </>

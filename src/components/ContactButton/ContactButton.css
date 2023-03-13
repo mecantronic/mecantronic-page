@@ -10,14 +10,19 @@
     POR OTRO LADO, DEBO REVISAR LA PAGINA DE FLOWBITE Y BUSCAR LA OPCION PARA PONER EL BOTON DE CIERRE DE MODAL: . . .
       */
       height: 100vh;
+    
 }
 #modalContacto > div{
      height: auto; 
+     padding: 0 ;
 }
-
+#modalContacto > div > div{
+    height: 100vh;
+    background: none;
+}
 #modalFormConteiner{
-    background: radial-gradient(57.02% 50% at 45.31% 50%, #022741 0%, #05173B 0.01%, #0C2E54 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-    border-radius: 0.5rem;
+    background: white;
+    height: 93%;
     padding: 0;
 }
 #modalFormConteiner .contactContainer{
@@ -32,17 +37,41 @@
     display: block;
 }
 #modalFormConteiner .contactContainer h3{
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 135%;    
+    text-align: center;
+    letter-spacing: 0.06em;    
+    color: #404972;
 }
+
+#modalFormConteiner .formularioContacto .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+
 #modalFormConteiner .formularioContacto .labelFormContacto label{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 4px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #1A1A1A;
 }
 #modalFormConteiner input.botonEnvio {
-    margin-top: 24px;
+
 }
 
 #modalFormConteiner .formContainer .contacData{
@@ -58,7 +87,7 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 30px;
-    /*  padding-top: 45px; */
+    padding-top: 4vh;
 }
 #modalFormConteiner .logosContacto .icons{
     margin-top: 32px;
@@ -92,9 +121,9 @@
     letter-spacing: 0.06em;
     color: #FCFCFC;
     padding: 0;
-    background: linear-gradient(111.43deg, #56E1FF 7.62%, #6BF2E4 77.1%);
+    background: #97000C;
     border-radius: 40px;
-    color: #05173B;
+    color: white;
 }
 
 
@@ -126,15 +155,13 @@
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 16px;
+        line-height: 20px;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
         color: #FCFCFC;
         padding: 0;
-        background: linear-gradient(111.43deg, #56E1FF 7.62%, #6BF2E4 77.1%);
         border-radius: 40px;
-        line-height: 18px;
-        color: #05173B;
     }
 }

@@ -27,10 +27,7 @@ function App() {
         <Route path="/aboutUs" element={<AboutUs/>}></Route>
         <Route path="/products/:product" element={<Product />}></Route>
       </Routes>
-      {/*
-      <Footer />  
-      */}
-      
+      <Footer /> 
     </BrowserRouter>
   );
 }

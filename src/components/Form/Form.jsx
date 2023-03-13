@@ -114,7 +114,10 @@ export const Form = ({onClick}) =>{
                         <input type="submit" class="botonEnvio"/>
                     </form>
                 </div>
-                <div className="logosContacto">
+                {/* CONSULTAR SI ESTO SERA BORRADO DE FORMA DEFINITIVA
+                
+                
+                 <div className="logosContacto">
                     <div className="icons">
                         <div>
                             <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
@@ -138,6 +141,7 @@ export const Form = ({onClick}) =>{
                         </div>
                     </div>
                 </div>
+                */}
             </div>
             <ToastContainer
                     position="bottom-left"

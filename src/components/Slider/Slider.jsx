@@ -167,6 +167,7 @@ export const Slider = ({elementos, type}) => {
                     speed="500" 
                     loop="true" 
                     css-mode="true" 
+                    id="swiperGallery"
                     breakpoints={{
                     640: {
                         slidesPerView: 2,
@@ -201,12 +202,42 @@ export const Slider = ({elementos, type}) => {
         )
     }
 
+    function renderImgProduct(){
+        return(
+            <Swiper
+                    slidesPerView={1}
+                    spaceBetween={10}
+                    navigation={true}
+                    pagination={{
+                    clickable: true,
+                    }}
+                    speed="500" 
+                    loop="true" 
+                    css-mode="true" 
+                    id="swiperImgProduct"                  
+                    modules={[Pagination , Navigation]}
+                    className="mySwiper"
+                >
+                
+                {elementos["img"].map((source,index)=>{
+                    return (
+                        <SwiperSlide className="">
+                            <img src={`../assets/products/${elementos["title"]}/${source["src"]}.png`}  key={index} alt={`Impresora ${elementos["title"]}`}/>
+                        </SwiperSlide >
+                        )
+                })}
+            </Swiper>
+            
+        )
+    }
+
     function renderSlides(){  
         switch (type) {
             case "products": return (renderProducts())
             case "testimonios":return (renderTestimonios())
             case "team":return (renderTeam())
             case "gallery":return (renderGallery())
+            case "ImgProduct": return (renderImgProduct())
             default: break;}
     }
 

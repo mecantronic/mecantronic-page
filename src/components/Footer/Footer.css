@@ -2,7 +2,7 @@
 
 /* MOBILE FIRST */
 .footer{
-    background: #05173B;
+    background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #BA000E 77.58%);
     padding: 24px 16px 16px 16px;
     width: 100%;
 }
