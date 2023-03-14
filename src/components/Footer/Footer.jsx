@@ -1,5 +1,6 @@
 import "./Footer.css"
 import React from "react"
+import {Link} from "react-router-dom"
 export const Footer = ()=>{
     return (
     <>
@@ -7,28 +8,34 @@ export const Footer = ()=>{
             <span>
                 <div className="brand">
                     <div>
-                        <img src="../assets/mecantronic.svg" alt="MECANTRONIC" />
+                    <Link to={"/"} className="navItem"><img src="../assets/mecantronic.svg" alt="MECANTRONIC" /></Link>
+                        
                     </div>
+                    {/*  
                     <p>Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus</p>
+                    */}
                 </div>
 
                 <span className="flex justify-around mt-8">
                     <div className="aboutUs">
-                        <p className="footerTitle">Sobre nosotros</p>
+                        <p className="footerTitle">Navegación</p>
                         <ul>
-                            <li>Quienes somos</li>
-                            <li>Equipo</li>
-                            <li>Equipo</li>
+                            <li><Link to={"/servicios/Ia"} className="navItem">Servicios</Link></li>
+                            <li><Link to={"/products/1"} className="navItem">Productos</Link></li>
+                            <li><Link to={"/aboutUs"} className="navItem">Nosotros</Link></li>
                         </ul>
                     </div>
 
                     <div className="contacData">
                         <p className="footerTitle">Contacto</p>
                         <ul>
-                            <li>Ubicacion de la empresa</li>
-                            <li>Numero de contacto</li>
-                            <li>Email de Contacto</li>
-                            <li> Alguna información adicional</li>
+                            <li>Belgrano, Ciudad Autónoma de Buenos Aires.</li>
+                            <a href="https://wa.me/5491157397834" target="_blank" rel="noreferrer">
+                                <li>+54 9 11 5 739 7834</li>
+                            </a>
+                            <a href="mailto:info@mecantronic.com.ar" rel="noreferrer">
+                                <li>info@mecantronic.com.ar</li>
+                            </a>                            
                         </ul>
                     </div>
                 </span>

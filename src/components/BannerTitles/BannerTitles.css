@@ -8,26 +8,28 @@
   }
   
   .bannertitles-subtitle {  
-    justify-content: center;
-    font-family: "Ubuntu";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;  
+    justify-content: center;  
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FF5B68;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
   }
   
   .bannertitles-title{
-    font-family: "Ubuntu";
+    font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 24px;
-    line-height: 40px;
+    line-height: 135%;    
+    align-items: center;
+    text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    margin-bottom: 50px;
+    color: #404972;
+    margin-bottom: 40px;
   }
   
   @media (min-width: 2000px) {

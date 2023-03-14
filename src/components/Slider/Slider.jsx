@@ -193,7 +193,7 @@ export const Slider = ({elementos, type}) => {
                 {elementos[0]["gallery"].map((image,index)=>{
                     return (
                         <SwiperSlide className="gallery">
-                            <img src={`../assets/team/${image["src"]}`} alt={image["alt"]} key={index}/>
+                            <img src={`../assets/team/slider/${image["src"]}`} alt={image["alt"]} key={index}/>
                         </SwiperSlide >
                         )
                 })}

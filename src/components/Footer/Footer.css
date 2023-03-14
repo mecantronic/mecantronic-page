@@ -11,14 +11,22 @@
 }
 
 .footer li, .footer .socialMedia p{
-    font-family: 'Open Sans', sans-serif;   
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FCFCFC;
 }
-.footer .footerTitle{
-    font-weight: 700;
-    font-family: 'Lato', sans-serif;
-    size: 14px;    
+.footer .footerTitle, .footer .socialMedia .footerTitle{
     margin-bottom: 16px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
     line-height: 16px;
+    color: #FCFCFC;
+
 }
 .footer .aboutUs, .footer .contacData {
     margin-bottom: 32px;
@@ -60,10 +68,13 @@
 }
 
 .footer .socialMedia .footerSubTitle{
+    margin-bottom: 16px;
+    font-family: 'Ubuntu';
+    font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 20px;    
-    margin-bottom: 8px;
+    line-height: 20px;
+    color: #FCFCFC;
 }
 .footer > span:first-child{
     border-bottom: 1px solid #B3B3B3;

@@ -8,6 +8,8 @@
     justify-content: space-around !important;
 }
 
+
+
 @media (min-width: 2000px) {
     #swiperProductsCompare{
         margin: 0 295px;
@@ -19,13 +21,17 @@
 }
 
 #swiperTeam .swiper-button-next, #swiperProductsCompare .swiper-button-next, #swiperTestimonios .swiper-button-next ,#swiperGallery .swiper-button-next ,#swiperTeam .swiperImgProduct, #swiperImgProduct .swiper-button-next{
-    right: var(--swiper-navigation-sides-offset,5px);
+    right: var(--swiper-navigation-sides-offset,1px);
     color: #848484;
 }
 #swiperTeam .swiper-button-prev, #swiperProductsCompare .swiper-button-prev, #swiperTestimonios .swiper-button-prev ,#swiperGallery .swiper-button-prev ,#swiperTeam .swiper-button-prev , #swiperGalleryProduct .swiper-button-prev, #swiperImgProduct .swiper-button-prev{
-    left: var(--swiper-navigation-sides-offset,5px);
+    left: var(--swiper-navigation-sides-offset,1px);
     color: #848484;
 }
+.swiper-button-next:after , .swiper-button-prev:after{
+    font-size: 30px !important;
+}
+
 
 /* products container */
 .productsContainer{
@@ -40,7 +46,7 @@
 
 }
 #swiperTeam{
-    margin: 80px 10px 250px 10px;
+    margin: 80px 10px 110px 10px;
 }
 
 #swiperGallery .gallery{

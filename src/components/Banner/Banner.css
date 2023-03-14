@@ -37,15 +37,17 @@
 }
 
 .banner-subtitle h2{
-
+  color: #1A1A1A;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: 0.06em;
 }
 .banner-subtitle span:first-of-type{
-  color: #FCFCFC;
-  font-weight: 600;
+  color: #1A1A1A;
 }
 .banner-subtitle span:last-of-type{
-  color: #98FFF4;
-  font-weight: 600;
+  color: #BA000E;
 }
 
 .banner-contact-btn .contact-btn{
@@ -57,7 +59,7 @@
   justify-content: center;
   align-items: center;
   /* Boton */
-  background: linear-gradient(111.43deg, #56E1FF 7.62%, #6BF2E4 77.1%);
+  background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #BA000E 77.58%);
   border-radius: 40px;
   font-family: "Ubuntu";
   font-style: normal;
@@ -66,7 +68,7 @@
   line-height: 18px;
   text-align: center;
   letter-spacing: 0.01em;
-  color: #05173B;
+  color: #F2F2F2;
   
 
 }
