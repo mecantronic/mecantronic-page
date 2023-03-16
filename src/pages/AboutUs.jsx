@@ -11,7 +11,7 @@ import { BannerTitles } from '../components/BannerTitles/BannerTitles'
 export const AboutUs = () => {
   return (
     <> 
-      <Banner info1={AboutInfo[0]["bannerInfo1"]} />
+      <Banner img={"banner-about.png"} info1={AboutInfo[0]["bannerInfo1"]} />
       <BannerTitles title={"Conocé nuestra historia"} subtitle={"Quiénes somos"}/>
       <About data={AboutInfo}/>    
       <BannerTitles title={"Conocé a los expertos detrás de nuestra empresa"} subtitle={"NUESTRO EQUIPO DE TALENTO"}/>

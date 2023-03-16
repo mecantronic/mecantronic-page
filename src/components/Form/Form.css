@@ -132,7 +132,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 100%;    
+    max-width: 500px;
+    margin: 40px auto 10px;
 }
 .formularioContacto .labelFormContacto label{
     text-align: left;
@@ -152,7 +154,6 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.01em;
-    border-radius: 8px;
     padding: 10px 24px;
     width: 100%;
     font-family: 'Ubuntu';
@@ -161,6 +162,8 @@
     font-size: 14px;
     line-height: 16px;
     color: #B3B3B3;
+    border: none;
+    border-bottom: 1px solid #B3B3B3;
 
 }
 

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import "./Form.css"
 import React from "react";
 import { useForm } from "react-hook-form";
@@ -76,19 +77,19 @@ export const Form = ({onClick}) =>{
                     <form className="formulario" onSubmit={handleSubmit(onSubmit)}>
                         <div className="labelFormContacto">
                             <label >Nombre</label>
-                            <input type="text" name="name" {...register("name", { required: true})} />
+                            <input type="text" name="name" {...register("name", { required: true})} placeholder="Escribí tu nombre completo."/>
                             {errors.name && <p className="errorForm">Este campo es obligatorio..</p>}
                         </div>
 
                         <div className="labelFormContacto">
                             <label >Email</label>
-                            <input type="email" name="email" {...register("email", { required: true, minLength:8})}/>
+                            <input type="email" name="email" {...register("email", { required: true, minLength:8})} placeholder="Nombre@mail.com"/>
                             {errors.email && errors.email.type ==="required" && <p className="errorForm">Este campo es obligatorio..</p>}
                             {errors.email && errors.email.type ==="minLength" && (<p className="errorForm">Al menos necesitamos 8 caracteres..</p>)}
                         </div>
                         <div className="labelFormContacto">
                             <label >Ciudad</label>
-                            <input type="ciudad" name="ciudad" {...register("ciudad", { required: true, minLength:8 })}/>
+                            <input type="ciudad" name="ciudad" {...register("ciudad", { required: true, minLength:8 })} placeholder="Ingresá la ciudad donde vivís."/>
                             {errors.ciudad && errors.ciudad.type ==="required" && <p className="errorForm">Este campo es obligatorio..</p>}
                             {errors.ciudad && errors.ciudad.type ==="minLength" && (<p className="errorForm">Al menos necesitamos 4 caracteres..</p>)}
                         </div>
@@ -105,7 +106,7 @@ export const Form = ({onClick}) =>{
                         </div>
                         <div className="labelFormContacto">
                             <label >Mensaje </label>
-                            <textarea type="text" name="mensaje" {...register("mensaje", { required: true, minLength:8, maxLength:200 })} placeholder="..."></textarea>
+                            <textarea type="text" name="mensaje" {...register("mensaje", { required: true, minLength:8, maxLength:200 })} placeholder="Escribinos tu mensaje."></textarea>
                             {errors.mensaje && errors.mensaje.type ==="required" && <p className="errorForm">Por favor cuentanos en que podemos ayudarte!</p>}
                             {errors.mensaje && errors.mensaje.type ==="minLength" && (<p className="errorForm">Al menos necesitamos 8 caracteres..</p>)}
                             {errors.mensaje && errors.mensaje.type ==="maxLength" && <p className="errorForm">Mensaje demasiado largo, mantente en los 200 caracteres por favor</p>}

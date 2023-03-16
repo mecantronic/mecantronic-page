@@ -1,10 +1,11 @@
 import React from "react";
 import "./Banner.css";
 import { ContactButton } from "../ContactButton/ContactButton";
-export const Banner = ({info1,info2, info3}) => {
+export const Banner = ({info1,info2, info3,img}) => {
+
   return (
     <div className="banner">
-      <img className="" src="../assets/hero.png" alt="hero mecantronic"/>
+      <div className="img-container"><img className="" src={`../assets/${img}`} alt="hero mecantronic"/></div>
       <div className="banner-container">
         <p className="banner-subtitle">
           <h2>{info1}</h2> <span>{info2}</span> <span>{info3}</span>
