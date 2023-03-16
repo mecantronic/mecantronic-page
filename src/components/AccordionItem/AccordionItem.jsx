@@ -1,4 +1,5 @@
 import { Disclosure} from '@headlessui/react'
+import React from 'react';
 import "./AccordionItem.css"
 export const AccordionItem = ({data, index})=>{    
     const  {title, description} = data;

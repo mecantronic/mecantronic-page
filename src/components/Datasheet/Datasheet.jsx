@@ -1,11 +1,12 @@
 import "./Datasheet.css"
 import React from "react"
+import { BannerTitles } from "../BannerTitles/BannerTitles"
+
 export const Datasheet = ({product}) =>{
     return(
         <>
-        <div className='Datasheet'>
-            <h3>Ficha técnica</h3>
-            <h2>{product["subtitleDatasheet"]}</h2>
+        <div className='datasheet'>
+            <BannerTitles subtitle={"Ficha técnica"} title={"Conocé las especificaciones técnicas de esta impresora"}/>
             <div>
                 {product["datasheet"].map((specification)=>{
                     return (

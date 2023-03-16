@@ -8,7 +8,7 @@ export const Banner = ({info1,info2, info3,img}) => {
       <div className="img-container"><img className="" src={`../assets/${img}`} alt="hero mecantronic"/></div>
       <div className="banner-container">
         <p className="banner-subtitle">
-          <h2>{info1}</h2> <span>{info2}</span> <span>{info3}</span>
+          <h2>{info1}</h2><span>{info2}</span> <span>{info3}</span>
         </p>
         <span className="banner-contact-btn"><ContactButton textoBoton={"Contactanos"}/></span>
       </div>

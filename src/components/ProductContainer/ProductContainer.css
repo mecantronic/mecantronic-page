@@ -1,5 +1,5 @@
-.productContainer {
-    padding-top: 40px;
+.productContainer {    
+    padding: 30px;
 }
 
 .productContainer .productTitle{
@@ -26,12 +26,15 @@
     margin-top: 190px;
 }
 
-.productDetails{
+.productContainer .productDetails{
+    
+    display: flex;
+    flex-direction: column;
 }
 
 .accordionContainer{
-    padding: 30px;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -48,20 +51,73 @@
     color: #FCFCFC;
 }
 
-.accordionContainer .detailsTitle{  
-    justify-content: center;
-    font-family: "Ubuntu";
+
+#swiperImgProduct{
+    margin: 50px 0;
+}
+.productContainer .titles{
+    display: none;
+}
+.productContainer .subtitle {
+    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;  
+    font-size: 16px;
+    line-height: 30px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FF5B68;
+    margin-bottom: 16px;
 }
 
-@media (min-width: 1500px) {
+.productContainer .detailsTitle{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #1A1A1A;
+    max-width: 900px;
+}
+@media (min-width: 700px) {
+    .productContainer .titles .subtitle,.productContainer .titles .detailsTitle{
+        text-align: center;
+    }
+
+}
+@media (min-width: 1000px){
+    .productContainer .productDetails{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #swiperImgProduct{
+        width: 35%;
+        height: 35%;
+    }
+    .productContainer .titlesMobile{
+        display: none;
+    }
+    .productContainer .titles{
+        display: inline-block;
+        width: 100%;
+        max-width: 800px;
+        margin-bottom: 40px;
+    }
+    .accordionContainer{
+        margin: 0;
+        width: 55%;
+        max-width: 800px;
+
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    /*
     .productContainer {
+        margin-top: 80px;
         padding-top: 80px;
     }
     .productContainer .productTitle{
@@ -80,10 +136,6 @@
         margin: 0 5vw;
         margin-top: -100px;
     }
-    .accordionContainer{
-        width: 40vw;
-        padding: 30px;
-    }
     .accordionContainer .detailsText{
         font-size: 24px;
         line-height: 36px;
@@ -91,12 +143,7 @@
         align-items: center;
         margin-bottom: 85px;
     }
-    .accordionContainer .detailsTitle{
-        height: 60px;
-        font-size: 40px;
-        line-height: 60px;
-        color: #FF5B68;
-    }
+    */
 }
 
 

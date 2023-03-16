@@ -1,8 +1,12 @@
 :root{
   width: 100vw;
 }
+*{
+  box-sizing: border-box;
+}
 body{
   background:#FFFFFF;
+  
 }
 .App {
   text-align: center;

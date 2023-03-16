@@ -123,7 +123,7 @@
         margin: 200px 8vw;
         align-items: center;
     }
-    .aboutSection:nth-child(odd) {
+    .aboutSection:nth-child(even) {
         flex-direction: row-reverse;
     }
     .about .textAbout{

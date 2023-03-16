@@ -5,24 +5,31 @@
   /*
   background: radial-gradient(80.07% 54.15% at 50% 50%, rgba(252, 252, 252, 0.573) 0%, rgb(255 255 255) 65%);
   */
+
+  /*
   min-height: 400px; 
   height: 117vw;
   max-height: 700px;
+  */
 
   background: linear-gradient(270deg, rgb(255 255 255 / 85%) 0.54%, rgb(255 255 255 / 85%) 37.59%, rgb(255 255 255) 63.98%, rgb(255 255 255) 100%);
-
+  margin-bottom: 50px;
 
 }
 .banner-container{   
+  /*
   min-height: 400px; 
   max-height: 700px;
   height: 115vw;
+  */
   z-index: 10;
 }
 .img-container{
   width: 100%;   
+  /*
   min-height: 400px; 
   max-height: 700px;
+  */
   position: absolute;
 
 background: radial-gradient(80.07% 54.15% at 50% 50%, rgba(252, 252, 252, 0.573) 0%, rgb(255 255 255) 65%);
@@ -61,16 +68,30 @@ background: radial-gradient(80.07% 54.15% at 50% 50%, rgba(252, 252, 252, 0.573)
   max-width: 400px;
 }
 
+
 .banner-subtitle h2{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: rgba(169, 1, 1, 0.95);
+  display: inline;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.banner-subtitle span:first-of-type{
   color: #1A1A1A;
+  max-width: 700px;
+  margin-bottom: 64px;
+  font-family: 'Ubuntu';
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 135%;
   letter-spacing: 0.06em;
 }
-.banner-subtitle span:first-of-type{
-  color: #1A1A1A;
-}
+
 .banner-subtitle span:last-of-type{
   color: #BA000E;
 }
@@ -103,8 +124,7 @@ background: radial-gradient(80.07% 54.15% at 50% 50%, rgba(252, 252, 252, 0.573)
   }
   .banner img{
   }
-  .banner .banner-container{
-    
+  .banner .banner-container{    
     margin: auto;
     margin-top: 75px;
   }
@@ -115,19 +135,33 @@ background: radial-gradient(80.07% 54.15% at 50% 50%, rgba(252, 252, 252, 0.573)
     margin-bottom: 64px;
   }
   .banner-subtitle h2{
+    font-size: 40px;
+    line-height: 52px;
+  }
+  
+  .banner-subtitle span:first-of-type{
+    color: #1A1A1A;
+    max-width: 700px;
+    font-size: 40px;
+  }
+  .banner-subtitle h2{
   }
   .banner-contact-btn .contact-btn{
-    width: 249px;
-    height: 72px;
+    width: 162px;
+    height: 48px;
     padding: 16px 32px;
     gap: 8px;
-    /* Boton */
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #F2F2F2;
+    background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #BA000E 77.58%);
+    border-radius: 40px;
   }
+  
 }
 
 
@@ -138,7 +172,7 @@ background: radial-gradient(80.07% 54.15% at 50% 50%, rgba(252, 252, 252, 0.573)
   }
   .banner .banner-container{
     margin: 0;
-    padding-left: 250px;  
+    padding-left: 180px;  
     margin-top: 150px;
   }
   .banner-subtitle {
@@ -148,17 +182,14 @@ background: radial-gradient(80.07% 54.15% at 50% 50%, rgba(252, 252, 252, 0.573)
     margin-bottom: 64px;
   }
   .banner-subtitle h2{
-  }
-  .banner-contact-btn .contact-btn{
-    width: 249px;
-    height: 72px;
-    padding: 16px 32px;
-    gap: 8px;
-    /* Boton */
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.06em;
+    color: rgba(169, 1, 1, 0.95);
+    display: inline;
+    margin-right: 20px;
   }
 }

@@ -74,10 +74,10 @@ const products = [
     },    
     {
         id:2,
-        titleBanner:"Impresora de uso dual diseñada para ambientes y aplicaciones industriales",
+        titleBanner:"- Impresora diseñada para uso semi profesional, hobbista o para entornos educativos.",
         title: "Koron",
-        subtitle: "Impresora diseñada para uso semi profesional, hobbista o para entornos educativos.",
-        detailsTitle: "... ALGUN TITULO... ??",
+        subtitle: "Impresora para tu taller",
+        detailsTitle: "Diseño compacto y terminaciones prolijas en estructura y cableado. La estructura garantiza una gran rigidez minimizando las vibraciones.",
         detailsText: "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.", 
         accordion: [
             {title:"Modo seccionsKoron ?????CS", description:"Permite imprimir por FDM con materiales convencionales, como PLA, ABS, PETG, y técnicos como NYLON, POM, PVOH."},

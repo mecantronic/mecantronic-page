@@ -2,25 +2,33 @@
 import "./ProductContainer.css"
 import React from 'react'
 import { Accordion } from '../Accordion/Accordion'
-import { BannerStrength } from '../BannerStrength/BannerStrength'
 import { Datasheet } from "../Datasheet/Datasheet"
-import { BannerTitles } from "../BannerTitles/BannerTitles"
+import { BannerProductsStrength } from "../BannerProductsStrength/BannerProductsStrength"
 import { Slider } from "../Slider/Slider"
 
 export const ProductContainer = ({productToShow}) =>{
      return (
     <>
         <div className='productContainer'>
-            <BannerTitles subtitle={productToShow["subtitle"]} title={productToShow["title"]}/>
+
             <div className="productDetails">
+                <div className="titlesMobile">
+                    <p className="subtitle">{productToShow["subtitle"]}</p>
+                    <p className="detailsTitle">{productToShow["detailsTitle"]}</p>
+                </div>
+
                 <Slider elementos={productToShow} type="ImgProduct"/>
+
                 <div className="accordionContainer">
-                    <h3 className="detailsTitle">{productToShow["detailsTitle"]}</h3>
-                    <p className="detailsText">{productToShow["detailsText"]}</p>
+                    <div className="titles">
+                        <p className="subtitle">{productToShow["subtitle"]}</p>
+                        <p className="detailsTitle">{productToShow["detailsTitle"]}</p>
+                    </div>
                     <Accordion product={productToShow["accordion"]}/>      
                 </div>  
+
             </div>
-            <BannerStrength data={productToShow["strengths"]}/>
+            <BannerProductsStrength/>
             <Datasheet product={productToShow}/>
         </div>
     </>

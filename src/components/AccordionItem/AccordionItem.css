@@ -1,29 +1,48 @@
 .accordionTitle{
     font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
+    font-style: normal;   
     letter-spacing: 0.06em;
     color: #1A1A1A;
     display: flex;
-    gap: 60px;
+    align-items: center;
+    gap: 24px;
     color: #FCFCFC;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4D4D4D;
 }
 .accordionTitle p{
-    font-weight: 500;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #DA1C2B;
+
 }
 .disclosure {
     border-bottom:1px solid #6bf2e4b0;
 }
 
 .accordionDescription .detailsText{
-    color: red;
-    font-size: 14px;
-    line-height: 30px;
     margin-bottom: 10px;
-    padding-top: 15px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #808080;
+    margin-left: 40px;
 }
+/*
 
 @media (min-width: 1500px) {
     .accordionTitle{
@@ -32,3 +51,4 @@
         gap: 60px;
     }
 }
+*/
