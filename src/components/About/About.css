@@ -1,6 +1,7 @@
 .about{
     margin-top: 40px;
-    margin-bottom: 230px;    
+    margin-bottom: 230px;  
+    background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);  
 }
 .aboutSection {
     margin-bottom: 70px;
@@ -52,7 +53,7 @@
     width: 100%;    
     margin-top: 20px;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 20px;
     background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #BA000E 77.58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -101,26 +102,37 @@
         width: 48%;        
     }
     .about img{
-        max-width: 400px;
         border-radius: 16px;
         object-fit: cover;
         margin: 0;
-        height: 600px;
+    }
+    .about img.img1{
+        width: 515px;
+        height: 523px;
+    }
+    .about img.img2{
+        width: 515px;
+        height: 380px;
+    }
+    .about img.img3{
+        width: 515px;
+        height: 380px;
+        
     }
     .about .textAbout .title{
-        font-size: 40px;  
-        line-height: 60px;
+        font-size: 24px;  
+        line-height: 31px;
     }
     .about .textAbout .text{
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 16px;
+        line-height: 24px;
     }
     .aboutSection {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         gap: 30px;
-        margin: 200px 8vw;
+        margin: 130px 8vw;
         align-items: center;
     }
     .aboutSection:nth-child(even) {
@@ -132,6 +144,7 @@
         flex-direction: column;
         justify-content: space-around;
         gap: 20px;
+        width: 36%;
     }
 
     .nuestroEquipo p{
@@ -160,3 +173,4 @@
         height: 600px;
     }
 }
+

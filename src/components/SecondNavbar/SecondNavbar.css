@@ -1,0 +1,23 @@
+.serviciosNavContainer{
+    position: absolute;
+    top: 100vh;    
+    opacity: 0; 
+    transition: 0.75s all;
+    background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.5) 50.42%, rgba(0, 186, 46, 0.531) 47.58%);
+}
+.serviciosNav > a:hover{
+    cursor: pointer;
+    text-decoration: underline solid 1px rgba(169, 1, 1, 0.95);
+}
+#secondNav{
+    width: 100%;
+    z-index: 1000;    
+}
+.sticky {
+    opacity: 1;
+    position: fixed;
+    top: 0;/* 15px => evita que se corte la nav al verlo en chrome en responsive */
+  }
+  .serviciosNav-active{
+    text-decoration: underline solid 2px rgba(169, 1, 1, 0.95);
+  }

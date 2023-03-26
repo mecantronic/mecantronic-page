@@ -1,6 +1,5 @@
 // @ts-nocheck
 import React from "react"
-import { useState, useEffect } from "react";
 import "./Slider.css"
 import { Partner } from "../Partner/Partner"
 import { CardProductCompare } from "../CardProductCompare/CardProductCompare";
@@ -159,7 +158,7 @@ export const Slider = ({elementos, type}) => {
         return(
             <Swiper
                     slidesPerView={1}
-                    spaceBetween={10}
+                    spaceBetween={5}
                     navigation={true}
                     pagination={{
                     clickable: true,
@@ -171,7 +170,7 @@ export const Slider = ({elementos, type}) => {
                     breakpoints={{
                     640: {
                         slidesPerView: 2,
-                        spaceBetween: 20,
+                        spaceBetween: 10,
                     },
                     768: {
                         slidesPerView: 2,
@@ -179,11 +178,11 @@ export const Slider = ({elementos, type}) => {
                     },
                     1024: {
                         slidesPerView: 3,
-                        spaceBetween: 30,
+                        spaceBetween: 20,
                     },
                     1400: {
                         slidesPerView: 4,
-                        spaceBetween: 30,
+                        spaceBetween: 25,
                     },
                     }}                    
                     modules={[Pagination , Navigation]}

@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     background-color: #FAFAFA;
-    padding: 35px;
+    padding:16px;
 }
 
 .datasheet .bannertitles-subtitle{
@@ -16,6 +16,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;    
     color: #FF5B68;
+    text-align: center;
 }
 .datasheet .bannertitles-title{
     font-family: 'Ubuntu';
@@ -42,7 +43,11 @@
 .datasheet .specification{
     border-bottom: 1px solid #5B5B5B;
     display: flex;
+    margin: auto;
     margin-bottom: 10px;
+    padding-bottom: 8px;
+    width: 100%;
+    max-width: 700px;
 }
 .datasheet .espTitle{
     color: #1C1B1F;
@@ -55,14 +60,15 @@
 }
 
 .datasheet p{
-    text-align: center;
-    font-family: 'Ubuntu';
+    margin-top: 30px;
+    text-align: left;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    margin-top: 30px;
+    font-size: 16px;
+    line-height: 28px;
     letter-spacing: 0.06em;
-    ;
+    color: #000000;
 }
 
 .datasheet button{

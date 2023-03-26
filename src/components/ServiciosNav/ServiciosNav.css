@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 125px;
 }
 .serviciosNav span p{
     width: 100%;
@@ -31,25 +31,18 @@
     border: none;
     
 }
-
-@media (min-width: 1000px){
-    /*
-    .serviciosNav{
-        height: 104px;
-        display: flex;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-    */
+@media (min-width: 700px){
     .serviciosNav{
         display: flex;
-        justify-content: space-around;
         align-items: center;
         flex-wrap: nowrap;
         padding: 8px;
         width: 650px;
         margin-left: 180px;
     }
+}
+
+@media (min-width: 1000px){
     .serviciosNav span{
 
     }
@@ -62,7 +55,7 @@
         text-align: center;
         letter-spacing: 0.01em;
         color: #1A1A1A;
-        border-right: 1px solid #5B5B5B;
+        border-right: 1px solid #E4E4E4;
     }
     .serviciosNav span:first-child p{
         /*padding-left: 184px;*/

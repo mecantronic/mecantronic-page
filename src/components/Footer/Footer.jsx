@@ -8,7 +8,10 @@ export const Footer = ()=>{
             <span>
                 <div className="brand">
                     <div>
-                    <Link to={"/"} className="navItem"><img src="../assets/mecantronic.svg" alt="MECANTRONIC" /></Link>
+                    <Link to={"/"} className="navItem"> 
+                    {/* <img src="../assets/mecantronic.svg" alt="MECANTRONIC" />  */}
+                    
+                    </Link>
                         
                     </div>
                     {/*  

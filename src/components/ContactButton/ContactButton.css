@@ -2,14 +2,11 @@
     /*
     max-height: 90vh;
     margin-top: 5vh;
-   
+    */
 
-
-
-    REVISAR VERSION MOBILE, DEBERIA TENER EL MODAL, LA ALTURA TOTAL!
-    POR OTRO LADO, DEBO REVISAR LA PAGINA DE FLOWBITE Y BUSCAR LA OPCION PARA PONER EL BOTON DE CIERRE DE MODAL: . . .
-      */
-      height: 100vh;
+      
+    height: 100vh;
+      
     
 }
 #modalContacto > div{
@@ -24,6 +21,9 @@
     background: white;
     height: 93%;
     padding: 0;
+    /*
+    max-height: 1000px;
+    */
 }
 #modalFormConteiner .contactContainer{
     padding: 0;
@@ -51,6 +51,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /*
+    height: 80vh;
+    */
     height: 80vh;
     overflow-y: scroll;
 }
@@ -127,6 +130,7 @@
     color: white;
 }
 
+/*
 
 
 @media (min-width: 1200px){
@@ -166,3 +170,4 @@
         border-radius: 40px;
     }
 }
+*/

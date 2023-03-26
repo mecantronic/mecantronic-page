@@ -9,6 +9,12 @@ import { Testimonios } from '../components/Testimonios/Testimonios'
 import { BannerMoreInfo } from '../components/BannerMoreInfo/BannerMoreInfo'
 
 export const Home = () => {
+  
+  setTimeout(()=>{
+    const root = document.getElementById("root");
+    root.classList.add("backgroundImageHome");
+  },100)
+
   return (
     <>
     <Banner info2={"La tecnología más conveniente para desarrollar tu producto y "} info3={"potenciar tu empresa."}/>  

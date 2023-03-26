@@ -1,7 +1,7 @@
 
 const AboutInfo = [
     {
-        bannerInfo1: "IOT - Soluciones de ingeniería para tu negocio.",
+        bannerInfo1: "Cada miembro del equipo es fundamental para lograr la sinergia que nos caracteriza.",
         bannerInfo2: "que van mas allá de lo estrictamente laboral.",
         title: "Lorem ipsum dolor.",
         about:[

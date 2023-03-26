@@ -1,5 +1,7 @@
 .productContainer {    
+    /*
     padding: 30px;
+    */
 }
 
 .productContainer .productTitle{
@@ -30,6 +32,7 @@
     
     display: flex;
     flex-direction: column;
+    margin: 16px;
 }
 
 .accordionContainer{
@@ -105,9 +108,10 @@
         margin-bottom: 40px;
     }
     .accordionContainer{
-        margin: 0;
+        margin: auto;
         width: 55%;
-        max-width: 800px;
+        max-width: 600px;
+        
 
     }
 }

@@ -45,6 +45,10 @@
 #swiperTestimonios{
 
 }
+#equipo{
+    display: block;
+    background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);
+}
 #swiperTeam{
     margin: 80px 10px 110px 10px;
 }
@@ -53,15 +57,16 @@
     width: 800px;
 }
 #swiperGallery  img{
-    /* 
-    margin-left: -25vw; 
-    width: 50vw;
-    */
-    padding: 0 20px;
+    padding: 0px;
+    border-radius: 16px;
+    margin-left: -15vw;
+    height: 342px;
+    width: 575px;    
+    object-fit: cover;
 }
 
 #swiperImgProduct{
-    width: 90vw;
+    max-width: 90vw;
     height: 90vw;
 }
 
@@ -106,5 +111,15 @@
     #swiperImgProduct{
         width: 40vw;
         height: 40vw;
+    }
+}
+@media (max-width: 1024px) {
+    #swiperGallery  img{
+        padding: 15px;
+        border-radius: 16px;
+        margin-left: 0;
+        height: 342px;
+        width: 575px;    
+        object-fit: cover;
     }
 }

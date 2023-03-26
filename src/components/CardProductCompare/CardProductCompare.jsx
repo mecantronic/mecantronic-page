@@ -2,10 +2,10 @@ import "./CardProductCompare.css"
 import React from "react"
 import { Link } from "react-router-dom"
 
-export const CardProductCompare = ({product}) =>{
+export const CardProductCompare = ({product, productoActual}) =>{
     
     return (
-        <div className="CardProductCompare">
+        <div className={`CardProductCompare ${productoActual? "productoActual" :""}`}>
             <div>
                 <img src={`../assets/products/${product["title"]}/1.png`}  key={`${product["title"]}1`} alt={`Impresora ${product["title"]}`}/>
             </div>
@@ -14,7 +14,7 @@ export const CardProductCompare = ({product}) =>{
                 {product["highlights"].map((highlight,index)=>{
                     return (
                     <>
-                        <p className="subtitle">{highlight["subtitle"]}</p>
+                        <p className="subtitle" key={index}>{highlight["subtitle"]}</p>
                         <p className="text">{highlight["highlight"]}</p>
                     </>
                     )

@@ -15,6 +15,7 @@ const products = [
             {title:"Fácil de usar e intuitiva.", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
             {title:"Jugá, creá, divertite.", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"}
         ],
+        imgHero: "products/kubox/portada.png",
         img:[
             {src:"1"},
             {src:"2"},
@@ -88,6 +89,7 @@ const products = [
             {title:"Fácil de usar e intuitiva.", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
             {title:"Jugá, creá, divertite.", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"}
         ],
+        imgHero: "products/koron/portada.png",
         img:[
             {src:"1"},
             {src:"2"},
@@ -152,6 +154,7 @@ const products = [
             {title:"Pendiente", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
             {title:"Pendiente", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"}
         ],
+        imgHero: "products/koron/portada.png",
         img:[
             {src:"1"},
             {src:"2"},

@@ -30,7 +30,7 @@ export const ContactButton = ({textoBoton}) =>{
             <button className="contact-btn" onClick={modalClick}>  
                 <p>{textoBoton}</p>
             </button>
-            <Modal show={modal} onClose={modalClick} id="modalContacto" dismissible={true}>
+            <Modal show={modal} onClose={modalClick}  id="modalContacto" dismissible={true}>
                 <div id="modalFormConteiner">
                     <Form onClick={modalClick}/>
                 </div>

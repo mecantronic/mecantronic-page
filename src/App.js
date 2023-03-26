@@ -1,3 +1,4 @@
+// @ts-nocheck
 import "./App.css";
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -9,6 +10,16 @@ import { Footer } from "./components/Footer/Footer";
 import { Servicios } from "./pages/Servicios";
 import { Error404 } from "./pages/Error404";
 function App() {
+  
+/*
+  document.querySelectorAll("*").forEach(el => {
+    const { offsetWidth } = document.documentElement    
+    if(el.offsetWidth > offsetWidth){
+      console.log("PRODUCE SCROLL =>",el) 
+      alert(el)      
+    }
+  })
+  */
   return (
     <BrowserRouter>
     <NavBar/>
@@ -17,13 +28,7 @@ function App() {
         <Route path="/servicios/:servicio" element={<Servicios />}></Route>
         
         {/* HACER PAGINA ERROR =>> <Route path="/*" element={<Error404 />}></Route> */}
-        
 
-        {/*
-         Responsive listo, rutas:
-        -/aboutUs
-        -/Product
-        */}
         <Route path="/aboutUs" element={<AboutUs/>}></Route>
         <Route path="/products/:product" element={<Product />}></Route>
       </Routes>

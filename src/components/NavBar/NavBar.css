@@ -3,46 +3,87 @@
   backdrop-filter: blur(20px);
   color: white;
   margin-top: -90px;
-  height: 64px;
+  padding: 0;
+  z-index: 100;  
 }
 .branNav{
-  height: 20px;
-  /* margin: 28px 0 28px 160px; */
+  height: 35px;
+  margin: 25px 0 25px 160px;
+}
+.navCollapse{
+  width: 45%;
+}
+.navCollapse > ul {
+  justify-content: space-between;
+}
+.navCollapse > ul > li{ 
+  width: 190px;
 }
 
- .contact-btn:hover{
-  background-color: #7a020c;
-
+/* menu primer nivel */
+.navCollapse > ul > div > button , .navItem{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FCFCFC;
 }
-.contact-btn:active{
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+.menuItem1{
+  width: 190px;
+  margin: 0 !important;
+  padding: 0 !important;  
+  border: transparent;
 }
-
-
-.navCollapse ul .navItem, .navCollapse ul .w-fit{
-  text-align: left; 
+.navItem{
+  width: auto;
 }
-
-.menuDrop{
-  background: #B7030E; 
-  box-shadow: 0px 16px 40px rgba(117, 117, 117, 0.25);
-  border: #B7030E;
+/* menu segundo nivel */
+.navbar-menu > div , .menuDrop > div > ul > div {
+  width: 190px;
+  background: #B7030E;
+  border-radius: 0px 0px 8px 8px;
+  position: relative;
+  z-index: 1000;
+}
+.navbar-menu > div > ul > li ,  .menuDrop > div > ul > div {
+  padding: 0 24px;
+  height: 53px;
+}
+.navbar-menu > div > ul > li {
+  width: 100%;
+}
+.navbar-menu > div > ul > li > a{
+  width: 100%;
+  height: 100%;
+}
+.navbar-menu-item:hover , .menuDrop > div > ul > div:hover{
+  background: #9B0800;
+}
+.navbar-menu > div > ul > li:last-child{
   border-radius: 0px 0px 8px 8px;
 }
 
-.navCollapse .menuDrop li{
-  color: white;
-  margin-left: 0;
+/* menu tercer nivel */
+.submenuDrop{
+  margin: 0;
+  padding: 0 !important;
+  margin-left: -10px;  
+  border: transparent;
 }
-/*
-.navCollapse ul .navItem:hover, .navCollapse ul button:hover{
-  background-color: #9B0800;
+.menuItem1 > div > ul > li > a > span  > p , .menuDrop > div > ul > div > button , .submenuDrop p{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 45px;
+  letter-spacing: 0.01em;
+  color: #FCFCFC;  
 }
-*/
-.navCollapse .menuDrop .navbar-menu-item:hover{
-  background-color: #9B0800;
-  
-}
+
+/* BOTON CONTACT */
 .contact-btn{
   padding: 10px 30px;
   border-radius: 40px;
@@ -50,37 +91,42 @@
   font-size: 15px;
   line-height: 25px;
 }
-
-.navbarToggle{
-  color: white;
-  border: 1px rgb(200, 198, 198) solid;
-  margin-left: 20px;
+.contact-btn:hover{
+  background-color: #7a020c;
 }
-.navbarToggle:focus{
-  background: rgb(5, 23, 59);
+.contact-btn:active{
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.navbarToggle:enabled{
-  background: #97000C;
-}
-
-
-
 @media (max-width: 767px) {
+  .branNav{
+    height: 35px;
+    margin: 25px 0 25px 25px;
+  }
+  /* boton hamb */
+  .navbarToggle{
+    color: white;
+    margin-left: 20px;
+  }
+  .navbarToggle:focus{
+    background: #b3090e;
+  }
+  .navbarToggle:enabled{
+    background: #b3090e;
+  }
+
   .navCollapse{
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 35px;
-    color: #FCFCFC;
-    background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #BA000E 77.58%);
     width: 100vw;
     border-radius: 0px 0px 8px 8px;
-    padding: 10px;
-    padding-left: 24px;
-    margin-left: -16px;
-    margin-right: -18px;
-  }  
+    padding: 10px 24px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  a.navItem{
+    display: flex;
+    justify-content: flex-start;
+  }
   .navCollapse ul div {
     width: 100%;
   }
@@ -90,7 +136,7 @@
     
   }
   .navCollapse .menuDrop{
-
+  
     width: 96%;
   }
   .navCollapse .menuDrop li{
@@ -105,38 +151,9 @@
     padding: 0;
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 35px;
     color: #FCFCFC;
   }
-}
-
-@media (min-width: 767px) {
-  .navCollapse ul .navItem, .navCollapse ul .w-fit{ 
-    text-align: center;
-    /* padding: 10px; */
-    margin-top: 12px;
-  }
-  .menuDrop{    
-    margin-left: -30px !important;
-    width: 140px!important;
-  }
-  .branNav{
-    margin-left:30px;
-  }
-
-}
-
-@media (min-width: 900px){
-  .contact-btn{
-    padding: 12px 24px;
-  }
-  .contact-btn, .navCollapse ul div button,.navCollapse ul{
-    font-size: 20px;
-  }
-  .menuDrop p{
-    font-size: 17px;
-  }
-
 }

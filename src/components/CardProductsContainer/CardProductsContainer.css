@@ -1,7 +1,12 @@
 .cardProducts {
     text-align: center;
     padding-top: 130px;
-    padding-bottom: 300px;
+    margin: auto;
+    margin-bottom: 120px;
+    max-width: 800px;
+}
+.cardProducts .productoActual{
+    display: none;
 }
 .cardProducts h3{
     font-family: 'Ubuntu';
@@ -24,4 +29,20 @@
 
 .cardProductsContainer{
     display: flex;
+}
+
+@media (min-width: 1000px){
+    .cardProducts {
+        display: flex;
+        justify-content: space-around;
+        max-width: none;
+        padding-top: 80px;
+    }    
+    .cardProducts .CardProductCompare{
+        width: 45%;
+        max-width: 1000px;
+    }
+    .cardProducts .productoActual{
+        display: flex;
+    }    
 }
