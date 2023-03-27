@@ -60,16 +60,22 @@ const products = [
         ],
         highlights: [
             {
-                subtitle: "Volumen de impresion", 
-                highlight:"300x300x300mm." 
+                subtitle: "¿A qué público está orientada?", 
+                highlight: [
+                    {it:"A pymes que quieran modernizar sus procesos de prototipado y manufactura."} , {it:"A colegios técnicos."}, {it:"A talleres que deseen brindar servicio de impresión 3D y no quieran dolores de cabeza."}
+                ] 
             },
             {
-                subtitle: "Tipo base", 
-                highlight:"Base de impresión calefaccionada de 220V - 500W controlado por relé de estado sólido.",
+                subtitle: " Usos posibles.", 
+                highlight:[
+                    {it:"Fabricación de piezas definitivas en materiales técnicos o bien de prototipos con alto grado de precisión y repetitividad."} , {it:"Objetos pequeños, medianos o grandes."} , {it:"Producción de accesorios, repuestos y pruebas de concepto de ingeniería."}
+                ]
             },
             {
-                subtitle: "Otra info?", 
-                highlight:'Estructura fabricada en chapa de corte láser de 2.5mm de espesor. Habitáculo cerrado. Ventanas transparentes de 3mm de espesor. Guías lineales tipo Hiwin (HGR15) en los ejes X e Y. Doble cabezal de impresión con accionamiento vertical independiente AVI.Nivelación automática de cama. Hotend e3d Lite6 + e3d V6 y extrusores dual drive. Pantalla touch de 7". Electrónica de 32 bits con conexión WiFi y Ethernet.' 
+                subtitle: "Dificultad de uso.", 
+                highlight:[
+                    {it:"Es recomendable algo de experiencia previa aunque no es excluyente."} , {it:"Ofrecemos capacitación y soporte técnico para que dejen la capacidad de uso instalada."}
+                ]
             },            
         ]
     },    
@@ -125,16 +131,22 @@ const products = [
         ],
         highlights: [
             {
-                subtitle: "Volumen de impresion", 
-                highlight:"200x200x200mm." 
+                subtitle: "¿A qué público está orientada?", 
+                highlight: [
+                    {it:"A instituciones educativas."} , {it:"Particulares que quieran comenzar un emprendimiento propio o simplemente jugar diseñando e imprimiendo.."}
+                ] 
             },
             {
-                subtitle: "Tipo base", 
-                highlight:"Base de impresión calefaccionada de 12V - 100W.",
+                subtitle: " Usos posibles.", 
+                highlight:[
+                    {it:"Fabricación de piezas definitivas de poca exigencia mecánica o bien de prototipos."} , {it:"Objetos pequeños o medianos."} , {it:"Producción de figuras artísticas y/o decorativas"}
+                ]
             },
             {
-                subtitle: "Otra info?", 
-                highlight:"Estructura fabricada en chapa de corte láser de 2.5mm de espesor. Transmisión eje Z con tornillo de rosca recta. Hotend simil e3d Lite6. Extrusor dual drive. Electrónica MKS de 8 bits con Marlin 2.0." 
+                subtitle: "Dificultad de uso.", 
+                highlight:[
+                    {it:"Ideal para los primeros pasos."} , {it:" Mantenimiento mínimo y simple."} , {it:"Software intuitivo." }
+                ]
             },            
         ]
     },    

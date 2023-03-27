@@ -5,13 +5,18 @@ import { Form } from "../Form/Form"
 
 export const ContactButton = ({textoBoton}) =>{
 
-    const [modal, setModal] = useState(false);
-
-    window.addEventListener("resize", resize);
-
+    const [modal, setModal] = useState(false);    
+    
     function modalClick(){
         modal? setModal(false) : setModal(true);    
-    }   
+    }  
+
+    
+
+ 
+    /*
+    window.addEventListener("resize", resize);
+    
     function resize(){
         if(window.screen.width>1200){
             document.getElementById("modalContacto")?.firstElementChild?.classList.remove("max-w-2xl")
@@ -24,7 +29,7 @@ export const ContactButton = ({textoBoton}) =>{
     useEffect(()=>{
         resize()
     },[modal])
-
+*/
     return (
         <>
             <button className="contact-btn" onClick={modalClick}>  

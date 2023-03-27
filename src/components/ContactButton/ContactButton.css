@@ -1,40 +1,40 @@
 #modalContacto{
-    /*
-    max-height: 90vh;
-    margin-top: 5vh;
-    */
-
-      
-    height: 100vh;
-      
-    
+    height: 100vh;    
 }
 #modalContacto > div{
      height: auto; 
      padding: 0 ;
+     max-height: 1000px;
 }
 #modalContacto > div > div{
-    height: 100vh;
+    height: 90vh;
     background: none;
 }
 #modalFormConteiner{
-    background: white;
-    height: 93%;
+    background: transparent;
+    height: min-content;
     padding: 0;
-    /*
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     max-height: 1000px;
-    */
 }
 #modalFormConteiner .contactContainer{
     padding: 0;
-    /* padding-top: 50px; */
     height: auto;
-    margin-top: 15vh;
+    background-image: url("../../../public/assets/contact-modal.png");  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 1000px;
+    overflow-y: overlay;
 }
 
 #modalFormConteiner .contactContainer .formContainer{
     padding: 10px 16px 30px 16px;
     display: block;
+    max-width: 900px;
+    margin: auto;
 }
 #modalFormConteiner .contactContainer h3{
     font-family: 'Ubuntu';
@@ -54,8 +54,7 @@
     /*
     height: 80vh;
     */
-    height: 80vh;
-    overflow-y: scroll;
+    overflow-y: overlay;
 }
 
 
@@ -128,6 +127,13 @@
     background: #97000C;
     border-radius: 40px;
     color: white;
+}
+
+
+@media (max-width: 760px){
+    #modalFormConteiner .contactContainer{
+        margin-top: 15vh;
+    }
 }
 
 /*

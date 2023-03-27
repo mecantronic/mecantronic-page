@@ -11,8 +11,9 @@ import { BannerMoreInfo } from '../components/BannerMoreInfo/BannerMoreInfo'
 export const Home = () => {
   
   setTimeout(()=>{
-    const root = document.getElementById("root");
-    root.classList.add("backgroundImageHome");
+    const root = document.getElementById("root");    
+    root.removeAttribute('class');
+    root.classList.add("backgroundImage", "bgImageHome");
   },100)
 
   return (

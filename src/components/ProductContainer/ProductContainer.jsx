@@ -5,6 +5,7 @@ import { Accordion } from '../Accordion/Accordion'
 import { Datasheet } from "../Datasheet/Datasheet"
 import { BannerProductsStrength } from "../BannerProductsStrength/BannerProductsStrength"
 import { Slider } from "../Slider/Slider"
+import { CardProductsContainer } from "../CardProductsContainer/CardProductsContainer"
 
 export const ProductContainer = ({productToShow}) =>{
      return (
@@ -28,8 +29,11 @@ export const ProductContainer = ({productToShow}) =>{
                 </div>  
 
             </div>
-            <BannerProductsStrength/>
-            <Datasheet product={productToShow}/>
+            <span className="backgroundDegrade"> 
+                <BannerProductsStrength/>
+                <Datasheet product={productToShow}/>
+                <CardProductsContainer/>
+            </span>
         </div>
     </>
     )

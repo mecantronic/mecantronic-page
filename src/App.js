@@ -22,7 +22,7 @@ function App() {
   */
   return (
     <BrowserRouter>
-    <NavBar/>
+      <NavBar/>
       <Routes>
         <Route path="/" element={<Home/>}></Route> {/* RESPONSIVE PENDIENTE(Marca, Servicios y CasosExito) */}
         <Route path="/servicios/:servicio" element={<Servicios />}></Route>

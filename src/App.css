@@ -1,15 +1,22 @@
 :root{
-  width: 100vw;
+  overflow-x: hidden;
 }
 *{
   box-sizing: border-box;
 }
-.backgroundImageHome{
-  background-image: url("../public/assets/Home.png");
+/* CLASES PARA CAMBIAR FONDOS DE PAGINA */
+.backgroundImage{
   background-repeat: no-repeat;
-  background-color: rgba(255, 255, 255, 0.991);
   background-position: center;
   background-size: cover
+}
+.bgImageHome{
+  background-image: url("../public/assets/Home.png");
+}
+.bgImageProducts{
+  background-image: url("../public/assets/bg-product-1.png");
+  background-position: bottom;
+  background-size: 1700px;
 }
 
 .App {

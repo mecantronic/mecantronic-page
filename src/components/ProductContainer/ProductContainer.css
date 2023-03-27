@@ -4,6 +4,15 @@
     */
 }
 
+.backgroundDegrade{
+    display: block;
+    
+    background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%), url("../../../public/assets/bg-product-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .productContainer .productTitle{
     text-align: center;
     font-family: 'Ubuntu';

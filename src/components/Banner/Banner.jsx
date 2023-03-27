@@ -1,8 +1,8 @@
 import React from "react";
 import "./Banner.css";
 import { ContactButton } from "../ContactButton/ContactButton";
-export const Banner = ({info1,info2, info3,img,bg1}) => {
 
+export const Banner = ({info1,info2, info3,img,bg1}) => {
   return (
     <div className="banner">
       <div className="img-container">
@@ -14,7 +14,9 @@ export const Banner = ({info1,info2, info3,img,bg1}) => {
         </p>
         <span className="banner-contact-btn"><ContactButton textoBoton={"Contactanos"}/></span>
       </div>
-      <img className="bg1" src={`../assets/${bg1}`} alt="bg mecantronic"/>
+
+      {bg1!==undefined && <img className="bg1" src={`../assets/${bg1}`} alt="bg mecantronic"/>}
+    
     </div>
   );
 };

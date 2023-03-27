@@ -48,27 +48,16 @@
     margin-top: 50px;
 }
 
-.CardProductCompare .subtitle{
-    margin-bottom: 16px;
-    border: none;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: 0.01em;
-    color: #1A1A1A;
 
-}
 
 .CardProductCompare .text{
+    letter-spacing: 0.06em;
+    color: #4D4D4D;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0.06em;
-    color: #4D4D4D;
+    line-height: 24px;
 }
 
 .CardProductCompare .cardProductCompareBtn{
@@ -76,16 +65,57 @@
     border-radius: 40px;
     border: 1px solid #DA1C2B;
     padding: 18px 48px;
+    text-align: center;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
-    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #DA1C2B;;
+
+}
+.CardProductCompare .details .subtitle{
+    margin-bottom: 16px;
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
     letter-spacing: 0.01em;
-    color: #DA1C2B;
+    color: #1A1A1A;
+    text-transform: none;
+
 }
 
+.CardProductCompare .details .highlightList{
+    list-style: disc;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    padding-left: 30px;
+    margin-right: 40px;
+    color: #4D4D4D;
+}
+.CardProductCompare .details .highlightList{
+    border-bottom: 1px solid grey;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+.CardProductCompare .details .highlightList:last-of-type{
+    border-bottom: none;
+}
+.CardProductCompare .details .highlightList li p{
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+::marker{
+    font-size: 10px;
+}
 @media (min-width: 2000px) {
     /*
     .CardProductCompare{

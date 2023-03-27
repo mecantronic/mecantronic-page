@@ -2,29 +2,16 @@
   display: flex;
   flex-direction: column; 
   align-items: left;
-  /*
-  background: linear-gradient(320deg, rgba(255, 255, 255, 0.15) 0.54%, rgba(255, 255, 255, 0.1) 37.59%, rgba(255, 255, 255, 0.16) 63.98%, rgba(255, 255, 255, 0.3) 100%);
-  */
   background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);
   margin-bottom: 50px;
   height: 700px;
 }
 .banner-container{   
-  /*
-  min-height: 400px; 
-  max-height: 700px;
-  height: 115vw;
-  */
   z-index: 0;
 }
 .img-container{
   width: 100%;   
-  /*
-  min-height: 400px; 
-  max-height: 700px;
-  */
   position: absolute;
-
   background: radial-gradient(80.07% 54.15% at 50% 50%, rgba(252, 252, 252, 0.573) 0%, rgb(255, 255, 255) 65%);
   overflow: hidden;
   z-index: -1;

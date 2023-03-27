@@ -15,10 +15,18 @@ export const CardProductCompare = ({product, productoActual}) =>{
                     return (
                     <>
                         <p className="subtitle" key={index}>{highlight["subtitle"]}</p>
-                        <p className="text">{highlight["highlight"]}</p>
+                        <ul className="highlightList">
+                        {highlight["highlight"].map((item,index)=>{    
+                            return (                                                               
+                                <li><p className="text">{item["it"]}</p></li>
+                                )
+                        })}
+                        </ul>                        
                     </>
                     )
                 })}
+
+
             </div>
             <Link to={`/products/${product["id"]}`}  className="cardProductCompareBtn">Ver más</Link>
         </div>

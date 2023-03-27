@@ -2,7 +2,6 @@
 import "./CardProductsContainer.css"
 import { useParams } from "react-router-dom"
 import React from "react";
-import { Slider } from "../Slider/Slider";
 import { CardProductCompare } from "../CardProductCompare/CardProductCompare";
 import { BannerTitles } from "../BannerTitles/BannerTitles"
 import products from "../Utils/Products";
