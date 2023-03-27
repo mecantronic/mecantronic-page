@@ -1,6 +1,9 @@
 .marca {
   width: 100%;
   margin-top: 300px;
+  padding-left: 8em;
+  padding-right: 8em;
+  
 }
 
 .marca-section {
@@ -8,7 +11,6 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  border-right: 1px #57e0ff80 solid;
 }
 
 .marca-icon {
@@ -16,67 +18,75 @@
   padding: 10px;
   width: fit-content;
   margin: auto;
-  background: #071C41;
-  box-shadow: 4px -4px 40px rgba(124, 192, 241, 0.24), -4px 4px 40px rgba(124, 192, 241, 0.24);
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
 }
 .marca-section:last-child{
   border: none;
 }
 
 .marca-section > div > p:nth-child(2) {
-  /* Lorem impusm dolor */
+
+  /* Tecnología de vanguardia */
   
-  width: 347.33px;
-  height: 120px;
-  margin: auto;
-
-  /* H2 Bold */
-
-  font-family: "Ubuntu";
+  
+  width: 252.67px;
+  height: 62px;
+  
+  /* Desktop/Desktop H2 Bold */
+  
+  font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 60px;
-  /* or 150% */
-
+  font-size: 24px;
+  line-height: 31px;
+  /* or 129% */
+  
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
-  color: #ffffff;
-
+  
+  /* Primario/Red */
+  
+  color: #9B0800;
+  
+  
   /* Inside auto layout */
-
+  
   flex: none;
   order: 0;
+  align-self: stretch;
   flex-grow: 0;
+margin-bottom: 1em;
 }
 
 .marca-section > div > p:nth-child(3) {
-  width: 331.33px;
-  height: 84px;
-  margin-top: 24px;
 
-  /* Parrafo */
+  width: 236.67px;
+  height: 96px;
+  
+  /* Desktop/Desktop Parrafo */
+  
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  /* or 140% */
-
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
-  color: #e4e4e4;
-
+  
+  /* Escala de grises/Gray 700 */
+  
+  color: #808080;
+  
+  
   /* Inside auto layout */
-
+  
   flex: none;
   order: 0;
   flex-grow: 1;

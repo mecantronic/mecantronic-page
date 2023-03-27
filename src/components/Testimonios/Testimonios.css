@@ -1,7 +1,5 @@
 .testimonios {
-  margin-top: 300px;
-  background: radial-gradient(95.05% 95.05% at 50% 50%, rgba(44, 170, 218, 0.1) 0%, rgba(42, 161, 206, 0.09003) 6.22%, rgba(35, 135, 174, 0.07193) 17.5%, rgba(24, 95, 121, 0.04775) 32.58%, rgba(10, 39, 50, 0.01875) 50.66%, rgba(0, 0, 0, 0) 62.35%);
-
+ 
 }
 .cards-testimonios{
     display: flex;

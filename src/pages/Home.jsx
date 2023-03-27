@@ -7,6 +7,7 @@ import { Marca } from '../components/Marca/Marca'
 import { Servicios } from '../components/Servicios/Servicios'
 import { Testimonios } from '../components/Testimonios/Testimonios'
 import { BannerMoreInfo } from '../components/BannerMoreInfo/BannerMoreInfo'
+import { DarkThemeToggle } from 'flowbite-react'
 
 export const Home = () => {
   
@@ -18,17 +19,12 @@ export const Home = () => {
 
   return (
     <>
-    <Banner info2={"La tecnología más conveniente para desarrollar tu producto y "} info3={"potenciar tu empresa."}/>  
-
-{/* RESPONSIVE PENDIENTE..
+    <Banner info2={"La tecnología más conveniente para desarrollar tu producto y "} info3={"potenciar tu empresa."} img={"homebanner.svg"}/>  
     <Marca/>
     <Servicios/>
     <CasosExito/> 
-    
-*/}
     <BannerEmpresas/>
-    <Testimonios/>
-    <BannerMoreInfo/>  
+    <Testimonios/> 
     </>
   )
 }
