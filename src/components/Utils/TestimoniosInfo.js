@@ -1,65 +1,48 @@
 
 const TestimoniosInfo = [
     {
-        user: "David",
-        profileImg: "../assets/profilepic.jpeg",
+        user: "Ian Bogado",
+        position: "CEO",
+        profileImg: "../assets/empresas/uali.svg",
         rating: "5/5",
-        opinion: "Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus. Et commodi molestiae qui minus debiti"
+        opinion: "El equipo de MEC es increíble. Siempre están bien predispuestos para que los proyectos lleguen a buen puerto, sobre todo cuando las cosas se complican.  Han sido fundamentales para nuestro crecimiento y despegue y espero que podamos seguir trabajando codo a codo mucho tiempo más. "
     },
     {
-        user: "lore",
-        profileImg: "../assets/profilepic.jpeg",
+        user: "Alejandro Pronello",
+        position: "CEO",
+        profileImg: "../assets/empresas/Moltech.svg",
         rating: "3/5",
-        opinion: "Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus. Et commodi molestiae qui minus debiti"
+        opinion: "En Mecantronic encontramos un socio estratégico que complementa perfectamente nuestras capacidades. Los procesos de automatización son complejos y dinámicos, lo cual exige una dedicación y profesionalismo que sin duda este equipo tiene de sobra.  "
     },    
     {
-        user: "javi",
-        profileImg: "../assets/profilepic.jpeg",
+        user: "Sebastián Papandrea",
+        position: "CEO",
+        profileImg: "../assets/empresas/Molinari.svg",
         rating: "2/5",
-        opinion: "Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus. Et commodi molestiae qui minus debiti"
+        opinion: "Un grupo humano excepcional!! Hemos trabajado varios años en desarrollos para la industria y en proyectos de impacto social y puedo decir que Mecantronic es el partner tecnológico ideal tanto desde el punto de vista técnico como personal."
     },
     {
-        user: "Mica",
-        profileImg: "../assets/profilepic.jpeg",
-        rating: "4/5",
-        opinion: "Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus. Et commodi molestiae qui minus debiti"
-    },
-    {
-        user: "Estanislao",
-        profileImg: "../assets/profilepic.jpeg",
-        rating: "5/5",
-        opinion: "Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus. Et commodi molestiae qui minus debiti"
-    },    
-    {
-        user: "Nombre del usuario",
-        profileImg: "../assets/profilepic.jpeg",
-        rating: "1/5",
-        opinion: "Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus. Et commodi molestiae qui minus debiti"
-    },    
-    {
-        user: "javi",
-        profileImg: "../assets/profilepic.jpeg",
+        user: "Fernando Quinodoz",
+        position: "CEO",
+        profileImg: "../assets/empresas/Velos.svg",
         rating: "2/5",
-        opinion: "Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus. Et commodi molestiae qui minus debiti"
+        opinion: " La comunicación y colaboración con Mecatronic fue excelente, lo que facilitó el proceso de trabajo y permitió una integración fluida con nuestro equipo interno. Sin duda, recomendamos a Mecatronic como una empresa confiable y calificada para proyectos transversales de ingeniería."
     },
     {
-        user: "Mica",
-        profileImg: "../assets/profilepic.jpeg",
+        user: " Dolores Mase",
+        position: "Co-Fundadora",
+        profileImg: "../assets/empresas/L184.svg",
         rating: "4/5",
-        opinion: "Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus. Et commodi molestiae qui minus debiti"
+        opinion: "Da gusto trabajar con un grupo que tiene tanta energía y se interesa tanto por que la gente verdaderamente aprenda. "
     },
     {
-        user: "Estanislao",
-        profileImg: "../assets/profilepic.jpeg",
+        user: "Fernando Lapolla",
+        position: "Sub secretario",
+        profileImg: "../assets/empresas/L184.svg",
         rating: "5/5",
-        opinion: "Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus. Et commodi molestiae qui minus debiti"
+        opinion: "Destacó el profesionalismo y la calidez en el trato con el que llevaron adelante el proyecto, sin importar los contratiempos."
     },    
-    {
-        user: "Nombre del usuario",
-        profileImg: "../assets/profilepic.jpeg",
-        rating: "1/5",
-        opinion: "Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus. Et commodi molestiae qui minus debiti"
-    },
+   
 
 ]
 

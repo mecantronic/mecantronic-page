@@ -6,10 +6,24 @@
   padding: 0;
   z-index: 100;  
 }
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  margin: auto;
+  padding-left: 10em;
+  padding-right: 10em;
+  margin-top: 0.5em;
+}
+
 .branNav{
   height: 35px;
   margin: 25px 0 25px 160px;
+  padding-right: 25em;
 }
+
 .navCollapse{
   width: 45%;
 }
@@ -97,6 +111,7 @@
 .contact-btn:active{
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 @media (max-width: 767px) {
   .branNav{
     height: 35px;

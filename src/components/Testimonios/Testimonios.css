@@ -1,5 +1,6 @@
 .testimonios {
  
+background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);
 }
 .cards-testimonios{
     display: flex;
