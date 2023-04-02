@@ -10,8 +10,12 @@
   box-shadow: 0px 16px 40px rgba(209, 209, 209, 0.18);
   border-radius: 16px;
   height: 460px;
+  margin: auto;
 }
-
+.card-testimonios:hover{
+  background: #FCFCFC;
+  box-shadow: 0px 16px 40px rgba(135, 139, 143, 0.3);   
+}
 .userinfo{
   margin-top: 2em;
   align-items: center;
@@ -160,12 +164,12 @@ flex-grow: 0;
 /* @media only screen and (min-width: 768px) {...} */
 
 /* Large devices (laptops/desktops, 992px and up) */
+
 @media  (max-width: 1500px) {
   .card-testimonios {
     justify-content: center;
     text-align: center;
     width: fit-content;
-    height: fit-content;
     padding: 48px;
     margin: auto;
   }

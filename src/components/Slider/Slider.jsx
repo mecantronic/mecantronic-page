@@ -68,26 +68,22 @@ export const Slider = ({elementos, type}) => {
                 pagination={{ clickable: true }}
                 id="swiperTestimonios"
                 breakpoints={{
-                700: {
+                900: {
                     slidesPerView: 2,
-                    spaceBetween: 20,
+                    spaceBetween: 10,
                 },
-                1300: {
+                1400: {
                     slidesPerView: 3,
                     spaceBetween: 10,
                 },
-                1500: {
+                1550: {
                     slidesPerView: 4,
-                    spaceBetween: 30,
+                    spaceBetween: 20,
                 },
-                1800: {
-                    slidesPerView: 4,
+                2000: {
+                    slidesPerView: 5,
                     spaceBetween: 30,
-                },
-                2200: {
-                    slidesPerView: 4,
-                    spaceBetween: 30,
-                },
+                }
                 }}                    
                 modules={[Pagination , Navigation]}
                 className="mySwiper"

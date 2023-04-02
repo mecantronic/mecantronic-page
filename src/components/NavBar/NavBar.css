@@ -18,15 +18,25 @@
   align-items: center;
   width: 100vw;
   margin: auto;
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-left: 0em;
+  padding-right: 1em;
   margin-top: 0.5em;
+  flex-wrap: wrap;
 }
 
 .branNav{
   height: 35px;
+  width: 178px;
+  margin: 25px 0 25px;
+  /*
   margin: 25px 0 25px 160px;
+  */
+
+
+  padding-right: 2em;
+  /*
   padding-right: 25em;
+  */
 }
 
 .navCollapse{
@@ -34,7 +44,7 @@
   width: 45%;
   max-width: 580px;
   */
-  width: 550px;
+  width: 600px;
 }
 .navCollapse > ul {
   justify-content: space-between;
@@ -104,6 +114,7 @@
   line-height: 45px;
   letter-spacing: 0.01em;
   color: #FCFCFC;  
+  width: fit-content;
 }
 
 /* BOTON CONTACT */
@@ -181,14 +192,21 @@
     color: #FCFCFC;
   }
 }
-@media (min-width: 768px) {
-  .branNav{
-    margin: 25px 0 25px 25px;
+@media (min-width: 768px) and (max-width: 1200px) {
+  .nav-container{
+    padding-left: 2em;
+    padding-right: 0;    
   }
 }
-@media (min-width: 1150px) {
+@media (min-width: 1200px) {
+  .nav-container{
+    padding-left: 10em;
+    padding-right: 10em;    
+  }
   .branNav{
+    /*
     margin: 25px 0 25px 160px;
+    */
   }
   .navCollapse{
     position: absolute;
