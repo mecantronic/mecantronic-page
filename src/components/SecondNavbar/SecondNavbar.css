@@ -13,7 +13,7 @@
 }
 #secondNav{
     width: 100%;
-    z-index: 1000;    
+    z-index: 0;    
 }
 .sticky {
     opacity: 1;
