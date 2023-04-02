@@ -1,6 +1,6 @@
 // @ts-nocheck
 import "./SecondNavbar.css"
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 export const SecondNavbar = ({data})=>{
 
