@@ -12,14 +12,8 @@ export const CardProductsContainer = ({/*products, type*/}) => {
     const productToCompare = product === "1"? products[1] : products[0];
     return (
         <> 
-            <BannerTitles subtitle="COMPARATIVA" title="Elegí la que mas se adecue a tus necesidades"/>
+            <BannerTitles subtitle="COMPARATIVA" title="Elegí la que más se adecúe a tus necesidades"/>
             <div className="cardProducts">
-                
-                {/*   
-                <BannerTitles subtitle="Comparativa" title="Elegí la que mas se adecue a tus necesidades"/>
-                <Slider elementos= {products} type={type}/>
-                */}
-
                 <CardProductCompare product={productToShow} productoActual={true}/>
                 <CardProductCompare product={productToCompare}/>
             </div>

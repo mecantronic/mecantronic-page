@@ -1,12 +1,14 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import "./Banner.css";
 import { ContactButton } from "../ContactButton/ContactButton";
 
 export const Banner = ({info1,info2, info3,img,bg1}) => {
+  const location = useLocation();
   return (
     <div className="banner">
       <div className="img-container">
-        <img className="" src={`../assets/homebanner.svg`} alt="hero mecantronic"/>
+        <img className={`${location.pathname.includes("products")? "productsImg":""}`} src={`../assets/${img}`} alt="hero mecantronic"/>
       </div>
       <div className="banner-container">
         <p className="banner-subtitle">          

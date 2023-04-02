@@ -1,6 +1,4 @@
 import React from "react";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import { GiPlainCircle } from "react-icons/gi";
 import "../CasosExito/CasosExito.css";
 import { BannerTitles } from "../BannerTitles/BannerTitles";
 

@@ -31,20 +31,22 @@
     display: flex;
 }
 
+
 @media (min-width: 1000px){
     .cardProducts {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         max-width: none;
-        padding-top: 80px;
+        padding-top: 0;
     }    
     .cardProducts .CardProductCompare{
         width: 45%;
         max-width: 1000px;
-        height: 1550px;
+        height: 1430px;
         justify-content: space-between;
     }
     .cardProducts .productoActual{
         display: flex;
+        max-width: 512px;
     }    
 }

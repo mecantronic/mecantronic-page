@@ -3,7 +3,9 @@
     top: 100vh;    
     opacity: 0; 
     transition: 0.75s all;
-    background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.5) 50.42%, rgba(0, 186, 46, 0.531) 47.58%);
+    background: rgba(243, 243, 243, 0.5);
+    backdrop-filter: blur(20px);
+
 }
 .serviciosNav > a:hover{
     cursor: pointer;
@@ -16,8 +18,81 @@
 .sticky {
     opacity: 1;
     position: fixed;
-    top: 0;/* 15px => evita que se corte la nav al verlo en chrome en responsive */
+    top: 85px;
   }
   .serviciosNav-active{
     text-decoration: underline solid 2px rgba(169, 1, 1, 0.95);
   }
+
+  .serviciosNavContainer{
+    background-color: rgba(243, 243, 243, 0.5);
+    margin-bottom: 120px;
+}
+.serviciosNav{
+    display: none;
+}
+.serviciosNav span{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+}
+.serviciosNav span p{
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #2E2E2E;
+    text-align: center;
+}
+.serviciosNav span:first-child p{
+    /*
+    padding-left: 184px;
+    */
+}
+.serviciosNav span:last-child {
+    border: none;
+    
+}
+@media (min-width: 700px){
+    .serviciosNav{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 8px;
+        width: 650px;
+        margin-left: 180px;
+        gap: 48px;
+    }
+}
+
+@media (min-width: 1000px){
+    .serviciosNav span{
+
+    }
+    .serviciosNav span p{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #1A1A1A;
+        border-right: 1px solid #E4E4E4;
+    }
+    .serviciosNav span:first-child p{
+        /*padding-left: 184px;*/
+        
+    }
+    .serviciosNav span:last-child p{
+        border: none;
+    }
+
+
+}
+
+

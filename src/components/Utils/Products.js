@@ -1,19 +1,15 @@
 const products = [
         {
         id:1,
-        titleBanner:"Impresora de uso dual diseñada para ambientes y aplicaciones industriales",
+        titleBanner:"- Impresora de uso dual y diseñada para satisfacer más de un objetivo.",
         title: "Kubox",
-        subtitle: "Impresora de uso dual diseñada para satisfacer más de un objetivo.",
-        detailsTitle: "... ALGUN TITULO... ??",
+        subtitle: "impresora industrial",
+        detailsTitle: "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
         detailsText: "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.", 
         accordion: [
-            {title:"Gestión del consumo de combustible", description:"Permite imprimir por FDM con materiales convencionales, como PLA, ABS, PETG, y técnicos como NYLON, POM, PVOH."},
-            {title:"Modo fresadora", description:"Previo cambio el cabezal y plataforma de trabajo, permite realizar mecanizados ligeros (ruteo de placas, grabado y fresado de materiales no ferrosos). Para el mecanizado se emplea un minitorno que no viene incluido y puede ser solicitado como un adicional."},
-            {title:"Fácil de usar e intuitiva", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
-            {title:"Robustez en uso continuo", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
-            {title:"Ideal para tu pyme o taller.", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
-            {title:"Fácil de usar e intuitiva.", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
-            {title:"Jugá, creá, divertite.", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"}
+            {title:"Modo impresora.", description:"El modelo más completo cuenta con doble extrusión para combinar colores o distinto tipo de materiales. Puede imprimir con ABS, NYLON, POM Y PVOH. Las boquillas son intercambiables."},
+            {title:"Modo fresadora", description:"Previo cambio de cabezal y plataforma de trabajo, permite montar un minitorno para realizar mecanizados ligeros (ruteo de placas de circuito impreso, grabado y fresado de materiales no ferrosos)"},
+            {title:"Fácil de usar e intuitiva.", description:"Cuenta con una interfaz que te guía a lo largo de todo el proceso, brindando información en tiempo real sobre el estado de avance de la pieza, temperaturas de hotend y cama, etc."}
         ],
         imgHero: "products/kubox/portada.png",
         img:[
@@ -24,20 +20,11 @@ const products = [
         datasheet: [
             {specification:"Volumen de impresión de 300x300x300mm."},
             {specification:"Base de impresión calefaccionada de 220V - 500W controlado por relé de estado sólido."},
-            {specification:"Estructura fabricada en chapa de corte láser de 2.5mm de espesor."},
-            {specification:"Habitáculo cerrado."},
-            {specification:"Ventanas transparentes de 3mm de espesor."},
-            {specification:"Guías lineales tipo Hiwin (HGR15) en los ejes X e Y."},
-            {specification:"4 guías lineales cilíndricas de 12mm en el eje Z."},
             {specification:"Doble cabezal de impresión con accionamiento vertical independiente AVI."},
-            {specification:"Nivelación automática de cama."},
             {specification:"Hotend e3d Lite6 + e3d V6 y extrusores dual drive."},
             {specification:"Drivers de motores PaP de la serie Tinamcs TMC."},
-            {specification:'Pantalla touch de 7".'},
             {specification:"Electrónica de 32 bits con conexión WiFi y Ethernet."},
-            {specification:"Posibilidad de montaje de minitorno para mecanizado."},
-            {specification:"Plataforma de trabajo intercambiable (cama de impresión - mesa de mecanizado)."},
-            {specification:"Patas regulables para asegurar un buen apoyo en la mesa de trabajo."}
+            {specification:"Habitáculo cerrado."}
         ],
         subtitleDatasheet: "subtitleDatasheet=>>>",
         strengths: [
@@ -87,13 +74,9 @@ const products = [
         detailsTitle: "Diseño compacto y terminaciones prolijas en estructura y cableado. La estructura garantiza una gran rigidez minimizando las vibraciones.",
         detailsText: "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.", 
         accordion: [
-            {title:"Modo seccionsKoron ?????CS", description:"Permite imprimir por FDM con materiales convencionales, como PLA, ABS, PETG, y técnicos como NYLON, POM, PVOH."},
-            {title:"Modo fresadora", description:"Previo cambio el cabezal y plataforma de trabajo, permite realizar mecanizados ligeros (ruteo de placas, grabado y fresado de materiales no ferrosos). Para el mecanizado se emplea un minitorno que no viene incluido y puede ser solicitado como un adicional."},
-            {title:"Fácil de usar e intuitiva", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
-            {title:"Robustez en uso continuo", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
-            {title:"Ideal para tu pyme o taller.", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
-            {title:"Fácil de usar e intuitiva.", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
-            {title:"Jugá, creá, divertite.", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"}
+            {title:"Ideal para empezar.", description:"La impresora más robusta del segmento. Fácil de usar y de mantener."},
+            {title:"Jugá, creá y divertite.", description:"Excelente opción para emprendimientos personales e instituciones educativas."},
+            {title:"Probá distintos materiales.", description:"Apta para imprimir con todas las variantes de PLA."}
         ],
         imgHero: "products/koron/portada.png",
         img:[
@@ -108,7 +91,7 @@ const products = [
             {specification:"Transmisión eje Z con tornillo de rosca recta."},
             {specification:"Hotend simil e3d Lite6."},
             {specification:"Extrusor dual drive."},
-            {specification:"Electrónica MKS de 8 bits con Marlin 2.0."}
+            {specification:"Habitáculo cerrado"}
         ],
         subtitleDatasheet: "subtitleDatasheet subtitleDatasheet",
         strengths: [

@@ -12,7 +12,7 @@ export const ProductContainer = ({productToShow}) =>{
     <>
         <div className='productContainer'>
 
-            <div className="productDetails">
+            <div className="productDetails" id="sobreProducto">
                 <div className="titlesMobile">
                     <p className="subtitle">{productToShow["subtitle"]}</p>
                     <p className="detailsTitle">{productToShow["detailsTitle"]}</p>
@@ -31,8 +31,9 @@ export const ProductContainer = ({productToShow}) =>{
             </div>
             <span className="backgroundDegrade"> 
                 <BannerProductsStrength/>
-                <Datasheet product={productToShow}/>
-                <CardProductsContainer/>
+                <div id="fichaTecnicaProducto"><Datasheet product={productToShow}  /></div>
+                <div id="comparativaProductos" ><CardProductsContainer /> </div>
+                
             </span>
         </div>
     </>

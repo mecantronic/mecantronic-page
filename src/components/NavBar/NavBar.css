@@ -2,16 +2,25 @@
   background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #BA000E 77.58%);
   backdrop-filter: blur(20px);
   color: white;
+  /*
   margin-top: -90px;
+  */
   padding: 0;
   z-index: 100;  
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .branNav{
   height: 35px;
-  margin: 25px 0 25px 160px;
+  margin: 25px 0;
 }
 .navCollapse{
+  /*
   width: 45%;
+  max-width: 580px;
+  */
+  width: 550px;
 }
 .navCollapse > ul {
   justify-content: space-between;
@@ -155,5 +164,24 @@
     font-size: 18px;
     line-height: 35px;
     color: #FCFCFC;
+  }
+}
+@media (min-width: 768px) {
+  .branNav{
+    margin: 25px 0 25px 25px;
+  }
+}
+@media (min-width: 1150px) {
+  .branNav{
+    margin: 25px 0 25px 160px;
+  }
+  .navCollapse{
+    position: absolute;
+    right: 160px;
+  }
+}
+@media (min-width: 1600px) {
+  .navCollapse{
+    right: 10%;
   }
 }

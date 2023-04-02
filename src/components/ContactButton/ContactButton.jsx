@@ -10,10 +10,6 @@ export const ContactButton = ({textoBoton}) =>{
     function modalClick(){
         modal? setModal(false) : setModal(true);    
     }  
-
-    
-
- 
     /*
     window.addEventListener("resize", resize);
     

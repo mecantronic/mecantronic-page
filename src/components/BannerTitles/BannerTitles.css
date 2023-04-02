@@ -32,6 +32,17 @@
     margin-bottom: 40px;
   }
   
+  #comparativaProductos .bannertitles-titles {
+    max-width: 780px;
+  }
+  #comparativaProductos .bannertitles-titles .bannertitles-title{
+    
+    font-weight: 700;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 42px;
+  }
   @media (min-width: 2000px) {
     .bannertitles-titles{
       max-width: 900px;

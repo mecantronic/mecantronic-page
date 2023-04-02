@@ -1,13 +1,13 @@
 // @ts-nocheck
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import { Banner } from '../components/Banner/Banner'
 import { BannerEmpresas } from '../components/BannerEmpresas/BannerEmpresas'
 import { CasosExito } from '../components/CasosExito/CasosExito'
 import { Marca } from '../components/Marca/Marca'
 import { Servicios } from '../components/Servicios/Servicios'
 import { Testimonios } from '../components/Testimonios/Testimonios'
-import { BannerMoreInfo } from '../components/BannerMoreInfo/BannerMoreInfo'
-import { DarkThemeToggle } from 'flowbite-react'
+import { Form } from "../components/Form/Form"
+
 
 export const Home = () => {
   
@@ -25,6 +25,9 @@ export const Home = () => {
     <CasosExito/> 
     <BannerEmpresas/>
     <Testimonios/> 
+    <div id='regularContactForm'>
+      <Form />
+    </div>
     </>
   )
 }

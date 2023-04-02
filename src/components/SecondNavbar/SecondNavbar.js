@@ -8,7 +8,7 @@ export const SecondNavbar = ({data})=>{
         let secondNav = document.getElementById("secondNav");
         let sticky = secondNav.offsetTop;  
         window.onscroll = ()=>{      
-            if (window.pageYOffset*1.25>= sticky) {
+            if (window.pageYOffset*1.75>= sticky) {
                 secondNav.classList.add("sticky")
             } else {
                 secondNav.classList.remove("sticky");
@@ -29,7 +29,7 @@ export const SecondNavbar = ({data})=>{
                                 offset={0}
                                 duration={500}
                                 isDynamic={true} >
-                                <span key={el.index}><p>{el.texto}</p></span>
+                                <div key={el.index}><p>{el.texto}</p></div>
                         </Link>                    
                     )
                 })}

@@ -1,5 +1,6 @@
 #modalContacto{
-    height: 100vh;    
+    height: 100vh;   
+    z-index: 100; 
 }
 #modalContacto > div{
      height: auto; 
@@ -28,6 +29,7 @@
     background-size: cover;
     max-height: 1000px;
     overflow-y: overlay;
+    border-radius: 16px;
 }
 
 #modalFormConteiner .contactContainer .formContainer{
@@ -40,8 +42,8 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 135%;    
+    font-size: 32px;
+    line-height: 31px;
     text-align: center;
     letter-spacing: 0.06em;    
     color: #404972;
@@ -87,10 +89,10 @@
     background: none;
 }
 #modalFormConteiner .contactContainer h2{
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 30px;
     padding-top: 4vh;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
 }
 #modalFormConteiner .logosContacto .icons{
     margin-top: 32px;

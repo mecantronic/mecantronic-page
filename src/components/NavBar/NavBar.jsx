@@ -37,7 +37,9 @@ export const  NavBar = () => {
 
           <Dropdown label="Productos IoT" placement='right-start' inline={true} className="navbar-menu submenuDrop">
             <Dropdown.Item className="navbar-menu-item">
-              <Link to={"/products/3"}><span className='navItemCollapse'><p>Noisen</p></span></Link>
+              <a href="https://www.noisen.com.ar/" target="_blank" rel="noreferrer">
+                <span className='navItemCollapse'><p>Noisen</p></span>
+              </a>
             </Dropdown.Item>
           </Dropdown>
 

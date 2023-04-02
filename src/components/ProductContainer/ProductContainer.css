@@ -94,7 +94,7 @@
 }
 @media (min-width: 700px) {
     .productContainer .titles .subtitle,.productContainer .titles .detailsTitle{
-        text-align: center;
+        text-align: left;
     }
 
 }

@@ -1,8 +1,7 @@
 .contactContainer{
-    height: 1500px;
     text-align: center;
-    padding-top: 300px;
-    padding-bottom: 240px;
+    padding-top: 130px; 
+    padding-bottom: 130px;
     font-family: 'Ubuntu';
     font-style: normal;    
     letter-spacing: 0.06em;
@@ -28,14 +27,25 @@
     transform: scale(1.1);
 }
 .contactContainer h2{
-    font-size: 20px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
     line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FF5B68;
 }
 .contactContainer h3{
-    font-size: 40px;
-    line-height: 60px;
-    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #404972;
 }
 
 
@@ -117,13 +127,13 @@
     width: 50%;
     margin: 0px auto;
     padding: 64px;
-    background: linear-gradient(205.78deg, rgba(28, 70, 120, 0.89) 0.98%, #153862 95.4%);
     border-radius: 32px;
 
 
 }
 .formularioContacto .formulario{
     height: 100%;
+    width: 100%;
     
 }
 
@@ -134,7 +144,7 @@
     align-items: center;
     width: 100%;    
     max-width: 500px;
-    margin: 40px auto 10px;
+    margin: 24px auto 10px;
 }
 .formularioContacto .labelFormContacto label{
     text-align: left;
@@ -145,7 +155,7 @@
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.01em;
-    color: #FCFCFC;
+    color: #1A1A1A;
     margin-bottom: 8px;
     margin-top: 12px;
 }
@@ -154,7 +164,7 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.01em;
-    padding: 10px 24px;
+    padding: 10px 24px 10px 0;
     width: 100%;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -163,8 +173,17 @@
     line-height: 16px;
     color: #B3B3B3;
     border: none;
-    border-bottom: 1px solid #B3B3B3;
-
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+}
+::placeholder{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    color: #B3B3B3;    
 }
 
 .formularioContacto label, .formularioContacto .labelFormContacto input, .formularioContacto textarea{
@@ -176,7 +195,7 @@
      */
 }
 .formularioContacto textarea{
-    height: 90px;
+    
 }
 
 input.botonEnvio {
@@ -191,6 +210,7 @@ input.botonEnvio {
     letter-spacing: 0.01em;
     color: #9B0800;
     border: 1px solid #9B0800;
+    margin-top: 80px;    
 }
 .botonEnvio:hover{
      /*
@@ -216,3 +236,13 @@ input.botonEnvio {
     }
 }
 */
+
+
+#regularContactForm .contactContainer button{
+    display: none;
+
+}
+#regularContactForm  .formContainer{
+    padding: 0;
+
+}

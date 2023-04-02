@@ -15,9 +15,12 @@
 .CardProductCompare img{
     border-radius: 16px;
     margin: auto;
+    max-width: 450px;
+    max-height: 450px;
+
 }
 .CardProductCompare .details{
-    
+    height: 780px;
 }
 .CardProductCompare p{
     font-family: 'Open Sans';
@@ -61,16 +64,16 @@
 }
 
 .CardProductCompare .cardProductCompareBtn{
-    margin: 70px auto 10px auto;
+    margin: 20px auto 10px auto;
     border-radius: 40px;
     border: 1px solid #DA1C2B;
-    padding: 18px 48px;
+    padding: 10px 30px;
     text-align: center;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 20px;
     letter-spacing: 0.06em;
     color: #DA1C2B;;
 
@@ -100,6 +103,7 @@
     padding-left: 30px;
     margin-right: 40px;
     color: #4D4D4D;
+    height: 175px;
 }
 .CardProductCompare .details .highlightList{
     border-bottom: 1px solid grey;

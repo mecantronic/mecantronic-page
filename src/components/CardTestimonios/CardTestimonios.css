@@ -1,51 +1,42 @@
 .card-testimonios {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 48px;
-gap: 16px;
-
-width: 432px;
-height: 460px;
-
-background: #F7F7F7;
-/* Component Shadow */
-
-box-shadow: 0px 16px 40px rgba(209, 209, 209, 0.18);
-border-radius: 16px;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px;
+  gap: 16px;
+  width: 432px;
+  height: 460px;
+  background: #F7F7F7;
+  box-shadow: 0px 16px 40px rgba(209, 209, 209, 0.18);
+  border-radius: 16px;
+  height: 460px;
 }
 .user-testimonios {
-  align-items: center;
+  width: 100%;
 }
 .user-testimonios > div{
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: left;
-  margin-left: 16px;
-  color: #FCFCFC;
+  justify-content: flex-start;
+  align-items: center;
+  color: #1A1A1A;
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 16px;
   letter-spacing: 0.06em;
+
+
+
 }
 .user-testimonios > div > p {
-  margin-top: 5px;
   font-weight: 400;
   font-size: 16px;
+  margin-left: 15%;
 }
 .profilepicture {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  margin-bottom: 16px;
+  
 }
 
 .opinion {
@@ -97,12 +88,10 @@ flex-grow: 0;
   .card-testimonios {
     justify-content: center;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    gap: 24px;
     width: fit-content;
     height: fit-content;
-    padding: 20px;
+    padding: 48px;
+    margin: auto;
   }
 
   .user-testimonios > span {
@@ -116,14 +105,16 @@ flex-grow: 0;
 
   }
   .opinion {
-    width: 250px;
-    height: 168px;
-  
-    font-family: "Open Sans";
+    width: 330px;
+    height: 200px;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    color: #1A1A1A;
+    text-align: left;
   }
   
 }

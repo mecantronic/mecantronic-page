@@ -4,15 +4,12 @@ import "./Slider.css"
 import { Partner } from "../Partner/Partner"
 import { CardProductCompare } from "../CardProductCompare/CardProductCompare";
 import { CardTestimonios } from '../CardTestimonios/CardTestimonios'
-
 import 'swiper/css/bundle';
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import { register } from 'swiper/element/bundle';
 import {Navigation, Pagination, } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { useRef, } from "react";
 
 
 export const Slider = ({elementos, type}) => { 
@@ -75,30 +72,17 @@ export const Slider = ({elementos, type}) => {
                     slidesPerView: 2,
                     spaceBetween: 20,
                 },
-                1100: {
+                1300: {
                     slidesPerView: 3,
                     spaceBetween: 20,
-                },
-                1500: {
-                    slidesPerView: 4,
-                    spaceBetween: 30,
-                },
-                1800: {
-                    slidesPerView: 5,
-                    spaceBetween: 30,
-                },
-                2200: {
-                    slidesPerView: 6,
-                    spaceBetween: 30,
-                },
-                }}                    
+                }}}                    
                 modules={[Pagination , Navigation]}
                 className="mySwiper"
             >
                 {elementos.map((testimonio,index)=>{
                     return (
                         <SwiperSlide className="sliderTestimonios">
-                            <CardTestimonios rating={testimonio["rating"]} profileImg={testimonio["profileImg"]}  user={testimonio["user"]} opinion={testimonio["opinion"]}/>
+                            <CardTestimonios profileImg={testimonio["profileImg"]}  user={testimonio["user"]} job={testimonio["job"]} opinion={testimonio["opinion"]}/>
                         </SwiperSlide>
                         )
                 })}

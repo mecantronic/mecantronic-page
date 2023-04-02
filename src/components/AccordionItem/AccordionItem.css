@@ -1,7 +1,6 @@
 .accordionTitle{
     font-family: 'Ubuntu';
     font-style: normal;   
-    letter-spacing: 0.06em;
     color: #1A1A1A;
     display: flex;
     align-items: center;
@@ -10,9 +9,12 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
     color: #4D4D4D;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #808080;
 }
 .accordionTitle p{
     font-family: 'Ubuntu';
@@ -42,13 +44,3 @@
     color: #808080;
     margin-left: 40px;
 }
-/*
-
-@media (min-width: 1500px) {
-    .accordionTitle{
-        font-size: 22px;
-        line-height: 28px;
-        gap: 60px;
-    }
-}
-*/

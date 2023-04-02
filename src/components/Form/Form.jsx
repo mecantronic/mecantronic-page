@@ -39,40 +39,6 @@ export const Form = ({onClick}) =>{
             <h2>Contacto</h2>
             <h3>Dejanos tu consulta</h3>
             <div className="formContainer">
-                <div className="contacData">
-                    <div className="contacDataContainer">
-                        <h3>Mecantronic</h3>
-                        <div>
-                            <p className="title">Oficinas</p>
-                            <p>Cabildo 1111, Buenos Aires</p>
-                        </div>
-                        <h4 className="title">nombre@gmail.com</h4>
-                        <h4 className="telefono">+54 <p>91123132</p></h4>
-                        <div className="icons">
-                            <div>
-                                <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
-                                    <img src="../assets/icons/facebook.svg" alt="Facebook MECANTRONIC"/>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
-                                    <img src="../assets/icons/instagram.svg" alt="Instagram MECANTRONIC" />
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
-                                    <img src="../assets/icons/twitter.svg" alt="Twitter MECANTRONIC" />
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
-                                    <img src="../assets/icons/linkedin.svg" alt="Linkedin MECANTRONIC" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <div className="formularioContacto">
                     <form className="formulario" onSubmit={handleSubmit(onSubmit)}>
                         <div className="labelFormContacto">
@@ -115,34 +81,6 @@ export const Form = ({onClick}) =>{
                         <input type="submit" class="botonEnvio"/>
                     </form>
                 </div>
-                {/* CONSULTAR SI ESTO SERA BORRADO DE FORMA DEFINITIVA
-                
-                
-                 <div className="logosContacto">
-                    <div className="icons">
-                        <div>
-                            <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
-                                <img src="../assets/icons/facebook.svg" alt="Facebook MECANTRONIC"/>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
-                                <img src="../assets/icons/instagram.svg" alt="Instagram MECANTRONIC" />
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
-                                <img src="../assets/icons/twitter.svg" alt="Twitter MECANTRONIC" />
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://mecantronic.com.ar/" target="_blank" rel="noreferrer">
-                                <img src="../assets/icons/linkedin.svg" alt="Linkedin MECANTRONIC" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                */}
             </div>
             <ToastContainer
                     position="bottom-left"
