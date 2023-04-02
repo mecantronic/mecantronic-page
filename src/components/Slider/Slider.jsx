@@ -74,15 +74,28 @@ export const Slider = ({elementos, type}) => {
                 },
                 1300: {
                     slidesPerView: 3,
-                    spaceBetween: 20,
-                }}}                    
+                    spaceBetween: 10,
+                },
+                1500: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+                1800: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+                2200: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+                }}                    
                 modules={[Pagination , Navigation]}
                 className="mySwiper"
             >
                 {elementos.map((testimonio,index)=>{
                     return (
                         <SwiperSlide className="sliderTestimonios">
-                            <CardTestimonios profileImg={testimonio["profileImg"]}  user={testimonio["user"]} job={testimonio["job"]} opinion={testimonio["opinion"]}/>
+                            <CardTestimonios rating={testimonio["rating"]} profileImg={testimonio["profileImg"]}  user={testimonio["user"]} opinion={testimonio["opinion"]} position={testimonio["position"]}/>
                         </SwiperSlide>
                         )
                 })}

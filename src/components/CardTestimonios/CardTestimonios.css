@@ -11,10 +11,16 @@
   border-radius: 16px;
   height: 460px;
 }
+
+.userinfo{
+  margin-top: 2em;
+  align-items: center;
+}
+
 .user-testimonios {
   width: 100%;
 }
-.user-testimonios > div{
+/* .user-testimonios > div{
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -35,35 +41,105 @@
   margin-left: 15%;
 }
 .profilepicture {
-  margin-bottom: 16px;
-  
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+} */
+
+.profilepicture{
+width: 40%;
+max-height: 20%;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
-.opinion {
-  width: 289px;
-  height: 168px;
+.position{
 
-  font-family: "Open Sans";
+width: 34px;
+height: 24px;
+
+/* Desktop/Desktop Parrafo */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+
+/* Escala de grises/Negro */
+
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.user{
+  width: 210px;
+height: 30px;
+
+/* Desktop/Desktop H3 */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+
+/* Escala de grises/Negro */
+
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.opinion {
+  width: 336px;
+  height: 192px;
+  
+  /* Desktop/Desktop Parrafo */
+  
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 28px;
-  /* or 175% */
-
+  line-height: 24px;
+  /* or 150% */
+  
   display: flex;
   align-items: center;
   letter-spacing: 0.06em;
-
-  /* Escala de grises/Gray 700 */
-
-  color: #808080;
-
+  
+  /* Escala de grises/Negro */
+  
+  color: #1A1A1A;
+  
+  
   /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
+  
 }
 
 .rating {
@@ -105,9 +181,10 @@
 
   }
   .opinion {
-    width: 330px;
-    height: 200px;
-    font-family: 'Open Sans';
+    width: 350px;
+    height: 168px;
+  
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -116,6 +193,16 @@
     color: #1A1A1A;
     text-align: left;
   }
+
+  .profilepicture{
+    width: 40%;
+    max-height: 50px;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
   
 }
 

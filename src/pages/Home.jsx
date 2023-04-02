@@ -6,8 +6,9 @@ import { CasosExito } from '../components/CasosExito/CasosExito'
 import { Marca } from '../components/Marca/Marca'
 import { Servicios } from '../components/Servicios/Servicios'
 import { Testimonios } from '../components/Testimonios/Testimonios'
-import { Form } from "../components/Form/Form"
-
+import { BannerMoreInfo } from '../components/BannerMoreInfo/BannerMoreInfo'
+import { DarkThemeToggle } from 'flowbite-react'
+import { ContactForm } from '../components/ContactForm/ContactForm'
 
 export const Home = () => {
   
@@ -25,9 +26,7 @@ export const Home = () => {
     <CasosExito/> 
     <BannerEmpresas/>
     <Testimonios/> 
-    <div id='regularContactForm'>
-      <Form />
-    </div>
+    <ContactForm/>
     </>
   )
 }

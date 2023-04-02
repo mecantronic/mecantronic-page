@@ -11,6 +11,7 @@ export const  NavBar = () => {
     <>
     <WhatsAppBtn/> 
     <Navbar fluid={true} rounded={true} className="navbar" >
+    <div className='nav-container'>
       <Navbar.Brand>
         <Link to={"/"}>
               <img className='branNav' src="../assets/logo-mecantronic-footer-mobile.png" alt="MECANTRONIC" />
@@ -58,6 +59,7 @@ export const  NavBar = () => {
 
         <ContactButton textoBoton={"Contacto"} />
         </Navbar.Collapse>
+        </div>
     </Navbar>
     </>
   )
