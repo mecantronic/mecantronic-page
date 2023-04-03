@@ -22,7 +22,7 @@ export const  NavBar = () => {
       </div>
 
       <Navbar.Collapse className='navCollapse'>
-        <Dropdown label="Servicios" inline={true} className="menuItem1 navbar-menu menuDrop">
+        <Dropdown label="Servicios" inline={true} className="menuItem1 navbar-menu menuDrop" dismissOnClick={true} arrowIcon={false}>
           <Dropdown.Item  className="navbar-menu-item">
             <Link to={"/servicios/Ia"}><span className='navbar-servicios'><p>Servicios de IA</p></span></Link>
           </Dropdown.Item>
@@ -34,17 +34,17 @@ export const  NavBar = () => {
           </Dropdown.Item>
         </Dropdown> 
 
-        <Dropdown label="Productos" inline={true} className="menuItem1 navbar-menu menuDrop">
-
-          <Dropdown label="Productos IoT" placement='right-start' inline={true} className="navbar-menu submenuDrop">
-            <Dropdown.Item className="navbar-menu-item">
+        <Dropdown label="Productos" inline={true} className="menuItem1 navbar-menu menuDrop" dismissOnClick={true}  arrowIcon={false} 
+      active={true}>
+          <Dropdown label="Productos IoT" placement='right-start' inline={true} className="navbar-menu submenuDrop" dismissOnClick={true}>
+            <Dropdown.Item className="navbar-menu-item"> 
               <a href="https://www.noisen.com.ar/" target="_blank" rel="noreferrer">
                 <span className='navItemCollapse'><p>Noisen</p></span>
               </a>
             </Dropdown.Item>
           </Dropdown>
 
-          <Dropdown label="Productos 3D" placement='right-start' inline={true} className="navbar-menu submenuDrop">
+          <Dropdown label="Productos 3D" placement='right-start' inline={true} className="navbar-menu submenuDrop" dismissOnClick={true}>
             <Dropdown.Item className="navbar-menu-item">
               <Link to={"/products/1"}><span className='navItemCollapse'><p>Kubox</p></span></Link>
             </Dropdown.Item>
