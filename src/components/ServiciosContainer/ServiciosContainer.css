@@ -1,0 +1,72 @@
+.sobreTitle {
+  /* Subtitulo Nosotros */
+
+  width: 421px;
+  height: 62px;
+  /* Desktop/Desktop H2 Bold */
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  /* or 129% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  /* Escala de grises/Negro */
+
+  color: #1a1a1a;
+
+  /* Inside auto layout */
+    margin-bottom: 2.5em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.sobreP {
+  /* Subtitulo Nosotros */
+
+  width: 421px;
+  height: 288px;
+
+  /* Desktop/Desktop Parrafo */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  /* Escala de grises/Gray 700 */
+
+  color: #808080;
+
+  /* Inside auto layout */
+    margin-top: 1.5em;
+}
+
+.sobrecontainer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.sobreimg {
+  max-width: max-content;
+  max-height: max-content;
+  border-radius: 16px;
+  margin: auto;
+}
+
+.sobreinfocontainer {
+  padding-left: 80px;
+}

@@ -4,6 +4,8 @@ import { GiPlainCircle } from "react-icons/gi";
 import "./CasosExito.css";
 import { BannerTitles } from "../BannerTitles/BannerTitles";
 import noisen from "../assets/noisen.svg";
+import aerogeneradores from "../assets/aerogeneradores.svg";
+import impresora from "../assets/impresora.svg";
 import { useSearchParams } from "react-router-dom";
 
 export const CasosExito = () => {
@@ -20,7 +22,7 @@ export const CasosExito = () => {
   const third = "Fabricación de impresoras 3D."
   const thirdp1 = "Comercializamos distintos modelos de impresoras 3D para manufactura o prototipado. Además brindamos servicios de impresión con materiales especiales: ABS, Nylon, Hips, Flex y PETG."
   const thirdp2 = "Contamos con servicios de puesta en marcha y mantenimiento para garantizar una experiencia de impresión 3D sin problemas.  "
-  const third3 = ""
+  const thirdp3 = ""
  
   const [title, setTitle] = useState(noisenTitle)
   const [p1, setP1] = useState(noisenP1)
@@ -47,7 +49,7 @@ export const CasosExito = () => {
     setP1(secondp1)
     setP2(secondp2)
     setP3(secondp3)
-    setImg(second)
+    setImg(aerogeneradores)
     setFirstActive(false)
     setSecondActive(true)
     setThirdActive(false)
@@ -58,7 +60,7 @@ export const CasosExito = () => {
     setP1(thirdp1)
     setP2(thirdp2)
     setP3("")
-    setImg(third)
+    setImg(impresora)
     setFirstActive(false)
     setSecondActive(false)
     setThirdActive(true)
