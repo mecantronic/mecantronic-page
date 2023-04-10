@@ -17,13 +17,15 @@ export const Form = ({ onClick }) => {
       name: "",
       email: "",
       ciudad: "",
-      consulta: "servicios",
+      consulta: "",
       mensaje: "",
     },
   });
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+
+  const [consulta, setConsulta] = useState("");
   const [message, setMessage] = useState("");
 
   const form = useRef();
@@ -33,8 +35,8 @@ export const Form = ({ onClick }) => {
 
     emailjs
       .sendForm(
-        "service_qlygli9",
-        "template_wibv7zj",
+        'gmail',
+        'form',
         e.target,
         "BhpwiUv3mNWqRrLhb"
       )
@@ -128,13 +130,14 @@ export const Form = ({ onClick }) => {
             </div>
             <div className="labelFormContacto">
               <label>Consulta</label>
-              <select {...register("consulta")}>
-                <option value="servicios">Servicios</option>
-                <option value="productos">Productos?</option>
-                <option value="a">a</option>
-                <option value="b">b</option>
-                <option value="c">c</option>
-                <option value="d">d</option>
+              <select {...register("consulta")} name="consulta" value={consulta}
+                onChange={(e) => setConsulta(e.target.value)}>
+                <option value="servicios">Servicio</option>
+                <option value="Servicios-IOT">Servicios IOT</option>
+                <option value="Servicios-IA">Servicios IA</option>
+                <option value="Servicios-3D">Servicios 3D</option>
+                <option value="Impresora-Kubox">Impresora Kubox</option>
+                <option value="Impresora-Koron">Impresora Koron</option>
               </select>
             </div>
             <div className="labelFormContacto">
