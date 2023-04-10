@@ -17,7 +17,7 @@ const servicios = [
     sobreTitle:"IoT transforma objetos cotidianos en una red inteligente de posibilidades.",
     sobreParagraph: "Desarrollamos e implementamos servicios y productos que impliquen el control de dispositivos o el relevamiento de datos de campo (ruido, temperatura, profundidad de napas, etc.) con la posibilidad de visualizar y controlar el sistema a través de un dashboard interactivo. Te brindamos información para el monitoreo y control de cualquier proceso de forma local o remota. El proceso puede o no, ser industrial. Solo deberías saber en detalle qué datos necesitas, con qué frecuencia y de qué forma queres visualizarlos.",
     sobreImg:"SobreIOT.svg",
-    exitoImg:"../assets/ExitoIOT.svg",
+    exitoImg:"ExitoIOT.svg",
     empresaImg: ["../assets/empresas/Velos.svg", "../assets/empresas/Molinari.svg", "../assets/empresas/Moltech.svg"]
 },  
 {
@@ -38,7 +38,7 @@ const servicios = [
     sobreTitle:"AI: Transformando el futuro de la innovación y los negocios.",
     sobreParagraph: "Ayudamos a identificar y detectar de manera automática cualquier tipo de evento. Utilizamos algoritmos de Aprendizaje Automático para detectar objetos, patrones y/o eventos, lo que permite tomar decisiones más rápidas e informadas en tiempo real. Con nuestras soluciones basadas en Inteligencia Artificial, se puede supervisar instalaciones y activos de manera más eficiente y precisa, lo que permite ahorrar tiempo y dinero en el mediano y largo plazo. Ya sea que se necesite supervisar una planta de producción, controlar la seguridad en una tienda minorista o garantizar la calidad de productos, nuestro equipo especializado en Computer Vision puede diseñar sistemas a medida de las necesidades del cliente para obtener una visión completa de operaciones.",
     sobreImg:"SobreIA.svg",
-    exitoImg:"../assets/ExitoIA.svg",
+    exitoImg:"ExitoIA.svg",
     empresaImg: ["../assets/empresas/uali.svg", "../assets/empresas/infinem.svg"]
 },   
 {
@@ -59,7 +59,7 @@ const servicios = [
     sobreTitle:"La impresión 3D es la clave para la innovación y el éxito empresarial en la era digital.",
     sobreParagraph: " Ofrecemos servicios de impresión 3D para concretar tus ideas. El prototipado rápido permite realizar pruebas de concepto o mejorar tu diseño antes de pasar a la producción en serie. La impresión con materiales técnicos (ABS, Nylon, PETG, Flex y Hips) permite la fabricación de productos definitivos de solicitación térmica y mecánica relativamente baja, o que se adapten a necesidades particulares. La impresión en resina biocompatible permite la interacción de productos impresos con el cuerpo humano. La tecnología de escaneo 3D permite la reproducción digital de un objeto físico para poder intervenir y, eventualmente, reimprimirlo.",
     sobreImg:"../assets/Impresion.svg",
-    exitoImg:"../assets/ExitoPrinter.svg",
+    exitoImg:"ExitoPrinter.svg",
     empresaImg: ["../assets/empresas/ASP.svg", "../assets/empresas/infinem.svg", "../assets/empresas/L184.svg"]
 },   
 ]

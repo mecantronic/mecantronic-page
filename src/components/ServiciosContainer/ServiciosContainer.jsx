@@ -38,8 +38,7 @@ export const ServiciosContainer = ({ serviceToShow }) => {
             <Accordion product={serviceToShow["accordion"]} />
           </div>
           <div className="w-1/2">
-          <img  className="sobreimg" src={`../assets/${serviceToShow["sobreImg"]}`} alt="" />
-          {/* <img  className="sobreimg" src={serviceToShow["exitoImg"]} alt="" /> */}
+          <img  className="sobreimg" src={`../assets/${serviceToShow["exitoImg"]}`} alt="" />
           </div>
 
           <div className="titlesMobile">
@@ -54,11 +53,10 @@ export const ServiciosContainer = ({ serviceToShow }) => {
               title={"Socios estratégicos"}
             />
             <div className="clientes">
-                <img src={velos} alt="" />
-                <img src={velos} alt="" />
-                <img src={velos} alt="" />
               {serviceToShow["empresaImg"].map((empresa)=>{
-                <img  src={empresa} ></img>
+                return (
+                  <img src={empresa} alt="" />
+                )
               })}
             </div>
           </div>

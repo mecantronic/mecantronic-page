@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useState } from "react";
 import { Servicio3D } from "./Servicio3D";
 import { ServicioIA } from "./ServicioIA";
@@ -13,6 +14,7 @@ import { ServiciosContainer } from "../components/ServiciosContainer/ServiciosCo
 export const Servicios = () => {
   const {servicio} =useParams();
 
+
   const serviceToShow = servicios[parseInt(servicio)-1]; 
   const secondNav = [{ texto: "Sobre el servicio", link: "sobreServicio"},
   {texto: "Casos de éxito", link: "casosDeExito"} , {texto: "Socios estratégicos", link: "sociosEstrategicos"}  ]
@@ -21,6 +23,7 @@ export const Servicios = () => {
   const [iot, setIot] = useState(true);
   const [ia, setIa] = useState(false);
   const [impresoras, setImpresoras] = useState(false);
+  console.log("serviceToShow",serviceToShow)
 
   return (
     <>
