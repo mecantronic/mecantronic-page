@@ -167,15 +167,15 @@ export const Slider = ({elementos, type}) => {
                     },
                     768: {
                         slidesPerView: 2,
-                        spaceBetween: 20,
+                        spaceBetween: 10,
                     },
                     1024: {
-                        slidesPerView: 3,
-                        spaceBetween: 20,
+                        slidesPerView: 2,
+                        spaceBetween: 10,
                     },
                     1400: {
-                        slidesPerView: 4,
-                        spaceBetween: 25,
+                        slidesPerView: 3,
+                        spaceBetween: 20,
                     },
                     }}                    
                     modules={[Pagination , Navigation]}

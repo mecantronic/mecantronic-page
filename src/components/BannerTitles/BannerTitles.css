@@ -1,4 +1,3 @@
-
 .bannertitles-titles {
     padding-top: 6%;
     padding-bottom: 3%;
@@ -7,6 +6,9 @@
     margin: auto;
   }
   
+  #equipo .bannertitles-titles{
+    max-width: 870px;
+  }
   .bannertitles-subtitle {  
     justify-content: center;  
     letter-spacing: 0.06em;

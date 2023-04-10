@@ -87,7 +87,7 @@
         justify-content: space-around;
         flex-direction: row;
         border-radius: 40px;
-        padding: 42px 60px;
+        padding: 34px 60px;
         gap: 40px;
         backdrop-filter: blur(20px);
     }

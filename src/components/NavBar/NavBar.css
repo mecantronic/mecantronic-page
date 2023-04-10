@@ -22,7 +22,6 @@
   margin: auto;
   padding-left: 0em;
   padding-right: 1em;
-  margin-top: 0.5em;
   flex-wrap: wrap;
 }
 
@@ -50,9 +49,15 @@
 }
 .navCollapse > ul {
   justify-content: space-between;
+  align-items: baseline;
 }
 .navCollapse > ul > li{ 
   width: 190px;
+}
+
+.menuItem1{
+  margin-left:0 ;
+
 }
 
 /* menu primer nivel */
@@ -121,7 +126,7 @@
 
 /* BOTON CONTACT */
 .contact-btn{
-  padding: 10px 30px;
+  padding: 14px 30px;
   border-radius: 40px;
   font-weight: 700;
   font-size: 15px;

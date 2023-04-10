@@ -1,5 +1,5 @@
 .about{
-    margin-top: 40px;
+    margin-top: -115px;
     margin-bottom: 230px;  
     background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);  
 }
@@ -116,7 +116,7 @@
     }
     .about img.img3{
         width: 515px;
-        height: 380px;
+        height: 442px;
         
     }
     .about .textAbout .title{
