@@ -7,18 +7,18 @@ import { BannerProductsStrength } from "../BannerProductsStrength/BannerProducts
 import { Slider } from "../Slider/Slider";
 import { BannerEmpresas } from "../BannerEmpresas/BannerEmpresas";
 import { BannerTitles } from "../BannerTitles/BannerTitles";
-
+import velos from "../assets/empresas/Velos.svg"
 export const ServiciosContainer = ({ serviceToShow }) => {
   return (
     <>
       <div className="productContainer">
-        <div>
+        <div className="mb-20" id="sobreServicio">
           <BannerTitles
             subtitle={"SOBRE EL SERVICIO"}
             title={serviceToShow["sobrePrincipal"]}
           />
           <div className="flex sobrecontainer">
-          <div className="w-1/2">
+          <div className="w-1/2 pl-20">
             <img  className="sobreimg" src={`../assets/${serviceToShow["sobreImg"]}`} alt="" />
           </div>
           <div className="w-1/2 sobreinfocontainer">
@@ -29,31 +29,36 @@ export const ServiciosContainer = ({ serviceToShow }) => {
          
         </div>
 
-        <div className="productDetails" id="sobreProducto">
-          <div className="accordionContainer">
+        <div className="productDetails pt-20" id="casosDeExito">
+          <div className="accordionContainer pl-20">
             <div className="titles">
               <p className="subtitle">{serviceToShow["subtitle"]}</p>
               <p className="detailsTitle">{serviceToShow["detailsTitle"]}</p>
             </div>
             <Accordion product={serviceToShow["accordion"]} />
           </div>
-
-          <img src={`../assets/${serviceToShow["exitoImg"]}`} alt="ia" />
+          <div className="w-1/2">
+          <img  className="sobreimg" src={`../assets/${serviceToShow["sobreImg"]}`} alt="" />
+          {/* <img  className="sobreimg" src={serviceToShow["exitoImg"]} alt="" /> */}
+          </div>
 
           <div className="titlesMobile">
             <p className="subtitle">{serviceToShow["subtitle"]}</p>
             <p className="detailsTitle">{serviceToShow["detailsTitle"]}</p>
           </div>
         </div>
-        <div id="bannerEmpresas">
-          <div className="banner-empresas mb-20">
+        <div id="sociosEstrategicos">
+          <div className="banner-empresas">
             <BannerTitles
               subtitle={"TRABAJO EN EQUIPO"}
               title={"Socios estratégicos"}
             />
             <div className="clientes">
+                <img src={velos} alt="" />
+                <img src={velos} alt="" />
+                <img src={velos} alt="" />
               {serviceToShow["empresaImg"].map((empresa)=>{
-                <img  src={`../assets/empresas/${empresa}`} ></img>
+                <img  src={empresa} ></img>
               })}
             </div>
           </div>

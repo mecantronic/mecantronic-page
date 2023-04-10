@@ -24,10 +24,10 @@ export const  NavBar = () => {
       <Navbar.Collapse className='navCollapse'>
         <Dropdown label="Servicios" inline={true} className="menuItem1 navbar-menu menuDrop" dismissOnClick={true} arrowIcon={false}>
           <Dropdown.Item  className="navbar-menu-item">
-            <Link to={"/servicios/1"}><span className='navbar-servicios'><p>Servicios de IA</p></span></Link>
+            <Link to={"/servicios/2"}><span className='navbar-servicios'><p>Servicios de IA</p></span></Link>
           </Dropdown.Item>
           <Dropdown.Item  className="navbar-menu-item">
-            <Link to={"/servicios/2"}><span className='navbar-servicios'><p>Servicios de IoT</p></span></Link>
+            <Link to={"/servicios/1"}><span className='navbar-servicios'><p>Servicios de IoT</p></span></Link>
           </Dropdown.Item>
           <Dropdown.Item  className="navbar-menu-item">
             <Link to={"/servicios/3"}><span className='navbar-servicios'><p>Servicios de 3D</p></span></Link>
