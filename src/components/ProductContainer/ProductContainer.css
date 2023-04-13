@@ -125,6 +125,15 @@
     }
 }
 
+@media (min-width:1600px){
+    .productContainer .detailsTitle {
+        font-size: 22px;
+    }
+    .productContainer .subtitle{
+        font-size: 20px;
+    }
+
+}
 
 
 @media (min-width: 1200px) {

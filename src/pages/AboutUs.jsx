@@ -19,7 +19,7 @@ export const AboutUs = () => {
   },100)
 
   return (
-    <>
+    <span id="AboutUs">
       <Banner img={"banner-about.png"} bg1={"bg-about-1.png"} info2={AboutInfo[0]["bannerInfo1"]} />
       <SecondNavbar data={secondNav} />
       <span id="nosotros">
@@ -31,8 +31,7 @@ export const AboutUs = () => {
         <Slider elementos={AboutInfo} type="team"/>      
         <Slider elementos={AboutInfo} type="gallery"/>
         <BannerMoreInfo/>
-      </span>
-      
-    </>
+      </span>      
+    </span>  
   )
 }

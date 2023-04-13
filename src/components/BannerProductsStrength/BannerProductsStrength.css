@@ -59,3 +59,23 @@
     border: none;
   }
 }
+
+@media (max-width: 1500px) {
+  .bannerProductsStrength .strengths-logo{
+    height: 100px;
+    width: 100px;
+  }
+  .bannerProductsStrength .strengths-card{
+    height: 300px;
+    width: 300px;
+  }
+  .strengths{
+    max-width: 1200px;
+  }
+  .bannerProductsStrength .strengths-card-title{
+    font-size: 26px;
+  }
+  .bannerProductsStrength .strengths-card-paragraph{
+    font-size: 20px;
+  }
+}

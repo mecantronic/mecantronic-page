@@ -88,3 +88,9 @@
     letter-spacing: 0.01em;
     color: #DA1C2B;
 }
+
+@media(min-width:1500px){
+    .datasheet .bannertitles-subtitle, .datasheet p.bannertitles-title{
+        width: auto;
+    }
+}

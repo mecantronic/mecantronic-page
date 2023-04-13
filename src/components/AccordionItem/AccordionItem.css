@@ -44,3 +44,15 @@
     color: #808080;
     margin-left: 40px;
 }
+@media(min-width:1600px){
+    .accordionTitle{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .accordionTitle p {
+        font-size: 20px;
+    }
+    .accordionDescription .detailsText{
+        font-size: 18px;
+    }
+}

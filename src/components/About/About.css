@@ -172,5 +172,38 @@
         max-width: 700px;
         height: 600px;
     }
+    .about .textAbout .text{
+        font-size: 20px;
+    }
+    .about .textAbout .link p{
+        font-size: 20px;
+    }
+
 }
 
+@media (min-width: 1600px) {
+    .aboutSection{
+        margin: 15vh 10vw;
+    }
+    .about .textAbout .title{
+        font-size: 28px;
+    }
+    .about img.img1{
+        height: 625px;
+        width: 620px;
+    }
+    .about img.img2{
+        height: 400px;
+        width: 620px;
+    }
+    .about img.img3{
+        height: 530px;
+        width: 620px;
+    }
+    .about .textAbout .text{
+        font-size: 20px;
+    }
+    .about .textAbout .link p{
+        font-size: 20px;
+    }
+}

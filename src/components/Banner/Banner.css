@@ -6,6 +6,7 @@
   /*margin-bottom: 50px;*/
   height: 700px;
 }
+
 .banner-container{   
   z-index: 0;
 }
@@ -22,6 +23,18 @@
   display: flex;
   justify-content: flex-end;
 }
+
+/*
+.banner .transform-matrix{
+  transform: translate()
+  animation: matrixOnLoad 5s ease-out 0.5s 1;
+}
+@keyframes matrixOnLoad {
+  0%   {transform: none}
+  50% {transform: matrix(-1, -0.02, -0.02, 1, 0, 0);}
+  100% {transform: translate();}
+}
+*/
 .banner img{
   position: absolute;
   height: 660px;
@@ -175,4 +188,24 @@
     display: inline;
     margin-right: 20px;
   }
+}
+@media (min-width:1500px){
+  .banner-contact-btn .contact-btn{
+    font-size: 20px;
+    height: 55px;
+    width: 170px;
+  }
+}
+@media (min-width: 1800px){
+  .banner{
+    height: 90vh;
+    justify-content: center;
+  }
+  .banner img{
+    height: 1000px;
+  }
+  .banner .bg1{
+    top: 40vh;
+  }
+
 }

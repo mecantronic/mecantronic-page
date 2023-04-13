@@ -137,7 +137,12 @@
         margin-top: 15vh;
     }
 }
+@media (min-width: 1500px){
+    #modalFormConteiner .formularioContacto .labelFormContacto label{
+        font-size: 21px;
+    }
 
+}
 /*
 
 

@@ -147,3 +147,25 @@
         margin: auto;
     }
   }
+  @media (min-width: 1500px) {    
+    .footer span{
+        width: 100%;
+        max-width: 1300px;
+        margin: auto;
+    }
+    .footer .footerTitle, .footer .socialMedia .footerTitle{
+        margin-bottom: 19px;    
+    }
+    .footer .socialMedia p, .footer li{
+        font-size: 18px;
+    }
+    .footer .socialMedia .footerSubTitle{
+        font-size: 18px;
+    }
+    .footer .copyrights{
+        font-size: 16px;
+    }
+    .footer .icons img{
+        width: 37px;
+    }
+  }

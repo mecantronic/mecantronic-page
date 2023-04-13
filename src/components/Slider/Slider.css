@@ -49,8 +49,13 @@
     display: block;
     background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);
 }
-#swiperTeam{
-    margin: 80px 10px 110px 10px;
+#swiperTeam{    
+    margin: 80px 10px 110px 10px;    
+}
+@media (min-width: 1800px){
+    #swiperTeam{
+        margin: 10vh 4vw 20vh;
+    }
 }
 
 #swiperGallery .gallery{

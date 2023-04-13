@@ -21,12 +21,12 @@ export const Product = () => {
     root.classList.add("backgroundImage", "bgImageProducts");
   },100)
 
-  return (
-    <>
+  return (    
+    <span id="Product">
       <Banner info1={productToShow["title"]} info2={productToShow["titleBanner"]} info3={""} img={productToShow["imgHero"]}/>  
       <SecondNavbar data={secondNav} />
       <ProductContainer productToShow={productToShow}/>   
-      <BannerMoreInfo/>
-    </>
+      <BannerMoreInfo/>          
+    </span>
   )
 }

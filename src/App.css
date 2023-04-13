@@ -22,6 +22,20 @@
   background-size: 1700px;
 }
 
+/* ANIMACIONES DE CAMBIO DE PAGINA */
+#AboutUs , #Product{
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInOnLoad 1s ease-in  1;
+}
+
+@keyframes fadeInOnLoad {
+  0%   {opacity: 0;
+    transform: translateY(-50%);}
+  100% {opacity: 1;
+    transform: translateY(50%);}
+}
+
 .App {
   text-align: center;
 }
