@@ -177,6 +177,10 @@ export const Slider = ({elementos, type}) => {
                         slidesPerView: 3,
                         spaceBetween: 20,
                     },
+                    2200: {
+                        slidesPerView:4,
+                        spaceBetween: 20,
+                    },
                     }}                    
                     modules={[Pagination , Navigation]}
                     className="mySwiper"

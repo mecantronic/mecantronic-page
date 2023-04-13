@@ -126,6 +126,10 @@
 }
 
 @media (min-width:1600px){
+    .productContainer .productDetails{
+        max-width: 2000px;
+        margin: auto;
+    }
     .productContainer .detailsTitle {
         font-size: 22px;
     }

@@ -207,5 +207,12 @@
   .banner .bg1{
     top: 40vh;
   }
+}
 
+@media (max-width: 2500px){
+  .banner .banner-container{
+    margin: 0;
+    padding-left: 580px;  
+    margin-top: 350px;
+  }
 }
