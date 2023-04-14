@@ -60,7 +60,7 @@
   }
 }
 
-@media (max-width: 1500px) {
+@media (min-width: 1500px) {
   .bannerProductsStrength .strengths-logo{
     height: 100px;
     width: 100px;

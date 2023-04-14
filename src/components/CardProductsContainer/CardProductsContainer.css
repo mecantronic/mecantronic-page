@@ -41,11 +41,22 @@
     }    
     .cardProducts .CardProductCompare{
         width: 45%;
-        max-width: 750px;
+        max-width: 500px;
         height: 1430px;
         justify-content: space-between;
     }
     .cardProducts .productoActual{
         display: flex;
     }    
+}
+
+
+@media (min-width: 1800px){
+    .cardProducts{
+        gap: 10%;
+    }
+    .cardProducts .CardProductCompare{
+        max-width: 750px;
+        height: 1360px;
+    }
 }

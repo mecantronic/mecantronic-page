@@ -78,7 +78,7 @@ const products = [
             {title:"Jugá, creá y divertite.", description:"Excelente opción para emprendimientos personales e instituciones educativas."},
             {title:"Probá distintos materiales.", description:"Apta para imprimir con todas las variantes de PLA."}
         ],
-        imgHero: "products/koron/portada.png",
+        imgHero: "products/Koron/portada.png",
         img:[
             {src:"1"},
             {src:"2"},
@@ -130,71 +130,6 @@ const products = [
                 highlight:[
                     {it:"Ideal para los primeros pasos."} , {it:" Mantenimiento mínimo y simple."} , {it:"Software intuitivo." }
                 ]
-            },            
-        ]
-    },    
-    {
-        id:3,
-        titleBanner:"Pendiente",
-        title: "Pendiente",
-        subtitle: "Pendiente",
-        detailsTitle: "Pendiente",
-        detailsText: "Pendiente", 
-        accordion: [
-            {title:"Pendiente", description:"Pendiente"},
-            {title:"Pendiente", description:"Pendiente"},
-            {title:"Pendiente", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
-            {title:"Pendiente", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
-            {title:"Pendiente", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
-            {title:"Pendiente", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"},
-            {title:"Pendiente", description:"FALTA DESCCRIPCCCCCIOOOONANOSONOANS"}
-        ],
-        imgHero: "products/koron/portada.png",
-        img:[
-            {src:"1"},
-            {src:"2"},
-            {src:"3"}
-        ],
-        datasheet: [
-            {specification:"Pendiente"},
-            {specification:"Pendiente"},
-            {specification:"Pendiente"},
-            {specification:"Pendiente"},
-            {specification:"Pendiente"},
-            {specification:"Pendiente"},
-            {specification:"Pendiente"}
-        ],
-        subtitleDatasheet: "Pendiente",
-        strengths: [
-            {
-                title: "Pendiente",
-                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
-            },    
-            {
-                title: "Pendiente",
-                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
-            },    
-            {
-                title: "Pendiente",
-                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
-            },   
-            {
-                title: "Pendiente",
-                strength:"Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem."
-            }
-        ],
-        highlights: [
-            {
-                subtitle: "Pendiente", 
-                highlight:"Pendiente" 
-            },
-            {
-                subtitle: "Pendiente", 
-                highlight:"Pendiente",
-            },
-            {
-                subtitle: "Pendiente", 
-                highlight:"Pendiente" 
             },            
         ]
     }

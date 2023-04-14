@@ -8,7 +8,7 @@ export const SecondNavbar = ({data})=>{
         let secondNav = document.getElementById("secondNav");
         let sticky = secondNav.offsetTop;  
         window.onscroll = ()=>{      
-            if (window.pageYOffset*1.75>= sticky) {
+            if (window.pageYOffset*2.4>= sticky) {
                 secondNav.classList.add("sticky")
             } else {
                 secondNav.classList.remove("sticky");
