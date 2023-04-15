@@ -1,25 +1,38 @@
-
-#swiperProductsCompare .CardProductCompare{
-    max-width: 750px;
-    margin: auto;
-    height: auto;
+/* GENERAL */
+.swiper-pagination-bullet-active { 
+    background-color: #af0a0d !important; 
+} 
+.swiper-button-next:after , .swiper-button-prev:after{
+    font-size: 30px !important;
 }
-#swiperProductsCompare .CardProductCompare .swiper-wrapper{
-    justify-content: space-around !important;
+.swiper-button-prev{
+    left: -10px;
+}
+.swiper-button-next{
+    left: -10px;
+}
+.slide{
+    overflow: hidden;
+    text-align: center;
+    background-color: #FCFCFC;
+    box-shadow: 0px 16px 40px rgba(239, 239, 239, 0.25);
+    border-radius: 40px;
 }
 
 
 
-@media (min-width: 2000px) {
-    #swiperProductsCompare{
-        margin: 0 295px;
-        padding: 0 50px;
-    }
-    #swiperProductsCompare .products{
-    }
-    
+/* TEAM */
+#swiperTeam{    
+    margin: 80px 110px 110px 110px;
+    padding: 30px;    
 }
-
+#swiperTeam .swiper-pagination-horizontal { 
+    top: 380px;
+}
+#equipo{
+    display: block;
+    background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);
+}
 #swiperTeam .swiper-button-next, #swiperProductsCompare .swiper-button-next, #swiperTestimonios .swiper-button-next ,#swiperGallery .swiper-button-next ,#swiperTeam .swiperImgProduct, #swiperImgProduct .swiper-button-next{
     right: var(--swiper-navigation-sides-offset,1px);
     color: #848484;
@@ -28,36 +41,12 @@
     left: var(--swiper-navigation-sides-offset,1px);
     color: #848484;
 }
-.swiper-button-next:after , .swiper-button-prev:after{
-    font-size: 30px !important;
-}
 
-
-/* products container */
-.productsContainer{
-    margin-top: -100px;
-}
-.productsContainer .products{
-    width: 655px;
-    border: 1px solid #D4D4D4;;
-}
-
-#swiperTestimonios{
-
-}
-#equipo{
-    display: block;
-    background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);
-}
-#swiperTeam{    
-    margin: 80px 10px 110px 10px;    
-}
-@media (min-width: 1800px){
-    #swiperTeam{
-        margin: 10vh 4vw 20vh;
-    }
-}
-
+/* GALLERY */
+#swiperGallery{ 
+    padding: 50px 30px;
+    
+} 
 #swiperGallery .gallery{
     width: 800px;
 }
@@ -69,21 +58,56 @@
     width: 575px;    
     object-fit: cover;
 }
+#swiperGallery .swiper-pagination-horizontal { 
+    top: 450px;
+}
+#swiperGallery .swiper-button-prev , #swiperGallery .swiper-button-next{
+    display: none;
+}
+/* OPCION DE GALERIA CON MARGENES */
+/*
+#swiperGallery .swiper-button-prev , #swiperGallery .swiper-button-next{
+    background: #eff0f1;
+    width: 50px;
+    height: 100%;
+    top: 23px;
+}
+#swiperGallery .swiper-button-prev{
+    left: -5px;
+}
+#swiperGallery .swiper-button-next{
+    right: -5px;
+}
+*/
 
+/* IMAGE PRODUCT */
 #swiperImgProduct{
     max-width: 90vw;
     height: 90vw;
 }
-
-.slide{
-    overflow: hidden;
-    text-align: center;
-    background-color: #FCFCFC;
-    box-shadow: 0px 16px 40px rgba(239, 239, 239, 0.25);
-    border-radius: 40px;
+.productsContainer{
+    margin-top: -100px;
+}
+.productsContainer .products{
+    width: 655px;
+    border: 1px solid #D4D4D4;;
+}
+#swiperProductsCompare .CardProductCompare{
+    max-width: 750px;
+    margin: auto;
+    height: auto;
+}
+#swiperProductsCompare .CardProductCompare .swiper-wrapper{
+    justify-content: space-around !important;
 }
 
-/* testimonios container */
+#swiperImgProduct img{
+    max-height: 400px;
+    max-width: 425px;
+    margin: auto;
+}
+
+/* TESTIMONIOS */
 .testimoniosContainer .sliderTestimonios{
     background-color:transparent;
     box-shadow: 0 0 0 rgba(255, 255, 255, 0);
@@ -118,6 +142,7 @@
         height: 40vw;
     }
 }
+
 @media (max-width: 1024px) {
     #swiperGallery  img{
         padding: 15px;
@@ -127,4 +152,13 @@
         width: 575px;    
         object-fit: cover;
     }
+}
+@media (min-width: 2000px) {
+    #swiperProductsCompare{
+        margin: 0 295px;
+        padding: 0 50px;
+    }
+    #swiperProductsCompare .products{
+    }
+    
 }

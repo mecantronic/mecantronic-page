@@ -20,7 +20,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 30px;
     display: flex;
     align-items: center;
@@ -48,9 +48,6 @@
     .accordionTitle{
         font-size: 20px;
         font-weight: 500;
-    }
-    .accordionTitle p {
-        font-size: 20px;
     }
     .accordionDescription .detailsText{
         font-size: 18px;

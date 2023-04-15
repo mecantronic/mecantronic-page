@@ -1,4 +1,5 @@
 .whatsAppBtn {
+    opacity: 0;
 }
 .whatsAppBtn img{
     position: sticky;

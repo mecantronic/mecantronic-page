@@ -78,13 +78,6 @@ const AboutInfo = [
                 img:"Emiliano Colavitta"
             },   
             {
-                name: "FOTO =>Santiago Martinez",
-                job:"MLOps - ML Engineer",
-                linkedin:"https://www.linkedin.com/in/santiago-a-martinez/",
-                email:"smartinez@mecantronic.com.ar",
-                img:""
-            },   
-            {
                 name: "Paula Ortega Riera",
                 job:"PM - ML Engineer",
                 linkedin:"https://www.linkedin.com/in/paulaortegariera/",

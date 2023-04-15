@@ -19,8 +19,8 @@
     border: gray 1px solid;
     border-radius: 5px;
     margin: 20px;
-    margin-left: 88vw;
     position: absolute;
+    right: 0;
 }
 .contactContainer button:hover{
     cursor: pointer;
@@ -175,6 +175,15 @@
     border: none;
     border-bottom: 1px solid #000000;
     background-color: transparent;
+}
+.formularioContacto .labelFormContacto input{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    color: #B3B3B3;
 }
 ::placeholder{
     font-family: 'Open Sans';

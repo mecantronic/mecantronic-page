@@ -124,11 +124,11 @@ export const Slider = ({elementos, type}) => {
                 spaceBetween: 20,
             },
             1024: {
-                slidesPerView: 5,
+                slidesPerView: 4,
                 spaceBetween: 30,
             },
             1400: {
-                slidesPerView: 6,
+                slidesPerView: 5,
                 spaceBetween: 30,
             },
             }}                    

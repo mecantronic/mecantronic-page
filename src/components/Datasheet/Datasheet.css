@@ -16,6 +16,7 @@
     text-transform: uppercase;    
     color: #FF5B68;
     text-align: center;
+    width: 100%;
 }
 .datasheet p.bannertitles-title {
     font-family: 'Ubuntu';
@@ -71,14 +72,14 @@
 
     width: 690px;
 }
-
-.datasheet button{
-    border-radius: 30px;
-    border: 1px solid #DA1C2B;
-    padding: 13px 48px;
-    margin: auto;
+.datasheet button{    
     margin-top: 80px;
-    margin-bottom: 90px;    
+    box-sizing: border-box;
+    padding: 24px 48px;
+    width: 167px;
+    height: 48px;
+    border: 1px solid #DA1C2B;
+    border-radius: 40px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -87,6 +88,18 @@
     text-align: center;
     letter-spacing: 0.01em;
     color: #DA1C2B;
+    background: none;
+    display: flex;
+    align-items: center;
+}
+
+.datasheet button:hover{
+    box-sizing: border-box;
+    padding: 24px 48px;
+    background: #FFF4F5;
+}
+.datasheet button:active{
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media(min-width:1500px){
