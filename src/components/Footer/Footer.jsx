@@ -61,7 +61,7 @@ export const Footer = ()=>{
             </span>
             <span className="copyrights">
                 <p>Copyright 2023 Todos los derechos reservados</p>
-                <p>©Mec&Tronic 2023</p>
+                <p>©Mecantronic 2023</p>
             </span>
         </div>
     </>

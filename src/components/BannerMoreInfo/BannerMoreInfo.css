@@ -2,6 +2,21 @@
     margin: auto;
     padding: 80px 16px;
 }
+.bannerMoreInfo span{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px; 
+    background-image: url("../../../public/assets/bg-banner-more-info.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 116px;
+    margin-top: -116px;
+    opacity: 0.5;
+
+}
 .bannerMoreInfo div{
     margin: auto;
     display: flex;
@@ -9,11 +24,10 @@
     align-items: center;
     padding: 32px 16px;
     gap: 24px;
-    background: #4E4E4E;
     border-radius: 40px;  
-    background-image: url("../../../public/assets/bg-banner-more-info.png");
-    background-repeat: no-repeat;
     background-color: #9B0800;
+   /* background-image: url("../../../public/assets/bg-banner-more-info.png"); */
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 116px;
@@ -44,6 +58,7 @@
     border-radius: 40px;
     line-height: 20px;
     color: #E4E4E4;
+    z-index: 10;
 }
 .bannerMoreInfo button:hover{
     background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #BA000E 77.58%);
@@ -85,6 +100,7 @@
     }
 }
 
+
 @media (min-width: 800px) {
     .bannerMoreInfo div{
         max-width: 868px;
@@ -94,14 +110,21 @@
         border-radius: 40px;
         padding: 34px 60px;
         gap: 40px;
-        backdrop-filter: blur(20px);
+    }
+    .bannerMoreInfo span{
+        max-width: 868px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        border-radius: 40px;
+
     }
 }
 @media (min-width: 1800px) {
     .bannerMoreInfo{
         margin: 20vh;
     }
-    .bannerMoreInfo div{
+    .bannerMoreInfo div ,  .bannerMoreInfo span{
         max-width: 1200px;
     }
     .bannerMoreInfo button{

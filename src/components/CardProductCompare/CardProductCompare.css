@@ -20,7 +20,8 @@
     height: 364px;
 }
 .CardProductCompare .details{
-    height: 780px;
+    height: 880px;
+    padding-top: 100px;
 }
 .CardProductCompare p{
     font-family: 'Open Sans';

@@ -28,16 +28,17 @@
     text-align: center;
     color: #1A1A1A;
 }
-.partner .job{    
-    margin-top: 9px;
-    letter-spacing: 0.06em;
-    margin: 5px;
+.partner .job{
+    margin: 5px;    
+    margin-top: -5px;
+    color: #808080;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 18px;
     text-align: center;
+    letter-spacing: 0.01em;
     color: #808080;
 }
 
@@ -81,12 +82,12 @@
     .partner .name{
         font-size: 20px; 
         line-height: 30px;
-        margin-top: 48px;
+        margin-top: 32px;
     }
     .partner .job{
-        font-size: 20px;
+        /*  font-size: 20px; */
         line-height: 28px;
-        margin-top: 9px;
+        margin-top: -5px;
     }
     .partner .linkedin{
         font-size: 20px;
