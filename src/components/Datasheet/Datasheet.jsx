@@ -3,6 +3,7 @@ import React from "react"
 import { BannerTitles } from "../BannerTitles/BannerTitles"
 
 export const Datasheet = ({product}) =>{
+    const nombreFichaTecnica = `datasheet-3d-printer-${product["title"].toLowerCase()}.pdf`
     return(
         <>
         <div className='datasheet'>
@@ -16,7 +17,7 @@ export const Datasheet = ({product}) =>{
                     )
                 })}
             </div>
-            <a href={`../assets/products/${product["title"]}/datasheet-${product["title"]}.pdf` } target="_blank" rel="noreferrer">
+            <a href={`../assets/products/${product["title"]}/${nombreFichaTecnica}` } target="_blank" rel="noreferrer">
                 <button>Descargar</button>
             </a>
         </div>
