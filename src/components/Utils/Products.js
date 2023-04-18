@@ -11,7 +11,7 @@ const products = [
             {title:"Modo fresadora", description:"Previo cambio de cabezal y plataforma de trabajo, permite montar un minitorno para realizar mecanizados ligeros (ruteo de placas de circuito impreso, grabado y fresado de materiales no ferrosos)"},
             {title:"Fácil de usar e intuitiva.", description:"Cuenta con una interfaz que te guía a lo largo de todo el proceso, brindando información en tiempo real sobre el estado de avance de la pieza, temperaturas de hotend y cama, etc."}
         ],
-        imgHero: "products/kubox/portada.png",
+        imgHero: "products/Kubox/portada.png",
         img:[
             {src:"1"},
             {src:"2"},
