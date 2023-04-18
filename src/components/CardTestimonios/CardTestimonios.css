@@ -17,7 +17,7 @@
   box-shadow: 0px 16px 40px rgba(135, 139, 143, 0.3);   
 }
 .userinfo{
-  margin-top: 2em;
+  margin-top : 16px;
   align-items: center;
 }
 
@@ -62,61 +62,31 @@ flex-grow: 0;
 
 .position{
 
-width: 34px;
-height: 24px;
-
-/* Desktop/Desktop Parrafo */
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.06em;
-
-/* Escala de grises/Negro */
-
-color: #1A1A1A;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+  /* width: 34px; ultimos cambios */
+  height: 24px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #1A1A1A;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .user{
-  width: 210px;
-height: 30px;
-
-/* Desktop/Desktop H3 */
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-/* identical to box height, or 150% */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.06em;
-
-/* Escala de grises/Negro */
-
-color: #1A1A1A;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  /*width: 210px; ultimos cambios */
+  height: 30px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #1A1A1A;
+  padding-right : 16px;
 }
 
 
@@ -167,7 +137,7 @@ flex-grow: 0;
 
 @media  (max-width: 1500px) {
   .card-testimonios {
-    justify-content: center;
+    /* justify-content: center; ultimos cambios */
     text-align: center;
     width: fit-content;
     padding: 48px;
@@ -186,8 +156,8 @@ flex-grow: 0;
   }
   .opinion {
     width: 350px;
-    height: 168px;
-  
+    /*height: 168px; ultimos cambios */
+    height: fit-content;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -202,7 +172,7 @@ flex-grow: 0;
     width: 40%;
     max-height: 50px;
     /* Inside auto layout */
-    
+    height: 50px; /* ultimos cambios, agregado de heigth*/
     flex: none;
     order: 0;
     flex-grow: 0;
