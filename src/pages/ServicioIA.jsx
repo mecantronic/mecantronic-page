@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from "react";
 import { Banner } from "../components/Banner/Banner";
 import { BannerEmpresas } from "../components/BannerEmpresas/BannerEmpresas";
@@ -10,7 +11,7 @@ export const ServicioIA = () => {
   return (
     <>
       {" "}
-      <Banner info2={"IA - Inteligencia artificial para tu negocio."} />
+      <Banner info2={"IA - Inteligencia artificial para tu negocio."}/>
       <ServiciosNav/>
       <SobreServicio/>
       <ServiciosExito/>

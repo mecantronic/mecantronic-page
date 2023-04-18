@@ -12,7 +12,7 @@ const servicios = [
         {title:"Reporte de cantidad de piezas producidas.", description:"Cuenta con una interfaz que te guía a lo largo de todo el proceso, brindando información en tiempo real sobre el estado de avance de la pieza, temperaturas de hotend y cama, etc."},
         {title:"Sistema de control para embarcaciones eléctricas.", description:"La firma VELOS se perfila como una start up pujante en el mundo de la náutica sustentable. Desde MEC, desarrollamos la electrónica asociada para el control de los motores eléctricos, carga de baterías y visualización de consumo, velocidad, etc."}
     ],
-    imgHero: "products/kubox/portada.png",
+    imgHero: "servicioIOT.png",
     sobrePrincipal: "Convergencia de la tecnología y el mundo real",
     sobreTitle:"IoT transforma objetos cotidianos en una red inteligente de posibilidades.",
     sobreParagraph: "Desarrollamos e implementamos servicios y productos que impliquen el control de dispositivos o el relevamiento de datos de campo (ruido, temperatura, profundidad de napas, etc.) con la posibilidad de visualizar y controlar el sistema a través de un dashboard interactivo. Te brindamos información para el monitoreo y control de cualquier proceso de forma local o remota. El proceso puede o no, ser industrial. Solo deberías saber en detalle qué datos necesitas, con qué frecuencia y de qué forma queres visualizarlos.",
@@ -33,7 +33,7 @@ const servicios = [
         {title:"Detección de derrames de petróleo.", description:"Desarrollamos un sistema de alerta  y monitoreo de zonas de alta sensibilidad ambiental en colaboración con Uali. Utilizamos drones equipados con inteligencia artificial para detectar derrames de petróleo en distintos tipos de superficies."},
         {title:"Generación automática de multas.", description:"Desarrollamos un cinemómetro aéreo para la Dirección General de Transporte  de España en colaboración con la Uali y Rocking Data. Utilizamos un dron equipado con inteligencia artificial para medir la velocidad y patente de los vehículos, permitiendo la generación de multas en caso de que corresponda."}
     ],
-    imgHero: "products/kubox/portada.png",
+    imgHero: "servicioIA.png",
     sobrePrincipal: "Soluciones personalizadas de inteligencia artificial",
     sobreTitle:"AI: Transformando el futuro de la innovación y los negocios.",
     sobreParagraph: "Ayudamos a identificar y detectar de manera automática cualquier tipo de evento. Utilizamos algoritmos de Aprendizaje Automático para detectar objetos, patrones y/o eventos, lo que permite tomar decisiones más rápidas e informadas en tiempo real. Con nuestras soluciones basadas en Inteligencia Artificial, se puede supervisar instalaciones y activos de manera más eficiente y precisa, lo que permite ahorrar tiempo y dinero en el mediano y largo plazo. Ya sea que se necesite supervisar una planta de producción, controlar la seguridad en una tienda minorista o garantizar la calidad de productos, nuestro equipo especializado en Computer Vision puede diseñar sistemas a medida de las necesidades del cliente para obtener una visión completa de operaciones.",
