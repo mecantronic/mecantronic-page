@@ -54,7 +54,7 @@ const servicios = [
         {title:"Diseño y fabricación de guía quirúrgica", description:"Cuando la intervención dental de un paciente requiere de múltiples implantes, es necesaria una guía que permita la inserción precisa de los pernos asociados al implante. Este proceso es fundamental, debido a que esta pieza debe ser biocompatible para poder fijarse enla boca del paciente."},
         {title:"Escaneo 3D de pieza estructural.", description:"Relevamiento digital de un soporte de hierro fabricado por medio de fundición cuyo diseño, a través de un software CAD, se vuelve engorroso y complejo."}
     ],
-    imgHero: "products/kubox/portada.png",
+    imgHero: "products/Kubox/portada.png",
     sobrePrincipal: "Crea lo que quieras con nuestra impresión 3D de última generación.",
     sobreTitle:"La impresión 3D es la clave para la innovación y el éxito empresarial en la era digital.",
     sobreParagraph: " Ofrecemos servicios de impresión 3D para concretar tus ideas. El prototipado rápido permite realizar pruebas de concepto o mejorar tu diseño antes de pasar a la producción en serie. La impresión con materiales técnicos (ABS, Nylon, PETG, Flex y Hips) permite la fabricación de productos definitivos de solicitación térmica y mecánica relativamente baja, o que se adapten a necesidades particulares. La impresión en resina biocompatible permite la interacción de productos impresos con el cuerpo humano. La tecnología de escaneo 3D permite la reproducción digital de un objeto físico para poder intervenir y, eventualmente, reimprimirlo.",
