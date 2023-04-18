@@ -151,7 +151,7 @@ export const Slider = ({elementos, type}) => {
         return(
             <Swiper
                     slidesPerView={1}
-                    spaceBetween={5}
+                    spaceBetween={20}
                     navigation={true}
                     pagination={{
                     clickable: true,
@@ -163,23 +163,23 @@ export const Slider = ({elementos, type}) => {
                     breakpoints={{
                     640: {
                         slidesPerView: 2,
-                        spaceBetween: 10,
+                        spaceBetween: 15,
                     },
                     768: {
                         slidesPerView: 2,
-                        spaceBetween: 10,
+                        spaceBetween: 20,
                     },
                     1024: {
                         slidesPerView: 2,
-                        spaceBetween: 10,
+                        spaceBetween: 30,
                     },
                     1400: {
                         slidesPerView: 3,
-                        spaceBetween: 20,
+                        spaceBetween: 35,
                     },
                     2200: {
                         slidesPerView:4,
-                        spaceBetween: 20,
+                        spaceBetween: 35,
                     },
                     }}                    
                     modules={[Pagination , Navigation]}

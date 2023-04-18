@@ -50,10 +50,10 @@
 #swiperGallery .gallery{
     width: 800px;
 }
-#swiperGallery  img{
+#swiperGallery img{
     padding: 0px;
     border-radius: 16px;
-    margin-left: -15vw;
+    margin: auto;
     height: 382px;
     width: 575px;    
     object-fit: cover;

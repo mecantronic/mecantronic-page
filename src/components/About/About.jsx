@@ -29,7 +29,7 @@ export const About = () =>{
 
                     <p className="text">Todo en Mecantronic está teñido de docencia. La información se comparte, las habilidades se enseñan para que la mejora individual sume a la mejora del grupo. Tal es así que contamos con una división orientada a proyectos educativos tecnológicos, donde diseñamos propuestas para todos los niveles educativos en conjunto con el estado y otras entidades privadas.</p>
 
-                    <a className="link" href="https://infiniemlabs.com.ar/" target="_blank" rel="noreferrer"><p>Conocer Entender<img src={`./assets/icons/arrow-right.png`} alt="arrow-right"/></p></a>
+                    <a className="link" href="https://entender.com.ar/" target="_blank" rel="noreferrer"><p>Conocer Entender<img src={`./assets/icons/arrow-right.png`} alt="arrow-right"/></p></a>
                 </div>
             </div>
         </div>
