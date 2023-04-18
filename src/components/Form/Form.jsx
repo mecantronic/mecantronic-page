@@ -35,10 +35,10 @@ export const Form = ({ onClick }) => {
 
     emailjs
       .sendForm(
-        'gmail',
-        'form',
+        'service_mkzy70s',
+        'template_mbzkiwk',
         e.target,
-        "BhpwiUv3mNWqRrLhb"
+        "F9yJc6wjTrkVV7_ha"
       )
       .then(
         (result) => {
