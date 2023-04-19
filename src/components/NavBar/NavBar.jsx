@@ -13,7 +13,7 @@ export const  NavBar = () => {
     <Navbar fluid={true} rounded={true} className="navbar" >
     <div className='nav-container'>
       <Navbar.Brand>
-        <Link to={"/"}>
+        <Link to={"/"}  onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} >
               <img className='branNav' src="../assets/logo-mecantronic-footer-mobile.png" alt="MECANTRONIC" />
         </Link>
       </Navbar.Brand>
@@ -24,13 +24,13 @@ export const  NavBar = () => {
       <Navbar.Collapse className='navCollapse'>
         <Dropdown label="Servicios" inline={true} className="menuItem1 navbar-menu menuDrop" dismissOnClick={true} arrowIcon={false}>
           <Dropdown.Item  className="navbar-menu-item">
-            <Link to={"/servicios/2"}><span className='navbar-servicios'><p>Servicios de IA</p></span></Link>
+            <Link to={"/servicios/2"} onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} ><span className='navbar-servicios'><p>Servicios de IA</p></span></Link>
           </Dropdown.Item>
           <Dropdown.Item  className="navbar-menu-item">
-            <Link to={"/servicios/1"}><span className='navbar-servicios'><p>Servicios de IoT</p></span></Link>
+            <Link to={"/servicios/1"} onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} ><span className='navbar-servicios'><p>Servicios de IoT</p></span></Link>
           </Dropdown.Item>
           <Dropdown.Item  className="navbar-menu-item">
-            <Link to={"/servicios/3"}><span className='navbar-servicios'><p>Servicios de 3D</p></span></Link>
+            <Link to={"/servicios/3"} onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} ><span className='navbar-servicios'><p>Servicios de 3D</p></span></Link>
           </Dropdown.Item>
         </Dropdown> 
 
@@ -46,16 +46,16 @@ export const  NavBar = () => {
 
           <Dropdown label="Productos 3D" placement='right-start' inline={true} className="navbar-menu submenuDrop" dismissOnClick={true}>
             <Dropdown.Item className="navbar-menu-item">
-              <Link to={"/products/1"} id='kubox'><span className='navItemCollapse' ><p>Kubox</p></span></Link>
+              <Link to={"/products/1"} id='kubox'><span className='navItemCollapse'  onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} ><p>Kubox</p></span></Link>
             </Dropdown.Item>
             <Dropdown.Item className="navbar-menu-item">
-              <Link to={"/products/2"} id='koron'><span className='navItemCollapse'><p>Koron</p></span></Link>
+              <Link to={"/products/2"} id='koron'><span className='navItemCollapse' onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} ><p>Koron</p></span></Link>
             </Dropdown.Item>
           </Dropdown>
 
         </Dropdown>  
 
-        <Link to={"/aboutUs"} className="menuItem1 navItem">Nosotros</Link> 
+        <Link to={"/aboutUs"} className="menuItem1 navItem" onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} >Nosotros</Link> 
 
         <ContactButton textoBoton={"Contacto"} />
         </Navbar.Collapse>

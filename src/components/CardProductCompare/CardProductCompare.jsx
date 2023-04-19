@@ -28,7 +28,7 @@ export const CardProductCompare = ({product, productoActual}) =>{
 
 
             </div>
-            <Link to={`/products/${product["id"]}`}  className="cardProductCompareBtn">Ver más</Link>
+            <Link to={`/products/${product["id"]}`}  className="cardProductCompareBtn"  onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} >Ver más</Link>
         </div>
     )
 }

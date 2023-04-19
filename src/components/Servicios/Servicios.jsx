@@ -23,7 +23,7 @@ export const Servicios = () => {
             <p className="servicios-card-paragraph">
             Diseñamos un dashboard personalizado para que la visualización de la información y de las métricas sea amigable.
             </p>
-            <Link to={"/servicios/Iot"}  className="servicios-card-btn  mt-5">Ver más </Link>
+            <Link to={"/servicios/1"}  className="servicios-card-btn  mt-5" onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} >Ver más </Link>
           </div>
           <div className="w-1/3 servicios-card">
             <div className="servicios-logo">
@@ -37,7 +37,7 @@ export const Servicios = () => {
             <p className="servicios-card-paragraph">
             Desarrollamos e implementamos servicios/plataformas en las que se aplica inteligencia artificial para el análisis de señales, imágenes y videos.
             </p>
-            <Link to={"/servicios/Ia"}  className="servicios-card-btn  mt-5">Ver más </Link>
+            <Link to={"/servicios/2"}  className="servicios-card-btn  mt-5" onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} >Ver más </Link>
           </div>
           <div className="w-1/3 servicios-card">
             <div className="servicios-logo">
@@ -50,7 +50,7 @@ export const Servicios = () => {
             <p className="servicios-card-paragraph">
             Además, brindamos servicios de impresión en materiales técnicos y escaneo 3D.
             </p>
-            <Link to={"/servicios/3D"}  className="servicios-card-btn  mt-5">Ver más </Link>
+            <Link to={"/servicios/3"}  className="servicios-card-btn  mt-5" onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} >Ver más </Link>
           </div>
         </div>
       </div>

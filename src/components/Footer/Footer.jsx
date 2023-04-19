@@ -1,3 +1,4 @@
+// @ts-nocheck
 import "./Footer.css"
 import React from "react"
 import {Link} from "react-router-dom"
@@ -8,7 +9,7 @@ export const Footer = ()=>{
             <span>
                 <div className="brand">
                     <div>
-                    <Link to={"/"} className="navItem"> 
+                    <Link to={"/"} className="navItem" onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} > 
                     {/* <img src="../assets/mecantronic.svg" alt="MECANTRONIC" />  */}
                     
                     </Link>
@@ -23,9 +24,9 @@ export const Footer = ()=>{
                     <div className="aboutUs">
                         <p className="footerTitle">Navegación</p>
                         <ul>
-                            <li><Link to={"/servicios/Ia"} className="navItem">Servicios</Link></li>
-                            <li><Link to={"/products/1"} className="navItem">Productos</Link></li>
-                            <li><Link to={"/aboutUs"} className="navItem">Nosotros</Link></li>
+                            <li><Link to={"/servicios/2"} className="navItem"  onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} >Servicios</Link></li>
+                            <li><Link to={"/products/1"} className="navItem" onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} >Productos</Link></li>
+                            <li><Link to={"/aboutUs"} className="navItem" onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} >Nosotros</Link></li>
                         </ul>
                     </div>
 
