@@ -73,3 +73,9 @@
 .serviciodetails{
     margin-top: 10em;
 }
+
+
+/* clase solo para socios en servicios IA, 2 imagenes */
+.clientes .socioEstragicoIA{
+  margin: 0 100px;
+}

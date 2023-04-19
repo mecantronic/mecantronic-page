@@ -55,7 +55,7 @@ export const ServiciosContainer = ({ serviceToShow }) => {
             <div className="clientes">
               {serviceToShow["empresaImg"].map((empresa)=>{
                 return (
-                  <img src={empresa} alt="" />
+                  <img src={empresa} alt="" className={`${serviceToShow.id === 2 && "socioEstragicoIA"}`}/>
                 )
               })}
             </div>
