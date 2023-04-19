@@ -8,18 +8,10 @@ export const Footer = ()=>{
         <div className="footer bg-black text-white flex flex-col">
             <span>
                 <div className="brand">
-                    <div>
-                    <Link to={"/"} className="navItem" onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} > 
-                    {/* <img src="../assets/mecantronic.svg" alt="MECANTRONIC" />  */}
-                    
+                    <Link to={"/"} className="navItem" onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} >
+                        <div></div>
                     </Link>
-                        
-                    </div>
-                    {/*  
-                    <p>Lorem ipsum dolor sit amet. Ut recusandae fugit et unde exercitationem in nemo fuga ut consequatur quis est repudiandae accusamus</p>
-                    */}
                 </div>
-
                 <span className="flex justify-around mt-8">
                     <div className="aboutUs">
                         <p className="footerTitle">Navegación</p>

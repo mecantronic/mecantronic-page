@@ -162,30 +162,30 @@
 }
 
 .servicios-card-btn {
-  /* buttons */
-
   box-sizing: border-box;
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 16px 40px;
-  gap: 8px;
-
-  width: 143px;
-  height: 52px;
-
-  /* Primario/Vibrant Red */
-
-  border: 1px solid #da1c2b;
+  padding: 24px 48px;
+  width: 167px;
+  height: 48px;
+  border: 1px solid #DA1C2B;
   border-radius: 40px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #DA1C2B;
+  background: none;
+  display: flex;
+  align-items: center;
+}
 
-  /* Inside auto layout */
-
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+.servicios-card-btn:hover{
+  box-sizing: border-box;
+  padding: 24px 48px;
+  background: #FFF4F5;
+}
+.servicios-card-btn:active{
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

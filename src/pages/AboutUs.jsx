@@ -17,21 +17,7 @@ export const AboutUs = () => {
     const root = document.getElementById("root");
     root.removeAttribute('class');
   },100)
-/*
-  setTimeout(()=>{
-    let secondNav = document.getElementById("secondNav");
-    let sticky = secondNav.offsetTop;  
-    window.onscroll = ()=>{      
-        if (window.pageYOffset*2.4>= sticky) {
-            secondNav.classList.add("sticky")
-        } else {
-            secondNav.classList.remove("sticky");
-        }
-    }
-},500)
-
-*/
-
+  
   return (
     <span id="AboutUs">
       <Banner img={"banner-about.png"} bg1={"bg-about-1.png"} info2={AboutInfo[0]["bannerInfo1"]} />

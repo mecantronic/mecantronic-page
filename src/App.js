@@ -10,21 +10,11 @@ import { Footer } from "./components/Footer/Footer";
 import { Servicios } from "./pages/Servicios";
 import { Error404 } from "./pages/Error404";
 function App() {
-  
-/*
-  document.querySelectorAll("*").forEach(el => {
-    const { offsetWidth } = document.documentElement    
-    if(el.offsetWidth > offsetWidth){
-      console.log("PRODUCE SCROLL =>",el) 
-      alert(el)      
-    }
-  })
-  */
   return (
     <BrowserRouter>
       <NavBar/>
       <Routes>
-        <Route path="/" element={<Home/>}></Route> {/* RESPONSIVE PENDIENTE(Marca, Servicios y CasosExito) */}
+        <Route path="/" element={<Home/>}></Route>
         <Route path="/servicios/:servicio" element={<Servicios />}></Route>
         
         {/* HACER PAGINA ERROR =>> <Route path="/*" element={<Error404 />}></Route> */}
