@@ -23,8 +23,6 @@ export const Servicios = () => {
   const [iot, setIot] = useState(true);
   const [ia, setIa] = useState(false);
   const [impresoras, setImpresoras] = useState(false);
-  console.log("serviceToShow",serviceToShow)
-
   return (
     <>
     <Banner info1={serviceToShow["title"]} info2={serviceToShow["titleBanner"]} info3={""} img={serviceToShow["imgHero"]}/>

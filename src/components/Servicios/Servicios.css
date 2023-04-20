@@ -68,6 +68,7 @@
   justify-content: space-around;
   margin-left: 7%;
   margin-right: 7%;
+
 }
 
 .servicios-card {
@@ -80,6 +81,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   padding: 40px 24px;
   gap: 34px;
 
@@ -134,33 +136,26 @@
 
 .servicios-card-paragraph {
   width: 268px;
-
-
-  /* Desktop/Desktop Parrafo */
-
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-
-  /* or 150% */
-
   display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
-  /* Escala de grises/Gray 700 */
-
   color: #808080;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
-  flex-grow: 1;
 }
+.paragraph-container{
+  height: 300px;
+}
+.first-paragraph {
+  height: 150px;
+}
+.second-paragraph{
 
+}
 .servicios-card-btn {
   box-sizing: border-box;
   padding: 24px 48px;

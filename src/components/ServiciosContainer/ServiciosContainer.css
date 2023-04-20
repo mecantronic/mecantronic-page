@@ -67,6 +67,24 @@
   margin: auto;
 }
 
+/** accordion **/
+.sobreimgAccordion{
+  position: absolute;
+  max-width: max-content;
+  max-height: max-content;
+  border-radius: 16px;
+  margin: auto;
+  opacity: 1;
+  transition: all 0.6s;
+
+}
+.sobreimgHidden{
+  opacity: 0;
+  /*
+  display: none; 
+  */
+}
+
 .sobreinfocontainer {
   padding-left: 80px;
 }

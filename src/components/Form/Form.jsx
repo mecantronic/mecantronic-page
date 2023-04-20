@@ -11,8 +11,10 @@ export const Form = ({ onClick }) => {
   const {
     register,
     handleSubmit,
+    watch,
     formState: { errors },
-  } = useForm({
+  } = useForm(
+    /*{
     defaultValues: {
       name: "",
       email: "",
@@ -20,7 +22,16 @@ export const Form = ({ onClick }) => {
       consulta: "",
       mensaje: "",
     },
-  });
+  }
+  */);
+
+  // SETEAR CONSULTA POR DEFECTO DESDE PARAMETROS...
+  //"servicios"
+  //"Servicios-IOT"
+  //"Servicios-IA"
+  //"Servicios-3D"
+  //"Impresora-Kubox"
+  //"Impresora-Koron"
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -32,6 +43,9 @@ export const Form = ({ onClick }) => {
 
   const onSubmit = (e) => {
     e.preventDefault();
+
+    /*
+    DESCOMENTAR PARA DEJAR FUNCIONAL EL FORM
 
     emailjs
       .sendForm(
@@ -51,7 +65,7 @@ export const Form = ({ onClick }) => {
           console.log(error.text);
         }
       );
-
+  */
     renderAlert("¡Gracias por escribirnos, pronto estaremos respondiendo!");
   };
 
@@ -67,6 +81,7 @@ export const Form = ({ onClick }) => {
     });
   }
 
+
   return (
     <div className="contactContainer">
       <div>
@@ -79,7 +94,8 @@ export const Form = ({ onClick }) => {
           <form
             className="formulario"
             ref={form}
-            onSubmit={(e)=>handleSubmit(onSubmit(e))}
+            // onSubmit={(e)=>handleSubmit(onSubmit(e))}
+            onSubmit={handleSubmit(onSubmit)}
           >
             <div className="labelFormContacto">
               <label>Nombre</label>

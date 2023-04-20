@@ -26,72 +26,45 @@
 }
 
 .marca-section > div > p:nth-child(2) {
-
-  /* Tecnología de vanguardia */
-  
-  
+  /* 
   width: 252.67px;
+  */
+  margin: auto;
+  width: 180px;
   height: 62px;
-  
-  /* Desktop/Desktop H2 Bold */
-  
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 31px;
-  /* or 129% */
-  
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  
-  /* Primario/Red */
-  
   color: #9B0800;
-  
-  
-  /* Inside auto layout */
   justify-content: center;
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
-margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .marca-section > div > p:nth-child(3) {
-
-  width: 236.67px;
+  width: 250px;
   height: 96px;
-  
-  /* Desktop/Desktop Parrafo */
-  
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-  
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  
-  /* Escala de grises/Gray 700 */
-  
   color: #808080;
-  
-  
-  /* Inside auto layout */
-  
   flex: none;
   order: 0;
-  flex-grow: 1;
-
-
-  
+  flex-grow: 1;  
 }
 

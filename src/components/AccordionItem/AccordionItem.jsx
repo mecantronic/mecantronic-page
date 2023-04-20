@@ -1,11 +1,28 @@
+// @ts-nocheck
 import { Disclosure} from '@headlessui/react'
 import React from 'react';
 import "./AccordionItem.css"
 export const AccordionItem = ({data, index})=>{    
-    const  {title, description} = data;
+    const  {title, description, img} = data;
+    
+   // console.log("MSOTRANDO IMAGENES DE SECCIONES",img)
+    
+    function showAccordionImg(imgID){
+        const allAccordionImg = document.getElementsByClassName("sobreimgAccordion")
+
+        for (let i = 0; i < allAccordionImg.length; i++) {
+            allAccordionImg[i].classList.add("sobreimgHidden")   
+        }
+        const accordionImg = document.getElementById(imgID)
+        accordionImg?.classList.remove("sobreimgHidden")
+    }
+    function hideAccordionImg(imgID){
+        const accordionImg = document.getElementById(imgID)
+        accordionImg?.classList.add("sobreimgHidden")
+    }
     return (
         <Disclosure as="div"  className="py-6 mt disclosure" key={title}>
-                {({ open }) => (
+                {({ open }) => (                   
                 <>
                     <h3 className="-my-3 flow-root">
                     <Disclosure.Button className="flex w-full items-center justify-between py-3 text-sm text-gray-400 hover:text-gray-500 ">
@@ -16,6 +33,8 @@ export const AccordionItem = ({data, index})=>{
                         ) : (
                             <img src='../assets/icons/chevron.png' alt='chevron' className='w-4'/>
                         )}
+                        
+                        {open? showAccordionImg(img) : hideAccordionImg(img)}
                         </span>
                     </Disclosure.Button>
                     </h3>
@@ -26,6 +45,7 @@ export const AccordionItem = ({data, index})=>{
                     </Disclosure.Panel>
                 </>
                 )}
+                
         </Disclosure>
     )
 }

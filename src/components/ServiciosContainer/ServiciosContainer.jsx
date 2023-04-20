@@ -37,8 +37,15 @@ export const ServiciosContainer = ({ serviceToShow }) => {
             </div>
             <Accordion product={serviceToShow["accordion"]} />
           </div>
-          <div className="w-1/2">
-          <img  className="sobreimg" src={`../assets/${serviceToShow["exitoImg"]}`} alt="" />
+          <div className="w-1/2" id="accordionImg">
+            {/* CODIGO ORIGINAL DE MARU <img  className="sobreimg" src={`../assets/${serviceToShow["exitoImg"]}`} alt=""/> */}
+
+            {serviceToShow["accordion"].map((item,index)=>{
+                return(
+                  <img  className="sobreimgAccordion sobreimgHidden" src={`../assets/servicios/${item["img"]}`} alt="" id={`${item["img"]}`}/>
+                ) 
+            })}
+
           </div>
 
           <div className="titlesMobile">
