@@ -1,3 +1,11 @@
+.casoExitoContainer{
+  height: 650px;
+  overflow: hidden;
+}
+.casoExitoContainer img{
+  height: 517px; 
+  width: 562px;
+}
 .casos {
   width: 100%;
   text-align: -webkit-center;
@@ -37,35 +45,20 @@
 }
 
 .casos-title {
-  /* Subtitulo Nosotros */
-
-
-width: 421px;
-height: 31px;
-
-/* Desktop/Desktop H2 Bold */
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 31px;
-/* identical to box height, or 129% */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.06em;
-
-/* Escala de grises/Negro */
-
-color: #1A1A1A;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  width: 421px;
+  height: 65px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #1A1A1A;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 
@@ -242,7 +235,7 @@ flex-grow: 0;
 .casos-circles{
     font-size: small;
     align-items: center;
-    color: #FFCCD0;;
+    color: #FFCCD0;
 }
 
 .inactive-circle{

@@ -37,7 +37,7 @@ export const ServiciosContainer = ({ serviceToShow }) => {
             </div>
             <Accordion product={serviceToShow["accordion"]} />
           </div>
-          <div className="w-1/2" id="accordionImg">
+          <div className="w-1/2 accordionImgContainer" /* id="accordionImg" */>
             {/* CODIGO ORIGINAL DE MARU <img  className="sobreimg" src={`../assets/${serviceToShow["exitoImg"]}`} alt=""/> */}
 
             {serviceToShow["accordion"].map((item,index)=>{

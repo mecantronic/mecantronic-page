@@ -14,12 +14,12 @@ export const CasosExito = () => {
   const noisenP2 = " Noisen tiene la capacidad de almacenar y visualizar las mediciones de ruido en tiempo real y de forma remota. Esto permite conocer la contaminación sonora del espacio en todo momento y tomar medidas correctivas para garantizar un ambiente tranquilo y seguro para todos.  "
   const noisenP3 = " Es de fácil configuración y se puede acceder y consultar desde cualquier lugar con conexión WiFi."
 
-  const second = "Detección de fallas en aerogeneradores."
+  const second = "Detección de fallas en aerogeneradores"
   const secondp1 = "En este proyecto buscamos detectar componentes de aerogeneradores utilizando modelos de segmentación de instancias. Estas segmentaciones nos permiten visualizar y post procesar cada componente por separado."
   const secondp2 = "Una vez segmentadas las palas se procesan con un algoritmo de detección de anomalías para localizar y clasificar los daños superficiales."
   const secondp3 = "Algunos de los desperfectos que el modelo es capaz de reconocer son corrosiones y grietas, entre otros."
 
-  const third = "Fabricación de impresoras 3D."
+  const third = "Fabricación de impresoras 3D"
   const thirdp1 = "Comercializamos distintos modelos de impresoras 3D para manufactura o prototipado. Además brindamos servicios de impresión con materiales especiales: ABS, Nylon, Hips, Flex y PETG."
   const thirdp2 = "Contamos con servicios de puesta en marcha y mantenimiento para garantizar una experiencia de impresión 3D sin problemas.  "
   const thirdp3 = ""
@@ -81,7 +81,7 @@ export const CasosExito = () => {
   return (
     <div className="w-full casos">
       <BannerTitles subtitle={"casos de éxito"} title={"Proyectos que realizamos"}/>
-      <div className="flex p-8" onClick={()=> changeSection()}>
+      <div className="flex p-8 casoExitoContainer" onClick={()=> changeSection()}>
         <div className="w-1/2 casos-img pl-20 pr-20 imgExito">
           <img src={img} alt="" />
         </div>
@@ -108,11 +108,11 @@ export const CasosExito = () => {
               {" "}
               <GiPlainCircle />{" "}
             </span>
-            <span className={secondActive ? `active-circle ml-1` :`inactive-circle ml-1` } onClick={()=> secondSection()}>
+            <span className={secondActive ? `active-circle ml-3` :`inactive-circle ml-3` } onClick={()=> secondSection()}>
               {" "}
               <GiPlainCircle />{" "}
             </span>
-            <span className={thirdActive ? `active-circle ml-1` :`inactive-circle ml-1` } onClick={()=> thirdSection()}>
+            <span className={thirdActive ? `active-circle ml-3` :`inactive-circle ml-3` } onClick={()=> thirdSection()}>
               {" "}
               <GiPlainCircle />{" "}
             </span>

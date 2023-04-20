@@ -11,10 +11,9 @@ export const Form = ({ onClick }) => {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm(
-    /*{
+    {
     defaultValues: {
       name: "",
       email: "",
@@ -23,7 +22,7 @@ export const Form = ({ onClick }) => {
       mensaje: "",
     },
   }
-  */);
+  );
 
   // SETEAR CONSULTA POR DEFECTO DESDE PARAMETROS...
   //"servicios"
@@ -39,10 +38,20 @@ export const Form = ({ onClick }) => {
   const [consulta, setConsulta] = useState("");
   const [message, setMessage] = useState("");
 
+  const [estadoForm, setEstadoForm] = useState("");
   const form = useRef();
 
-  const onSubmit = (e) => {
+  function handleSubmitFORMMMM(e){    
     e.preventDefault();
+    setEstadoForm(e)
+    handleSubmit(onSubmit)
+    
+  }
+
+  const onSubmit = () => {
+    console.log("ENVIE FORM....")
+    console.log("estadoForm",estadoForm)
+    //e.preventDefault();
 
     /*
     DESCOMENTAR PARA DEJAR FUNCIONAL EL FORM
@@ -94,8 +103,8 @@ export const Form = ({ onClick }) => {
           <form
             className="formulario"
             ref={form}
-            // onSubmit={(e)=>handleSubmit(onSubmit(e))}
-            onSubmit={handleSubmit(onSubmit)}
+            //onSubmit={handleSubmit(onSubmit)}
+            onSubmit={(e)=>handleSubmitFORMMMM(e)}
           >
             <div className="labelFormContacto">
               <label>Nombre</label>
