@@ -1,29 +1,12 @@
 // @ts-nocheck
 import "./Form.css";
 import React, { useRef, useState } from "react";
-import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser";
 
 export const Form = ({ onClick }) => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm(
-    {
-    defaultValues: {
-      name: "",
-      email: "",
-      ciudad: "",
-      consulta: "",
-      mensaje: "",
-    },
-  }
-  );
-
   // SETEAR CONSULTA POR DEFECTO DESDE PARAMETROS...
   //"servicios"
   //"Servicios-IOT"
@@ -32,30 +15,74 @@ export const Form = ({ onClick }) => {
   //"Impresora-Kubox"
   //"Impresora-Koron"
 
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-
-  const [consulta, setConsulta] = useState("");
-  const [message, setMessage] = useState("");
-
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [consulta, setConsulta] = useState("");
+  // const [ciudad, setCiudad] = useState("");
+  // const [message, setMessage] = useState("");
   const [estadoForm, setEstadoForm] = useState("");
   const form = useRef();
+  //Form validation
+  const initialValues = { name: "", lastName: "" };
+  const [formErrors, setFormErrors] = useState({});
+  const [isSubmit, setIsSubmit] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+    consulta: "",
+    ciudad: ""
+  })
 
-  function handleSubmitFORMMMM(e){    
-    e.preventDefault();
-    setEstadoForm(e)
-    handleSubmit(onSubmit)
-    
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+    console.log(formData)
   }
 
-  const onSubmit = () => {
-    console.log("ENVIE FORM....")
-    console.log("estadoForm",estadoForm)
+  const handleErrors = (e, values) => {
+    e.preventDefault();
+    const errors = {};
+
+    const regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    //profile
+    if (!values.name) {
+      errors.name = "Por favor, completa tu nombre";
+    }
+    if (!values.email) {
+      errors.email = "Por favor, completa tu email";
+    }  else if (!regex.test(values.email)) {
+      errors.email = "El formato del email no es valido";
+    }
+    if (!values.message) {
+      errors.message = "Por favor, contanos como podemos ayudarte";
+    }
+    if (!values.consulta) {
+      errors.consulta = "Por favor, completa tu consulta";
+    }
+    if (!values.ciudad) {
+      errors.ciudad = "Por favor, completa tu ciudad";
+    }
+    if (values.message.length < 8) {
+      errors.message = "Por favor, completa el mensaje con al menos 8 caracteres";
+    }
+    if (values.message.length > 200) {
+      errors.message = "Mensaje demasiado largo, debe contener menos de 200 caracteres";
+    }
+    setFormErrors(errors)
+
+    if (values.message.length >= 8 && values.message.length < 200 && values.name && values.email && values.message && values.consulta && values.ciudad) {
+      console.log("enviar form")
+      submitForm(e)
+    }
+    return errors;
+  };
+
+
+
+  const submitForm = (e) => {
     //e.preventDefault();
-
-    /*
-    DESCOMENTAR PARA DEJAR FUNCIONAL EL FORM
-
+    //podes probar con form.current si no es e.target
     emailjs
       .sendForm(
         'service_mkzy70s',
@@ -66,15 +93,12 @@ export const Form = ({ onClick }) => {
       .then(
         (result) => {
           console.log(result.text);
-          setName("");
-          setEmail("");
-          setMessage("");
         },
         (error) => {
           console.log(error.text);
         }
       );
-  */
+  
     renderAlert("¡Gracias por escribirnos, pronto estaremos respondiendo!");
   };
 
@@ -90,7 +114,6 @@ export const Form = ({ onClick }) => {
     });
   }
 
-
   return (
     <div className="contactContainer">
       <div>
@@ -104,21 +127,19 @@ export const Form = ({ onClick }) => {
             className="formulario"
             ref={form}
             //onSubmit={handleSubmit(onSubmit)}
-            onSubmit={(e)=>handleSubmitFORMMMM(e)}
+            onSubmit={(e) => handleErrors(e, formData)}
           >
             <div className="labelFormContacto">
               <label>Nombre</label>
               <input
                 type="text"
                 name="name"
-                {...register("name", { required: true })}
                 placeholder="Escribí tu nombre completo."
-                value={name}
-                onChange={(e) => setName(e.target.value)}
+              
+                onChange={handleChange}
               />
-              {errors.name && (
-                <p className="errorForm">Este campo es obligatorio..</p>
-              )}
+
+              <p className="errorForm">{formErrors.name}</p>
             </div>
 
             <div className="labelFormContacto">
@@ -126,37 +147,32 @@ export const Form = ({ onClick }) => {
               <input
                 type="email"
                 name="email"
-                {...register("email", { required: true, minLength: 8 })}
                 placeholder="Nombre@mail.com"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
+             
+                onChange={handleChange}
               />
-              {errors.email && errors.email.type === "required" && (
-                <p className="errorForm">Este campo es obligatorio..</p>
-              )}
-              {errors.email && errors.email.type === "minLength" && (
-                <p className="errorForm">Al menos necesitamos 8 caracteres..</p>
-              )}
+           
+           <p className="errorForm">{formErrors.email}</p>
             </div>
             <div className="labelFormContacto">
               <label>Ciudad</label>
               <input
                 type="ciudad"
                 name="ciudad"
-                {...register("ciudad", { required: true, minLength: 8 })}
                 placeholder="Ingresá la ciudad donde vivís."
+
+                onChange={handleChange}
               />
-              {errors.ciudad && errors.ciudad.type === "required" && (
-                <p className="errorForm">Este campo es obligatorio..</p>
-              )}
-              {errors.ciudad && errors.ciudad.type === "minLength" && (
-                <p className="errorForm">Al menos necesitamos 4 caracteres..</p>
-              )}
+             
+             <p className="errorForm">{formErrors.ciudad}</p>
             </div>
             <div className="labelFormContacto">
               <label>Consulta</label>
-              <select {...register("consulta")} name="consulta" value={consulta}
-                onChange={(e) => setConsulta(e.target.value)}>
+              <select
+                name="consulta"
+            
+                onChange={handleChange}
+              >
                 <option value="servicios">Servicio</option>
                 <option value="Servicios-IOT">Servicios IOT</option>
                 <option value="Servicios-IA">Servicios IA</option>
@@ -164,35 +180,20 @@ export const Form = ({ onClick }) => {
                 <option value="Impresora-Kubox">Impresora Kubox</option>
                 <option value="Impresora-Koron">Impresora Koron</option>
               </select>
+
+             <p className="errorForm">{formErrors.consulta}</p>
             </div>
             <div className="labelFormContacto">
               <label>Mensaje </label>
               <textarea
                 type="text"
-                name="mensaje"
-                {...register("mensaje", {
-                  required: true,
-                  minLength: 8,
-                  maxLength: 200,
-                })}
+                name="message"
                 placeholder="Escribinos tu mensaje."
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
+             
+                onChange={handleChange}
               ></textarea>
-              {errors.mensaje && errors.mensaje.type === "required" && (
-                <p className="errorForm">
-                  Por favor cuentanos en que podemos ayudarte!
-                </p>
-              )}
-              {errors.mensaje && errors.mensaje.type === "minLength" && (
-                <p className="errorForm">Al menos necesitamos 8 caracteres..</p>
-              )}
-              {errors.mensaje && errors.mensaje.type === "maxLength" && (
-                <p className="errorForm">
-                  Mensaje demasiado largo, mantente en los 200 caracteres por
-                  favor
-                </p>
-              )}
+             
+             <p className="errorForm">{formErrors.message}</p>
             </div>
             <input type="submit" class="botonEnvio" />
           </form>
