@@ -183,7 +183,7 @@
 
 @media (min-width: 1600px) {
     .aboutSection{
-        margin: 15vh 10vw;
+        margin: 10vh 10vw;
     }
     .about .textAbout .title{
         font-size: 28px;

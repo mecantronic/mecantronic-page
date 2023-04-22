@@ -13,9 +13,27 @@
   background-position: center;
   background-size: cover
 }
+
+
+
+/*  max 1600px top */
+/*  min 1600px home - 2 */
 .bgImageHome{
+  background-position: top;
   background-image: url("../public/assets/Home.png");
 }
+
+@media (max-width:1600px){
+  .bgImageHome{
+    background-image: url("../public/assets/Home.png");
+  }
+}
+@media (min-width:1600px){
+  .bgImageHome{
+    background-image: url("../public/assets/Home-lg.png");
+  }
+}
+
 .bgImageProducts{
   background-image: url("../public/assets/bg-product-1.png");
   background-position: bottom;

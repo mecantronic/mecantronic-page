@@ -157,6 +157,7 @@
   
 }
 .submenuDrop{
+  box-shadow: none !important;
   background-color: transparent !important;
 }
 .submenuDrop > div :hover{

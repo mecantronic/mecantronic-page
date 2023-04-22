@@ -221,16 +221,17 @@ input.botonEnvio {
     border: 1px solid #9B0800;
     margin-top: 80px;    
 }
+
 .botonEnvio:hover{
      /*
     font-weight: 900;
     cursor: pointer;
     */
 }
+
 .errorForm{
     color: red;
 }
-
 
 /* Media queries 
 @media (max-width: 550px) {
@@ -245,7 +246,6 @@ input.botonEnvio {
     }
 }
 */
-
 
 #regularContactForm .contactContainer button{
     display: none;

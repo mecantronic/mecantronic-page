@@ -1,13 +1,8 @@
 // @ts-nocheck
 import "./ServiciosContainer.css";
 import React from "react";
-import { Accordion } from "../Accordion/Accordion";
-import { Datasheet } from "../Datasheet/Datasheet";
-import { BannerProductsStrength } from "../BannerProductsStrength/BannerProductsStrength";
-import { Slider } from "../Slider/Slider";
-import { BannerEmpresas } from "../BannerEmpresas/BannerEmpresas";
 import { BannerTitles } from "../BannerTitles/BannerTitles";
-import velos from "../assets/empresas/Velos.svg"
+import { CasosExitoAccordion } from "../AccordionItem/casosExitoAccordion";
 export const ServiciosContainer = ({ serviceToShow }) => {
   return (
     <>
@@ -25,34 +20,9 @@ export const ServiciosContainer = ({ serviceToShow }) => {
             <p className="sobreTitle">{serviceToShow["sobreTitle"]}</p>
             <p className="sobreP">{serviceToShow["sobreParagraph"]}</p>
           </div>
-          </div>
-         
+          </div>         
         </div>
-
-        <div className="productDetails pt-20" id="casosDeExito">
-          <div className="accordionContainer pl-20">
-            <div className="titles">
-              <p className="subtitle">{serviceToShow["subtitle"]}</p>
-              <p className="detailsTitle">{serviceToShow["detailsTitle"]}</p>
-            </div>
-            <Accordion product={serviceToShow["accordion"]} />
-          </div>
-          <div className="w-1/2 accordionImgContainer" /* id="accordionImg" */>
-            {/* CODIGO ORIGINAL DE MARU <img  className="sobreimg" src={`../assets/${serviceToShow["exitoImg"]}`} alt=""/> */}
-
-            {serviceToShow["accordion"].map((item,index)=>{
-                return(
-                  <img  className="sobreimgAccordion sobreimgHidden" src={`../assets/servicios/${item["img"]}`} alt="" id={`${item["img"]}`}/>
-                ) 
-            })}
-
-          </div>
-
-          <div className="titlesMobile">
-            <p className="subtitle">{serviceToShow["subtitle"]}</p>
-            <p className="detailsTitle">{serviceToShow["detailsTitle"]}</p>
-          </div>
-        </div>
+        <CasosExitoAccordion serviceToShow={serviceToShow}/>
         <div id="sociosEstrategicos">
           <div className="banner-empresas">
             <BannerTitles

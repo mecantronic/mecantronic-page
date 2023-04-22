@@ -11,7 +11,7 @@ export const Servicios = () => {
     <div className=" servicios ">
       <div className="">
       <BannerTitles subtitle={"qué ofrecemos"} title={"Soluciones tu empresa"}/>
-        <div className="flex servicios-cards">
+        <div className="flex flex-wrap servicios-cards">
           <div className="w-1/3 servicios-card">
             <div className="servicios-logo">
               <img src={IOT} alt="icon" />

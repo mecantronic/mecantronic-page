@@ -72,6 +72,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 500px;
 }
 .sobreimgAccordion{
   position: absolute;
@@ -97,4 +98,52 @@
 /* clase solo para socios en servicios IA, 2 imagenes */
 .clientes .socioEstragicoIA{
   margin: 0 100px;
+}
+
+.numAccordionItemServices{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 68px;
+  letter-spacing: 0.06em;
+  color: #DA1C2B;
+  margin-right: 40px;
+}
+
+.titleAccordionItemServices{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #808080;
+}
+.descriptionAccordionItemServices{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #808080;
+  padding: 10px 80px 32px  40px ;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+  height: 60px !important;
+  align-items: center !important;
+}
+.css-o4b71y-MuiAccordionSummary-content{
+  align-items: center !important;
+
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin: 0 !important;
+}
+
+#casosDeExito{
+  margin: 10px 160px;
+
 }

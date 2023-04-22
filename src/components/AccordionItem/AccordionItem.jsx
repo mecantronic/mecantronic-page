@@ -2,30 +2,39 @@
 import { Disclosure} from '@headlessui/react'
 import React from 'react';
 import "./AccordionItem.css"
+import { Accordion } from 'flowbite-react';
 export const AccordionItem = ({data, index})=>{    
     const  {title, description, img} = data;
-    
-   // console.log("MSOTRANDO IMAGENES DE SECCIONES",img)
-    
+        
     function showAccordionImg(imgID){
         const allAccordionImg = document.getElementsByClassName("sobreimgAccordion")
+
+        /* img por defecto */
+        const sobreimg = document.getElementById("sobreimg")
+        sobreimg?.classList.add("sobreimgHidden")   
 
         for (let i = 0; i < allAccordionImg.length; i++) {
             allAccordionImg[i].classList.add("sobreimgHidden")   
         }
         const accordionImg = document.getElementById(imgID)
-        accordionImg?.classList.remove("sobreimgHidden")
+        accordionImg?.classList.remove("sobreimgHidden")        
     }
+
     function hideAccordionImg(imgID){
+        const sobreimg = document.getElementById("sobreimg")
+        sobreimg?.classList.remove("sobreimgHidden")  
+
         const accordionImg = document.getElementById(imgID)
         accordionImg?.classList.add("sobreimgHidden")
     }
+
+    
     return (
         <Disclosure as="div"  className="py-6 mt disclosure" key={title}>
                 {({ open }) => (                   
                 <>
                     <h3 className="-my-3 flow-root">
-                    <Disclosure.Button className="flex w-full items-center justify-between py-3 text-sm text-gray-400 hover:text-gray-500 ">
+                    <Disclosure.Button className="flex w-full items-center justify-between py-3 text-sm text-gray-400 hover:text-gray-500">
                         <span className=" accordionTitle"><p>{index}</p>{title}</span>
                         <span className="ml-6 flex items-center">
                         {open ? (
