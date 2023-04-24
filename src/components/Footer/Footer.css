@@ -134,17 +134,96 @@
     width: 40px;
     padding: 8px;
 }
-@media (min-width: 650px) {
+
+
+/* revisar si es correcta este tamaño break */
+@media (max-width: 725px){
+    .footer{
+        padding: 16px;
+        padding-top: 24px;
+    }
+    .footer .brand div{
+        height: 32px;
+    }
+    .footer p.footerTitle, .footer .socialMedia .footerTitle{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FCFCFC;
+    }
+    .footer .aboutUs ul li a.navItem{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #FCFCFC;
+    }
+    .footer .contacData ul li{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #FCFCFC;
+    }
+    .footer .socialMedia .footerSubTitle{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #FCFCFC;
+    }
+    .footer .icons {
+        margin-bottom: 24px;
+    }
+    .footer .icons img{
+        width: 32px;
+    }
+    .footer .copyrights p{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #FCFCFC;
+    }
+    .footer .copyrights p:first-of-type{
+        margin-top: 24px;
+    }
+    .footer .copyrights p:last-of-type{
+        margin-top: 16px;
+    }
+    
+}
+
+@media (min-width: 725px) {
+    .footer{
+        padding: 20px;
+    }
+    .footer .icons{
+        justify-content: center;
+    }
     .footer span:first-of-type{
         display: flex;
         justify-content: space-evenly;
         gap: 15px;
     }
     .footer .brand{
-        width: 300px;
+        width: 100px;
+    }    
+    .footer .brand div{
+        height: 100px;
+        width: 100px;
+        background-image: url("../../../public/assets/logo-mecantronic-footer.png");
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     .footer .socialMedia{
-      /*  margin-top: 32px; */
+        margin-top: 32px; 
     }
     .footer .copyrights{
         display: flex;
@@ -153,15 +232,22 @@
     .footer .copyrights p{ 
         /*margin: 24px 0 0 16px ; */
     }
-    .footer .brand div{
+
+  }
+  @media (min-width: 1000px) { 
+    .footer .socialMedia{
+        margin-top: 0px; 
+    } 
+    .footer .icons{
+        justify-content: start;
+    }
+    .footer .brand{
+        width: 300px;
+    }  
+    .footer .brand div{        
         height: 144px;
         width: 144px;
-        background-image: url("../../../public/assets/logo-mecantronic-footer.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-  }
-  @media (min-width: 1000px) {    
+    }  
     .footer span{
         width: 100%;
         max-width: 1050px;
