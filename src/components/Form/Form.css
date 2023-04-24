@@ -260,3 +260,16 @@ input.botonEnvio {
         font-size: 24px;
     }
 }
+
+/* FORMULARIO CONTACTO MODAL  REDUCIDO*/
+#modalFormConteiner .contactContainer h2{
+    padding-top: 40px; /* tenia 48px antes */ 
+}
+#modalFormConteiner .contactContainer .formContainer{
+    padding-top: 30px; /* tenia 48px antes */
+    padding-bottom: 0; /* tenia 30px antes */
+}
+#modalFormConteiner .formularioContacto .labelFormContacto label{
+    margin-bottom: 5px; /* tenia 40px antes */
+}
+

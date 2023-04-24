@@ -82,12 +82,13 @@ export const Form = ({ onClick }) => {
 
   const submitForm = (e) => {
     //e.preventDefault();
-    //podes probar con form.current si no es e.target
+    //podes probar con form.current si no es e.target   
+   
     emailjs
       .sendForm(
         'service_mkzy70s',
         'template_mbzkiwk',
-        e.target,
+        form.current, // originalmente iba e.target
         "F9yJc6wjTrkVV7_ha"
       )
       .then(
@@ -98,9 +99,22 @@ export const Form = ({ onClick }) => {
           console.log(error.text);
         }
       );
-  
+    
+    console.log("Enviando form con..",form.current.name.value,form.current.message.value,form.current.email.value,form.current.consulta.value,form.current.ciudad.value)    
+    clearForm(form)
     renderAlert("¡Gracias por escribirnos, pronto estaremos respondiendo!");
+
   };
+
+  function clearForm(form){
+    setFormData({ name: "", email: "", message: "", consulta: "", ciudad: "" })
+    form.current.name.value = "";
+    form.current.message.value = "";
+    form.current.email.value = "";
+    form.current.consulta.value = "servicios";
+    form.current.ciudad.value = "";
+    onClick()
+  }
 
   function renderAlert(msj) {
     toast.success(msj, {
@@ -108,7 +122,7 @@ export const Form = ({ onClick }) => {
       autoClose: 4000,
       hideProgressBar: false,
       closeOnClick: true,
-      pauseOnHover: true,
+      pauseOnHover: false,
       draggable: true,
       progress: undefined,
     });
@@ -126,7 +140,6 @@ export const Form = ({ onClick }) => {
           <form
             className="formulario"
             ref={form}
-            //onSubmit={handleSubmit(onSubmit)}
             onSubmit={(e) => handleErrors(e, formData)}
           >
             <div className="labelFormContacto">
@@ -188,8 +201,7 @@ export const Form = ({ onClick }) => {
               <textarea
                 type="text"
                 name="message"
-                placeholder="Escribinos tu mensaje."
-             
+                placeholder="Escribinos tu mensaje."             
                 onChange={handleChange}
               ></textarea>
              
@@ -199,6 +211,7 @@ export const Form = ({ onClick }) => {
           </form>
         </div>
       </div>
+      {/*   
       <ToastContainer
         position="bottom-left"
         autoClose={4000}
@@ -210,6 +223,7 @@ export const Form = ({ onClick }) => {
         draggable
         pauseOnHover
       />
+      */}
     </div>
   );
 };

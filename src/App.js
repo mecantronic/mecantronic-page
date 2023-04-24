@@ -9,6 +9,8 @@ import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
 import { Servicios } from "./pages/Servicios";
 import { Error404 } from "./pages/Error404";
+import { ToastContainer } from "react-toastify";
+
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +24,17 @@ function App() {
         <Route path="/aboutUs" element={<AboutUs/>}></Route>
         <Route path="/products/:product" element={<Product />}></Route>
       </Routes>
+      <ToastContainer
+        position="bottom-left"
+        autoClose={4000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
       <Footer /> 
     </BrowserRouter>
   );
