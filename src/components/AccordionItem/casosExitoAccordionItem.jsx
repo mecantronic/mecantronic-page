@@ -14,13 +14,19 @@ export default function CasosExitoAccordionItem({product}) {
     changeImage(panel,isExpanded)
   };
   function changeImage(panel,isExpanded){        
+    console.log("cambiando imagen?")    
     hideAllImgAccordion()  
     if(isExpanded === false){
       hideAllImgAccordion();
       const sobreimg = document.getElementById("sobreimg")
       sobreimg?.classList.remove("sobreimgHidden")   
     }
+    else {
+      const imgToShow = document.getElementById(panel)
+      imgToShow?.classList.remove("sobreimgHidden")   
+    }
   }
+
   function hideAllImgAccordion(){
     const allAccordionImg = document.getElementsByClassName("sobreimgAccordion")
     for (let i = 0; i < allAccordionImg.length; i++) {
