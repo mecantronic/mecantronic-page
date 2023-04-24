@@ -138,22 +138,32 @@
     border: 1px solid #d2d2d2;
 }
 
-
-@media (min-width: 1200px) {
-    #swiperImgProduct{
-        width: 40vw;
-        height: 40vw;
-    }
-}
-
-@media (max-width: 1024px) {
+@media (max-width: 640px){
     #swiperGallery  img{
-        padding: 15px;
+        padding: 0;
         border-radius: 16px;
         margin-left: 0;
         height: 342px;
         width: 575px;    
         object-fit: cover;
+    }   
+    #swiperGallery .swiper-pagination-horizontal {
+        top: 420px;
+    }
+}
+@media (max-width: 1200px){
+    #swiperGallery img{
+        height: auto;
+        width: auto;
+    }
+    #swiperGallery .swiper-pagination-horizontal{
+        top: auto;
+    }
+}
+@media (min-width: 1200px) {
+    #swiperImgProduct{
+        width: 40vw;
+        height: 40vw;
     }
 }
 @media (min-width: 2000px) {
