@@ -142,12 +142,7 @@
   margin: 0;
   margin-bottom: 50px;
 }
-.accordionImgContainer img{
-  /*
-  height: 287px;
-  width: 328px;
-  */
-}
+
 .accordionImgContainer img{
   width: 85vw;
   height: 40vh;

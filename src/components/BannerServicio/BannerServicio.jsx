@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import "./Banner.css";
+import "./BannerServicio.css";
 import { ContactButton } from "../ContactButton/ContactButton";
 
 export const Banner = ({info1,info2, info3,img,bg1}) => {

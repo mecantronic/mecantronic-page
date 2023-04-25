@@ -4,7 +4,7 @@
   align-items: left;
   background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);
   /*margin-bottom: 50px;*/
-  height: 700px;
+  /*height: 700px; */
 }
 
 .banner-container{   
@@ -23,23 +23,10 @@
   display: flex;
   justify-content: flex-end;
 }
-
-/*
-.banner .transform-matrix{
-  transform: translate()
-  animation: matrixOnLoad 5s ease-out 0.5s 1;
-}
-@keyframes matrixOnLoad {
-  0%   {transform: none}
-  50% {transform: matrix(-1, -0.02, -0.02, 1, 0, 0);}
-  100% {transform: translate();}
-}
-*/
 .banner img{
   position: absolute;
-  height: 660px;
   object-fit: cover;
-  opacity: 1;
+  opacity: 1;  
 }
 .banner .productsImg{
   top: -85px;
@@ -89,7 +76,7 @@
 }
 
 .banner-subtitle span:last-of-type{
-  color: #BA000E;
+  color: #1A1A1A;
 }
 
 .banner-contact-btn .contact-btn{
@@ -114,11 +101,37 @@
   
 
 }
-
+@media (max-width: 800px) {
+  #AboutUs .banner{
+    height: 50vh;
+  }
+  #AboutUs .banner-subtitle{
+    margin-top: 70px;
+  }
+  #AboutUs .banner .img-container{
+    height: 45vh;
+  }
+  .banner-subtitle{
+    margin-top: 70px;
+  }  
+  .banner .img-container img{
+    height: 40vh ;
+    right: -20%;
+  }
+  #AboutUs .banner .bg1{
+    top:30vh;
+    left: 10%;
+    width: 100%;
+    transform: rotate(130deg);
+  }
+  #AboutUs .banner-subtitle{
+    color: black;
+  }
+  
+}
 @media (min-width: 500px){
   .banner{
-  }
-  .banner img{
+    height: 45vh;
   }
   .banner .banner-container{    
     margin: auto;
@@ -135,11 +148,7 @@
     line-height: 52px;
   }
   
-  .banner-subtitle span:first-of-type{
-    color: #1A1A1A;
-    max-width: 700px;
-    font-size: 40px;
-  }
+
   .banner-subtitle h2{
   }
   .banner-contact-btn .contact-btn{
@@ -160,6 +169,20 @@
   
 }
 
+
+@media (min-width:800px) {
+  .banner img {
+    height: 660px;
+  }
+  .banner{
+    height: 700px;
+  }
+  #AboutUs .banner-subtitle .text2{
+    color: #1A1A1A;
+    max-width: 700px;
+    font-size: 40px;
+  }
+}
 
 @media (min-width: 1100px){
   .banner{

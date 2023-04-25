@@ -6,7 +6,7 @@ import { ServicioIOT } from "./ServicioIOT";
 import servicios from '../components/Utils/Servicios'
 import { useParams } from "react-router-dom"
 import { set } from "react-hook-form";
-import { Banner } from "../components/BannerServicio/Banner";
+import { Banner } from "../components/BannerServicio/BannerServicio";
 import { SecondNavbar } from '../components/SecondNavbar/SecondNavbar';
 import { BannerMoreInfo } from '../components/BannerMoreInfo/BannerMoreInfo'
 import { ServiciosContainer } from "../components/ServiciosContainer/ServiciosContainer";
@@ -21,7 +21,7 @@ export const Servicios = () => {
 
 
   const [iot, setIot] = useState(true);
-  const [ia, setIa] = useState(false);
+  const [ia, setIa] = useState(false); 
   const [impresoras, setImpresoras] = useState(false);
   return (
     <>

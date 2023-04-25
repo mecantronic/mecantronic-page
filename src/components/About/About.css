@@ -1,5 +1,5 @@
 .about{
-    margin-top: -115px;
+    /* margin-top: -115px; */
     margin-bottom: 230px;  
     background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);  
 }
@@ -90,8 +90,15 @@
     width: 100%;
     height: auto;
 }
-@media (min-width: 600px) {
 
+@media (max-width:800px) {
+    .about{
+        margin-bottom: 100px;
+        margin-top:0;
+    }
+    .aboutSection img.img3 , .aboutSection img.img2{
+        margin-bottom: 80px;
+    }
 }
 @media (min-width: 1000px){
     .nuestroEquipo div{
@@ -107,15 +114,16 @@
         margin: 0;
     }
     .about img.img1{
-        width: 515px;
+        width: 45%;
+        max-width: 550px;
         height: 523px;
     }
     .about img.img2{
-        width: 515px;
+        width: 45%;
         height: 380px;
     }
     .about img.img3{
-        width: 515px;
+        width: 45%;
         height: 442px;
         
     }
@@ -139,12 +147,12 @@
         flex-direction: row-reverse;
     }
     .about .textAbout{
-        width: 780px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         gap: 20px;
-        width: 36%;
+        width: 45%;
+        max-width: 520px;
     }
 
     .nuestroEquipo p{
@@ -189,8 +197,8 @@
         font-size: 28px;
     }
     .about img.img1{
-        height: 625px;
-        width: 620px;
+        height: 525px;
+        width: 515px;
     }
     .about img.img2{
         height: 400px;

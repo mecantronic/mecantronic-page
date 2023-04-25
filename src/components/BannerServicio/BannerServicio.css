@@ -63,7 +63,7 @@
   font-size: 24px;
 }
 
-.banner-subtitle span:first-of-type{
+.banner-subtitle .text1{
   color: #1A1A1A;
   max-width: 700px;
   margin-bottom: 64px;
@@ -75,7 +75,7 @@
   letter-spacing: 0.06em;
 }
 
-.banner-subtitle span:last-of-type{
+.banner-subtitle .text3{
   color: #BA000E;
 }
 
@@ -109,24 +109,21 @@
   }
   .banner .banner-container{    
     margin: auto;
-    margin-top: 75px;
+    margin-top: 110px;
   }
   .banner-subtitle {
-    max-width: 500px;
+    max-width: 700px;
     font-size: 32px;
     line-height: 48px;
     margin-bottom: 64px;
+    padding-right: 80px;
   }
   .banner-subtitle h2{
     font-size: 40px;
     line-height: 52px;
   }
   
-  .banner-subtitle span:first-of-type{
-    color: #1A1A1A;
-    max-width: 700px;
-    font-size: 40px;
-  }
+
   .banner-subtitle h2{
   }
   .banner-contact-btn .contact-btn{
@@ -145,6 +142,13 @@
     border-radius: 40px;
   }
   
+}
+@media (min-width: 800px) {
+  .banner-subtitle .text1{
+    color: #1A1A1A;
+    max-width: 700px;
+    font-size: 40px;
+  }
 }
 
 

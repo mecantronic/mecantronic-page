@@ -12,10 +12,21 @@ import { ToastContainer } from "react-toastify";
 import Navbarrr from "./components/NavBar2/Navbarrr.jsx";
 
 function App() {
+
+
+  /*
+
+  <Navbarrr/>
+
+  */
+
+
+
+
   return (
     <BrowserRouter>
       <NavBar/>
-      <Navbarrr/>
+      
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/servicios/:servicio" element={<Servicios />}></Route>

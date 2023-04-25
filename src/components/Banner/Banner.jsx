@@ -12,7 +12,7 @@ export const Banner = ({info1,info2, info3,img,bg1}) => {
       </div>
       <div className="banner-container">
         <p className="banner-subtitle">          
-          {info1 && <h2>{info1}</h2>} {info2 && <span>{info2}</span>} {info3 && <span>{info3}</span>}     
+          {info1 && <h2 className="text1">{info1}</h2>} {info2 && <span className="text2">{info2}</span>} {info3 && <span className="text3">{info3}</span>}     
         </p>
         <span className="banner-contact-btn"><ContactButton textoBoton={"Contactanos"}/></span>
       </div>

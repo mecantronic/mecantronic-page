@@ -10,7 +10,6 @@
     max-width: 870px;
   }
   .bannertitles-subtitle {  
-    justify-content: center;  
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FF5B68;
@@ -46,8 +45,14 @@
     font-size: 32px;
     line-height: 42px;
   }
-  @media (min-width: 2000px) {
-    .bannertitles-titles{
-      max-width: 900px;
+  @media (max-width: 800px) {
+    .bannertitles-subtitle{
+      font-size: 14px;
+    }
+    .bannertitles-title{
+      font-size: 20px;
+      margin-left: 33px;
+      margin-right: 33px;      
+      line-height: 135%;
     }
   }
