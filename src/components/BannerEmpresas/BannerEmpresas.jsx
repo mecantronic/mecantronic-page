@@ -11,8 +11,6 @@ import molinari from "../assets/empresas/Molinari.svg";
 import moltech from "../assets/empresas/Moltech.svg";
 import telefonica from "../assets/empresas/Telefonica.svg";
 import uali from "../assets/empresas/uali.svg";
-import velos from "../assets/empresas/Velos.svg"
-import YPF from "../assets/empresas/YPF.svg"
 
 export const BannerEmpresas = () => {
   return (
