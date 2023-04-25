@@ -24,10 +24,10 @@ export const BannerEmpresas = () => {
       <div className="clientes">
         <img src={shell} alt="shell" />
         <img src={accenture} alt="accenture" />
-        <img src={velos} alt="elos" />
+        <img src="./assets/empresas/Logo - velos.png" alt="velos"/>        
         <img src={telefonica} alt="telefonica" />
-        <img src={austral} alt="hospital universitario austral"/>
-        <img src={YPF} alt="ypf" />
+        <img src="./assets/empresas/Logo - Hospital Austral.png" alt="hospital universitario austral"/>        
+        <img src="./assets/empresas/Logo - YPF.png" alt="YPF"/>        
         <img src={buenosaires} alt="buenos aires" />
         <img src={L184} alt="potencial" />
         <img src={moltech} alt="moltech" />

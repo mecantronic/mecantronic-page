@@ -8,19 +8,17 @@ import { AboutUs } from "./pages/AboutUs";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
 import { Servicios } from "./pages/Servicios";
-import { Error404 } from "./pages/Error404";
 import { ToastContainer } from "react-toastify";
+import Navbarrr from "./components/NavBar2/Navbarrr.jsx";
 
 function App() {
   return (
     <BrowserRouter>
       <NavBar/>
+      <Navbarrr/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/servicios/:servicio" element={<Servicios />}></Route>
-        
-        {/* HACER PAGINA ERROR =>> <Route path="/*" element={<Error404 />}></Route> */}
-
         <Route path="/aboutUs" element={<AboutUs/>}></Route>
         <Route path="/products/:product" element={<Product />}></Route>
       </Routes>
