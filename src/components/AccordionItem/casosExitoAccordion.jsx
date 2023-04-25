@@ -4,7 +4,6 @@ import CasosExitoAccordionItem from "./casosExitoAccordionItem";
 
 
 export const CasosExitoAccordion = ({serviceToShow})=>{    
-    console.log(serviceToShow["subtitle"])
     return (
         <div className="productDetails pt-20" id="casosDeExito">
           <div className="accordionContainer">

@@ -13,8 +13,7 @@ export default function CasosExitoAccordionItem({product}) {
     setExpanded(isExpanded ? panel : false);
     changeImage(panel,isExpanded)
   };
-  function changeImage(panel,isExpanded){        
-    console.log("cambiando imagen?")    
+  function changeImage(panel,isExpanded){   
     hideAllImgAccordion()  
     if(isExpanded === false){
       hideAllImgAccordion();

@@ -50,6 +50,7 @@
   max-height: max-content;
   border-radius: 16px;
   margin: auto;
+  object-fit: cover;
 }
 
 /** accordion **/
@@ -127,8 +128,45 @@
 .css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
   margin: 0 !important;
 }
-
 #casosDeExito{
-  margin: 10px 160px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+#casosDeExito .titlesMobile{
+  margin: 16px;
+  margin-bottom: 50px;
+}
+.accordionImgContainer{
+  height: auto;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.accordionImgContainer img{
+  /*
+  height: 287px;
+  width: 328px;
+  */
+}
+.accordionImgContainer img{
+  width: 85vw;
+  height: 40vh;
+  max-height: 450px;
+  border-radius: 16px;
+}
+@media (min-width: 1100px){
+  #casosDeExito{
+    margin: 10px auto;
+    padding: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+  }
+  .sobreimgAccordion{
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1400px){
 
 }
