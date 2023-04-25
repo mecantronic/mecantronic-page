@@ -85,8 +85,6 @@
         margin-top: 32px;
     }
     .partner .job{
-        /*  font-size: 20px; */
-        line-height: 28px;
         margin-top: -5px;
     }
     .partner .linkedin{
@@ -95,4 +93,18 @@
         margin-top: 9px;
     }
 
+}
+@media (max-width: 640px){
+    .partner .job{
+        margin-top: 4px;
+    }
+    .partner img{
+        width: 150px;
+        height: 150px;
+    }
+    .partner .hoverLayer{
+        height: 150px;
+        width: 150px;
+        margin-top: -150px;
+    }
 }

@@ -115,13 +115,13 @@ export const Slider = ({elementos, type}) => {
             pagination={{ clickable: true }}
             id="swiperTeam"
             breakpoints={{
-            640: {
+            500: {
                 slidesPerView: 3,
                 spaceBetween: 20,
             },
-            768: {
+            950: {
                 slidesPerView: 4,
-                spaceBetween: 20,
+                spaceBetween: 10,
             },
             1024: {
                 slidesPerView: 4,
@@ -129,6 +129,10 @@ export const Slider = ({elementos, type}) => {
             },
             1400: {
                 slidesPerView: 5,
+                spaceBetween: 30,
+            },
+            1900: {
+                slidesPerView: 6,
                 spaceBetween: 30,
             },
             }}                    
