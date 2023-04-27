@@ -81,26 +81,24 @@ export const Form = ({ onClick }) => {
 
 
   const submitForm = (e) => {
-    //e.preventDefault();
-    //podes probar con form.current si no es e.target   
-   
-    emailjs
-      .sendForm(
-        'service_mkzy70s',
-        'template_mbzkiwk',
-        form.current, // originalmente iba e.target
+      const name  = form.current.name.value
+      const email  = form.current.email.value
+      const message  = form.current.message.value
+      const consulta  = form.current.consulta.value
+      const ciudad = form.current.ciudad.value
+
+      emailjs.send("service_mkzy70s","template_mbzkiwk",
+        {name, email , message , consulta , ciudad },
         "F9yJc6wjTrkVV7_ha"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    
-    console.log("Enviando form con..",form.current.name.value,form.current.message.value,form.current.email.value,form.current.consulta.value,form.current.ciudad.value)    
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
     clearForm(form)
     renderAlert("¡Gracias por escribirnos, pronto estaremos respondiendo!");
 
@@ -211,19 +209,6 @@ export const Form = ({ onClick }) => {
           </form>
         </div>
       </div>
-      {/*   
-      <ToastContainer
-        position="bottom-left"
-        autoClose={4000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-      />
-      */}
     </div>
   );
 };
