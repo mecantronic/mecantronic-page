@@ -38,6 +38,17 @@
   color: #808080;
   margin-top: 1.5em;
 }
+.sobreP-3d{
+  width: 421px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #808080;
+  margin-top: 1.5em;
+}
 
 .sobrecontainer {
   display: flex;
@@ -68,6 +79,7 @@
   margin: auto;
   opacity: 1;
   transition: all 0.5s;
+  object-fit: cover;
 }
 .sobreimgHidden{
   opacity: 0;
@@ -158,7 +170,7 @@
     max-width: 1200px;
   }
   .sobreimgAccordion{
-    margin-top: 50px;
+    margin-top: 0px;
   }
 }
 

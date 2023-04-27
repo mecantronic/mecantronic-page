@@ -45,6 +45,7 @@
   opacity: 1;
   transform: translateY(0);
   animation: fadeInOnLoad 1s ease-in  1;
+  overflow:hidden;
 }
 
 @keyframes fadeInOnLoad {

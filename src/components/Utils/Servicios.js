@@ -57,7 +57,12 @@ const servicios = [
     imgHero: "products/Kubox/portada.png",
     sobrePrincipal: "Crea lo que quieras con nuestra impresión 3D de última generación.",
     sobreTitle:"La impresión 3D es la clave para la innovación y el éxito empresarial en la era digital.",
-    sobreParagraph: " Ofrecemos servicios de impresión 3D para concretar tus ideas. El prototipado rápido permite realizar pruebas de concepto o mejorar tu diseño antes de pasar a la producción en serie. La impresión con materiales técnicos (ABS, Nylon, PETG, Flex y Hips) permite la fabricación de productos definitivos de solicitación térmica y mecánica relativamente baja, o que se adapten a necesidades particulares. La impresión en resina biocompatible permite la interacción de productos impresos con el cuerpo humano. La tecnología de escaneo 3D permite la reproducción digital de un objeto físico para poder intervenir y, eventualmente, reimprimirlo.",
+    sobreParagraph: {
+        1: " Ofrecemos servicios de impresión 3D para concretar tus ideas. El prototipado rápido permite realizar pruebas de concepto o mejorar tu diseño antes de pasar a la producción en serie.", 
+        2: "La impresión con materiales técnicos (ABS, Nylon, PETG, Flex y Hips) permite la fabricación de productos definitivos de solicitación térmica y mecánica relativamente baja, o que se adapten a necesidades particulares.",
+        3: "La impresión en resina biocompatible permite la interacción de productos impresos con el cuerpo humano.", 
+        4: "La tecnología de escaneo 3D permite la reproducción digital de un objeto físico para poder intervenir y, eventualmente, reimprimirlo."
+    },
     sobreImg:"../assets/Impresion.svg",
     exitoImg:"ExitoPrinter.svg",
     empresaImg: ["../assets/empresas/ASP.svg", "../assets/empresas/infinem.svg", "../assets/empresas/L184.svg"]

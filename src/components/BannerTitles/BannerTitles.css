@@ -55,4 +55,14 @@
       margin-right: 33px;      
       line-height: 135%;
     }
+
+    #Product .bannertitles-title, #comparativaProductos .bannertitles-titles .bannertitles-title{
+      margin: auto;      
+      font-size: 20px;
+      line-height: 135%;
+    }
+    #Product .datasheet .bannertitles-subtitle{
+      font-size: 14px;
+      line-height: 30px;
+    }
   }

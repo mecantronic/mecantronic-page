@@ -72,7 +72,7 @@
         flex-wrap: nowrap;
         padding: 8px;
         width: 650px;
-        margin-left: 180px;
+        margin: auto;
         gap: 48px;
         height: 72px;
     }
@@ -89,8 +89,8 @@
 }
 
 @media (min-width: 1000px){
-    .serviciosNav span{
-
+    .serviciosNav{
+        margin-left: 180px;
     }
     .serviciosNav span p{
         font-family: 'Ubuntu';
@@ -110,15 +110,7 @@
     .serviciosNav span:last-child p{
         border: none;
     }
-
-
-}
-
-
-@media (min-width:1500px){
-    /*
-    .serviciosNav p {
-        font-size: 22px;
+    .serviciosNavContainer{
+    
     }
-    */
 }

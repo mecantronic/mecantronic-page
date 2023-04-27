@@ -81,7 +81,7 @@
     }
     .bannerMoreInfo button{
         width: 217px;
-        height: auto;
+        height: 50px;
     }
 }
 @media (min-width: 440px){

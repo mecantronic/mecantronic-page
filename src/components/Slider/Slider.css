@@ -84,7 +84,7 @@
 /* IMAGE PRODUCT */
 #swiperImgProduct{
     max-width: 90vw;
-    height: 90vw;
+    /*height: 90vw;*/
 }
 .productsContainer{
     margin-top: -100px;
@@ -140,6 +140,9 @@
 }
 
 @media (max-width: 640px){
+    #swiperImgProduct img{
+        max-width: 250px;
+    }
     #swiperGallery  img{
         padding: 0;
         border-radius: 16px;

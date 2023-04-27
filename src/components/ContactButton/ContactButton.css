@@ -144,20 +144,32 @@
     max-height: 30px;
 }
 
+/* BOTON CONTACT */
 .contact-btn{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 20px;
+    padding: 14px 30px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FCFCFC;
     padding: 0;
-    background: #97000C;
+    background: #97000c !important;
     border-radius: 40px;
     color: white;
+    height: 48px;
+    width: 170px;
+
+}
+
+.contact-btn:hover{
+    background-color: #7a020c!important;
+}
+.contact-btn:active{
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25)!important;
 }
 
 

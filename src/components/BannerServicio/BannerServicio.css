@@ -21,6 +21,7 @@
   height: 800px;
   display: flex;
   justify-content: flex-end;
+  overflow-y: hidden;
 }
 .banner img{
   position: absolute;
@@ -39,7 +40,7 @@
 }
 
 .banner-subtitle{    
-  margin: 0/*70px*/ 16px 40px 16px;
+  margin: 100px 16px 40px 16px;
   font-family: "Ubuntu";
   align-items: center;
   letter-spacing: 0.06em;
@@ -118,10 +119,7 @@
     margin-bottom: 64px;
     padding-right: 80px;
   }
-  .banner-subtitle h2{
-    font-size: 40px;
-    line-height: 52px;
-  }
+
   
 
   .banner-subtitle h2{
@@ -144,10 +142,14 @@
   
 }
 @media (min-width: 800px) {
-  .banner-subtitle .text1{
+  .banner .banner-subtitle .text1{
     color: #1A1A1A;
     max-width: 700px;
     font-size: 40px;
+  }
+  .banner-subtitle h2{
+    font-size: 40px;
+    line-height: 52px;
   }
 }
 

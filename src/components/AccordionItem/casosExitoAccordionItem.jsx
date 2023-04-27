@@ -31,6 +31,7 @@ export default function CasosExitoAccordionItem({product}) {
     for (let i = 0; i < allAccordionImg.length; i++) {
       allAccordionImg[i].classList.add("sobreimgHidden")   
     }
+    
   }
   return (
     <div>

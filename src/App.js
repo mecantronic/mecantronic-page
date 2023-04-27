@@ -5,28 +5,15 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Product } from "./pages/Product";
 import { AboutUs } from "./pages/AboutUs";
-import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
 import { Servicios } from "./pages/Servicios";
 import { ToastContainer } from "react-toastify";
-import Navbarrr from "./components/NavBar2/Navbarrr.jsx";
+import { Navbar } from "./components/Navbar/Navbar";
 
 function App() {
-
-
-  /*
-
-  <Navbarrr/>
-
-  */
-
-
-
-
   return (
     <BrowserRouter>
-      <NavBar/>
-      
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/servicios/:servicio" element={<Servicios />}></Route>
