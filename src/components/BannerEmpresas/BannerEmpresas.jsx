@@ -20,19 +20,20 @@ export const BannerEmpresas = () => {
         title={"Empresas que ya nos eligieron"}
       />
       <div className="clientes">
-        <img src={shell} alt="shell" />
-        <img src={accenture} alt="accenture" />
-        <img src="./assets/empresas/Logo - velos.png" alt="velos"/>        
+        <img src={shell} alt="shell" className="imgMobile shell"/>
+        <img src={accenture} alt="accenture"  className="imgMobile accenture"/>
+        <img src="./assets/empresas/Logo - velos.png" alt="velos"  className="imgMobile velos"/>        
         <img src={telefonica} alt="telefonica" />
-        <img src="./assets/empresas/Logo - Hospital Austral.png" alt="hospital universitario austral"/>        
-        <img src="./assets/empresas/Logo - YPF.png" alt="YPF"/>        
+        <img src="./assets/empresas/Logo - Hospital Austral.png" alt="hospital universitario austral"  className="imgMobile austral"/>        
+        <img src="./assets/empresas/Logo - YPF.png" alt="YPF"  className="imgMobile ypf"/>        
         <img src={buenosaires} alt="buenos aires" />
         <img src={L184} alt="potencial" />
         <img src={moltech} alt="moltech" />
         <img src={uali} alt="uali" />
         <img src={molinari} alt="molinari" />
-        <img src={ASP} alt="ASP" />
+        <img src={ASP} alt="ASP"  className="imgMobile asp"/>
       </div>
     </div>
   );
 };
+
