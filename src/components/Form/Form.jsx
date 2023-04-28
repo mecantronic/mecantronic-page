@@ -80,7 +80,6 @@ export const Form = ({ onClick }) => {
       const message  = form.current.message.value
       const consulta  = form.current.consulta.value
       const ciudad = form.current.ciudad.value
-
       
       emailjs.send("service_mkzy70s","template_mbzkiwk",
         {name, email , message , consulta , ciudad },
