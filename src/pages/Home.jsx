@@ -17,16 +17,16 @@ export const Home = () => {
   },100)
 
   return (
-    <>
-    <Banner info2={"La tecnología más conveniente para desarrollar tu producto y "} info3={"potenciar tu empresa."} img={"homebanner.svg"}/>  
-    <Marca/>
-    <Servicios/>
-    <CasosExito/> 
-    <BannerEmpresas/>
-    <Testimonios/> 
-    <div id='regularContactForm'>
-      <Form/>
-    </div>
-    </>
+    <span id="Home">
+      <Banner info2={"La tecnología más conveniente para desarrollar tu producto y "} info3={"potenciar tu empresa."} img={"homebanner.svg"}/>  
+      <Marca/>
+      <Servicios/>
+      <CasosExito/> 
+      <BannerEmpresas/>
+      <Testimonios/> 
+      <div id='regularContactForm'>
+        <Form/>
+      </div>
+    </span>
   )
 }

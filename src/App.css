@@ -13,9 +13,6 @@
   background-position: center;
   background-size: cover
 }
-
-
-
 /*  max 1600px top */
 /*  min 1600px home - 2 */
 .bgImageHome{
@@ -40,8 +37,10 @@
   background-size: 1700px;
 }
 
+
+
 /* ANIMACIONES DE CAMBIO DE PAGINA */
-#AboutUs , #Product{
+#AboutUs , #Product , #Home , #Servicios{
   opacity: 1;
   transform: translateY(0);
   animation: fadeInOnLoad 1s ease-in  1;

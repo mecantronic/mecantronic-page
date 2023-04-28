@@ -4,6 +4,13 @@ import React from "react";
 import { BannerTitles } from "../BannerTitles/BannerTitles";
 import { CasosExitoAccordion } from "../AccordionItem/casosExitoAccordion";
 export const ServiciosContainer = ({ serviceToShow }) => {
+  
+
+  setTimeout(()=>{
+    const root = document.getElementById("root");
+    root.removeAttribute('class');
+    root.classList.add("backgroundImage");
+  },100)
 
   return (
     <>
