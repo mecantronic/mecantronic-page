@@ -9,7 +9,6 @@
 .casos {
   width: 100%;
   text-align: -webkit-center;
-  margin-top: 30vh;
 }
 
 .casos-titles {
@@ -247,3 +246,34 @@ flex-grow: 0;
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 1000px){
+  .casos .casoExitoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .casos .casoExitoContainer .imgExito, .casos .casoExitoContainer .casos-description-container{
+    width: 100%;
+  }
+  .casos .casoExitoContainer .imgExito{
+    padding: 16px;
+  }
+  .casos .casoExitoContainer .imgExito img{
+    height: 320px;
+  }
+  
+  .casos .casoExitoContainer .casos-description-container .casos-paragraph{
+    max-width: none;
+  }
+  .casos .casoExitoContainer .casos-description-container .casos-title{
+    width: auto;
+  }
+  .casos .casoExitoContainer .casos-paragraph{
+    width: 90%;
+    max-width: 420px;
+    height: auto;
+    padding-bottom: 32px;
+  }
+}
+

@@ -164,7 +164,17 @@
     #swiperTeam .swiper-pagination-horizontal{
         top: auto;
     }
+    #swiperTestimonios{
+        margin: 0 10px;
+        padding: 20px;
+    }
 
+}
+@media (min-width: 500px){
+    #swiperTestimonios{
+        margin: 0 50px;
+        padding: 0;
+    }
 }
 @media (max-width: 1200px){
     #swiperGallery img{

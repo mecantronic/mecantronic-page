@@ -1,7 +1,7 @@
 .servicios {
-  height: 150vh;
   width: 100%;
   text-align: -webkit-center;
+  margin-bottom: 15vh;
 }
 
 .servicios-titles {
@@ -84,12 +84,13 @@
   justify-content: space-between;
   padding: 40px 24px;
   gap: 34px;
-
-  width: 332px;
+  width: 100%;
+  max-width: 332px;
   height: 671px;
 
   /* background: #fafafa; */
   border-radius: 16px;
+  margin-top: 40px;
 
   /* Inside auto layout */
 

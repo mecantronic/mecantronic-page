@@ -82,7 +82,7 @@ export const CasosExito = () => {
     <div className="w-full casos">
       <BannerTitles subtitle={"casos de éxito"} title={"Proyectos que realizamos"}/>
       <div className="flex p-8 casoExitoContainer" onClick={()=> changeSection()}>
-        <div className="w-1/2 casos-img pl-20 pr-20 imgExito">
+        <div className="w-1/2 casos-img pl-10 pr-10 imgExito">
           <img src={img} alt="" />
         </div>
         <div className="w-1/2 casos-description-container">
@@ -97,26 +97,28 @@ export const CasosExito = () => {
           </p>
           </div>
        
-          <div className="casos-conocermas">
-            <span className="conocerMasBtn">Conocer mas </span>
-            <span className="conocerMasBtn">
-              <HiOutlineArrowNarrowRight />
-            </span>
-          </div>
-          <div className="flex casos-circles mt-10">
-            <span className={firstActive ? `active-circle` :`inactive-circle` } onClick={()=> firstSection()} >
-              {" "}
-              <GiPlainCircle />{" "}
-            </span>
-            <span className={secondActive ? `active-circle ml-3` :`inactive-circle ml-3` } onClick={()=> secondSection()}>
-              {" "}
-              <GiPlainCircle />{" "}
-            </span>
-            <span className={thirdActive ? `active-circle ml-3` :`inactive-circle ml-3` } onClick={()=> thirdSection()}>
-              {" "}
-              <GiPlainCircle />{" "}
-            </span>
-          </div>
+          <span>
+            <div className="casos-conocermas">
+              <span className="conocerMasBtn">Conocer mas </span>
+              <span className="conocerMasBtn">
+                <HiOutlineArrowNarrowRight />
+              </span>
+            </div>
+            <div className="flex casos-circles mt-10">
+              <span className={firstActive ? `active-circle` :`inactive-circle` } onClick={()=> firstSection()} >
+                {" "}
+                <GiPlainCircle />{" "}
+              </span>
+              <span className={secondActive ? `active-circle ml-3` :`inactive-circle ml-3` } onClick={()=> secondSection()}>
+                {" "}
+                <GiPlainCircle />{" "}
+              </span>
+              <span className={thirdActive ? `active-circle ml-3` :`inactive-circle ml-3` } onClick={()=> thirdSection()}>
+                {" "}
+                <GiPlainCircle />{" "}
+              </span>
+            </div>
+          </span>
         </div>
       </div>
     </div>

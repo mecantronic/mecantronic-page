@@ -117,10 +117,11 @@
 }
 
 @media (max-width: 700px){
-  #Product .banner-subtitle{
+  #Product .banner-subtitle , #Home .banner-subtitle{
     margin-top: 160px;
+    padding-right: 40px;
   }
-  #Product .text1 , #Product .text2{
+  #Product .text1 , #Product .text2 , #Home .text2{
     font-size: 24px;
     line-height: 32px;
   }

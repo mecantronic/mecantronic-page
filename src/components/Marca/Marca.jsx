@@ -6,8 +6,8 @@ import dart from "../assets/Dart.svg";
 
 export const Marca = () => {
   return (
-    <div className="w-full flex marca">
-      <div className="w-1/3 h-full marca-section">
+    <div className="marca">
+      <div className=" h-full marca-section">
         <div>
         <div className="marca-icon">
             <img src={rocket} alt="icon" />
@@ -19,7 +19,7 @@ export const Marca = () => {
         </div>
       </div>
 
-      <div className="w-1/3 h-full marca-section">
+      <div className=" h-full marca-section">
         <div>
           <div className="marca-icon">
             <img src={puzzle} alt="icon" />
@@ -30,7 +30,7 @@ export const Marca = () => {
         </div>
       </div>
 
-      <div className="w-1/3 h-full marca-section">
+      <div className=" h-full marca-section">
         <div>
           <div className="marca-icon">
               <img src={dart} alt="icon" />
