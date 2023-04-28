@@ -179,7 +179,7 @@
     padding-top: 40px;
     width: 90%;
   }
-  .sobrecontainer .sobreinfocontainer .sobreTitle ,.sobrecontainer .sobreinfocontainer .sobreP{
+  .sobrecontainer .sobreinfocontainer .sobreTitle ,.sobrecontainer .sobreinfocontainer .sobreP, .sobrecontainer .sobreinfocontainer .sobreP-3d{
     width: auto;
     height: auto;
   }

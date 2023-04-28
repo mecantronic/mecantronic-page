@@ -22,7 +22,7 @@ export const BannerEmpresas = () => {
       <div className="clientes">
         <img src={shell} alt="shell" className="imgMobile shell"/>
         <img src={accenture} alt="accenture"  className="imgMobile accenture"/>
-        <img src="./assets/empresas/Logo - velos.png" alt="velos"  className="imgMobile velos"/>        
+        <img src="./assets/empresas/velos.png" alt="velos"  className="imgMobile velos"/>        
         <img src={telefonica} alt="telefonica" />
         <img src="./assets/empresas/Logo - Hospital Austral.png" alt="hospital universitario austral"  className="imgMobile austral"/>        
         <img src="./assets/empresas/Logo - YPF.png" alt="YPF"  className="imgMobile ypf"/>        
