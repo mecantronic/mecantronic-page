@@ -128,8 +128,11 @@
     margin: 0px auto;
     padding: 64px;
     border-radius: 32px;
-
-
+}
+#regularContactForm .formularioContacto{
+    max-width: 515px;
+    padding: 0;
+    margin-top: 80px;
 }
 .formularioContacto .formulario{
     height: 100%;
@@ -145,6 +148,9 @@
     width: 100%;    
     max-width: 500px;
     margin: 24px auto 10px;
+}
+#modalFormConteiner .formularioContacto .labelFormContacto{
+    margin-bottom: 0px;
 }
 .formularioContacto .labelFormContacto label{
     text-align: left;
@@ -197,11 +203,6 @@
 
 .formularioContacto label, .formularioContacto .labelFormContacto input, .formularioContacto textarea{
     width: 100%;
-    /* 
-    margin-bottom: 10px;
-    width: 50vw;
-    max-width: 500px;
-     */
 }
 .formularioContacto textarea{
     
@@ -233,43 +234,105 @@ input.botonEnvio {
     color: red;
 }
 
-/* Media queries 
-@media (max-width: 550px) {
-    .formularioContacto  {
-        width: 100vw;
-        margin: auto;
-    }    
-    .formularioContacto label, .formularioContacto .labelFormContacto input, .formularioContacto textarea{
-        margin-bottom: 10px;
-        width: 75vw;
-        max-width: 500px;
-    }
-}
-*/
 
 #regularContactForm .contactContainer button{
     display: none;
-
 }
 #regularContactForm  .formContainer{
     padding: 0;
 
 }
-@media (min-width:1500px){    
-    input.botonEnvio{
-        font-size: 24px;
+@media (max-width:800px){
+    #modalFormConteiner
+
+
+
+
+
+    #regularContactForm .formularioContacto{
+        width: 100%;
+        padding: 0 16px;
+        margin-top: 10px;
+    }
+    #regularContactForm .formularioContacto .labelFormContacto label{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.01em;
+        color: #1A1A1A;
+    }
+    #regularContactForm .formularioContacto .labelFormContacto input{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.01em;        
+        color: #B3B3B3;
+    }
+    #regularContactForm .formularioContacto .labelFormContacto input, .formularioContacto textarea, #regularContactForm  .formularioContacto select{
+        border-bottom: 1px solid #4D4D4D;
+    }
+    #regularContactForm .contactContainer h2{
+        font-size: 14px;
+    }
+    #regularContactForm .contactContainer h3{
+        font-size: 20px;
     }
 }
 
+@media (min-width:800px) and (max-width:1000px){
+    #regularContactForm .formularioContacto{
+        width: 75%;
+        padding: 0 16px;
+        margin-top: 30px;
+    }
+}
+
+
+
+@media (min-width:1300px){    
+    input.botonEnvio{
+        font-size: 24px;
+    }
+
+}
+
+
 /* FORMULARIO CONTACTO MODAL  REDUCIDO*/
-#modalFormConteiner .contactContainer h2{
-    padding-top: 40px; /* tenia 48px antes */ 
+/* formulario modal */
+@media (max-height:900px){
+    #modalFormConteiner .contactContainer .formContainer{
+        padding-top: 5px; /* tenia 48px antes */
+        padding-bottom: 0; /* tenia 30px antes */
+    }
+    #modalFormConteiner .contactContainer h2{
+        padding-top: 20px; /* tenia 48px antes */ 
+        padding-bottom: 0;
+    }
+    #modalFormConteiner .formularioContacto .labelFormContacto label{
+        margin-bottom: 5px; /* tenia 40px antes */
+    }
+    
 }
-#modalFormConteiner .contactContainer .formContainer{
-    padding-top: 30px; /* tenia 48px antes */
-    padding-bottom: 0; /* tenia 30px antes */
+@media (min-height:900px){
+    #modalFormConteiner .contactContainer h2{
+        padding-top: 25px; /* tenia 48px antes */ 
+        padding-bottom: 10px; /* tenia 30px antes */
+    }
+    #modalFormConteiner .contactContainer .formContainer{
+        padding: 0 135px 10px 135px;
+    }
+    
 }
-#modalFormConteiner .formularioContacto .labelFormContacto label{
-    margin-bottom: 5px; /* tenia 40px antes */
+@media (min-height:1000px){
+    #modalFormConteiner .contactContainer h2{
+        padding-top: 40px; /* tenia 48px antes */ 
+        padding-bottom: 40px; /* tenia 30px antes */
+    }
+    
 }
+
 

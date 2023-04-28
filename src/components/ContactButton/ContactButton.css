@@ -8,9 +8,12 @@
      max-height: 1000px;
 }
 #modalContacto > div > div{
+    /* 
     height: 90vh;
-    background: none;
     width: 684px;
+    */
+    background: none;
+    
 }
 #modalFormConteiner{
     background: transparent;
@@ -20,6 +23,8 @@
     justify-content: center;
     flex-direction: column;
     max-height: 1000px;
+    width: 98%;
+    margin: auto;
 }
 #modalFormConteiner .contactContainer{
     padding: 0;
@@ -74,7 +79,7 @@
     align-items: center;
     letter-spacing: 0.01em;
     color: #1A1A1A;
-    margin-bottom: 41px;
+   /* margin-bottom: 41px; */
 }
 #modalFormConteiner input.botonEnvio{    
     margin:40px auto;
@@ -175,8 +180,33 @@
 
 @media (max-width: 760px){
     #modalFormConteiner .contactContainer{
-        margin-top: 15vh;
+       /* margin-top: 15vh; */
     }
+    #modalFormConteiner .contactContainer h2{        
+        font-size: 14px;
+        line-height: 30px;
+    }
+    #modalFormConteiner .contactContainer h3{        
+        font-size: 20px;
+        line-height: 135%;        
+    }
+    #modalFormConteiner .contactContainer h2{
+        padding-bottom: 10px;
+    }
+    #modalFormConteiner .contactContainer .formContainer{
+        padding: 0 16px;
+    }
+    #modalFormConteiner .formularioContacto .labelFormContacto label{        
+        font-size: 14px;
+        line-height: 16px;
+    }
+    #modalFormConteiner .formularioContacto .labelFormContacto input{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+
 }
 @media (min-width: 1500px){
     #modalFormConteiner .formularioContacto .labelFormContacto label{
