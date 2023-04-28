@@ -202,8 +202,9 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 .nav-collapse-open{
   display: block;
 }
-#nav-collapse .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+#nav-collapse .collapseItem1{
   background-color: #B7030E;
+  box-shadow: none;
 }
 #panel2-bh-header , #panel1-bh-header{
   height: 48px !important;
@@ -258,8 +259,8 @@ p.titleAccordionCollapse{
   flex-direction: column;
   justify-content: center;
 }
-#nav-collapse .css-i4bv87-MuiSvgIcon-root {
-  color: white;
+#nav-collapse .MuiAccordionSummary-expandIconWrapper {
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 800px){
