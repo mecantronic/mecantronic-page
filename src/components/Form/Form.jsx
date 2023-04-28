@@ -14,12 +14,7 @@ export const Form = ({ onClick }) => {
   //"Servicios-3D"
   //"Impresora-Kubox"
   //"Impresora-Koron"
-
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [consulta, setConsulta] = useState("");
-  // const [ciudad, setCiudad] = useState("");
-  // const [message, setMessage] = useState("");
+  
   const [estadoForm, setEstadoForm] = useState("");
   const form = useRef();
   //Form validation
@@ -37,7 +32,6 @@ export const Form = ({ onClick }) => {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
-    console.log(formData)
   }
 
   const handleErrors = (e, values) => {
@@ -87,6 +81,7 @@ export const Form = ({ onClick }) => {
       const consulta  = form.current.consulta.value
       const ciudad = form.current.ciudad.value
 
+      
       emailjs.send("service_mkzy70s","template_mbzkiwk",
         {name, email , message , consulta , ciudad },
         "F9yJc6wjTrkVV7_ha"
@@ -98,7 +93,7 @@ export const Form = ({ onClick }) => {
           (error) => {
             console.log(error.text);
           }
-        );
+        );      
     clearForm(form)
     renderAlert("¡Gracias por escribirnos, pronto estaremos respondiendo!");
 
@@ -111,7 +106,7 @@ export const Form = ({ onClick }) => {
     form.current.email.value = "";
     form.current.consulta.value = "servicios";
     form.current.ciudad.value = "";
-    onClick()
+    onClick && onClick()
   }
 
   function renderAlert(msj) {
@@ -128,9 +123,11 @@ export const Form = ({ onClick }) => {
 
   return (
     <div className="contactContainer">
-      <div>
-        <button onClick={onClick}>X</button>
-      </div>
+      {onClick? (      
+        <div>
+          <button onClick={onClick}>X</button>
+        </div>) 
+        : (<></>)}
       <h2>Contacto</h2>
       <h3>Dejanos tu consulta</h3>
       <div className="formContainer">
