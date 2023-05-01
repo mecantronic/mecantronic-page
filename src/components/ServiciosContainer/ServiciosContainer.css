@@ -69,7 +69,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 .sobreimgAccordion{
   position: absolute;
@@ -126,7 +128,7 @@
   line-height: 24px;
   letter-spacing: 0.06em;
   color: #808080;
-  padding: 10px 80px 32px  40px ;
+  padding: 0px 50px 20px  65px ;
 }
 
 .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
@@ -144,14 +146,10 @@
   margin: 10px auto;
   display: flex;
   flex-direction: column-reverse;
+  height: 500px;
 }
 #casosDeExito .titlesMobile{
   margin: 16px;
-  margin-bottom: 50px;
-}
-.accordionImgContainer{
-  height: auto;
-  margin: 0;
   margin-bottom: 50px;
 }
 

@@ -1,17 +1,19 @@
 // @ts-nocheck
 
 import CasosExitoAccordionItem from "./casosExitoAccordionItem";
-
+import './AccordionItem.css'
 
 export const CasosExitoAccordion = ({serviceToShow})=>{    
     return (
-        <div className="productDetails pt-20" id="casosDeExito">
+        <div className="productDetails" id="casosDeExito">
           <div className="accordionContainer">
             <div className="titles">
               <p className="subtitle">{serviceToShow["subtitle"]}</p>
               <p className="detailsTitle">{serviceToShow["detailsTitle"]}</p>
             </div>
+            <div className="expandContainer">
             <CasosExitoAccordionItem product={serviceToShow["accordion"]}/>
+            </div>
           </div>
 
           <div className=" accordionImgContainer">

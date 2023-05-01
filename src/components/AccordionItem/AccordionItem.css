@@ -54,3 +54,8 @@
     box-shadow: none !important;    
 }
 
+.expandContainer{
+    height: 300px;
+    overflow-y: scroll;
+}
+
