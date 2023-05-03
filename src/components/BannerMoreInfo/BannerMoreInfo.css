@@ -52,7 +52,7 @@
     font-size: 16px;
     letter-spacing: 0.01em;
     text-align: center;
-    background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #BA000E 77.58%);
+    background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #BA000E 77.58%) !important;
     width: 167px;
     height: 48px;
     border-radius: 40px;
@@ -96,6 +96,13 @@
 }
 
 @media (min-width: 600px) {
+    .bannerMoreInfo div{
+        height: 170px;
+    }    
+    .bannerMoreInfo span {
+        height: 170px;
+        margin-top: -170px;
+    }
     .bannerMoreInfo{
         margin: 120px auto;
     }
@@ -127,8 +134,10 @@
 }
 
 
+
 @media (min-width: 800px) {
     .bannerMoreInfo div{
+        height: 118px;
         max-width: 868px;
         display: flex;
         justify-content: space-around;
@@ -137,12 +146,15 @@
         padding: 34px 60px;
         gap: 40px;
     }
+
     .bannerMoreInfo span{
         max-width: 868px;
         display: flex;
         justify-content: space-around;
         flex-direction: row;
         border-radius: 40px;
+        height: 118px;
+        margin-top: -118px;
 
     }
 }
