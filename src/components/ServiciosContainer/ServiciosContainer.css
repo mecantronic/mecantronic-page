@@ -129,6 +129,8 @@
   letter-spacing: 0.06em;
   color: #808080;
   padding: 0px 50px 20px  65px ;
+  display: flex;
+  align-items: center;
 }
 
 .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
@@ -158,6 +160,20 @@
   height: 40vh;
   max-height: 450px;
   border-radius: 16px;
+}
+
+/*  FONDOS PARA SERVICIOS   1:IA - 2:IOT - 3:3D*/
+.backgroundDegradeServicios{
+
+}
+#servicio-bg-1{
+
+}
+#servicio-bg-2{
+  
+}
+#servicio-bg-3{
+  
 }
 
 @media (max-width: 1100px){

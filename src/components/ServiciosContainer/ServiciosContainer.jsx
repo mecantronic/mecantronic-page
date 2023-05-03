@@ -52,7 +52,7 @@ export const ServiciosContainer = ({ serviceToShow }) => {
             </div>
           </div>
         </div>
-        <span className="backgroundDegrade"></span>
+        <span className="backgroundDegradeServicios" id={`servicio-bg-${serviceToShow.id}`}></span>
       </div>
     </>
   );
