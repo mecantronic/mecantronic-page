@@ -2,7 +2,6 @@
 import { Disclosure} from '@headlessui/react'
 import React from 'react';
 import "./AccordionItem.css"
-import { Accordion } from 'flowbite-react';
 export const AccordionItem = ({data, index})=>{    
     const  {title, description, img} = data;
         

@@ -2,23 +2,15 @@
 import "./Form.css";
 import React, { useRef, useState } from "react";
 import { toast } from "react-toastify";
-import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser";
 
 export const Form = ({ onClick }) => {
-  // SETEAR CONSULTA POR DEFECTO DESDE PARAMETROS...
-  //"servicios"
-  //"Servicios-IOT"
-  //"Servicios-IA"
-  //"Servicios-3D"
-  //"Impresora-Kubox"
-  //"Impresora-Koron"
   
-  const [estadoForm, setEstadoForm] = useState("");
+  // const [estadoForm, setEstadoForm] = useState("");
   const form = useRef();
   //Form validation
-  const initialValues = { name: "", lastName: "" };
+ // const initialValues = { name: "", lastName: "" };
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
   const [formData, setFormData] = useState({

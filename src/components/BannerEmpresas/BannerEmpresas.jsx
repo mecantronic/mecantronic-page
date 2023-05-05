@@ -4,7 +4,6 @@ import "./BannerEmpresas.css";
 import accenture from "../assets/empresas/Accenture.svg";
 import shell from "../assets/empresas/Shell.svg";
 import ASP from "../assets/empresas/ASP.svg";
-import austral from "../assets/empresas/Hospital Austral.svg";
 import buenosaires from "../assets/empresas/image 96.svg";
 import L184 from "../assets/empresas/L184.svg";
 import molinari from "../assets/empresas/Molinari.svg";

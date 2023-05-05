@@ -6,7 +6,6 @@ import { BannerTitles } from "../BannerTitles/BannerTitles";
 import noisen from "../assets/noisen.svg";
 import aerogeneradores from "../assets/aerogeneradores.svg";
 import impresora from "../assets/impresora.svg";
-import { useSearchParams } from "react-router-dom";
 
 export const CasosExito = () => {
   const noisenTitle = "Noisen"
