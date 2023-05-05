@@ -19,6 +19,10 @@ export const Product = () => {
     const root = document.getElementById("root");
     root.removeAttribute('class');
     root.classList.add("backgroundImage", "bgImageProducts");
+    if(productToShow["title"]==="Koron"){
+      console.log("SOY KORON")
+      root.classList.add("backgroundImage-inversa");
+    }
   },100)
 
   return (    

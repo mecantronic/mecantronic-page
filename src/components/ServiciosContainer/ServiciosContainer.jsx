@@ -44,6 +44,10 @@ export const ServiciosContainer = ({ serviceToShow }) => {
               title={"Socios estratégicos"}
             />
             <div className="clientes">
+            <span className="backgroundDegradeServicios"> 
+              <div  id={`servicio-bg-${serviceToShow.id}-1`}> </div>
+              <div  id={`servicio-bg-${serviceToShow.id}-2`}> </div>
+            </span>
               {serviceToShow["empresaImg"].map((empresa)=>{
                 return (
                   <img src={empresa} alt="" className={`${serviceToShow.id === 2 && "socioEstragicoIA"}`}/>
@@ -52,7 +56,7 @@ export const ServiciosContainer = ({ serviceToShow }) => {
             </div>
           </div>
         </div>
-        <span className="backgroundDegradeServicios" id={`servicio-bg-${serviceToShow.id}`}></span>
+        
       </div>
     </>
   );

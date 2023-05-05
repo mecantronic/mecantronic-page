@@ -83,10 +83,16 @@
   line-height: 52px;
   letter-spacing: 0.06em;
 }
-
-.banner-subtitle span:last-of-type{
-  
-  /*  color: #1A1A1A;  cambiado por error en home*/
+.text3{
+  color: #BA000E;
+  max-width: 700px; 
+  margin-bottom: 64px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.06em;
 }
 #Product .text1{
   color: #ac0d0d;
@@ -117,11 +123,11 @@
 }
 
 @media (max-width: 700px){
-  #Product .banner-subtitle , #Home .banner-subtitle{
+  #Product .banner-subtitle , #Home .banner-subtitle , #AboutUs .banner-subtitle{
     margin-top: 160px;
     padding-right: 40px;
   }
-  #Product .text1 , #Product .text2 , #Home .text2{
+  #Product .text1 , #Product .text2 , #Home .text2, #Home .text3 , #AboutUs .text2{
     font-size: 24px;
     line-height: 32px;
   }
@@ -346,29 +352,39 @@
 }
 @media (max-width: 800px) {
   #AboutUs .banner{
+    /*
     height: 50vh;
+    */    
+    height: 75vh;
   }
   #AboutUs .banner-subtitle{
     margin-top: 70px;
   }
   #AboutUs .banner .img-container{
+    /*
     height: 45vh;
+    */
+    height: 75vh;
   }
   .banner-subtitle{
     margin-top: 70px;
   }  
   .banner .img-container img{
+    /*
     height: 40vh ;
+    */
+    height: auto;
     right: -20%;
   }
   #AboutUs .banner .bg1{
-    top:30vh;
-    left: 10%;
+    top:60vh;
+    left: 0;
     width: 100%;
     transform: rotate(130deg);
   }
   #AboutUs .banner-subtitle{
     color: black;
+    margin-top: 160px;
   }
   
 }

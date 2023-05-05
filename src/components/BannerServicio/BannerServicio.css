@@ -5,6 +5,7 @@
   background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);
   /*margin-bottom: 50px;*/
   height: 700px;
+  overflow-y: visible;
 }
 .banner-container{   
   z-index: 0;
@@ -25,7 +26,10 @@
 }
 .banner img{
   position: absolute;
+  /*
   height: 660px;
+  */
+  height: 60vh;
   object-fit: cover;
   opacity: 1;
 }
@@ -34,9 +38,15 @@
   height: auto;
 }
 .banner .bg1{
+  /*
   top: 300px;
   right: 0;
   width: 50%;
+  */
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
 }
 
 .banner-subtitle{    

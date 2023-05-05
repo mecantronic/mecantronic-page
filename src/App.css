@@ -17,26 +17,21 @@
 /*  min 1600px home - 2 */
 .bgImageHome{
   background-position: top;
+  background-size: contain;
   background-image: url("../public/assets/Home.png");
 }
 
-@media (max-width:1600px){
-  .bgImageHome{
-    background-image: url("../public/assets/Home.png");
-  }
-}
-@media (min-width:1600px){
-  .bgImageHome{
-    background-image: url("../public/assets/Home-lg.png");
-  }
-}
 
 .bgImageProducts{
   background-image: url("../public/assets/bg-product-1.png");
   background-position: bottom;
-  background-size: 1700px;
+  background-size: 2000px;
 }
-
+.backgroundImage-inversa{
+  background-image: url("../public/assets/bg-product-1-inversa.png");
+  background-position: bottom;
+  background-size: 2000px;
+}
 
 
 /* ANIMACIONES DE CAMBIO DE PAGINA */
@@ -58,3 +53,35 @@
   text-align: center;
 }
 
+@media (max-width:650px){
+  .bgImageHome{
+    background-size: cover;
+    background-image: url("../public/assets/bg-home-mobile.png");
+  }
+  .bgImageProducts{
+    background-image: none;
+  }
+  .bgImageProducts , .backgroundImage-inversa{
+    background-image: none;
+  }
+}
+@media (min-width:1300px){
+  .bgImageHome{    
+  background-size: cover;
+  }
+}
+@media (min-width:1300px){
+  .bgImageHome{    
+  background-size: cover;
+  }
+}
+@media (min-width:650px) and (max-width:1600px){
+  .bgImageHome{
+    background-image: url("../public/assets/Home.png");
+  }
+}
+@media (min-width:1600px){
+  .bgImageHome{
+    background-image: url("../public/assets/Home-lg.png");
+  }
+}
