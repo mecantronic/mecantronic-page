@@ -152,8 +152,8 @@
   #AboutUs .banner .bg1{
     top:30vh;
     left: 10%;
-    width: 100%;
-    transform: rotate(130deg);
+    width: 100%;    
+    z-index: -5;
   }
   #AboutUs .banner-subtitle{
     color: black;
@@ -355,6 +355,8 @@
     /*
     height: 50vh;
     */    
+    
+    overflow-x: hidden !important;
     height: 75vh;
   }
   #AboutUs .banner-subtitle{
@@ -377,10 +379,12 @@
     right: -20%;
   }
   #AboutUs .banner .bg1{
-    top:60vh;
+    top:45vh;
     left: 0;
     width: 100%;
+    /*
     transform: rotate(130deg);
+    */
   }
   #AboutUs .banner-subtitle{
     color: black;
