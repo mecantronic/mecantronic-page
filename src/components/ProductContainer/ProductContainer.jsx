@@ -32,8 +32,7 @@ export const ProductContainer = ({productToShow}) =>{
             <span className="backgroundDegrade"> 
                 <BannerProductsStrength/>
                 <div id="fichaTecnicaProducto"><Datasheet product={productToShow}  /></div>
-                <div id="comparativaProductos" ><CardProductsContainer /> </div>
-                
+                <div id="comparativaProductos" ><CardProductsContainer /> </div>                
             </span>
         </div>
     </>

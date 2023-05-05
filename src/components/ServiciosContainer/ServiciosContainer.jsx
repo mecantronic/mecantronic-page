@@ -14,14 +14,15 @@ export const ServiciosContainer = ({ serviceToShow }) => {
 
   return (
     <>
-      <div className="productContainer">
+      <div className={`productContainer ${serviceToShow.id === 2? ("bg-IA") :""} 
+      ${serviceToShow.id === 1 ? ("bg-IOT") :""}`}>
         <div className="mb-20" id="sobreServicio">
           <BannerTitles
             subtitle={"SOBRE EL SERVICIO"}
             title={serviceToShow["sobrePrincipal"]}
           />
           <div className="flex sobrecontainer">
-            <div className="pl-20">
+            <div className="">
               <img  className="sobreimg" src={`../assets/${serviceToShow["sobreImg"]}`} alt="" />
             </div>
             <div className="sobreinfocontainer">

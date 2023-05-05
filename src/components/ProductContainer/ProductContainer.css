@@ -119,11 +119,8 @@
         margin-bottom: 40px;
     }
     .accordionContainer{
-        /*
-        margin: auto;
-        */
         margin: 0;
-        width: 540px;  
+        width: 510px;  
         margin-top: 0;  
     }
 }

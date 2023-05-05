@@ -54,6 +54,7 @@
   display: flex;
   justify-content: center;
   margin: auto;
+  gap: 110px;
 }
 
 .sobreimg {
@@ -62,6 +63,9 @@
   border-radius: 16px;
   margin: auto;
   object-fit: cover;
+  /*
+  width: 421px;
+  */
 }
 
 /** accordion **/
@@ -70,8 +74,9 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  margin: 0;
+  margin: auto;
   padding: 0;
+  width: 420px;
 }
 .sobreimgAccordion{
   position: absolute;
@@ -88,7 +93,9 @@
 }
 
 .sobreinfocontainer {
+  /*
   padding-left: 80px;
+  */
 }
 .serviciodetails{
     margin-top: 10em;
@@ -160,7 +167,10 @@
 
 .accordionImgContainer img{
   width: 85vw;
+  /*
   height: 40vh;
+  comentado, para que tenga mismo ancho tamaño que texto superior
+  */
   max-height: 450px;
   border-radius: 16px;
 }
@@ -176,6 +186,25 @@
   width: 100%;
   margin-top: -350px;
   z-index: -5;
+}
+/* background servicio IA seccion sobre el servicio */
+.bg-IA{
+  margin-top: -200px;
+  padding-top: 200px;
+  background-position: right;  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../../../public/assets/bg-IA-servicio.png");
+}
+.bg-IOT{
+  /*
+  margin-top: -800px;
+  padding-top: 900px;
+  */
+  background-position: right;  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../../../public/assets/bg-IOT-servicio.png");
 }
 /*
 #servicio-bg-1{
@@ -229,7 +258,6 @@
   }
 }
 
-
 @media  (min-width: 600px) and (max-width: 850px){
   .backgroundDegradeServicios{
 
@@ -265,16 +293,24 @@
     width: auto;
     height: auto;
   }
+  .accordionImgContainer{
+    margin-bottom: 30px;
+    width: auto;
+  }
+  .expandContainer{
+
+  }
 }
 
 @media (min-width: 1100px){
   #casosDeExito{
     margin: 10px auto;
-    padding: 30px;
+    padding: 0;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 1200px;
-    height: 500px;
+    height: 520px;
+    gap: 110px;
   }
   .sobreimgAccordion{
     margin-top: 0px;
