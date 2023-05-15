@@ -1,0 +1,349 @@
+.sobreTitle {
+  /* Subtitulo Nosotros */
+
+  width: 421px;
+  height: 62px;
+  /* Desktop/Desktop H2 Bold */
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  /* or 129% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  /* Escala de grises/Negro */
+
+  color: #1a1a1a;
+
+  /* Inside auto layout */
+    margin-bottom: 2.5em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.sobreP {
+  width: 421px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #808080;
+  margin-top: 1.5em;
+}
+.sobreP-3d{
+  width: 421px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #808080;
+  margin-top: 1.5em;
+}
+
+.sobrecontainer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 110px;
+}
+
+.sobreimg {
+  max-width: max-content;
+  max-height: max-content;
+  border-radius: 16px;
+  margin: auto;
+  object-fit: cover;
+  /*
+  width: 421px;
+  */
+}
+
+/** accordion **/
+.accordionImgContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  width: 420px;
+}
+
+.sobreimgAccordion{
+  position: absolute;
+  max-width: max-content;
+  max-height: max-content;
+  border-radius: 16px;
+  margin: auto;
+  opacity: 1;
+  transition: all 0.5s;
+  object-fit: cover;
+}
+.sobreimgHidden{
+  opacity: 0;
+}
+
+.sobreinfocontainer {
+  /*
+  padding-left: 80px;
+  */
+}
+.serviciodetails{
+    margin-top: 10em;
+}
+
+
+/* clase solo para socios en servicios IA, 2 imagenes */
+.clientes .socioEstragicoIA{
+  margin: 0 100px;
+}
+
+.numAccordionItemServices{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 68px;
+  letter-spacing: 0.06em;
+  color: #DA1C2B;
+  margin-right: 40px;
+}
+
+.titleAccordionItemServices{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #808080;
+  display: flex;
+  align-items: center;
+
+}
+.descriptionAccordionItemServices{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #808080;
+  padding: 0px 50px 20px  65px ;
+  display: flex;
+  align-items: center;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+  height: 60px !important;
+  align-items: center !important;
+}
+.css-o4b71y-MuiAccordionSummary-content{
+  align-items: center !important;
+
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin: 0 !important;
+}
+#casosDeExito{
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+#casosDeExito .titlesMobile{
+  margin: 16px;
+  margin-bottom: 50px;
+}
+
+.accordionImgContainer img{
+  width: 85vw;
+  /*
+  height: 40vh;
+  comentado, para que tenga mismo ancho tamaño que texto superior
+  */
+  max-height: 450px;
+  border-radius: 16px;
+}
+
+/*  FONDOS PARA SERVICIOS   2:IA - 1:IOT - 3:3D*/
+.backgroundDegradeServicios{
+  background-position: center;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  margin-top: -350px;
+  z-index: -5;
+}
+/* background servicio IA seccion sobre el servicio */
+.bg-IA{
+  margin-top: -200px;
+  padding-top: 200px;
+  background-position: right;  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../../../public/assets/bg-IA-servicio.png");
+}
+.bg-IOT{
+  /*
+  margin-top: -800px;
+  padding-top: 900px;
+  */
+  background-position: right;  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../../../public/assets/bg-IOT-servicio.png");
+}
+/*
+#servicio-bg-1{
+  background-repeat: no-repeat;
+  background-image: url("../../../public/assets/Home.png");
+}
+*/
+/* SERVICIO IOT */
+#servicio-bg-1-1{
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 600px;
+  background-size: contain;
+  margin-top: -150px;
+  background-image: url("../../../public/assets/bg-socios-estrategicos-servicios-IOT1.png");
+}
+
+/* SERVICIO IA */
+#servicio-bg-2-1{
+  background-repeat: no-repeat;
+  height: 510px;
+  width: 480px;
+  background-image: url("../../../public/assets/bg-socios-estrategicos-servicios-IA1.png");
+}
+#servicio-bg-2-2{
+  background-repeat: no-repeat;
+  height: 850px;
+  width: 300px;
+  background-size: cover;
+  margin-top: 200px;
+  background-image: url("../../../public/assets/bg-socios-estrategicos-servicios-IA2.png");
+}
+
+#servicio-bg-3{
+  background-repeat: no-repeat;  
+  background-image: url("../../../public/assets/Home.png");
+}
+@media (max-width: 600px){
+  .backgroundDegradeServicios{
+
+  } 
+  /* SERVICIO IA */
+  #servicio-bg-2-1 , #servicio-bg-1-1{
+    height: 0;
+    width: 0;    
+  }
+  /* SERVICIO IA */
+  #servicio-bg-2-2{
+    height: 0;
+    width: 0;
+  }
+}
+
+@media  (min-width: 600px) and (max-width: 850px){
+  .backgroundDegradeServicios{
+
+  }
+  /* SERVICIO IA */
+  #servicio-bg-2-1{
+    
+  }
+  /* SERVICIO IA */
+  #servicio-bg-2-2{
+    margin-top: 30vh;
+  }
+}
+
+@media (max-width: 1100px){
+  .sobrecontainer{
+    flex-direction: column;
+    align-items: center;
+  }
+  .sobrecontainer>div , .sobrecontainer .sobreinfocontainer{
+    padding: 0;
+  }
+  .sobrecontainer .sobreimg{
+    max-width: none;
+    max-height: none;
+    width: 90%;
+  }
+  .sobrecontainer .sobreinfocontainer{
+    padding-top: 40px;
+    width: 90%;
+  }
+  .sobrecontainer .sobreinfocontainer .sobreTitle ,.sobrecontainer .sobreinfocontainer .sobreP, .sobrecontainer .sobreinfocontainer .sobreP-3d{
+    width: auto;
+    height: auto;
+  }
+  .accordionImgContainer{
+    width: auto;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .expandContainer{
+
+  }
+}
+
+@media (min-width: 1100px){
+  #casosDeExito{
+    margin: 10px auto;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1200px;
+    height: 520px;
+    gap: 110px;
+  }
+  .sobreimgAccordion{
+    margin-top: 0px;
+  }
+
+  .backgroundDegradeServicios{
+
+  }
+  /* SERVICIO IA */
+  #servicio-bg-2-1{
+    height: 50vh;
+    width: 50vh;
+    background-size: contain;
+  }
+}
+
+
+@media  (min-width: 1800px){
+  .backgroundDegradeServicios{
+
+  }
+  /* SERVICIO IA */
+  #servicio-bg-2-1{
+    height: 65vh;
+    width: 65vh;
+    background-size: contain;
+  }
+  /* SERVICIO IA */
+  #servicio-bg-2-2{
+    height: 100vh;
+    width: 35vh;
+
+  }
+}

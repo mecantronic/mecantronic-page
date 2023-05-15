@@ -1,0 +1,196 @@
+.strengths {
+    text-align: -webkit-center;
+  }
+
+
+  @media (min-width: 1500px){
+    .strengths {
+      margin: 260px 25px;
+    }
+    .strengths-cards{      
+      display: flex;
+    }
+    .strengths-card {
+      width: 25%;
+      height: 15em;
+    }
+  }
+
+
+  .strengths-titles {
+    padding-top: 6%;
+    padding-bottom: 3%;
+  }
+  
+  .strengths-subtitle {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;  
+    color: #000000;  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .strengths-title {
+    /* Subtitulo Nosotros */
+  
+    width: 421px;
+    height: 60px;
+  
+    /* H2 Bold */
+  
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height, or 150% */
+  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .strengths-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .strengths-card {
+    box-sizing: border-box;
+    height: 15em;
+    width: 320px;
+    margin-top: 50px;
+  }
+
+  .aboutUsStrengths{
+    background: #575757;
+    height: 512px;
+    align-items: center;
+  }
+  .aboutUsStrengths .strengths-card {
+    background: none;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .strengths-logo {
+    width: 45px;
+  }
+
+  .aboutUsStrengths .strengths-logo {
+    width: 95px;
+  }
+
+  .strengths-card-title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFC;
+  }
+  .aboutUsStrengths .strengths-card-title{
+    color:#FFFFFF;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  
+  .strengths-card-paragraph {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FCFCFC;
+    margin-top: 2rem;
+    width: 300px;
+  }
+
+  .aboutUsStrengths .strengths-card-paragraph{
+    color:#E4E4E4;
+
+  }
+  
+  .strengths-card-btn {
+    /* Input */
+  
+    width: 71px;
+    height: 18px;
+  
+    /* Boton */
+  
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    /* identical to box height, or 75% */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+  
+    /* Escala de grises/Negro */
+  
+    color: #1a1a1a;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+    /* buttons */
+  
+    box-sizing: border-box;
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 48px;
+    gap: 8px;
+  
+    width: 249px;
+    height: 72px;
+  
+    /* Escala de grises/Gray 700 */
+  
+    border: 1px solid #808080;
+    border-radius: 40px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  

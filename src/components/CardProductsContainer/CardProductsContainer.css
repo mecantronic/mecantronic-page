@@ -1,0 +1,62 @@
+.cardProducts {
+    text-align: center;
+    padding-top: 130px;
+    margin: auto;
+    padding-bottom: 120px;
+    max-width: 800px;
+}
+.cardProducts .productoActual{
+    display: none;
+}
+.cardProducts h3{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 240px;
+    margin-bottom: 8px;
+}
+
+.cardProducts h2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 80px;
+}
+
+.cardProductsContainer{
+    display: flex;
+}
+
+
+@media (min-width: 1000px){
+    .cardProducts {
+        display: flex;
+        justify-content: center;
+        max-width: none;
+        padding-top: 0;
+    }    
+    .cardProducts .CardProductCompare{
+        width: 45%;
+        max-width: 500px;
+        height: 1500px;
+        justify-content: space-between;
+    }
+    .cardProducts .productoActual{
+        display: flex;
+    }    
+}
+
+
+@media (min-width: 1800px){
+    .cardProducts{
+        gap: 10%;
+    }
+    .cardProducts .CardProductCompare{
+        max-width: 750px;
+        height: 1360px;
+    }
+}

@@ -1,0 +1,118 @@
+.datasheet{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding:16px;
+    padding-bottom: 100px;
+}
+
+.datasheet .bannertitles-subtitle{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+    color: #FF5B68;
+    text-align: center;
+    width: 100%;
+}
+.datasheet p.bannertitles-title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #404972;
+    width: 100%;
+}
+.datasheet h2{
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;  
+    letter-spacing: 0.06em;
+    margin-top: 8px;
+    margin-bottom: 50px;
+}
+
+.datasheet .specification{
+    border-bottom: 1px solid #5B5B5B;
+    display: flex;
+    margin: auto;
+    padding-bottom: 5px;
+    width: 100%;
+    max-width: 700px;
+}
+.datasheet .espTitle{
+    color: #1C1B1F;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-right: 24px;
+}
+
+.datasheet p{
+    margin-top: 30px;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    color: #000000;
+
+    width: 690px;
+}
+.datasheet button{    
+    margin-top: 80px;
+    box-sizing: border-box;
+    padding: 24px 48px;
+    width: 167px;
+    height: 48px;
+    border: 1px solid #DA1C2B;
+    border-radius: 40px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #DA1C2B;
+    background: none;
+    display: flex;
+    align-items: center;
+}
+
+.datasheet button:hover{
+    box-sizing: border-box;
+    padding: 24px 48px;
+    background: #FFF4F5;
+}
+.datasheet button:active{
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media(max-width:800px){
+
+    .datasheet div{
+        width: 100%;
+
+    }
+}
+
+@media(min-width:1500px){
+    .datasheet .bannertitles-subtitle, .datasheet p.bannertitles-title{
+        width: auto;
+    }
+}

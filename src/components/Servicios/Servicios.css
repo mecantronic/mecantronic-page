@@ -1,0 +1,187 @@
+.servicios {
+  width: 100%;
+  text-align: -webkit-center;
+  margin-bottom: 15vh;
+}
+
+.servicios-titles {
+  padding-top: 6%;
+  padding-bottom: 3%;
+}
+
+.servicios-subtitle {
+  /* Subtitulo Nosotros */
+
+  width: 251px;
+  height: 30px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.servicios-title {
+  /* Subtitulo Nosotros */
+
+  width: 421px;
+  height: 60px;
+
+  /* H2 Bold */
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.servicios-cards {
+  justify-content: space-around;
+  margin-left: 7%;
+  margin-right: 7%;
+
+}
+
+.servicios-card {
+  /* Card-services */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 24px;
+  gap: 34px;
+  width: 100%;
+  max-width: 332px;
+  height: 671px;
+
+  /* background: #fafafa; */
+  border-radius: 16px;
+  margin-top: 40px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.servicios-logo {
+
+}
+.servicios-logo img {
+  width: 76px;
+}
+
+.servicios-card-title {
+  width: 284px;
+
+  /* Desktop/Desktop H2 Bold */
+  justify-content: center;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  /* identical to box height, or 129% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  /* Escala de grises/Negro */
+
+  color: #1a1a1a;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.servicios-card-paragraph {
+  width: 268px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #808080;
+  flex: none;
+  order: 0;
+}
+.paragraph-container{
+  height: 300px;
+}
+.first-paragraph {
+  height: 150px;
+}
+.second-paragraph{
+
+}
+.servicios-card-btn {
+  box-sizing: border-box;
+  padding: 24px 48px;
+  width: 167px;
+  height: 48px;
+  border: 1px solid #DA1C2B;
+  border-radius: 40px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #DA1C2B;
+  background: none;
+  display: flex;
+  align-items: center;
+}
+
+.servicios-card-btn:hover{
+  box-sizing: border-box;
+  padding: 24px 48px;
+  background: #FFF4F5;
+}
+.servicios-card-btn:active{
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,116 @@
+.serviciosNavContainer{
+    position: absolute;
+    top: 100vh;    
+    opacity: 0; 
+    transition: 0.75s all;
+    background: rgba(243, 243, 243, 0.5);
+    backdrop-filter: blur(20px);
+
+}
+.serviciosNav > a{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+}
+.serviciosNav > a:hover{
+    cursor: pointer;
+}
+#secondNav{
+    width: 100%;
+    z-index: 30;
+}
+.sticky {
+    opacity: 1;
+    position: fixed;
+    top: 85px;
+  }
+  .serviciosNav-active{
+    display: flex;
+    align-items: center;
+    border-bottom: rgba(169, 1, 1, 0.95) 1px solid;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .serviciosNavContainer{
+    background-color: rgba(243, 243, 243, 0.5);
+    margin-bottom: 120px;
+}
+.serviciosNav{
+    display: none;
+}
+.serviciosNav span{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+}
+.serviciosNav span p{
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #2E2E2E;
+    text-align: center;
+}
+.serviciosNav span:first-child p{
+    /*
+    padding-left: 184px;
+    */
+}
+.serviciosNav span:last-child {
+    border: none;
+    
+}
+@media (min-width: 700px){
+    .serviciosNav{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 8px;
+        width: 650px;
+        margin: auto;
+        gap: 48px;
+        height: 72px;
+    }
+    .serviciosNav p{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #1A1A1A;
+    }
+}
+
+@media (min-width: 1000px){
+    .serviciosNav{
+        margin-left: 180px;
+    }
+    .serviciosNav span p{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #1A1A1A;
+        border-right: 1px solid #E4E4E4;
+    }
+    .serviciosNav span:first-child p{
+        /*padding-left: 184px;*/
+        
+    }
+    .serviciosNav span:last-child p{
+        border: none;
+    }
+    .serviciosNavContainer{
+    
+    }
+}

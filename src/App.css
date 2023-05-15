@@ -1,38 +1,87 @@
+:root{
+  overflow-x: hidden;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+*{
+  box-sizing: border-box;
+}
+/* CLASES PARA CAMBIAR FONDOS DE PAGINA */
+.backgroundImage{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+/*  max 1600px top */
+/*  min 1600px home - 2 */
+.bgImageHome{
+  background-position: top;
+  background-size: contain;
+  background-image: url("../public/assets/Home.png");
+}
+
+
+.bgImageProducts{
+  background-image: url("../public/assets/bg-product-1.png");
+  background-position: bottom;
+  background-size: 2000px;
+}
+.backgroundImage-inversa{
+  background-image: url("../public/assets/bg-product-1-inversa.png");
+  background-position: bottom;
+  background-size: 2000px;
+}
+
+
+/* ANIMACIONES DE CAMBIO DE PAGINA */
+#AboutUs , #Product , #Home , #Servicios{
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInOnLoad 1s ease-in  1;
+  overflow:hidden;
+}
+
+@keyframes fadeInOnLoad {
+  0%   {opacity: 0;
+    transform: translateY(-50%);}
+  100% {opacity: 1;
+    transform: translateY(50%);}
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width:650px){
+  .bgImageHome{
+    background-size: cover;
+    background-image: url("../public/assets/bg-home-mobile.png");
+  }
+  .bgImageProducts{
+    background-image: none;
+  }
+  .bgImageProducts , .backgroundImage-inversa{
+    background-image: none;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width:1300px){
+  .bgImageHome{    
+  background-size: cover;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (min-width:1300px){
+  .bgImageHome{    
+  background-size: cover;
+  }
+}
+@media (min-width:650px) and (max-width:1600px){
+  .bgImageHome{
+    background-image: url("../public/assets/Home.png");
+  }
+}
+@media (min-width:1600px){
+  .bgImageHome{
+    background-image: url("../public/assets/Home-lg.png");
   }
 }

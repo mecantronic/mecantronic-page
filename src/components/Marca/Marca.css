@@ -1,0 +1,79 @@
+.marca {
+  width: 90%;
+  margin: auto;
+  max-width: 1050px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 300px;
+  gap: 24px;
+}
+
+.marca-section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #E4E4E4;
+}
+
+.marca-icon {
+  border-radius: 50%;
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.marca-section:last-child{
+  border: none;
+}
+
+.marca-section > div > p:nth-child(2) {
+  /* 
+  width: 252.67px;
+  */
+  margin: auto;
+  width: 180px;
+  height: 62px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #9B0800;
+  justify-content: center;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-bottom: 1em;
+}
+
+.marca-section > div > p:nth-child(3) {
+  width: 250px;
+  height: 96px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #808080;
+  flex: none;
+  order: 0;
+  flex-grow: 1;  
+}
+@media (min-width:520px){
+  .marca-section{
+    border-bottom: none;
+   }
+}

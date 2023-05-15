@@ -1,0 +1,110 @@
+.teamContainer .slide{
+    box-shadow: none;
+}
+.partner{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   /* min-height: 300px; */
+    text-align: center;
+}
+
+.partner  img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+
+.partner .name{
+    margin-top: 32px;
+    letter-spacing: 0.06em;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #1A1A1A;
+}
+.partner .job{
+    margin: 5px;    
+    margin-top: -5px;
+    color: #808080;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #808080;
+}
+
+.partner .hoverLayer{
+    position: relative;
+    background: rgba(34, 34, 34, 0.75);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -200px;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 0.5s ease-out 0.1s;
+}
+.partner .hoverLayer:hover{
+    opacity: 1;
+}
+.partner a .linkContactoPersonal {
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+}
+.partner a .linkContactoPersonal:hover{
+    transform: scale(1.2);
+}
+.partner .linkedin{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: red;
+    margin-top: 9px;
+}
+
+@media (min-width: 600px){
+    .partner .name{
+        font-size: 20px; 
+        line-height: 30px;
+        margin-top: 32px;
+    }
+    .partner .job{
+        margin-top: -5px;
+    }
+    .partner .linkedin{
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 9px;
+    }
+
+}
+@media (max-width: 640px){
+    .partner .job{
+        margin-top: 4px;
+    }
+    .partner img{
+        width: 150px;
+        height: 150px;
+    }
+    .partner .hoverLayer{
+        height: 150px;
+        width: 150px;
+        margin-top: -150px;
+    }
+}

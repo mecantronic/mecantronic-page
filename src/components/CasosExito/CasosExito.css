@@ -1,0 +1,279 @@
+.casoExitoContainer{
+  height: 650px;
+  overflow: hidden;
+}
+.casoExitoContainer img{
+  height: 517px; 
+  width: 562px;
+}
+.casos {
+  width: 100%;
+  text-align: -webkit-center;
+}
+
+.casos-titles {
+  padding-top: 6%;
+  padding-bottom: 3%;
+}
+
+.casos-subtitle {
+  /* Subtitulo Nosotros */
+
+  width: 251px;
+  height: 30px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.casos-title {
+  width: 421px;
+  height: 65px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #1A1A1A;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+.casos-paragraph{
+  /* Subtitulo Nosotros */
+
+
+width: 421px;
+height: 408px;
+
+/* Desktop/Desktop Parrafo */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+align-items: center;
+letter-spacing: 0.06em;
+
+/* Escala de grises/Negro */
+
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.casos-paragraph > p{
+  margin-top: 15px;
+}
+
+.casos-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.casos-description-container {
+  text-align: left;
+
+}
+
+.casos-example {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.casos-example > div {
+  border: 5px solid #f7f7f7;
+  border-radius: 50%;
+  width: 74px;
+  height: 74px;
+  box-shadow: 4px 4px 4px rgba(228, 228, 228, 0.98);
+}
+
+.casos-example > div > span {
+  height: inherit;
+  padding-bottom: 15%;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  /* identical to box height, or 88% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #4e4e4e;
+  font-family: 'Open Sans';
+}
+/* 
+.casos-description-container > p:nth-child(1) {
+  width: 520px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.casos-description-container > p:nth-child(2) {
+  width: 790px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  margin-bottom: 70px;
+} */
+
+.casos-conocermas{
+
+}
+
+.casos-conocermas .conocerMasBtn{
+  
+width: 99px;
+height: 20px;
+
+/* Desktop/Desktop Boton */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Primario/Vibrant Red */
+
+color: #DA1C2B;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.casos-conocermas .conocerMasBtn svg{
+  color:#DA1C2B;
+  margin-left: 6px;
+
+}
+.casos-example{
+
+width: 161px;
+height: 56px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #4E4E4E;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.casos-circles{
+    font-size: small;
+    align-items: center;
+    color: #FFCCD0;
+}
+
+.inactive-circle{
+    font-size: 0.8em !important;
+    color: #DA1C2B !important;
+
+}
+.casos-conocermas{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1000px){
+  .casos .casoExitoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .casos .casoExitoContainer .imgExito, .casos .casoExitoContainer .casos-description-container{
+    width: 100%;
+  }
+  .casos .casoExitoContainer .imgExito{
+    padding: 16px;
+  }
+  .casos .casoExitoContainer .imgExito img{
+    height: 320px;
+  }
+  
+  .casos .casoExitoContainer .casos-description-container .casos-paragraph{
+    max-width: none;
+  }
+  .casos .casoExitoContainer .casos-description-container .casos-title{
+    width: auto;
+  }
+  .casos .casoExitoContainer .casos-paragraph{
+    width: 90%;
+    max-width: 420px;
+    height: auto;
+    padding-bottom: 32px;
+  }
+}
+

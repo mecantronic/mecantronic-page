@@ -1,0 +1,154 @@
+.card-testimonios {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 16px;
+  max-width: 432px;
+  min-height: 460px;
+  background: #F7F7F7;
+  box-shadow: 0px 16px 40px rgba(209, 209, 209, 0.18);
+  border-radius: 16px;
+  height: 460px;
+  margin: auto;
+}
+
+.card-testimonios:hover{
+  background: #FCFCFC;
+  box-shadow: 0px 16px 40px rgba(135, 139, 143, 0.3);   
+}
+.userinfo{
+  margin-top : 16px;
+  margin-bottom : 16px;
+  align-items: center;
+}
+
+.user-testimonios {
+  width: auto;
+}
+/* .user-testimonios > div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #1A1A1A;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+
+
+
+}
+.user-testimonios > div > p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 15%;
+}
+.profilepicture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+} */
+
+.profilepicture{
+  width: 40%;
+  height: 50px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.position{
+
+  /* width: 34px; ultimos cambios */
+  height: 24px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #1A1A1A;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.user{
+  /*width: 210px; ultimos cambios */
+  height: 30px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #1A1A1A;
+  padding-right : 16px;
+}
+
+.opinion {
+  max-width: 350px;
+  /*height: 168px; ultimos cambios */
+  height: fit-content;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #1A1A1A;
+  text-align: left;
+}
+
+
+.rating {
+  align-items: center;
+  color: red;
+}
+.rating p{
+  color: #FCFCFC;
+}
+
+@media  (min-width: 500px){
+  .card-testimonios {
+    padding: 48px;  
+  }
+}
+
+@media  (min-width: 1360px)and (max-width: 1400px){
+  .card-testimonios {
+    /* justify-content: center; ultimos cambios */
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+  }
+}
+
+@media  (max-width: 1500px) {
+  .user-testimonios > span {
+    width: 196px;
+    height: 12px;
+  
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+  }
+  .profilepicture{
+    width: 40%;
+    max-height: 50px;
+    height: 50px; 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+  
+}
+
+@media  (max-width: 2500px) and (min-width: 1500px)  {
+}

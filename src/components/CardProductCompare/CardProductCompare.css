@@ -1,0 +1,151 @@
+.CardProductCompare{
+    margin: auto 10px;
+    border-radius: 16px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 86px;
+    border: 1px solid #D7D7D7;
+    background: #FCFCFC;
+    box-shadow: 0px 16px 40px rgba(239, 239, 239, 0.25);
+}
+.products{
+    background: #061F40;
+}
+.CardProductCompare img{
+    border-radius: 16px;
+    margin: auto;
+    width: 260px;
+    height: 364px;
+}
+.CardProductCompare .details{
+    height: 880px;
+    padding-top: 100px;
+}
+.CardProductCompare p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4D4D;
+    padding-bottom:0;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #C0C0C0;
+}
+.CardProductCompare p:last-child{
+    border: none;
+}
+.CardProductCompare .title{   
+    text-align: center;
+    color: #1A1A1A;
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: 0.06em;
+    color: #1A1A1A;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+
+.CardProductCompare .text{
+    letter-spacing: 0.06em;
+    color: #4D4D4D;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.CardProductCompare .cardProductCompareBtn{    
+    margin: auto;
+    margin-top: 80px;
+    box-sizing: border-box;
+    padding: 24px 48px;
+    width: 167px;
+    height: 48px;
+    border: 1px solid #DA1C2B;
+    border-radius: 40px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #DA1C2B;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CardProductCompare .cardProductCompareBtn:hover{
+    box-sizing: border-box;
+    padding: 24px 48px;
+    background: #f5fff4;
+}
+.CardProductCompare .cardProductCompareBtn:active{
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.CardProductCompare .details .subtitle{
+    margin-bottom: 16px;
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #1A1A1A;
+    text-transform: none;
+
+}
+
+.CardProductCompare .details .highlightList{
+    list-style: disc;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    padding-left: 30px;
+    margin-right: 40px;
+    color: #4D4D4D;
+    height: 175px;
+}
+.CardProductCompare .details .highlightList{
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+.CardProductCompare .details .highlightList:last-of-type{
+    border-bottom: none;
+}
+.CardProductCompare .details .highlightList li p{
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+::marker{
+    font-size: 10px;
+}
+
+@media (max-width: 800px){
+    .CardProductCompare .details{
+        height: auto;
+        padding-top: 100px;
+    }
+    .CardProductCompare .details .highlightList{
+        height: auto;
+    }
+}
+

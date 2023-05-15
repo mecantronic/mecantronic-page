@@ -1,0 +1,55 @@
+.testimonios {
+ 
+background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);
+}
+.cards-testimonios{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.carousel-testimonios{
+    align-items: center;
+}
+
+.testimonios-arrow {
+  color: #848484;
+  box-sizing: border-box;
+  /* Auto layout */
+  text-align: center;
+  padding: 8px;
+  gap: 10px;
+  width: 56px;
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #d2d2d2;
+  border-radius: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+.arrow-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+@media  (max-width: 1500px) {
+    .testimonios-arrow {
+        
+        padding: 8px;
+        gap: 10px;
+        width: 45px;
+        height: 45px;
+        border-radius: 100px;
+
+      }
+      .arrow-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 4px;
+    }
+  }

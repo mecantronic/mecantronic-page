@@ -1,0 +1,200 @@
+.banner {
+  display: flex;
+  flex-direction: column; 
+  align-items: left;
+  background: linear-gradient(180deg, rgba(218, 220, 222, 0) 7.54%, rgba(218, 220, 222, 0.4) 32.59%, rgba(218, 220, 222, 0.5) 63.98%, rgba(218, 220, 222, 0) 100%);
+  /*margin-bottom: 50px;*/
+  height: 700px;
+  overflow-y: visible;
+}
+.banner-container{   
+  z-index: 0;
+}
+.img-container{
+  width: 100%;   
+  position: absolute;
+  background: radial-gradient(80.07% 54.15% at 50% 50%, rgba(252, 252, 252, 0.573) 0%, rgb(255, 255, 255) 65%);
+  overflow: hidden;
+  z-index: -1;
+}
+.banner .img-container{
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: flex-end;
+  overflow-y: hidden;
+}
+.banner img{
+  position: absolute;
+  /*
+  height: 660px;
+  */
+  height: 60vh;
+  object-fit: cover;
+  opacity: 1;
+}
+.banner .productsImg{
+  top: -85px;
+  height: auto;
+}
+.banner .bg1{
+  /*
+  top: 300px;
+  right: 0;
+  width: 50%;
+  */
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.banner-subtitle{    
+  margin: 100px 16px 40px 16px;
+  font-family: "Ubuntu";
+  align-items: center;
+  letter-spacing: 0.06em;
+  font-style: normal;
+  font-weight: 500;
+  color: #FCFCFC;  
+  line-height: 40px; 
+  font-size: 24px;
+  max-width: 400px;
+}
+
+
+.banner-subtitle h2{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: rgba(169, 1, 1, 0.95);
+  display: inline;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.banner-subtitle .text1{
+  color: #1A1A1A;
+  max-width: 700px;
+  margin-bottom: 64px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: 0.06em;
+}
+
+.banner-subtitle .text3{
+  color: #BA000E;
+}
+
+.banner-contact-btn .contact-btn{
+  margin-left: 16px;
+  width: 160px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* Boton */
+  background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #BA000E 77.58%);
+  border-radius: 40px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #F2F2F2;
+  
+
+}
+@media (max-width: 500px){
+  .banner-subtitle{
+    margin-top: 165px;
+    width: 310px;
+  }
+}
+
+@media (min-width: 500px){
+  .banner{
+  }
+  .banner img{
+  }
+  .banner .banner-container{    
+    margin: auto;
+    margin-top: 110px;
+  }
+  .banner-subtitle {
+    max-width: 700px;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 64px;
+    padding-right: 80px;
+  }
+
+  
+
+  .banner-subtitle h2{
+  }
+  .banner-contact-btn .contact-btn{
+    width: 162px;
+    height: 48px;
+    padding: 16px 32px;
+    gap: 8px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #F2F2F2;
+    background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #BA000E 77.58%);
+    border-radius: 40px;
+  }
+  
+}
+@media (min-width: 650px) {
+  .banner .banner-subtitle .text1{
+    color: #1A1A1A;
+    max-width: 700px;
+    font-size: 40px;
+  }
+  .banner-subtitle h2{
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
+
+@media (min-width: 1100px){
+  .banner{
+  }
+  .banner img{
+  }
+  .banner .banner-container{
+    margin: 0;
+    padding-left: 180px;  
+    margin-top: 150px;
+  }
+  .banner-subtitle {
+    max-width: 700px;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 64px;
+  }
+  .banner-subtitle h2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.06em;
+    color: rgba(169, 1, 1, 0.95);
+    display: inline;
+    margin-right: 20px;
+  }
+}

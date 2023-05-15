@@ -1,0 +1,90 @@
+.quiero-info {
+  height: 30vh;
+}
+
+.quiero-info-container {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 80px;
+  gap: 80px;
+
+  width: 1056px;
+  height: 118px;
+
+  background: #4e4e4e;
+  border-radius: 40px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
+.quiero-info-container > span {
+  /* Lorem ipsum dolor sit amet. */
+
+  width: 503px;
+  height: 50px;
+
+  /* H2 Bold */
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+}
+
+.quiero-info-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 10em;
+}
+
+
+.quiero-info-container > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 54px;
+  gap: 8px;
+
+  width: 283px;
+  height: 72px;
+
+  background: #8d8d8d;
+  border-radius: 40px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 75% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
+}
