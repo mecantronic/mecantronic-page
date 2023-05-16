@@ -38,9 +38,9 @@ const TestimoniosInfo = [
     {
         user: "Fernando Lapolla",
         position: "Sub secretario",
-        profileImg: "../assets/empresas/L184.svg",
+        profileImg: "../assets/empresas/pciaBuenosAires.svg",
         rating: "5/5",
-        opinion: "Destacó el profesionalismo y la calidez en el trato con el que llevaron adelante el proyecto, sin importar los contratiempos."
+        opinion: "Destaco el profesionalismo y la calidez en el trato con el que llevaron adelante el proyecto, sin importar los contratiempos."
     },    
    
 
