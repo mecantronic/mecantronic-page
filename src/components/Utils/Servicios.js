@@ -3,7 +3,7 @@ const servicios = [
     id:1,
     titleBanner:"IOT - Soluciones de ingeniería para",
     title: "tu negocio.",
-    subtitle: "CASOS DE EXITO",
+    subtitle: "CASOS DE ÉXITO",
     detailsTitle: "Te mostramos algunos de los proyectos que realizamos.",
     detailsText: "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.", 
     accordion: [
@@ -61,7 +61,7 @@ const servicios = [
         1: " Ofrecemos servicios de impresión 3D para concretar tus ideas. El prototipado rápido permite realizar pruebas de concepto o mejorar tu diseño antes de pasar a la producción en serie.", 
         2: "La impresión con materiales técnicos (ABS, Nylon, PETG, Flex y Hips) permite la fabricación de productos definitivos de solicitación térmica y mecánica relativamente baja, o que se adapten a necesidades particulares.",
         3: "La impresión en resina biocompatible permite la interacción de productos impresos con el cuerpo humano.", 
-        4: "La tecnología de escaneo 3D permite la reproducción digital de un objeto físico para poder intervenir y, eventualmente, reimprimirlo."
+        4: "La tecnología de escaneo 3D permite la reproducción digital de un objeto físico para poder intervenir y eventualmente reimprimirlo."
     },
     sobreImg:"../assets/Impresion.svg",
     exitoImg:"ExitoPrinter.svg",
