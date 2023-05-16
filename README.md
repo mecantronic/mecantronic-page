@@ -1,5 +1,5 @@
 # Mecantronic 
-Repositorio de la landing page de Mecantronic. Documentación y referencias de despliegue
+Repositorio de la landing page de Mecantronic.
 
 # Getting started
 
