@@ -98,7 +98,7 @@ export const CasosExito = () => {
        
           <span>
             <div className="casos-conocermas">
-              <span className="conocerMasBtn">Conocer mas </span>
+              <span className="conocerMasBtn">Conocer más </span>
               <span className="conocerMasBtn">
                 <HiOutlineArrowNarrowRight />
               </span>
