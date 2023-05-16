@@ -5,7 +5,7 @@ const TestimoniosInfo = [
         position: "CEO",
         profileImg: "../assets/empresas/uali.svg",
         rating: "5/5",
-        opinion: "El equipo de MEC es increíble. Siempre están bien predispuestos para que los proyectos lleguen a buen puerto, sobre todo cuando las cosas se complican.  Han sido fundamentales para nuestro crecimiento y despegue y espero que podamos seguir trabajando codo a codo mucho tiempo más. "
+        opinion: "El equipo de Mecantronic es increíble. Siempre están bien predispuestos para que los proyectos lleguen a buen puerto, sobre todo cuando las cosas se complican.  Han sido fundamentales para nuestro crecimiento y despegue y espero que podamos seguir trabajando codo a codo mucho tiempo más. "
     },
     {
         user: "Alejandro Pronello",
