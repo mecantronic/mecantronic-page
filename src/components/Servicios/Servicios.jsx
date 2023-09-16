@@ -10,7 +10,7 @@ export const Servicios = () => {
   return (
     <div className=" servicios ">
       <div className="">
-      <BannerTitles subtitle={"qué ofrecemos"} title={"Soluciones tu empresa"}/>
+      <BannerTitles subtitle={"qué ofrecemos"} title={"Soluciones para tu empresa"}/>
         <div className="flex flex-wrap servicios-cards">
           <div className="w-1/3 servicios-card">
             <div className="servicios-logo">

@@ -7,7 +7,7 @@ export const QuieroInfo = () => {
       <div className='quiero-info-box'>
       <div className='flex quiero-info-container'>
         <span> Lorem ipsum dolor sit amet.  </span>
-        <button>Quiero mas info</button>
+        <button>Quiero más info</button>
     </div>
       </div>
   

@@ -6,7 +6,7 @@ export const BannerMoreInfo = () =>{
         <div className="bannerMoreInfo">
             <div>
                 <h2>Lleva tu proyecto al siguiente nivel</h2>
-                <ContactButton textoBoton={"Quiero mas info"}/>
+                <ContactButton textoBoton={"Quiero más info"}/>
             </div>
             <span >
             </span>

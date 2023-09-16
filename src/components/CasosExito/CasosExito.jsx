@@ -66,6 +66,7 @@ export const CasosExito = () => {
                   <GiPlainCircle />
                 </span>
               ))}
+
             </div>
           </span>
         </div>

@@ -29,6 +29,7 @@
     "swiper": "^9.0.2",
     "web-vitals": "^3.1.1"
   },
+  "homepage": "https://test-mecpage.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

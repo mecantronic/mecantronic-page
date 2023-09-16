@@ -3,7 +3,7 @@ const servicios = [
     id:1,
     titleBanner:"IOT - Soluciones de ingeniería para",
     title: "tu negocio.",
-    subtitle: "CASOS DE EXITO",
+    subtitle: "CASOS DE ÉXITO",
     detailsTitle: "Te mostramos algunos de los proyectos que realizamos.",
     detailsText: "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.", 
     accordion: [
@@ -31,7 +31,7 @@ const servicios = [
         {img:"ExitoIA1.png" ,title:"Mantenimiento preventivo de generadores eólicos.", description:"Diseñamos un sistema de detección y localización de fallas superficiales en    aerogeneradores, en colaboración con Uali y Rocking Data. Para implementar el sistema diseñado, se utiliza un dron equipado con cámaras el cual sobrevuela el aerogenerador capturando imágenes y videos, en pos de procesarlos con nuestros algoritmos de inteligencia artificial. Nuestro aporte fundamental en el proyecto fue en la construcción rápida de un MVP, adaptando frameworks en estado del arte para tareas de segmentación y detección de anomalías en esta problemática en particular."},
         {img:"ExitoIA2.png" ,title:"Supervisión de oleoductos.", description:"Desarrollamos un sistema de seguridad y monitoreo de oleoductos en zonas rurales junto con la firma Uali. Utilizamos drones para patrullar las áreas de interés. Analizamos las filmaciones con IA para detectar personas y vehículos de forma tal de garantizar la seguridad de los activos."},
         {img:"ExitoIA3.png" ,title:"Detección de derrames de petróleo.", description:"Desarrollamos un sistema de alerta  y monitoreo de zonas de alta sensibilidad ambiental en colaboración con Uali. Utilizamos drones equipados con inteligencia artificial para detectar derrames de petróleo en distintos tipos de superficies."},
-        {img:"ExitoIA4.png" ,title:"Generación automática de multas.", description:"Desarrollamos un cinemómetro aéreo para la Dirección General de Transporte  de España en colaboración con la Uali y Rocking Data. Utilizamos un dron equipado con inteligencia artificial para medir la velocidad y patente de los vehículos, permitiendo la generación de multas en caso de que corresponda."}
+        {img:"ExitoIA4.png" ,title:"Generación automática de multas.", description:"Desarrollamos un cinemómetro aéreo para la Dirección General de Transporte  de España en colaboración con Uali y Rocking Data. Utilizamos un dron equipado con inteligencia artificial para medir la velocidad y patente de los vehículos, permitiendo la generación de multas en caso de que corresponda."}
     ],
     imgHero: "servicioIA.png",
     sobrePrincipal: "Soluciones personalizadas de inteligencia artificial",
@@ -61,7 +61,7 @@ const servicios = [
         1: " Ofrecemos servicios de impresión 3D para concretar tus ideas. El prototipado rápido permite realizar pruebas de concepto o mejorar tu diseño antes de pasar a la producción en serie.", 
         2: "La impresión con materiales técnicos (ABS, Nylon, PETG, Flex y Hips) permite la fabricación de productos definitivos de solicitación térmica y mecánica relativamente baja, o que se adapten a necesidades particulares.",
         3: "La impresión en resina biocompatible permite la interacción de productos impresos con el cuerpo humano.", 
-        4: "La tecnología de escaneo 3D permite la reproducción digital de un objeto físico para poder intervenir y, eventualmente, reimprimirlo."
+        4: "La tecnología de escaneo 3D permite la reproducción digital de un objeto físico para poder intervenir y eventualmente reimprimirlo."
     },
     sobreImg:"../assets/Impresion.svg",
     exitoImg:"ExitoPrinter.svg",
