@@ -63,7 +63,7 @@
     top: 450px;
 }
 #swiperGallery .swiper-button-prev , #swiperGallery .swiper-button-next{
-    display: none;
+    /* display: none; */
 }
 /* OPCION DE GALERIA CON MARGENES */
 /*

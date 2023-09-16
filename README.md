@@ -1,15 +1,17 @@
 # Mecantronic 
 Repositorio de la landing page de Mecantronic.
 
-# Getting started
+
+# **Getting started**
 
 ## 🌱 **Developer mode**
-1. Para poder levantar de forma local esta page, descargar el repositorio.
+1. Para poder levantar de forma local esta page, descargar el repositorio
     ```bash
     git clone https://github.com/githubmec/mecantronic-page.git
     cd mecantronic-page
     ```
-2. Obtener Node.js.
+
+2. Obtener Node.js (en linux)
     ```bash
     sudo apt install npm 
     ```
@@ -17,16 +19,11 @@ Repositorio de la landing page de Mecantronic.
     ```bash
     npm i
     ```
-4. Levantar la web-page de forma local.
+## 👷‍♂️ **Testing mode**
+1. Levantar la web-page de forma local 
     ```bash
     npm start
-    ```
-
-## 👷‍♂️ **Testing mode**
-1. Montar un server estático local.
-    ```bash
-    serve -s build
-    ```
+    ``` ```
 
 ## 🚀 **Production mode**
 1. Para poder levantar de forma local esta page, descargar el repositorio.
@@ -34,7 +31,13 @@ Repositorio de la landing page de Mecantronic.
     git clone https://github.com/githubmec/mecantronic-page.git
     cd mecantronic-page
     ```
-2. Modificar en el archivo `package.json`, el domínio de web.
+## 🚀 **Production mode**
+1. Para poder levantar de forma local esta page, descargar el repositorio.
+    ```bash
+    git clone https://github.com/githubmec/mecantronic-page.git
+    cd mecantronic-page
+    ```
+2. Agregar en el archivo `package.json`, el domínio de web.
     ```bash
     "homepage": "https://test-mecpage.com/",
     ```
