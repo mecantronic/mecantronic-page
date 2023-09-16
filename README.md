@@ -10,7 +10,6 @@ Repositorio de la landing page de Mecantronic.
     git clone https://github.com/githubmec/mecantronic-page.git
     cd mecantronic-page
     ```
-
 2. Obtener Node.js (en linux)
     ```bash
     sudo apt install npm 
@@ -19,6 +18,7 @@ Repositorio de la landing page de Mecantronic.
     ```bash
     npm i
     ```
+    
 ## 👷‍♂️ **Testing mode**
 1. Levantar la web-page de forma local 
     ```bash
