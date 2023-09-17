@@ -18,19 +18,13 @@ Repositorio de la landing page de Mecantronic.
     ```bash
     npm i
     ```
-    
+
 ## 👷‍♂️ **Testing mode**
 1. Levantar la web-page de forma local 
     ```bash
     npm start
     ``` ```
 
-## 🚀 **Production mode**
-1. Para poder levantar de forma local esta page, descargar el repositorio.
-    ```bash
-    git clone https://github.com/githubmec/mecantronic-page.git
-    cd mecantronic-page
-    ```
 ## 🚀 **Production mode**
 1. Para poder levantar de forma local esta page, descargar el repositorio.
     ```bash

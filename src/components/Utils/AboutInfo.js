@@ -58,14 +58,14 @@ const AboutInfo = [
             },   
             {
                 name: "Diego Lazcano",
-                job:"Head of departament",
+                job:"Technical Leader",
                 linkedin:"https://www.linkedin.com/in/diego-alejandro-lazcano-colodrero-19a453103/",
                 email:"dlazcano@mecantronic.com.ar",
                 img:"Diego Lazcano"
             },   
             {
                 name: "Eduardo Sacerdoti",
-                job:"Head of departament",
+                job:"Technical Leader",
                 linkedin:"https://www.linkedin.com/in/esacerdoti/",
                 email:"esacerdoti@mecantronic.com.ar",
                 img:"Eduardo Sacerdoti"
