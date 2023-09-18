@@ -1,17 +1,17 @@
-name: Generate a build and deployment
+name: Generar build y despliegue en Hostinger
 on:
   push:
     branches:
-      - develop
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build and Push
+    name: Build y Push
     steps:
-      - name: git-checkout
+      - name: Git-checkout
         uses: actions/checkout@v2
 
-      - name: Install all dependencies
+      - name: Instalación de todas las dependencias
         run: npm install
 
       - name: Build
@@ -26,4 +26,4 @@ jobs:
           BRANCH: build # The branch name where you want to push the assets
           FOLDER: build # The directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
-          MESSAGE: "Build: ({sha}) {msg}" # The commit message
+          MESSAGE: "Build ({sha}): {msg}" # The commit message
