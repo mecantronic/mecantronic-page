@@ -25,7 +25,7 @@ export const About = () =>{
                 <img src="./assets/team/about-3.png" alt="Equipo Mecantronic"className="img3"/>
                 <div className="textAbout">
                     <p className="title">Para no dejar de aprender, no dejamos de enseñar.</p>
-                    <p className="text">Al servicio del docente para enseñar y a favor de los alumnos para potenciar sus habilidades digitales.</p> 
+                    <p className="text">"Al servicio del docente para enseñar y a favor de los alumnos para potenciar sus habilidades digitales.</p> 
 
                     <p className="text">Todo en Mecantronic está teñido de docencia. La información se comparte, las habilidades se enseñan para que la mejora individual sume a la mejora del grupo. Tal es así que contamos con una división orientada a proyectos educativos tecnológicos, donde diseñamos propuestas para todos los niveles educativos en conjunto con el estado y otras entidades privadas.</p>
 
