@@ -56,6 +56,7 @@ Este proyecto implementa CI/CD, usando [Github Actions](https://github.com/featu
 3. Crear un PR desde `develop` a `main`.
 
 # Dominio
+
 El dominio [mecantronic.com.ar](www.mecantronic.com.ar) fue adquirido en [nic.ar](https://nic.ar/es/ayuda/instructivos/registro-de-dominio). 
 
 # Hosting
