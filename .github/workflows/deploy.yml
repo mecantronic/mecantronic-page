@@ -29,7 +29,7 @@ jobs:
         env:
           REPO: self
           BRANCH: ${{ github.ref == 'refs/heads/main' && 'build-prod' || github.ref == 'refs/heads/develop' && 'build-dev' }}
-          FOLDER: dist # Directory where your assets are generated
+          FOLDER: build # Directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MESSAGE: "Build ({sha}): {msg}"
 
