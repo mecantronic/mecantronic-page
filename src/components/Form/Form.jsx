@@ -73,9 +73,9 @@ export const Form = ({ onClick }) => {
       const consulta  = form.current.consulta.value
       const ciudad = form.current.ciudad.value
       
-      emailjs.send("service_mkzy70s","template_mbzkiwk",
+      emailjs.send(process.env.REACT_APP_EMAILJS_SERVICE_ID,process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         {name, email , message , consulta , ciudad },
-        "F9yJc6wjTrkVV7_ha"
+        process.env.REACT_APP_EMAILJS_USER_ID
         )
         .then(
           (result) => {
