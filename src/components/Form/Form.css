@@ -223,11 +223,12 @@ input.botonEnvio {
     margin-top: 80px;    
 }
 
-.botonEnvio:hover{
-     /*
-    font-weight: 900;
+.botonEnvio:hover{  
     cursor: pointer;
-    */
+    box-sizing: border-box;
+    background: #FFF4F5;
+    
+    
 }
 
 .errorForm{

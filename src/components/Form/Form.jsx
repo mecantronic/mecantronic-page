@@ -193,7 +193,7 @@ export const Form = ({ onClick }) => {
              
              <p className="errorForm">{formErrors.message}</p>
             </div>
-            <input type="submit" class="botonEnvio" />
+            <input type="submit" class="botonEnvio"/>
           </form>
         </div>
       </div>
