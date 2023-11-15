@@ -9,6 +9,7 @@ import { Footer } from "./components/Footer/Footer";
 import { Servicios } from "./pages/Servicios";
 import { ToastContainer } from "react-toastify";
 import { Navbar } from "./components/Navbar/Navbar";
+import i18n from "./translation/i18n";
 
 function App() {
   return (
