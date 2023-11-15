@@ -1,0 +1,46 @@
+{
+    "nosotros" : {
+        "sobrenosotros": "Sobre nosotros",
+        "equipo": "Equipo",
+        "main_banner" : "Cada miembro del equipo es fundamental para lograr la sinergia que nos caracteriza. ",
+        "contact_button" :"Contactanos",
+        "about us" : "QUIÉNES SOMOS",
+        "history" : "Conocé nuestra historia",
+        "proposal_born": "Una propuesta que nace en un laboratorio universitario.",
+        "text" : "El camino comienza con un club de jóvenes profesionales y estudiantes, que con el tiempo evolucionó y se transformó en un laboratorio de investigación y desarrollo. Luego, el laboratorio sentó las bases de lo que hoy es nuestra empresa. Este recorrido nos confiere una identidad única y nos permite contar con un semillero de formación continua. El vínculo entre la industria, la academia, el sector privado y el sector público, se combina con la investigación científica y el desarrollo tecnológico. Así, se crea un círculo virtuoso en el que continuamente mejoramos nuestras prácticas y se retroalimentan las facetas involucradas de manera constante.",
+        "text1" : "Conocer Infiniem",
+        "text2" : "Sentido de pertenencia e impacto genuino.",
+        "text2.1" : "Nuestra experiencia y formación nos permite ofrecer una propuesta comercial especialmente enfocada en proyectos con impacto social y/o relacionados con la sustentabilidad. En Mecantronic, llevamos en nuestras raíces un fuerte espíritu emprendedor, el mismo con el que comenzamos con un club en el fondo de un aula. Este espíritu, junto con nuestra pasión por la docencia y amor por el conocimiento transformado en tecnología al servicio de la gente, nos da un gran sentido de responsabilidad social empresarial.",
+        "text3" : "Para no dejar de aprender, no dejamos de enseñar.",
+        "text3.1" : "Al servicio del docente para enseñar y a favor de los alumnos para potenciar sus habilidades digitales.Todo en Mecantronic está teñido de docencia. La información se comparte, las habilidades se enseñan para que la mejora individual sume a la mejora del grupo. Tal es así que contamos con una división orientada a proyectos educativos tecnológicos, donde diseñamos propuestas para todos los niveles educativos en conjunto con el estado y otras entidades privadas.",
+        "text3.1.5": "Todo en Mecantronic está teñido de docencia. La información se comparte, las habilidades se enseñan para que la mejora individual sume a la mejora del grupo. Tal es así que contamos con una división orientada a proyectos educativos tecnológicos, donde diseñamos propuestas para todos los niveles educativos en conjunto con el estado y otras entidades privadas.",
+        "text3.2" : "Conocer Entender",
+        "text4" : "NUESTRO EQUIPO DE TALENTO",
+        "text4.1" :"Conocé a los expertos detrás de nuestra empresa",
+        "text5" : "Quiero más info",
+        "text5.1": "Lleva tu proyecto al siguiente nivel"
+    },
+    "nosotrosEnglish": {
+        "sobrenosotros": "About us",
+        "equipo": "Team",
+        "main_banner": "Every team member is essential to achieve the synergy that characterizes us.",
+        "contact_button": "Contact Us",
+        "about_us": "WHO WE ARE",
+        "history": "Learn about our history",
+        "proposal_born": "A proposal born in a university laboratory.",
+        "text": "The journey begins with a club of young professionals and students, which over time evolved and became a research and development laboratory. Later, the laboratory laid the foundations of what is now our company. This journey gives us a unique identity and allows us to have a continuous training ground. The link between industry, academia, the private sector, and the public sector combines with scientific research and technological development. Thus, a virtuous circle is created in which we continuously improve our practices, and the involved facets constantly feed back into each other.",
+        "text1": "Meet Infiniem",
+        "text2": "Sense of belonging and genuine impact.",
+        "text2.1": "Our experience and training allow us to offer a commercial proposal especially focused on projects with social impact and/or related to sustainability. At Mecantronic, we carry a strong entrepreneurial spirit in our roots, the same spirit with which we started a club in the back of a classroom. This spirit, along with our passion for teaching and love for knowledge transformed into technology at the service of people, gives us a great sense of corporate social responsibility.",
+        "text3": "To never stop learning, we never stop teaching.",
+        "text3.1": "At the service of the teacher to teach and in favor of the students to enhance their digital skills. Everything in Mecantronic is tinted with teaching. Information is shared, skills are taught so that individual improvement adds to the group's improvement. So much so that we have a division focused on technological educational projects, where we design proposals for all educational levels in collaboration with the government and other private entities.",
+        "text3.1.5": "Everything in Mecantronic is imbued with teaching. Information is shared, skills are taught so that individual improvement contributes to the improvement of the group. To such an extent that we have a division focused on technological educational projects, where we design proposals for all educational levels in collaboration with the government and other private entities.",
+        "text3.2": "Understand",
+        "text4": "OUR TALENT TEAM",
+        "text4.1": "Meet the experts behind our company",
+        "text5" : "More info",
+        "text5.1": "Take your project to the next level"
+
+    }
+
+}
