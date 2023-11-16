@@ -115,7 +115,7 @@ export const Footer = () => {
           </div>
         </span>
         <span className="copyrights">
-          <p>Copyright 2023 Todos los derechos reservados</p>
+          <p>Copyright 2023 {t("allRightsReserved")}</p>
           <p>©Mecantronic 2023</p>
         </span>
       </div>
