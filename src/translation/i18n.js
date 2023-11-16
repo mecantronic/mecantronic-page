@@ -10,19 +10,21 @@ i18n
       // Aquí coloca tus traducciones
       en: {
         translation: {
-          ...tr.footerEnglish,
           ...tr.nosotrosEnglish,
+          ...tr.formularioEnglish,
+          ...tr.footerEnglish,
         },
       },
       es: {
         translation: {
           ...tr.nosotros,
+          ...tr.formulario,
           ...tr.footer,
         },
       },
       // Agrega más idiomas según sea necesario
     },
-    lng: 'en', // idioma predeterminado
+    lng: 'es', // idioma predeterminado
     fallbackLng: 'en', // idioma de respaldo
     interpolation: {
       escapeValue: false,
