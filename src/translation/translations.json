@@ -90,5 +90,25 @@
     "ferror_message_city": "Por favor, completa tu nombre",
     "ferror_message_8characters": "Please fill in the message with at least 8 characters",
     "ferror_message_long": "Message too long, it must contain less than 200 characters."
+  },
+  "footer": {
+    "navigation": "Navegación",
+    "services": "Servicios",
+    "products": "Productos",
+    "aboutUs": "Nosotros",
+    "contact": "Contacto",
+    "connect": "Conectemos",
+    "followUs": "Seguinos en nuestras redes sociales.",
+    "allRightsReserved": "Todos los derechos reservados"
+  },
+  "footerEnglish": {
+    "navigation": "Navigation",
+    "services": "Services",
+    "products": "Products",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "connect": "Let's connect",
+    "followUs": "Follow us on our social media.",
+    "allRightsReserved": "All rights reserved"
   }
 }

@@ -12,12 +12,14 @@ i18n
         translation: {
           ...tr.nosotrosEnglish,
           ...tr.formularioEnglish,
+          ...tr.footerEnglish,
         },
       },
       es: {
         translation: {
           ...tr.nosotros,
           ...tr.formulario,
+          ...tr.footer,
         },
       },
       // Agrega más idiomas según sea necesario
