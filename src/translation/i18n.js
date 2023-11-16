@@ -9,10 +9,16 @@ i18n
     resources: {
       // Aquí coloca tus traducciones
       en: {
-        translation: tr.nosotrosEnglish,
+        translation: {
+          ...tr.nosotrosEnglish,
+          ...tr.formularioEnglish,
+        },
       },
       es: {
-        translation: tr.nosotros,
+        translation: {
+          ...tr.nosotros,
+          ...tr.formulario,
+        },
       },
       // Agrega más idiomas según sea necesario
     },
