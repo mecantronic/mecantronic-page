@@ -24,7 +24,7 @@ i18n
       },
       // Agrega más idiomas según sea necesario
     },
-    lng: 'en', // idioma predeterminado
+    lng: 'es', // idioma predeterminado
     fallbackLng: 'en', // idioma de respaldo
     interpolation: {
       escapeValue: false,

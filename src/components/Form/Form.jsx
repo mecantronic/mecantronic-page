@@ -36,7 +36,7 @@ export const Form = ({ onClick }) => {
       errors.name = t("ferror_message_name");
     }
     if (!values.email) {
-      errors.email = t("ferror_message2");
+      errors.email = t("ferror_message_email");
     } else if (!regex.test(values.email)) {
       errors.email = t("ferror_email_invalid");
     }

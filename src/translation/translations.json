@@ -87,7 +87,7 @@
     "ferror_email_invalid": "The email format is not valid",
     "ferror_message_empty_value": "Please tell us how we can help you",
     "ferror_message_complete_consult": "Please complete your consult",
-    "ferror_message_city": "Por favor, completa tu nombre",
+    "ferror_message_city": "Please complete your city",
     "ferror_message_8characters": "Please fill in the message with at least 8 characters",
     "ferror_message_long": "Message too long, it must contain less than 200 characters."
   },
