@@ -110,5 +110,13 @@
     "connect": "Let's connect",
     "followUs": "Follow us on our social media.",
     "allRightsReserved": "All rights reserved"
+  },
+  "CompañiasEspañol": {
+    "experiencia1": "EXPERIENCIA",
+    "experiencia2": "Empresas que ya nos eligieron"
+  },
+  "CompañiasEnglish": {
+    "experiencia1": "EXPERIENCE",
+    "experiencia2": "Companies that have already chosen us"
+    }
   }
-}
