@@ -110,5 +110,21 @@
     "connect": "Let's connect",
     "followUs": "Follow us on our social media.",
     "allRightsReserved": "All rights reserved"
-  }
+  },
+  "CompanyEspañol": {
+    "marca": "Tecnología de vanguardia",
+    "marca0.1": "Ofrecemos una propuesta comercial que aprovecha las virtudes de las tecnologías más avanzadas.",
+    "marca1": "Soluciones adaptables",
+    "marca1.1": "Creamos un ecosistema centrado en las necesidades genuinas de nuestros clientes.",
+    "marca2.0": "Impacto  social",
+    "marca2.1": "Nos enfocamos en proyectos que generen impacto social o contribuyan con procesos sustentables."
+  },
+  "CompanyEnglish": {
+    "marca": "Cutting-edge technology",
+    "marca0.1": "We offer a commercial proposal that takes advantage of the virtues of the most advanced technologies.",
+    "marca1": "Customizable solutions.",
+    "marca1.1": "We create an ecosystem focused on the genuine needs of our customers.",
+    "marca2.0": "Social impact",
+    "marca2.1": "We focus on projects that generate social impact or contribute to sustainable processes."
 }
+  }

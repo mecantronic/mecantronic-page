@@ -13,6 +13,7 @@ i18n
           ...tr.nosotrosEnglish,
           ...tr.formularioEnglish,
           ...tr.footerEnglish,
+          ...tr.CompanyEnglish
         },
       },
       es: {
@@ -20,6 +21,7 @@ i18n
           ...tr.nosotros,
           ...tr.formulario,
           ...tr.footer,
+          ...tr.CompanyEspañol
         },
       },
       // Agrega más idiomas según sea necesario

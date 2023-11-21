@@ -3,8 +3,12 @@ import "./Marca.css";
 import rocket from "../assets/Rocket.svg";
 import puzzle from "../assets/Puzzle.svg";
 import dart from "../assets/Dart.svg";
+import { useTranslation } from "react-i18next";
 
 export const Marca = () => {
+
+  const { t } = useTranslation();
+
   return (
     <div className="marca">
       <div className=" h-full marca-section">
@@ -12,9 +16,9 @@ export const Marca = () => {
         <div className="marca-icon">
             <img src={rocket} alt="icon" />
           </div>
-          <p>Tecnología de vanguardia</p>
+          <p>{t("marca")}</p>
           <p>
-          Ofrecemos una propuesta comercial que aprovecha las virtudes de las tecnologías más avanzadas.
+          {t("marca0.1")}
           </p>
         </div>
       </div>
@@ -25,8 +29,8 @@ export const Marca = () => {
             <img src={puzzle} alt="icon" />
           </div>
 
-          <p>Soluciones adaptables</p>
-          <p>Creamos un ecosistema centrado en las necesidades genuinas de nuestros clientes.</p>
+          <p>{t("marca1")}</p>
+          <p>{t("marca1.1")}</p>
         </div>
       </div>
 
@@ -35,8 +39,8 @@ export const Marca = () => {
           <div className="marca-icon">
               <img src={dart} alt="icon" />
           </div>
-          <p>Impacto   social</p>
-          <p>Nos enfocamos en proyectos que generen impacto social o contribuyan con procesos sustentables.</p>
+          <p>{t("marca2.0")}</p>
+          <p>{t("marca2.1")}</p>
         </div>
       </div>
     </div>
