@@ -110,5 +110,14 @@
     "connect": "Let's connect",
     "followUs": "Follow us on our social media.",
     "allRightsReserved": "All rights reserved"
+  },
+  "BannerEspañol": {
+  "banner" : "La tecnología más conveniente para desarrollar tu producto y ",
+  "banner1":"potenciar tu empresa"
+  },
+  "BannerEnglish": {
+  "banner": "The most convenient technology to develop your product and ",
+  "banner1": "empower your company"
   }
-}
+
+  }

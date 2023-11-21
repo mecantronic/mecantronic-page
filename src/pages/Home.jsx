@@ -7,8 +7,13 @@ import { Marca } from '../components/Marca/Marca'
 import { Servicios } from '../components/Servicios/Servicios'
 import { Testimonios } from '../components/Testimonios/Testimonios'
 import { Form } from '../components/Form/Form'
+import { useTranslation } from 'react-i18next';
+
 
 export const Home = () => {
+  const { t } = useTranslation()
+
+  
   
   setTimeout(()=>{
     const root = document.getElementById("root");    
@@ -17,8 +22,9 @@ export const Home = () => {
   },100)
 
   return (
+    
     <span id="Home">
-      <Banner info2={"La tecnología más conveniente para desarrollar tu producto y "} info3={"potenciar tu empresa."} img={"homebanner.svg"}/>  
+      <Banner info2={t("banner")} info3={t("banner1")} img={"homebanner.svg"}/>  
       <Marca/>
       <Servicios/>
       <CasosExito/> 
