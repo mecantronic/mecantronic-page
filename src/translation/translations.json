@@ -65,6 +65,8 @@
     "ferror_message_city": "Por favor, completa tu ciudad",
     "ferror_message_8characters": "Por favor, completa el mensaje con al menos 8 caracteres",
     "ferror_message_long": "Mensaje demasiado largo, debe contener menos de 200 caracteres",
+    "nproduct_iot": "Productos IOT",
+    "nproduct_3D": "Productos 3D",
     "fenviar": "Enviar"
   },
   "formularioEnglish": {
@@ -91,6 +93,8 @@
     "ferror_message_city": "Please complete your city",
     "ferror_message_8characters": "Please fill in the message with at least 8 characters",
     "ferror_message_long": "Message too long, it must contain less than 200 characters.",
+    "nproducts_iot": "IOT Products",
+    "nproducts_3D": "3D Products",
     "fenviar": "Send"
   },
   "footer": {
