@@ -112,6 +112,8 @@
     "allRightsReserved": "All rights reserved"
   },
   "AreasTrabajoEspañol":{
+    "area0":"qué ofrecemos",
+    "area0.1":"Soluciones tu empresa",
     "area1":"IoT",
     "area1.1":"Desarrollamos plataformas que impliquen el control de dispositivos y relevamiento de datos de campo de forma remota.",
     "area1.2":"Diseñamos un dashboard personalizado para que la visualización de la información y de las métricas sea amigable.",
@@ -127,6 +129,8 @@
 
   },
   "AreasTrabajoEnglish":{
+    "area0":"what we offer",
+    "area0.1":"Solutions for your company",
     "area1":"IoT",
     "area1.1":"We develop platforms that involve the control of devices and remote field data collection.",
     "area1.2":"We designed a customized dashboard to make the visualization of information and metrics user-friendly.",
