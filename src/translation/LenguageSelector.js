@@ -1,35 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Switch from '@mui/material/Switch';
-import FormControlLabel from '@mui/material/FormControlLabel';
 
-function LanguageSwitch() {
+function LanguageSelector() {
   const { i18n } = useTranslation();
-  const [isSpanish, setIsSpanish] = useState(i18n.language === 'es');
 
-  const toggleLanguage = () => {
-    const newLanguage = isSpanish ? 'en' : 'es';
-    i18n.changeLanguage(newLanguage);
-    setIsSpanish(!isSpanish);
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
   };
 
   return (
-    <div style={{ margin:50}}>
-      <div>
-        <span>Es</span>
-        <FormControlLabel  style={{ margin:4  }}
-          control={
-            <Switch
-              checked={isSpanish}
-              onChange={toggleLanguage}
-              name="languageSwitch"
-            />
-          }
-        />
-        <span>En</span>
-      </div>
+    <div>
+      <button onClick={() => changeLanguage('en')}>English</button>
+      <div></div>
+      <button onClick={() => changeLanguage('es')}>Español</button>
     </div>
   );
 }
 
-export default LanguageSwitch;
+export default LanguageSelector;
