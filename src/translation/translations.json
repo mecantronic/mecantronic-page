@@ -182,9 +182,15 @@
     "experiencia2": "Companies that have already chosen us"
   },
   "aboutIOTservice": {
-    "ab_": "SOBRE EL SERVICIO"
+    "aIOT_about": "SOBRE EL SERVICIO",
+    "aIOT_converg": "Convergencia de la tecnología y el mundo real",
+    "aIOT_transform": "IoT transforma objetos cotidianos en una red inteligente de posibilidades.",
+    "aIOT_text1": "Desarrollamos e implementamos servicios y productos que impliquen el control de dispositivos o el relevamiento de datos de campo (ruido, temperatura, profundidad de napas, etc.) con la posibilidad de visualizar y controlar el sistema a través de un dashboard interactivo. Te brindamos información para el monitoreo y control de cualquier proceso de forma local o remota. El proceso puede o no, ser industrial. Solo deberías saber en detalle qué datos necesitas, con qué frecuencia y de qué forma queres visualizarlos."
   },
   "aboutIOTserviceEnglish": {
-    "ab_": "ABOUT THE SERVICE"
+    "abIOT_about": "ABOUT THE SERVICE",
+    "aIOT_converg": "Convergence of technology and the real world",
+    "aIOT_transform": "IoT transforms everyday objects into an intelligent network of possibilities.",
+    "aIOT_text1": "We develop and implement services and products that involve the control of devices or field data collection (noise, temperature, groundwater depth, etc.) with the possibility of visualizing and controlling the system through an interactive dashboard. We provide information for monitoring and control of any process locally or remotely. The process may or may not be industrial. You should only know in detail what data you need, how often and how you want to visualize them."
   }
 }
