@@ -117,6 +117,14 @@
     "followUs": "Follow us on our social media.",
     "allRightsReserved": "All rights reserved"
   },
+  "BannerEspañol": {
+  "banner" : "La tecnología más conveniente para desarrollar tu producto y ",
+  "banner1":"potenciar tu empresa"
+  },
+  "BannerEnglish": {
+  "banner": "The most convenient technology to develop your product and ",
+  "banner1": "empower your company"
+  },
   "CompanyEspañol": {
     "marca": "Tecnología de vanguardia",
     "marca0.1": "Ofrecemos una propuesta comercial que aprovecha las virtudes de las tecnologías más avanzadas.",
@@ -133,4 +141,5 @@
     "marca2.0": "Social impact",
     "marca2.1": "We focus on projects that generate social impact or contribute to sustainable processes."
 }
+  
   }

@@ -13,7 +13,8 @@ i18n
           ...tr.nosotrosEnglish,
           ...tr.formularioEnglish,
           ...tr.footerEnglish,
-          ...tr.CompanyEnglish
+          ...tr.CompanyEnglish,
+          ...tr.BannerEnglish,
         },
       },
       es: {
@@ -21,7 +22,8 @@ i18n
           ...tr.nosotros,
           ...tr.formulario,
           ...tr.footer,
-          ...tr.CompanyEspañol
+          ...tr.CompanyEspañol,
+          ...tr.BannerEspañol,
         },
       },
       // Agrega más idiomas según sea necesario
