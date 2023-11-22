@@ -13,6 +13,9 @@ i18n
           ...tr.nosotrosEnglish,
           ...tr.formularioEnglish,
           ...tr.footerEnglish,
+          ...tr.CompanyEnglish,
+          ...tr.BannerEnglish,
+          ...tr.AreasTrabajoEnglish,
           ...tr.CompañiasEnglish
         },
       },
@@ -21,6 +24,9 @@ i18n
           ...tr.nosotros,
           ...tr.formulario,
           ...tr.footer,
+          ...tr.CompanyEspañol,
+          ...tr.BannerEspañol,
+          ...tr.AreasTrabajoEspañol,
           ...tr.CompañiasEspañol
         },
       },

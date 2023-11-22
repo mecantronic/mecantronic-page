@@ -11,15 +11,11 @@ header{
   background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #BA000E 77.58%);
   backdrop-filter: blur(20px);
   color: white;
-  padding: 0;
   z-index: 100;  
   position: fixed;
-  top: 0;
-  width: 100%;
   border-radius: 0;
   padding-left: 160px;
   padding-right: 160px;
-  display: flex;
   justify-content: space-between;
 }
 
