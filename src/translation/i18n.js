@@ -15,7 +15,8 @@ i18n
           ...tr.footerEnglish,
           ...tr.CompanyEnglish,
           ...tr.BannerEnglish,
-          ...tr.AreasTrabajoEnglish
+          ...tr.AreasTrabajoEnglish,
+          ...tr.CompañiasEnglish
         },
       },
       es: {
@@ -25,7 +26,8 @@ i18n
           ...tr.footer,
           ...tr.CompanyEspañol,
           ...tr.BannerEspañol,
-          ...tr.AreasTrabajoEspañol
+          ...tr.AreasTrabajoEspañol,
+          ...tr.CompañiasEspañol
         },
       },
       // Agrega más idiomas según sea necesario

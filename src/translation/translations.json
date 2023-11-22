@@ -173,6 +173,13 @@
     "marca1.1": "We create an ecosystem focused on the genuine needs of our customers.",
     "marca2.0": "Social impact",
     "marca2.1": "We focus on projects that generate social impact or contribute to sustainable processes."
-}
-  
+},
+  "CompañiasEspañol": {
+    "experiencia1": "EXPERIENCIA",
+    "experiencia2": "Empresas que ya nos eligieron"
+  },
+  "CompañiasEnglish": {
+    "experiencia1": "EXPERIENCE",
+    "experiencia2": "Companies that have already chosen us"
+    }
   }
