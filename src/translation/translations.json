@@ -117,46 +117,45 @@
     "followUs": "Follow us on our social media.",
     "allRightsReserved": "All rights reserved"
   },
-  "AreasTrabajoEspañol":{
-    "area0":"qué ofrecemos",
-    "area0.1":"Soluciones tu empresa",
-    "area1":"IoT",
-    "area1.1":"Desarrollamos plataformas que impliquen el control de dispositivos y relevamiento de datos de campo de forma remota.",
-    "area1.2":"Diseñamos un dashboard personalizado para que la visualización de la información y de las métricas sea amigable.",
-    "area1.3":"Ver más",
-    "area2":"IA",
-    "area2.1":"Diseñamos e implementamos hardware y software con el objetivo de detectar e identificar patrones o eventos.",
-    "area2.2":"Desarrollamos e implementamos servicios/ plataformas en las que se aplica inteligencia artificial para el análisis de señales, imágenes y videos.",
-    "area2.3":"Ver más",
-    "area3":"3D",
-    "area3.1":"Comercializamos distintos modelos de impresoras y máquinas CNC de diseño propio",
-    "area3.2":"Además, brindamos servicios de impresión en materiales técnicos y escaneo 3D.",
-    "area3.3":"Ver más"
-
+  "AreasTrabajoEspañol": {
+    "area0": "qué ofrecemos",
+    "area0.1": "Soluciones tu empresa",
+    "area1": "IoT",
+    "area1.1": "Desarrollamos plataformas que impliquen el control de dispositivos y relevamiento de datos de campo de forma remota.",
+    "area1.2": "Diseñamos un dashboard personalizado para que la visualización de la información y de las métricas sea amigable.",
+    "area1.3": "Ver más",
+    "area2": "IA",
+    "area2.1": "Diseñamos e implementamos hardware y software con el objetivo de detectar e identificar patrones o eventos.",
+    "area2.2": "Desarrollamos e implementamos servicios/ plataformas en las que se aplica inteligencia artificial para el análisis de señales, imágenes y videos.",
+    "area2.3": "Ver más",
+    "area3": "3D",
+    "area3.1": "Comercializamos distintos modelos de impresoras y máquinas CNC de diseño propio",
+    "area3.2": "Además, brindamos servicios de impresión en materiales técnicos y escaneo 3D.",
+    "area3.3": "Ver más"
   },
-  "AreasTrabajoEnglish":{
-    "area0":"what we offer",
-    "area0.1":"Solutions for your company",
-    "area1":"IoT",
-    "area1.1":"We develop platforms that involve the control of devices and remote field data collection.",
-    "area1.2":"We designed a customized dashboard to make the visualization of information and metrics user-friendly.",
-    "area1.3":"See more",
-    "area2":"IA",
-    "area2.1":"We design and implement hardware and software to detect and identify patterns or events.",
-    "area2.2":"We develop and implement services/platforms in which artificial intelligence is applied for the analysis of signals, images and videos.",
-    "area2.3":"See more",
-    "area3":"3D",
-    "area3.1":"We sell different models of printers and CNC machines of our own design.",
-    "area3.2":"In addition, we provide printing services in technical materials and 3D scanning.",
-    "area3.3":"See more"
+  "AreasTrabajoEnglish": {
+    "area0": "what we offer",
+    "area0.1": "Solutions for your company",
+    "area1": "IoT",
+    "area1.1": "We develop platforms that involve the control of devices and remote field data collection.",
+    "area1.2": "We designed a customized dashboard to make the visualization of information and metrics user-friendly.",
+    "area1.3": "See more",
+    "area2": "IA",
+    "area2.1": "We design and implement hardware and software to detect and identify patterns or events.",
+    "area2.2": "We develop and implement services/platforms in which artificial intelligence is applied for the analysis of signals, images and videos.",
+    "area2.3": "See more",
+    "area3": "3D",
+    "area3.1": "We sell different models of printers and CNC machines of our own design.",
+    "area3.2": "In addition, we provide printing services in technical materials and 3D scanning.",
+    "area3.3": "See more"
   },
   "BannerEspañol": {
-  "banner" : "La tecnología más conveniente para desarrollar tu producto y ",
-  "banner1":"potenciar tu empresa"
+    "banner": "La tecnología más conveniente para desarrollar tu producto y ",
+    "banner1": "potenciar tu empresa"
   },
   "BannerEnglish": {
-  "banner": "The most convenient technology to develop your product and ",
-  "banner1": "empower your company"
+    "banner": "The most convenient technology to develop your product and ",
+    "banner1": "empower your company"
   },
   "CompanyEspañol": {
     "marca": "Tecnología de vanguardia",
@@ -173,7 +172,7 @@
     "marca1.1": "We create an ecosystem focused on the genuine needs of our customers.",
     "marca2.0": "Social impact",
     "marca2.1": "We focus on projects that generate social impact or contribute to sustainable processes."
-},
+  },
   "CompañiasEspañol": {
     "experiencia1": "EXPERIENCIA",
     "experiencia2": "Empresas que ya nos eligieron"
@@ -181,5 +180,11 @@
   "CompañiasEnglish": {
     "experiencia1": "EXPERIENCE",
     "experiencia2": "Companies that have already chosen us"
-    }
+  },
+  "aboutIOTservice": {
+    "ab_": "SOBRE EL SERVICIO"
+  },
+  "aboutIOTserviceEnglish": {
+    "ab_": "ABOUT THE SERVICE"
   }
+}
