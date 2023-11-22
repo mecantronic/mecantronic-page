@@ -181,5 +181,15 @@
   "CompañiasEnglish": {
     "experiencia1": "EXPERIENCE",
     "experiencia2": "Companies that have already chosen us"
+    },
+    "CasosdeExitoEspañol":{
+      "titleb":"IOT - Soluciones de ingeniería para"
+
+
+    },
+    "CasosdeExitoEnglish":{
+      "titleb":"IOT - Engineering solutions for"
+
+
     }
   }
