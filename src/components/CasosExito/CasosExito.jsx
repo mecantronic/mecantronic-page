@@ -6,32 +6,40 @@ import { BannerTitles } from "../BannerTitles/BannerTitles";
 import noisen from "../assets/noisen.svg";
 import aerogeneradores from "../assets/aerogeneradores.svg";
 import impresora from "../assets/impresora.svg";
+import { useTranslation } from "react-i18next";
 
-const data = [
+export const CasosExito = () => {
+
+  const { t } = useTranslation();
+
+  const data = [
+ 
   {
     title: "Noisen",
-    p1: " Nuestro dispositivo  monitorea continuamente el nivel de ruido y cambia de color para alertar cuando este puede ser perjudicial para la salud . Los umbrales de alerta pueden personalizarse a través de la aplicación web del equipo.",
-    p2: " Noisen tiene la capacidad de almacenar y visualizar las mediciones de ruido en tiempo real y de forma remota. Esto permite conocer la contaminación sonora del espacio en todo momento y tomar medidas correctivas para garantizar un ambiente tranquilo y seguro para todos.  ",
-    p3: " Es de fácil configuración y se puede acceder y consultar desde cualquier lugar con conexión WiFi.",
+    p1: t("P1"),
+    p2: t("P2"),
+    p3: t("P3"),
     img: noisen
   },
   {
-    title: "Detección de fallas en aerogeneradores",
-    p1: "En este proyecto buscamos detectar componentes de aerogeneradores utilizando modelos de segmentación de instancias. Estas segmentaciones nos permiten visualizar y post procesar cada componente por separado.",
-    p2: "Una vez segmentadas las palas se procesan con un algoritmo de detección de anomalías para localizar y clasificar los daños superficiales.",
-    p3: "Algunos de los desperfectos que el modelo es capaz de reconocer son corrosiones y grietas, entre otros.",
+    title: t("title1"),
+    p1: t("P1.5"),
+    p2: t("P2.5"),
+    p3: t("P3.5"),
     img: aerogeneradores
   },
   {
-    title: "Fabricación de impresoras 3D",
-    p1: "Comercializamos distintos modelos de impresoras 3D para manufactura o prototipado. Además brindamos servicios de impresión con materiales especiales: ABS, Nylon, Hips, Flex y PETG.",
-    p2: "Contamos con servicios de puesta en marcha y mantenimiento para garantizar una experiencia de impresión 3D sin problemas.  ",
+    title: t("title2"),
+    p1: t("P1.8"),
+    p2: t("P2.8"),
     p3: "",
     img: impresora
   }
+ 
 ];
 
-export const CasosExito = () => {
+
+
   const [activeIndex, setActiveIndex] = useState(0);
   const { title, p1, p2, p3, img } = data[activeIndex];
 
@@ -42,7 +50,7 @@ export const CasosExito = () => {
 
   return (
     <div className="w-full casos">
-      <BannerTitles subtitle={"casos de éxito"} title={"Proyectos que realizamos"} />
+      <BannerTitles subtitle={t("title2.2")} title={t("title3")} />
       <div className="flex p-8 casoExitoContainer" >
         <div className="w-1/2 casos-img pl-10 pr-10 imgExito">
           <img src={img} alt="" />
