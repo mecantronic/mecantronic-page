@@ -64,7 +64,10 @@
     "ferror_message_complete_consult": "Por favor, completa tu consulta",
     "ferror_message_city": "Por favor, completa tu ciudad",
     "ferror_message_8characters": "Por favor, completa el mensaje con al menos 8 caracteres",
-    "ferror_message_long": "Mensaje demasiado largo, debe contener menos de 200 caracteres"
+    "ferror_message_long": "Mensaje demasiado largo, debe contener menos de 200 caracteres",
+    "nproduct_iot": "Productos IOT",
+    "nproduct_3D": "Productos 3D",
+    "fenviar": "Enviar"
   },
   "formularioEnglish": {
     "fcontact": "Contact",
@@ -89,7 +92,10 @@
     "ferror_message_complete_consult": "Please complete your consult",
     "ferror_message_city": "Please complete your city",
     "ferror_message_8characters": "Please fill in the message with at least 8 characters",
-    "ferror_message_long": "Message too long, it must contain less than 200 characters."
+    "ferror_message_long": "Message too long, it must contain less than 200 characters.",
+    "nproducts_iot": "IOT Products",
+    "nproducts_3D": "3D Products",
+    "fenviar": "Send"
   },
   "footer": {
     "navigation": "Navegación",
@@ -143,5 +149,30 @@
     "area3.1":"We sell different models of printers and CNC machines of our own design.",
     "area3.2":"In addition, we provide printing services in technical materials and 3D scanning.",
     "area3.3":"See more"
-  }
+  },
+  "BannerEspañol": {
+  "banner" : "La tecnología más conveniente para desarrollar tu producto y ",
+  "banner1":"potenciar tu empresa"
+  },
+  "BannerEnglish": {
+  "banner": "The most convenient technology to develop your product and ",
+  "banner1": "empower your company"
+  },
+  "CompanyEspañol": {
+    "marca": "Tecnología de vanguardia",
+    "marca0.1": "Ofrecemos una propuesta comercial que aprovecha las virtudes de las tecnologías más avanzadas.",
+    "marca1": "Soluciones adaptables",
+    "marca1.1": "Creamos un ecosistema centrado en las necesidades genuinas de nuestros clientes.",
+    "marca2.0": "Impacto  social",
+    "marca2.1": "Nos enfocamos en proyectos que generen impacto social o contribuyan con procesos sustentables."
+  },
+  "CompanyEnglish": {
+    "marca": "Cutting-edge technology",
+    "marca0.1": "We offer a commercial proposal that takes advantage of the virtues of the most advanced technologies.",
+    "marca1": "Customizable solutions.",
+    "marca1.1": "We create an ecosystem focused on the genuine needs of our customers.",
+    "marca2.0": "Social impact",
+    "marca2.1": "We focus on projects that generate social impact or contribute to sustainable processes."
 }
+  
+  }
