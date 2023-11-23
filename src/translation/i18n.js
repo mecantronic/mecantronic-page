@@ -17,7 +17,8 @@ i18n
           ...tr.BannerEnglish,
           ...tr.AreasTrabajoEnglish,
           ...tr.CompañiasEnglish,
-          ...tr.aboutIOTserviceEnglish
+          ...tr.aboutIOTserviceEnglish,
+          ...tr.CasosExitoEnglish
         },
       },
       es: {
@@ -29,7 +30,9 @@ i18n
           ...tr.BannerEspañol,
           ...tr.AreasTrabajoEspañol,
           ...tr.CompañiasEspañol,
-          ...tr.aboutIOTservice
+          ...tr.aboutIOTservice,
+          ...tr.CasosExitoEspañol
+
         },
       },
       // Agrega más idiomas según sea necesario
