@@ -14,8 +14,8 @@ const Servicios = () => {
   const servicios = [
     {
       id: 1,
-      titleBanner: "IOT - Soluciones de ingeniería para",
-      title: "tu negocio.",
+      titleBanner: t("banner_iot_1"),
+      title: t("banner_iot_2"),
       subtitle: "CASOS DE EXITO",
       detailsTitle: "Te mostramos algunos de los proyectos que realizamos.",
       detailsText:

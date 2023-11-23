@@ -17,6 +17,7 @@ i18n
           ...tr.BannerEnglish,
           ...tr.AreasTrabajoEnglish,
           ...tr.CompañiasEnglish,
+          ...tr.IoTBannerEnglish,
           ...tr.aboutIOTserviceEnglish,
           ...tr.CasosExitoEnglish
         },
@@ -30,6 +31,7 @@ i18n
           ...tr.BannerEspañol,
           ...tr.AreasTrabajoEspañol,
           ...tr.CompañiasEspañol,
+          ...tr.IoTBanner,
           ...tr.aboutIOTservice,
           ...tr.CasosExitoEspañol
 
