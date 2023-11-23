@@ -16,9 +16,9 @@ const Servicios = () => {
       id: 1,
       titleBanner: "IOT - Soluciones de ingeniería para",
       title: "tu negocio.",
-      subtitle: t("CDE"),
+      subtitle: "CASOS DE EXITO",
       detailsTitle: t("DetailTitle"),
-      detailsText: t("DetailText"),
+      detailsText:t("DetailText"),
       accordion: [
         {
           img: "ExitoIOT1.png",
@@ -28,7 +28,7 @@ const Servicios = () => {
         {
           img: "ExitoIOT2.png",
           title: t("Title1.2"),
-          description: t("Descript1.2"),
+          description:t("Descript1.2"),
         },
         {
           img: "ExitoIOT3.png",
@@ -38,7 +38,7 @@ const Servicios = () => {
         {
           img: "ExitoIOT4.png",
           title: t("Title1.4"),
-          description: t("Descript1.4"),
+          description:  t("Descript1.4"),
         },
       ],
       imgHero: "servicioIOT.png",

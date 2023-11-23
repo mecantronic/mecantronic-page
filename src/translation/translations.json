@@ -222,7 +222,6 @@
     "aIOT_text1": "We develop and implement services and products that involve the control of devices or field data collection (noise, temperature, groundwater depth, etc.) with the possibility of visualizing and controlling the system through an interactive dashboard. We provide information for monitoring and control of any process locally or remotely. The process may or may not be industrial. You should only know in detail what data you need, how often and how you want to visualize them."
   },
   "CasosdeExitoIOTEspañol": {
-    "CDE": "CASOS DE EXITO",
     "DetailTitle": "Te mostramos algunos de los proyectos que realizamos.",
     "DetailText": "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
     "Title1.1": "Gestión del consumo de combustible.",
@@ -236,7 +235,6 @@
 
   },
   "CasosdeExitoIOTEnglish": {
-    "CDE": "Success stories",
     "DetailTitle": "We show you some of the projects we have done.",
     "DetailText": "The structure ensures high rigidity and minimizes vibrations. Exclusive head system.",
     "Title1.1": "Management of fuel consumption.",
