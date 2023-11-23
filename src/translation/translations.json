@@ -188,5 +188,45 @@
   "IoTBannerEnglish": {
     "banner_iot_1": "IOT - Soluciones de ingeniería para",
     "banner_iot_2": "tu negocio."
+  },
+  "CasosExitoEspañol": {
+    "P1": "Nuestro dispositivo  monitorea continuamente el nivel de ruido y cambia de color para alertar cuando este puede ser perjudicial para la salud . Los umbrales de alerta pueden personalizarse a través de la aplicación web del equipo.",
+    "P2": "Noisen tiene la capacidad de almacenar y visualizar las mediciones de ruido en tiempo real y de forma remota. Esto permite conocer la contaminación sonora del espacio en todo momento y tomar medidas correctivas para garantizar un ambiente tranquilo y seguro para todos.",
+    "P3": "Es de fácil configuración y se puede acceder y consultar desde cualquier lugar con conexión WiFi.",
+    "title1": "Detección de fallas en aerogeneradores",
+    "P1.5": "En este proyecto buscamos detectar componentes de aerogeneradores utilizando modelos de segmentación de instancias. Estas segmentaciones nos permiten visualizar y post procesar cada componente por separado.",
+    "P2.5": "Una vez segmentadas las palas se procesan con un algoritmo de detección de anomalías para localizar y clasificar los daños superficiales.",
+    "P3.5": "Algunos de los desperfectos que el modelo es capaz de reconocer son corrosiones y grietas, entre otros.",
+    "title2": "Fabricación de impresoras 3D",
+    "P1.8": "Comercializamos distintos modelos de impresoras 3D para manufactura o prototipado. Además brindamos servicios de impresión con materiales especiales: ABS, Nylon, Hips, Flex y PETG.",
+    "P2.8": "Contamos con servicios de puesta en marcha y mantenimiento para garantizar una experiencia de impresión 3D sin problemas.",
+    "title3": "Proyectos que realizamos",
+    "title2.2": "casos de éxito"
+  },
+  "CasosExitoEnglish": {
+    "P1": "Our device continuously monitors the noise level and changes color to alert when noise may be harmful to health. Alert thresholds can be customized through the device's web application.",
+    "P2": "Noisen has the ability to store and visualize noise measurements in real time and remotely. This makes it possible to know the noise pollution in the space at all times and take corrective measures to ensure a quiet and safe environment for everyone.",
+    "P3": "It is easy to configure and can be accessed and consulted from anywhere with a WiFi connection.",
+    "title1": "Wind turbine failure detection",
+    "P1.5": "In this project we seek to detect wind turbine components using instance segmentation models. These segmentations allow us to visualize and post process each component separately.",
+    "P2.5": "Once the blades are segmented, they are processed with an anomaly detection algorithm to locate and classify surface damage.",
+    "P3.5": "Some of the flaws that the model is able to recognize are corrosion and cracks, among others.",
+    "title2": "3D printer manufacturing",
+    "P1.8": "We commercialize different models of 3D printers for manufacturing or prototyping. We also provide printing services with special materials: ABS, Nylon, Hips, Flex and PETG.",
+    "P2.8": "Commissioning and maintenance services are available to ensure a smooth 3D printing experience.",
+    "title3": "Projects we carry out",
+    "title2.2": "success stories"
+  },
+  "aboutIOTservice": {
+    "aIOT_about": "SOBRE EL SERVICIO",
+    "aIOT_converg": "Convergencia de la tecnología y el mundo real",
+    "aIOT_transform": "IoT transforma objetos cotidianos en una red inteligente de posibilidades.",
+    "aIOT_text1": "Desarrollamos e implementamos servicios y productos que impliquen el control de dispositivos o el relevamiento de datos de campo (ruido, temperatura, profundidad de napas, etc.) con la posibilidad de visualizar y controlar el sistema a través de un dashboard interactivo. Te brindamos información para el monitoreo y control de cualquier proceso de forma local o remota. El proceso puede o no, ser industrial. Solo deberías saber en detalle qué datos necesitas, con qué frecuencia y de qué forma queres visualizarlos."
+  },
+  "aboutIOTserviceEnglish": {
+    "aIOT_about": "ABOUT THE SERVICE",
+    "aIOT_converg": "Convergence of technology and the real world",
+    "aIOT_transform": "IoT transforms everyday objects into an intelligent network of possibilities.",
+    "aIOT_text1": "We develop and implement services and products that involve the control of devices or field data collection (noise, temperature, groundwater depth, etc.) with the possibility of visualizing and controlling the system through an interactive dashboard. We provide information for monitoring and control of any process locally or remotely. The process may or may not be industrial. You should only know in detail what data you need, how often and how you want to visualize them."
   }
 }
