@@ -16,34 +16,29 @@ const Servicios = () => {
       id: 1,
       titleBanner: "IOT - Soluciones de ingeniería para",
       title: "tu negocio.",
-      subtitle: "CASOS DE EXITO",
-      detailsTitle: "Te mostramos algunos de los proyectos que realizamos.",
-      detailsText:
-        "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
+      subtitle: t("CDE"),
+      detailsTitle: t("DetailTitle"),
+      detailsText: t("DetailText"),
       accordion: [
         {
           img: "ExitoIOT1.png",
-          title: "Gestión del consumo de combustible.",
-          description:
-            "La gestión del consumo de combustibles es un problema para las empresas de logística. Implementamos un sistema que da acceso electrónico a los choferes para el retiro de combustibles, registrando quien hizo el retiro, cuándo y dónde, y cuántos litros retiró. Esta información se visualiza en un tablero de control para el control, la previsión y la toma de decisiones.",
+          title: t("Title1.1"),
+          description: t("Descript1.1"),
         },
         {
           img: "ExitoIOT2.png",
-          title: "Monitoreo remoto de profundidad de napas.",
-          description:
-            "La profundidad de las napas en distintos puntos del campo constituye un activo importante para la toma de decisiones en la agricultura y ganadería. Desarrollamos un sistema que permite visualizar un mapa con las respectivas profundidades de napas en los puntos en que se han dispuesto sensores.",
+          title: t("Title1.2"),
+          description: t("Descript1.2"),
         },
         {
           img: "ExitoIOT3.png",
-          title: "Reporte de cantidad de piezas producidas.",
-          description:
-            "Cuenta con una interfaz que te guía a lo largo de todo el proceso, brindando información en tiempo real sobre el estado de avance de la pieza, temperaturas de hotend y cama, etc.",
+          title: t("Title1.3"),
+          description: t("Descript1.3"),
         },
         {
           img: "ExitoIOT4.png",
-          title: "Sistema de control para embarcaciones eléctricas.",
-          description:
-            "La firma VELOS se perfila como una start up pujante en el mundo de la náutica sustentable. Desde MEC, desarrollamos la electrónica asociada para el control de los motores eléctricos, carga de baterías y visualización de consumo, velocidad, etc.",
+          title: t("Title1.4"),
+          description: t("Descript1.4"),
         },
       ],
       imgHero: "servicioIOT.png",

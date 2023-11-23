@@ -18,7 +18,8 @@ i18n
           ...tr.AreasTrabajoEnglish,
           ...tr.CompañiasEnglish,
           ...tr.aboutIOTserviceEnglish,
-          ...tr.CasosExitoEnglish
+          ...tr.CasosExitoEnglish,
+          ...tr.CasosdeExitoIOTEnglish
         },
       },
       es: {
@@ -31,8 +32,8 @@ i18n
           ...tr.AreasTrabajoEspañol,
           ...tr.CompañiasEspañol,
           ...tr.aboutIOTservice,
-          ...tr.CasosExitoEspañol
-
+          ...tr.CasosExitoEspañol,
+          ...tr.CasosdeExitoIOTEspañol
         },
       },
       // Agrega más idiomas según sea necesario
