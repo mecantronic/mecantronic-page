@@ -14,8 +14,8 @@ const Servicios = () => {
   const servicios = [
     {
       id: 1,
-      titleBanner: "IOT - Soluciones de ingeniería para",
-      title: "tu negocio.",
+      titleBanner: t("banner_iot_1"),
+      title: t("banner_iot_2"),
       subtitle: "CASOS DE EXITO",
       detailsTitle: t("DetailTitle"),
       detailsText:t("DetailText"),
@@ -55,8 +55,8 @@ const Servicios = () => {
     },
     {
       id: 2,
-      titleBanner: "IA - Inteligencia artificial para",
-      title: "tu negocio",
+      titleBanner: t("ia"),
+      title: t("ia1"),
       subtitle: "CASOS DE EXITO",
       detailsTitle: "Te mostramos algunos de los proyectos que realizamos.",
       detailsText:
@@ -88,11 +88,9 @@ const Servicios = () => {
         },
       ],
       imgHero: "servicioIA.png",
-      sobrePrincipal: "Soluciones personalizadas de inteligencia artificial",
-      sobreTitle:
-        "AI: Transformando el futuro de la innovación y los negocios.",
-      sobreParagraph:
-        "Ayudamos a identificar y detectar de manera automática cualquier tipo de evento. Utilizamos algoritmos de Aprendizaje Automático para detectar objetos, patrones y/o eventos, lo que permite tomar decisiones más rápidas e informadas en tiempo real. Con nuestras soluciones basadas en Inteligencia Artificial, se puede supervisar instalaciones y activos de manera más eficiente y precisa, lo que permite ahorrar tiempo y dinero en el mediano y largo plazo. Ya sea que se necesite supervisar una planta de producción, controlar la seguridad en una tienda minorista o garantizar la calidad de productos, nuestro equipo especializado en Computer Vision puede diseñar sistemas a medida de las necesidades del cliente para obtener una visión completa de operaciones.",
+      sobrePrincipal: t("aIA_about"),
+      sobreTitle: t("aIA_transform"),
+      sobreParagraph: t("aIA_text1"),
       sobreImg: "SobreIA.svg",
       exitoImg: "ExitoIA.svg",
       empresaImg: [

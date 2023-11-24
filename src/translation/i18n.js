@@ -17,9 +17,13 @@ i18n
           ...tr.BannerEnglish,
           ...tr.AreasTrabajoEnglish,
           ...tr.CompañiasEnglish,
+          ...tr.IoTBannerEnglish,
           ...tr.aboutIOTserviceEnglish,
           ...tr.CasosExitoEnglish,
-          ...tr.CasosdeExitoIOTEnglish
+          ...tr.CasosdeExitoIOTEnglish,
+          ...tr.TestimoniosEnglish,
+          ...tr.iaenglish,
+          ...tr.aboutIAserviceEnglish
         },
       },
       es: {
@@ -31,9 +35,10 @@ i18n
           ...tr.BannerEspañol,
           ...tr.AreasTrabajoEspañol,
           ...tr.CompañiasEspañol,
+          ...tr.IoTBanner,
           ...tr.aboutIOTservice,
-          ...tr.CasosExitoEspañol,
-          ...tr.CasosdeExitoIOTEspañol
+          ...tr.CasosExitoEspañol
+
         },
       },
       // Agrega más idiomas según sea necesario
