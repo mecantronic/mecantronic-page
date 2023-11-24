@@ -313,7 +313,9 @@
    "Title1.3": "Detección de derrames de petróleo.",
    "Description1.3": "Desarrollamos un sistema de alerta  y monitoreo de zonas de alta sensibilidad ambiental en colaboración con Uali. Utilizamos drones equipados con inteligencia artificial para detectar derrames de petróleo en distintos tipos de superficies.",
    "Title1.4": "Generación automática de multas.",
-   "Description1.4": "Desarrollamos un cinemómetro aéreo para la Dirección General de Transporte  de España en colaboración con la Uali y Rocking Data. Utilizamos un dron equipado con inteligencia artificial para medir la velocidad y patente de los vehículos, permitiendo la generación de multas en caso de que corresponda."
+   "Description1.4": "Desarrollamos un cinemómetro aéreo para la Dirección General de Transporte  de España en colaboración con la Uali y Rocking Data. Utilizamos un dron equipado con inteligencia artificial para medir la velocidad y patente de los vehículos, permitiendo la generación de multas en caso de que corresponda.",
+   "TM": "TRABAJO EN EQUIPO",
+   "SE": "Socios estratégicos"
    
  },
  "CasosdeExitoAIEnglish": {
@@ -327,7 +329,9 @@
    "Title1.3": "Detection of oil spills",
    "Description1.3": "We developed an alert and monitoring system for environmentally sensitive areas in collaboration with Uali. We use drones equipped with artificial intelligence to detect oil spills on different types of surfaces.",
    "Title1.4": "Automatic fines generation.",
-   "Description1.4": "We developed an aerial cinemometer for the Dirección General de Transporte de España in collaboration with Uali and Rocking Data. We use a drone equipped with artificial intelligence to measure the speed and license plate of vehicles, allowing the generation of fines if applicable."
+   "Description1.4": "We developed an aerial cinemometer for the Dirección General de Transporte de España in collaboration with Uali and Rocking Data. We use a drone equipped with artificial intelligence to measure the speed and license plate of vehicles, allowing the generation of fines if applicable.",
+   "TM": "TEAM WORK",
+   "SE": "Strategic partners"
 
    
  }
