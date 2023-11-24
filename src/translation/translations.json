@@ -291,6 +291,20 @@
   "ia":"AI - Artificial Intelligence for",
   "ia1":"your business"
 
+ },
+ "CasosdeExitoAIEspañol": {
+   "subtitl1": "CASOS DE EXITO",
+   "detailsTitle": "Te mostramos algunos de los proyectos que realizamos.",
+   "DetailsT": "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
+   "Title": "Mantenimiento preventivo de generadores eólicos."
+   
+ },
+ "CasosdeExitoAIEnglish": {
+   "subtitl1": "Success stories",
+   "detailsTitle":"We show you some of the projects we have done.",
+   "DetailsT": "The structure ensures high rigidity and minimizes vibrations. Exclusive head system.",
+   "Title": "Mantenimiento preventivo de generadores eólicos."
+   
+ }
 }
-    }
 
