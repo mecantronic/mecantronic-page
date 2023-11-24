@@ -228,5 +228,60 @@
     "aIOT_converg": "Convergence of technology and the real world",
     "aIOT_transform": "IoT transforms everyday objects into an intelligent network of possibilities.",
     "aIOT_text1": "We develop and implement services and products that involve the control of devices or field data collection (noise, temperature, groundwater depth, etc.) with the possibility of visualizing and controlling the system through an interactive dashboard. We provide information for monitoring and control of any process locally or remotely. The process may or may not be industrial. You should only know in detail what data you need, how often and how you want to visualize them."
+  },
+  "TestimoniosEspañol":{
+    "titulo":"testimonios",
+    "titulo1":"¿Que dicen nuestros clientes?",
+    "user1": "Ian Bogado",
+    "position1": "CEO",
+    "opinion1": "El equipo de MEC es increíble. Siempre están bien predispuestos para que los proyectos lleguen a buen puerto, sobre todo cuando las cosas se complican.  Han sido fundamentales para nuestro crecimiento y despegue y espero que podamos seguir trabajando codo a codo mucho tiempo más. ",
+    
+    "user2": "Alejandro Pronello",
+    "position2": "CEO",
+    "opinion2": "En Mecantronic encontramos un socio estratégico que complementa perfectamente nuestras capacidades. Los procesos de automatización son complejos y dinámicos, lo cual exige una dedicación y profesionalismo que sin duda este equipo tiene de sobra.  ",
+  
+    "user3": "Sebastián Papandrea",
+    "position3": "CEO",
+    "opinion3": "Un grupo humano excepcional!! Hemos trabajado varios años en desarrollos para la industria y en proyectos de impacto social y puedo decir que Mecantronic es el partner tecnológico ideal tanto desde el punto de vista técnico como personal.",
+  
+    "user4": "Fernando Quinodoz",
+    "position4": "CEO",
+    "opinion4": " La comunicación y colaboración con Mecatronic fue excelente, lo que facilitó el proceso de trabajo y permitió una integración fluida con nuestro equipo interno. Sin duda, recomendamos a Mecatronic como una empresa confiable y calificada para proyectos transversales de ingeniería.",
+  
+    "user5": " Dolores Mase",
+    "position5": "Co-Fundadora",
+    "opinion5": "Da gusto trabajar con un grupo que tiene tanta energía y se interesa tanto por que la gente verdaderamente aprenda.",
+  
+    "user6": "Fernando Lapolla",
+    "position6": "Sub secretario",
+    "opinion6": "Destacó el profesionalismo y la calidez en el trato con el que llevaron adelante el proyecto, sin importar los contratiempos."
+  },
+  "TestimoniosEnglish":{
+    "titulo":"testimonies",
+    "titulo1":"What do our customers say?",
+    "user1": "Ian Bogado",
+    "position1": "CEO",
+    "opinion1": "The team at MEC is amazing. They are always willing to help projects come to fruition, especially when things get complicated.  They have been instrumental in our growth and take-off and I hope we can continue working side by side for a long time to come.",
+    
+    "user2": "Alejandro Pronello",
+    "position2": "CEO",
+    "opinion2": "In Mecantronic we found a strategic partner that perfectly complements our capabilities. Automation processes are complex and dynamic, which requires dedication and professionalism that this team has plenty of.  ",
+  
+    "user3": "Sebastián Papandrea",
+    "position3": "CEO",
+    "opinion3": "An exceptional human group! We have worked for several years in developments for the industry and in projects of social impact and I can say that Mecantronic is the ideal technological partner both from a technical and personal point of view.",
+  
+    "user4": "Fernando Quinodoz",
+    "position4": "CEO",
+    "opinion4": " The communication and collaboration with Mecatronic was excellent, which facilitated the work process and allowed a smooth integration with our internal team. Undoubtedly, we recommend Mecatronic as a reliable and qualified company for transversal engineering projects.",
+  
+    "user5": " Dolores Mase",
+    "position5": "Co-Founder",
+    "opinion5": "It's nice to work with a group that has so much energy and cares so much about people really learning.",
+  
+    "user6": "Fernando Lapolla",
+    "position6": "undersecretary",
+    "opinion6": "He emphasized the professionalism and warmth with which they carried out the project, regardless of the setbacks."
   }
-}
+    }
+
