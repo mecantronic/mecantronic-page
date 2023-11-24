@@ -282,6 +282,15 @@
     "user6": "Fernando Lapolla",
     "position6": "undersecretary",
     "opinion6": "He emphasized the professionalism and warmth with which they carried out the project, regardless of the setbacks."
-  }
+  },
+  "iaespañol" : {
+  "ia":"IA - Inteligencia artificial para",
+  "ia1":"tu negocio"
+},
+"iaenglish": {
+  "ia":"AI - Artificial Intelligence for",
+  "ia1":"your business"
+
+}
     }
 
