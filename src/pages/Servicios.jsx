@@ -60,8 +60,8 @@ const Servicios = () => {
     },
     {
       id: 2,
-      titleBanner: "IA - Inteligencia artificial para",
-      title: "tu negocio",
+      titleBanner: t("ia"),
+      title: t("ia1"),
       subtitle: "CASOS DE EXITO",
       detailsTitle: "Te mostramos algunos de los proyectos que realizamos.",
       detailsText:
