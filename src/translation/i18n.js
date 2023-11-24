@@ -23,7 +23,8 @@ i18n
           ...tr.CasosdeExitoIOTEnglish,
           ...tr.TestimoniosEnglish,
           ...tr.iaenglish,
-          ...tr.aboutIAserviceEnglish
+          ...tr.aboutIAserviceEnglish,
+          ...tr.CasosdeExitoIOTEnglish
         },
       },
       es: {
@@ -37,7 +38,8 @@ i18n
           ...tr.CompañiasEspañol,
           ...tr.IoTBanner,
           ...tr.aboutIOTservice,
-          ...tr.CasosExitoEspañol
+          ...tr.CasosExitoEspañol,
+          ...tr.CasosdeExitoIOTEspañol
 
         },
       },
