@@ -296,14 +296,29 @@
    "subtitl1": "CASOS DE EXITO",
    "detailsTitle": "Te mostramos algunos de los proyectos que realizamos.",
    "DetailsT": "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
-   "Title": "Mantenimiento preventivo de generadores eólicos."
+   "Title1.1": "Mantenimiento preventivo de generadores eólicos.",
+   "Description1.1": "Diseñamos un sistema de detección y localización de fallas superficiales en aerogeneradores, en colaboración con Uali y Rocking Data. Para implementar el sistema diseñado, se utiliza un dron equipado con cámaras el cual sobrevuela el aerogenerador capturando imágenes y videos, en pos de procesarlos con nuestros algoritmos de inteligencia artificial. Nuestro aporte fundamental en el proyecto fue en la construcción rápida de un MVP, adaptando frameworks en estado del arte para tareas de segmentación y detección de anomalías en esta problemática en particular.",
+   "Title1.2": "Supervisión de oleoductos.",
+   "Description1.2":"Desarrollamos un sistema de seguridad y monitoreo de oleoductos en zonas rurales junto con la firma Uali. Utilizamos drones para patrullar las áreas de interés. Analizamos las filmaciones con IA para detectar personas y vehículos de forma tal de garantizar la seguridad de los activos.",
+   "Title1.3": "Detección de derrames de petróleo.",
+   "Description1.3": "Desarrollamos un sistema de alerta  y monitoreo de zonas de alta sensibilidad ambiental en colaboración con Uali. Utilizamos drones equipados con inteligencia artificial para detectar derrames de petróleo en distintos tipos de superficies.",
+   "Title1.4": "Generación automática de multas.",
+   "Description1.4": "Desarrollamos un cinemómetro aéreo para la Dirección General de Transporte  de España en colaboración con la Uali y Rocking Data. Utilizamos un dron equipado con inteligencia artificial para medir la velocidad y patente de los vehículos, permitiendo la generación de multas en caso de que corresponda."
    
  },
  "CasosdeExitoAIEnglish": {
    "subtitl1": "Success stories",
    "detailsTitle":"We show you some of the projects we have done.",
    "DetailsT": "The structure ensures high rigidity and minimizes vibrations. Exclusive head system.",
-   "Title": "Mantenimiento preventivo de generadores eólicos."
+   "Title1.1": "Preventive maintenance of wind turbines.",
+   "Description1.1": "We designed a system for detecting and locating surface faults in wind turbines, in collaboration with Uali and Rocking Data. To implement the designed system, a drone equipped with cameras is used to fly over the wind turbine capturing images and videos, in order to process them with our artificial intelligence algorithms. Our fundamental contribution in the project was in the rapid construction of an MVP, adapting state-of-the-art frameworks for segmentation and anomaly detection tasks in this particular problem.",
+   "Title1.2": "Pipeline supervision.",
+   "Description1.2": "We developed a security and monitoring system for oil pipelines in rural areas together with the firm Uali. We use drones to patrol areas of interest. We analyze the footage with AI to detect people and vehicles to ensure the safety of the assets.",
+   "Title1.3": "Detection of oil spills",
+   "Description1.3": "We developed an alert and monitoring system for environmentally sensitive areas in collaboration with Uali. We use drones equipped with artificial intelligence to detect oil spills on different types of surfaces.",
+   "Title1.4": "Automatic fines generation.",
+   "Description1.4": "We developed an aerial cinemometer for the Dirección General de Transporte de España in collaboration with Uali and Rocking Data. We use a drone equipped with artificial intelligence to measure the speed and license plate of vehicles, allowing the generation of fines if applicable."
+
    
  }
 }
