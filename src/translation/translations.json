@@ -292,6 +292,16 @@
   "ia1":"your business"
 
  },
+ "aboutIAservice": {
+   "aIA_about": "Soluciones personalizadas de inteligencia artificial",
+   "aIA_transform": "AI: Transformando el futuro de la innovación y los negocios.",
+   "aIA_text1": "Ayudamos a identificar y detectar de manera automática cualquier tipo de evento. Utilizamos algoritmos de Aprendizaje Automático para detectar objetos, patrones y/o eventos, lo que permite tomar decisiones más rápidas e informadas en tiempo real. Con nuestras soluciones basadas en Inteligencia Artificial, se puede supervisar instalaciones y activos de manera más eficiente y precisa, lo que permite ahorrar tiempo y dinero en el mediano y largo plazo. Ya sea que se necesite supervisar una planta de producción, controlar la seguridad en una tienda minorista o garantizar la calidad de productos, nuestro equipo especializado en Computer Vision puede diseñar sistemas a medida de las necesidades del cliente para obtener una visión completa de operaciones."
+ },
+ "aboutIAserviceEnglish": {
+   "aIA_about": "Customized artificial intelligence solutions",
+   "aIA_transform": "AI: Transforming the future of innovation and business.",
+   "aIA_text1": "We help to automatically identify and detect any type of event. We use Machine Learning algorithms to detect objects, patterns and/or events, allowing faster and more informed decisions in real time. With our AI-based solutions, facilities and assets can be monitored more efficiently and accurately, saving time and money in the medium and long term. Whether you need to monitor a production plant, control security in a retail store or ensure product quality, our specialized Computer Vision team can tailor systems to meet your needs for a complete view of operations."
+ },
  "CasosdeExitoAIEspañol": {
    "subtitl1": "CASOS DE EXITO",
    "detailsTitle": "Te mostramos algunos de los proyectos que realizamos.",
