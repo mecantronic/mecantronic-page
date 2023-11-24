@@ -62,10 +62,9 @@ const Servicios = () => {
       id: 2,
       titleBanner: t("ia"),
       title: t("ia1"),
-      subtitle: "CASOS DE EXITO",
-      detailsTitle: "Te mostramos algunos de los proyectos que realizamos.",
-      detailsText:
-        "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
+      subtitle: t("subtitl1"),
+      detailsTitle: t("detailsTitle"),
+      detailsText: t("DetailsT"),
       accordion: [
         {
           img: "ExitoIA1.png",
