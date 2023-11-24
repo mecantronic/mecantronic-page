@@ -21,8 +21,7 @@ i18n
           ...tr.aboutIOTserviceEnglish,
           ...tr.CasosExitoEnglish,
           ...tr.TestimoniosEnglish,
-          ...tr.iaenglish,
-          ...tr.CasosdeExitoAIEnglish
+          ...tr.iaenglish
         },
       },
       es: {
@@ -38,8 +37,8 @@ i18n
           ...tr.aboutIOTservice,
           ...tr.CasosExitoEspañol,
           ...tr.TestimoniosEspañol,
-          ...tr.iaespañol,
-          ...tr.CasosdeExitoAIEspañol
+          ...tr.iaespañol
+
         },
       },
       // Agrega más idiomas según sea necesario
