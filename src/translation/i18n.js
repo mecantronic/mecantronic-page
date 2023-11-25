@@ -20,7 +20,8 @@ i18n
           ...tr.IoTBannerEnglish,
           ...tr.aboutIOTserviceEnglish,
           ...tr.CasosExitoEnglish,
-          ...tr.TestimoniosEnglish
+          ...tr.TestimoniosEnglish,
+          ...tr.sociosenglish
         },
       },
       es: {
@@ -35,7 +36,8 @@ i18n
           ...tr.IoTBanner,
           ...tr.aboutIOTservice,
           ...tr.CasosExitoEspañol,
-          ...tr.TestimoniosEspañol
+          ...tr.TestimoniosEspañol,
+          ...tr.sociosespañol
 
         },
       },
