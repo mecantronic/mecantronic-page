@@ -22,6 +22,7 @@ i18n
           ...tr.CasosExitoEnglish,
           ...tr.TestimoniosEnglish,
           ...tr.iaenglish,
+          ...tr.CasosdeExitoAIEnglish,
           ...tr.aboutIAserviceEnglish
         },
       },
@@ -39,6 +40,7 @@ i18n
           ...tr.CasosExitoEspañol,
           ...tr.TestimoniosEspañol,
           ...tr.iaespañol,
+          ...tr.CasosdeExitoAIEspañol,
           ...tr.aboutIAservice
 
         },

@@ -68,8 +68,8 @@ export const ServiciosContainer = ({ serviceToShow }) => {
         <div id="sociosEstrategicos">
           <div className="banner-empresas">
             <BannerTitles
-              subtitle={"TRABAJO EN EQUIPO"}
-              title={"Socios estratégicos"}
+              subtitle={t("TM")}
+              title={t("SE")}
             />
             <div className="clientes">
               <span className="backgroundDegradeServicios">
