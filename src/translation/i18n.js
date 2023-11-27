@@ -25,7 +25,8 @@ i18n
           ...tr.iaenglish,
           ...tr.CasosdeExitoAIEnglish,
           ...tr.aboutIAserviceEnglish,
-          ...tr.CasosdeExitoIOTEnglish
+          ...tr.CasosdeExitoIOTEnglish,
+          ...tr.aboutIAserviceEnglish
         },
       },
       es: {
@@ -45,7 +46,8 @@ i18n
           ...tr.aboutIAservice,
           ...tr.CasosdeExitoIOTEspañol,
           ...tr.CasosdeExitoAIEspañol,
-
+          ...tr.CasosdeExitoAIEspañol,
+          ...tr.aboutIAservice
         },
       },
       // Agrega más idiomas según sea necesario
