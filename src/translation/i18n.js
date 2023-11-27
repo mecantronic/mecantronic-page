@@ -23,7 +23,8 @@ i18n
           ...tr.TestimoniosEnglish,
           ...tr.iaenglish,
           ...tr.CasosdeExitoAIEnglish,
-          ...tr.aboutIAserviceEnglish
+          ...tr.aboutIAserviceEnglish,
+          ...tr.subheaderEnglish
         },
       },
       es: {
@@ -41,7 +42,8 @@ i18n
           ...tr.TestimoniosEspañol,
           ...tr.iaespañol,
           ...tr.CasosdeExitoAIEspañol,
-          ...tr.aboutIAservice
+          ...tr.aboutIAservice,
+          ...tr.subheader
 
         },
       },
