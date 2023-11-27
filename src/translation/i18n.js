@@ -20,11 +20,14 @@ i18n
           ...tr.IoTBannerEnglish,
           ...tr.aboutIOTserviceEnglish,
           ...tr.CasosExitoEnglish,
+          ...tr.CasosdeExitoIOTEnglish,
           ...tr.TestimoniosEnglish,
           ...tr.iaenglish,
           ...tr.CasosdeExitoAIEnglish,
           ...tr.aboutIAserviceEnglish,
-          ...tr.subheaderEnglish
+          ...tr.subheaderEnglish,
+          ...tr.CasosdeExitoIOTEnglish,
+          ...tr.aboutIAserviceEnglish
         },
       },
       es: {
@@ -41,10 +44,13 @@ i18n
           ...tr.CasosExitoEspañol,
           ...tr.TestimoniosEspañol,
           ...tr.iaespañol,
+          ...tr.aboutIAservice,
+          ...tr.CasosdeExitoIOTEspañol,
+          ...tr.CasosdeExitoAIEspañol,
           ...tr.CasosdeExitoAIEspañol,
           ...tr.aboutIAservice,
-          ...tr.subheader
-
+          ...tr.subheader,
+          ...tr.aboutIAservice
         },
       },
       // Agrega más idiomas según sea necesario
