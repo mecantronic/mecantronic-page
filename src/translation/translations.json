@@ -229,6 +229,31 @@
     "aIOT_transform": "IoT transforms everyday objects into an intelligent network of possibilities.",
     "aIOT_text1": "We develop and implement services and products that involve the control of devices or field data collection (noise, temperature, groundwater depth, etc.) with the possibility of visualizing and controlling the system through an interactive dashboard. We provide information for monitoring and control of any process locally or remotely. The process may or may not be industrial. You should only know in detail what data you need, how often and how you want to visualize them."
   },
+  "CasosdeExitoIOTEspañol": {
+    "DetailTitle": "Te mostramos algunos de los proyectos que realizamos.",
+    "DetailText": "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
+    "Title1.1": "Gestión del consumo de combustible.",
+    "Descript1.1": "La gestión del consumo de combustibles es un problema para las empresas de logística. Implementamos un sistema que da acceso electrónico a los choferes para el retiro de combustibles, registrando quien hizo el retiro, cuándo y dónde, y cuántos litros retiró. Esta información se visualiza en un tablero de control para el control, la previsión y la toma de decisiones.",
+    "Title1.2": "Monitoreo remoto de profundidad de napas.",
+    "Descript1.2": "La profundidad de las napas en distintos puntos del campo constituye un activo importante para la toma de decisiones en la agricultura y ganadería. Desarrollamos un sistema que permite visualizar un mapa con las respectivas profundidades de napas en los puntos en que se han dispuesto sensores.",
+    "Title1.3": "Reporte de cantidad de piezas producidas.",
+    "Descript1.3": "Cuenta con una interfaz que te guía a lo largo de todo el proceso, brindando información en tiempo real sobre el estado de avance de la pieza, temperaturas de hotend y cama, etc.",
+    "Title1.4":"Sistema de control para embarcaciones eléctricas.",
+    "Descript1.4": "La firma VELOS se perfila como una start up pujante en el mundo de la náutica sustentable. Desde MEC, desarrollamos la electrónica asociada para el control de los motores eléctricos, carga de baterías y visualización de consumo, velocidad, etc."
+
+  },
+  "CasosdeExitoIOTEnglish": {
+    "DetailTitle": "We show you some of the projects we have done.",
+    "DetailText": "The structure ensures high rigidity and minimizes vibrations. Exclusive head system.",
+    "Title1.1": "Management of fuel consumption.",
+    "Descript1.1": "Fuel consumption management is a problem for logistics companies. We implemented a system that gives electronic access to drivers for fuel withdrawal, recording who made the withdrawal, when and where, and how many liters were withdrawn. This information is displayed on a dashboard for control, forecasting and decision making.",
+    "Title1.2": "Remote monitoring of groundwater depths.",
+    "Descript1.2": "The depth of the water table at different points in the field is an important asset for decision making in agriculture and livestock. We developed a system that allows visualizing a map with the respective water table depths at the points where sensors have been installed.",
+    "Title1.3": "Report on the quantity of parts produced.",
+    "Descript1.3": "It has an interface that guides you through the entire process, providing real-time information on the state of progress of the part, hotend and bed temperatures, etc.",
+    "Title1.4":"Control system for electric boats.",
+    "Descript1.4": "VELOS is emerging as a thriving start up in the world of sustainable boating. From MEC, we develop the associated electronics for the control of electric motors, battery charging and visualization of consumption, speed, etc."
+  },
   "TestimoniosEspañol": {
     "titulo": "testimonios",
     "titulo1": "¿Que dicen nuestros clientes?",

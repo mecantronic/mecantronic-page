@@ -20,9 +20,12 @@ i18n
           ...tr.IoTBannerEnglish,
           ...tr.aboutIOTserviceEnglish,
           ...tr.CasosExitoEnglish,
+          ...tr.CasosdeExitoIOTEnglish,
           ...tr.TestimoniosEnglish,
           ...tr.iaenglish,
           ...tr.CasosdeExitoAIEnglish,
+          ...tr.aboutIAserviceEnglish,
+          ...tr.CasosdeExitoIOTEnglish,
           ...tr.aboutIAserviceEnglish
         },
       },
@@ -40,9 +43,11 @@ i18n
           ...tr.CasosExitoEspañol,
           ...tr.TestimoniosEspañol,
           ...tr.iaespañol,
+          ...tr.aboutIAservice,
+          ...tr.CasosdeExitoIOTEspañol,
+          ...tr.CasosdeExitoAIEspañol,
           ...tr.CasosdeExitoAIEspañol,
           ...tr.aboutIAservice
-
         },
       },
       // Agrega más idiomas según sea necesario
