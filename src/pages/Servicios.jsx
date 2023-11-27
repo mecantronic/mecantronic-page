@@ -98,34 +98,30 @@ const Servicios = () => {
       titleBanner:
         "Materializa tus ideas con impresión 3D e impulsa tu negocio ",
       title: "al futuro.",
-      subtitle: "CASOS DE EXITO",
-      detailsTitle: "Te mostramos algunos de los proyectos que realizamos.",
-      detailsText:
-        "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
+      subtitle: t("subtitl1"),
+      detailsTitle: t("DetailsTitles"),
+      detailsText: t("DetailsTe"),
       accordion: [
         {
           img: "Exito3D1.png",
-          title: "Prototipo de case de mando de vehículo naútico",
-          description:
-            "Velos, una empresa líder en el diseño y fabricación de vehículos náuticos sustentables, se enfrentó al desafío de comandar motores eléctricos desde una interfaz amigable para el usuario. Para lograrlo, diseñó un mando de motor eléctrico con un display de información del sistema integrado.El resultado final de este equipamiento fue encapsulado en un diseño 3D versátil y de alta calidad. Nuestro equipo de expertos en ingeniería trabajó arduamente para crear una solución tecnológica a medida que cumpliera con los requisitos únicos de Velos.",
+          title: t("Title1.1"),
+          description: t("Description1.1"),
         },
         {
           img: "Exito3D2.png",
-          title: "Difusor de aire para vehículo de competición TC2000.",
-          description:
-            "Se diseñó e imprimió en material técnico un dispositivo para la difusión de aire de forma tal de mejorar la performance de un auto de carrera de la categoría TC.",
+          title: t("Title1.2"),
+          description: t("Description1.2"),
         },
         {
           img: "Exito3D3.png",
-          title: "Diseño y fabricación de guía quirúrgica",
+          title: t("Title1.3"),
           description:
-            "Cuando la intervención dental de un paciente requiere de múltiples implantes, es necesaria una guía que permita la inserción precisa de los pernos asociados al implante. Este proceso es fundamental, debido a que esta pieza debe ser biocompatible para poder fijarse enla boca del paciente.",
+            t("Description1.3"),
         },
         {
           img: "Exito3D4.png",
-          title: "Escaneo 3D de pieza estructural.",
-          description:
-            "Relevamiento digital de un soporte de hierro fabricado por medio de fundición cuyo diseño, a través de un software CAD, se vuelve engorroso y complejo.",
+          title: t("Title1.4"),
+          description: t("Description1.4"),
         },
       ],
       imgHero: "products/Kubox/portada.png",

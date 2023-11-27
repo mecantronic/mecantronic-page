@@ -356,6 +356,32 @@
     "TM": "TEAM WORK",
     "SE": "Strategic partners"
   },
+  "CasosDeExito3DEspañol": {
+    "subtitl1": "CASOS DE EXITO",
+    "DetailsTitles": "Te mostramos algunos de los proyectos que realizamos.",
+    "DetailsTe": "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
+    "Title1.1": "Prototipo de case de mando de vehículo naútico" ,
+    "Description1.1": "Velos, una empresa líder en el diseño y fabricación de vehículos náuticos sustentables, se enfrentó al desafío de comandar motores eléctricos desde una interfaz amigable para el usuario. Para lograrlo, diseñó un mando de motor eléctrico con un display de información del sistema integrado.El resultado final de este equipamiento fue encapsulado en un diseño 3D versátil y de alta calidad. Nuestro equipo de expertos en ingeniería trabajó arduamente para crear una solución tecnológica a medida que cumpliera con los requisitos únicos de Velos.",
+    "Title1.2": "Difusor de aire para vehículo de competición TC2000.",
+    "Description1.2": "Se diseñó e imprimió en material técnico un dispositivo para la difusión de aire de forma tal de mejorar la performance de un auto de carrera de la categoría TC.",
+    "Title1.3" : "Diseño y fabricación de guía quirúrgica" ,
+    "Description1.3": "Cuando la intervención dental de un paciente requiere de múltiples implantes, es necesaria una guía que permita la inserción precisa de los pernos asociados al implante. Este proceso es fundamental, debido a que esta pieza debe ser biocompatible para poder fijarse enla boca del paciente." ,
+    "Title1.4": "Escaneo 3D de pieza estructural." ,
+    "Description1.4" : "Relevamiento digital de un soporte de hierro fabricado por medio de fundición cuyo diseño, a través de un software CAD, se vuelve engorroso y complejo."
+  },
+  "CasosDeExito3DEnglish":{
+    "subtitl1": "Success stories",
+    "DetailsTitles": "We show you some of the projects we have done.",
+    "DetailsTe": "The structure ensures high rigidity and minimizes vibrations. Exclusive head system.",
+    "Title1.1": "Prototype of control case of a nautical vehicle" ,
+    "Description1.1":"Velos, a leading company in the design and manufacture of sustainable nautical vehicles, faced the challenge of controlling electric motors from a user-friendly interface. To achieve this, they designed an electric motor controller with an integrated system information display, the end result of which was encapsulated in a versatile, high quality 3D design. Our team of engineering experts worked hard to create a customized technology solution that met Velos' unique requirements." ,
+    "Title1.2": "Air diffuser for TC2000 racing car.",
+    "Description1.2": "An air diffusion device was designed and printed on technical material to improve the performance of a TC category race car." ,
+    "Title1.3" : "Design and manufacture of surgical guide",
+    "Description1.3":"When a patient's dental intervention requires multiple implants, a guide is necessary to allow the precise insertion of the pins associated with the implant. This process is fundamental, since this piece must be biocompatible in order to be fixed in the patient's mouth.",
+    "Title1.4": "3D scanning of a structural part.",
+    "Description1.4" : "Digital survey of an iron support manufactured by casting whose design, through CAD software, becomes cumbersome and complex."
+  },
   "subheader": {
     "sh_about_service": "Sobre el servicio",
     "sh_about_success": "Casos de éxito",
