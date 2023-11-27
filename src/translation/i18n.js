@@ -25,6 +25,7 @@ i18n
           ...tr.iaenglish,
           ...tr.CasosdeExitoAIEnglish,
           ...tr.aboutIAserviceEnglish,
+          ...tr.subheaderEnglish,
           ...tr.CasosdeExitoIOTEnglish,
           ...tr.aboutIAserviceEnglish
         },
@@ -47,6 +48,8 @@ i18n
           ...tr.CasosdeExitoIOTEspañol,
           ...tr.CasosdeExitoAIEspañol,
           ...tr.CasosdeExitoAIEspañol,
+          ...tr.aboutIAservice,
+          ...tr.subheader,
           ...tr.aboutIAservice
         },
       },

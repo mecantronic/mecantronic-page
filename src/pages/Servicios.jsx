@@ -69,7 +69,7 @@ const Servicios = () => {
         {
           img: "ExitoIA2.png",
           title: t("Title1.2"),
-          description:t("Description1.2"),
+          description: t("Description1.2"),
         },
         {
           img: "ExitoIA3.png",
@@ -151,9 +151,9 @@ const Servicios = () => {
 
   const serviceToShow = servicios[parseInt(servicio) - 1];
   const secondNav = [
-    { texto: t("Sobre el servicio"), link: "sobreServicio" },
-    { texto: t("Casos de éxito"), link: "casosDeExito" },
-    { texto: t("Socios estratégicos"), link: "sociosEstrategicos" },
+    { texto: t("sh_about_service"), link: "sobreServicio" },
+    { texto: t("sh_about_success"), link: "casosDeExito" },
+    { texto: t("sh_partners"), link: "sociosEstrategicos" },
   ];
 
   return (
