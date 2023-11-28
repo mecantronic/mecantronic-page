@@ -96,8 +96,8 @@ const Servicios = () => {
     {
       id: 3,
       titleBanner:
-        "Materializa tus ideas con impresión 3D e impulsa tu negocio ",
-      title: "al futuro.",
+      t("3dbanner"),
+      title: t("3dbanner1"),
       subtitle: t("st"),
       detailsTitle: t("DetailsTe"),
       detailsText: t("DetailsTe"),

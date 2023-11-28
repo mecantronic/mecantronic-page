@@ -28,7 +28,9 @@ i18n
           ...tr.subheaderEnglish,
           ...tr.CasosdeExitoIOTEnglish,
           ...tr.aboutIAserviceEnglish,
-          ...tr.CasosDeExito3DEnglish
+          ...tr.CasosDeExito3DEnglish,
+          ...tr.bnEnglish
+
         },
       },
       es: {
@@ -52,7 +54,9 @@ i18n
           ...tr.aboutIAservice,
           ...tr.subheader,
           ...tr.aboutIAservice,
-          ...tr.CasosDeExito3DEspañol
+          ...tr.CasosDeExito3DEspañol,
+          ...tr.bnEspañol
+
         },
       },
       // Agrega más idiomas según sea necesario

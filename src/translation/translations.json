@@ -307,6 +307,7 @@
     "user6": "Fernando Lapolla",
     "position6": "undersecretary",
     "opinion6": "He emphasized the professionalism and warmth with which they carried out the project, regardless of the setbacks."
+    
   },
   "iaespañol": {
     "ia": "IA - Inteligencia artificial para",
@@ -391,5 +392,13 @@
     "sh_about_service": "About the service",
     "sh_about_success": "Success stories",
     "sh_partners": "Strategic partners"
+  },
+  "bnEspañol": {
+    "3dbanner" :"Materializa tus ideas con impresión 3D e impulsa tu negocio ",
+    "3dbanner1": "al futuro."
+  },
+  "bnEnglish": {
+    "3dbanner" :"Materialize your ideas with 3D printing and boost your business ",
+    "3dbanner1": "to the future."
   }
 }
