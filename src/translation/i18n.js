@@ -27,7 +27,8 @@ i18n
           ...tr.aboutIAserviceEnglish,
           ...tr.subheaderEnglish,
           ...tr.CasosdeExitoIOTEnglish,
-          ...tr.aboutIAserviceEnglish
+          ...tr.aboutIAserviceEnglish,
+          ...tr.bnEnglish
         },
       },
       es: {
@@ -50,7 +51,8 @@ i18n
           ...tr.CasosdeExitoAIEspañol,
           ...tr.aboutIAservice,
           ...tr.subheader,
-          ...tr.aboutIAservice
+          ...tr.aboutIAservice,
+          ...tr.bnEspañol
         },
       },
       // Agrega más idiomas según sea necesario
