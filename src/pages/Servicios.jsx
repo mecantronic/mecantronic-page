@@ -63,23 +63,23 @@ const Servicios = () => {
       accordion: [
         {
           img: "ExitoIA1.png",
-          title: t("Title1.1"),
-          description: t("Description1.1"),
+          title: t("Title1.11"),
+          description: t("Description1.11"),
         },
         {
           img: "ExitoIA2.png",
-          title: t("Title1.2"),
-          description: t("Description1.2"),
+          title: t("Title1.21"),
+          description: t("Description1.21"),
         },
         {
           img: "ExitoIA3.png",
-          title: t("Title1.3"),
-          description: t("Description1.3"),
+          title: t("Title1.31"),
+          description: t("Description1.31"),
         },
         {
           img: "ExitoIA4.png",
-          title: t("Title1.4"),
-          description: t("Description1.4"),
+          title: t("Title1.41"),
+          description: t("Description1.41"),
         },
       ],
       imgHero: "servicioIA.png",
@@ -98,30 +98,30 @@ const Servicios = () => {
       titleBanner:
         "Materializa tus ideas con impresión 3D e impulsa tu negocio ",
       title: "al futuro.",
-      subtitle: t("subtitl1"),
-      detailsTitle: t("DetailsTitles"),
+      subtitle: t("st"),
+      detailsTitle: t("DetailsTe"),
       detailsText: t("DetailsTe"),
       accordion: [
         {
           img: "Exito3D1.png",
-          title: t("Title1.1"),
-          description: t("Description1.1"),
+          title: t("Title1.10"),
+          description: t("Description1.10"),
         },
         {
           img: "Exito3D2.png",
-          title: t("Title1.2"),
-          description: t("Description1.2"),
+          title: t("Title1.20"),
+          description: t("Description1.20"),
         },
         {
           img: "Exito3D3.png",
-          title: t("Title1.3"),
+          title: t("Title1.30"),
           description:
-            t("Description1.3"),
+            t("Description1.30"),
         },
         {
           img: "Exito3D4.png",
-          title: t("Title1.4"),
-          description: t("Description1.4"),
+          title: t("Title1.40"),
+          description: t("Description1.40"),
         },
       ],
       imgHero: "products/Kubox/portada.png",
