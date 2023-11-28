@@ -28,7 +28,8 @@ i18n
           ...tr.subheaderEnglish,
           ...tr.CasosdeExitoIOTEnglish,
           ...tr.aboutIAserviceEnglish,
-          ...tr.bnEnglish
+          ...tr.bnEnglish,
+          ...tr.sk_kuboxEnglish
         },
       },
       es: {
@@ -52,7 +53,8 @@ i18n
           ...tr.aboutIAservice,
           ...tr.subheader,
           ...tr.aboutIAservice,
-          ...tr.bnEspañol
+          ...tr.bnEspañol,
+          ...tr.sk_kubox
         },
       },
       // Agrega más idiomas según sea necesario

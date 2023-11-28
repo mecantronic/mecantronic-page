@@ -238,9 +238,8 @@
     "Descript1.2": "La profundidad de las napas en distintos puntos del campo constituye un activo importante para la toma de decisiones en la agricultura y ganadería. Desarrollamos un sistema que permite visualizar un mapa con las respectivas profundidades de napas en los puntos en que se han dispuesto sensores.",
     "Title1.3": "Reporte de cantidad de piezas producidas.",
     "Descript1.3": "Cuenta con una interfaz que te guía a lo largo de todo el proceso, brindando información en tiempo real sobre el estado de avance de la pieza, temperaturas de hotend y cama, etc.",
-    "Title1.4":"Sistema de control para embarcaciones eléctricas.",
+    "Title1.4": "Sistema de control para embarcaciones eléctricas.",
     "Descript1.4": "La firma VELOS se perfila como una start up pujante en el mundo de la náutica sustentable. Desde MEC, desarrollamos la electrónica asociada para el control de los motores eléctricos, carga de baterías y visualización de consumo, velocidad, etc."
-
   },
   "CasosdeExitoIOTEnglish": {
     "DetailTitle": "We show you some of the projects we have done.",
@@ -251,7 +250,7 @@
     "Descript1.2": "The depth of the water table at different points in the field is an important asset for decision making in agriculture and livestock. We developed a system that allows visualizing a map with the respective water table depths at the points where sensors have been installed.",
     "Title1.3": "Report on the quantity of parts produced.",
     "Descript1.3": "It has an interface that guides you through the entire process, providing real-time information on the state of progress of the part, hotend and bed temperatures, etc.",
-    "Title1.4":"Control system for electric boats.",
+    "Title1.4": "Control system for electric boats.",
     "Descript1.4": "VELOS is emerging as a thriving start up in the world of sustainable boating. From MEC, we develop the associated electronics for the control of electric motors, battery charging and visualization of consumption, speed, etc."
   },
   "TestimoniosEspañol": {
@@ -307,7 +306,6 @@
     "user6": "Fernando Lapolla",
     "position6": "undersecretary",
     "opinion6": "He emphasized the professionalism and warmth with which they carried out the project, regardless of the setbacks."
-    
   },
   "iaespañol": {
     "ia": "IA - Inteligencia artificial para",
@@ -368,11 +366,51 @@
     "sh_partners": "Strategic partners"
   },
   "bnEspañol": {
-    "3dbanner" :"Materializa tus ideas con impresión 3D e impulsa tu negocio ",
+    "3dbanner": "Materializa tus ideas con impresión 3D e impulsa tu negocio ",
     "3dbanner1": "al futuro."
   },
   "bnEnglish": {
-    "3dbanner" :"Materialize your ideas with 3D printing and boost your business ",
+    "3dbanner": "Materialize your ideas with 3D printing and boost your business ",
     "3dbanner1": "to the future."
+  },
+  "sk_kubox": {
+    "sk_support_title": "Soporte técnico",
+    "sk_support": "Te brindamos soporte técnico durante 1 año.",
+    "sk_instalation_title": "Instalación",
+    "sk_instalation": "Instalación y configuración para que solo tengas que disfrutarla.",
+    "sk_maintenance_title": "Mantenimiento",
+    "sk_maintenance": "Nos ocupamos del mantenimiento mensual.",
+    "sk_training_title": "Capacitación",
+    "sk_training": "Capacitamos a tu equipo para sacarle el máximo provecho a tu impresora.",
+    "sk_dataSheet": "FICHA TÉCNICA",
+    "sk_specs": "Conocé las especificaciones técnicas de esta impresora",
+    "sk_vol": "Volumen de impresión de 300x300x300mm.",
+    "sk_baseImpr": "Base de impresión calefaccionada de 220V - 500W controlado por relé de estado sólido.",
+    "sk_dobleCab": "Doble cabezal de impresión con accionamiento vertical independiente AVI.",
+    "sk_hotend": "Hotend e3d Lite6 + e3d V6 y extrusores dual drive.",
+    "sk_drivers": "Drivers de motores PaP de la serie Tinamcs TMC.",
+    "sk_electr": "Electrónica de 32 bits con conexión WiFi y Ethernet.",
+    "sk_hab": "Habitáculo cerrado.",
+    "sk_download": "Descargar"
+  },
+  "sk_kuboxEnglish": {
+    "sk_support_title": "Technical Support",
+    "sk_support": "We provide technical support for 1 year.",
+    "sk_instalation_title": "Installation",
+    "sk_instalation": "Installation and configuration so you just have to enjoy it.",
+    "sk_maintenance_title": "Maintenance",
+    "sk_maintenance": "We take care of monthly maintenance.",
+    "sk_training_title": "Training",
+    "sk_training": "We train your team to get the most out of your printer.",
+    "sk_dataSheet": "SPECIFICATION SHEET",
+    "sk_specs": "Discover the technical specifications of this printer",
+    "sk_vol": "Print volume of 300x300x300mm.",
+    "sk_baseImpr": "Heated print bed 220V - 500W controlled by solid-state relay.",
+    "sk_dobleCab": "Dual printing head with independent vertical drive AVI.",
+    "sk_hotend": "Hotend e3d Lite6 + e3d V6 and dual-drive extruders.",
+    "sk_drivers": "Tinamcs TMC series stepper motor drivers.",
+    "sk_electr": "32-bit electronics with WiFi and Ethernet connectivity.",
+    "sk_hab": "Enclosed chamber.",
+    "sk_download": "Download"
   }
 }
