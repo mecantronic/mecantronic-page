@@ -63,23 +63,23 @@ const Servicios = () => {
       accordion: [
         {
           img: "ExitoIA1.png",
-          title: t("Title1.1"),
-          description: t("Description1.1"),
+          title: t("Title1.11"),
+          description: t("Description1.11"),
         },
         {
           img: "ExitoIA2.png",
-          title: t("Title1.2"),
-          description: t("Description1.2"),
+          title: t("Title1.21"),
+          description: t("Description1.21"),
         },
         {
           img: "ExitoIA3.png",
-          title: t("Title1.3"),
-          description: t("Description1.3"),
+          title: t("Title1.31"),
+          description: t("Description1.31"),
         },
         {
           img: "ExitoIA4.png",
-          title: t("Title1.4"),
-          description: t("Description1.4"),
+          title: t("Title1.41"),
+          description: t("Description1.41"),
         },
       ],
       imgHero: "servicioIA.png",
@@ -98,34 +98,30 @@ const Servicios = () => {
       titleBanner:
       t("3dbanner"),
       title: t("3dbanner1"),
-      subtitle: "CASOS DE EXITO",
-      detailsTitle: "Te mostramos algunos de los proyectos que realizamos.",
-      detailsText:
-        "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
+      subtitle: t("st"),
+      detailsTitle: t("DetailsTe"),
+      detailsText: t("DetailsTe"),
       accordion: [
         {
           img: "Exito3D1.png",
-          title: "Prototipo de case de mando de vehículo naútico",
-          description:
-            "Velos, una empresa líder en el diseño y fabricación de vehículos náuticos sustentables, se enfrentó al desafío de comandar motores eléctricos desde una interfaz amigable para el usuario. Para lograrlo, diseñó un mando de motor eléctrico con un display de información del sistema integrado.El resultado final de este equipamiento fue encapsulado en un diseño 3D versátil y de alta calidad. Nuestro equipo de expertos en ingeniería trabajó arduamente para crear una solución tecnológica a medida que cumpliera con los requisitos únicos de Velos.",
+          title: t("Title1.10"),
+          description: t("Description1.10"),
         },
         {
           img: "Exito3D2.png",
-          title: "Difusor de aire para vehículo de competición TC2000.",
-          description:
-            "Se diseñó e imprimió en material técnico un dispositivo para la difusión de aire de forma tal de mejorar la performance de un auto de carrera de la categoría TC.",
+          title: t("Title1.20"),
+          description: t("Description1.20"),
         },
         {
           img: "Exito3D3.png",
-          title: "Diseño y fabricación de guía quirúrgica",
+          title: t("Title1.30"),
           description:
-            "Cuando la intervención dental de un paciente requiere de múltiples implantes, es necesaria una guía que permita la inserción precisa de los pernos asociados al implante. Este proceso es fundamental, debido a que esta pieza debe ser biocompatible para poder fijarse enla boca del paciente.",
+            t("Description1.30"),
         },
         {
           img: "Exito3D4.png",
-          title: "Escaneo 3D de pieza estructural.",
-          description:
-            "Relevamiento digital de un soporte de hierro fabricado por medio de fundición cuyo diseño, a través de un software CAD, se vuelve engorroso y complejo.",
+          title: t("Title1.40"),
+          description: t("Description1.40"),
         },
       ],
       imgHero: "products/Kubox/portada.png",
