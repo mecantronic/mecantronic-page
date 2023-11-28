@@ -400,5 +400,15 @@
   "bnEnglish": {
     "3dbanner" :"Materialize your ideas with 3D printing and boost your business ",
     "3dbanner1": "to the future."
-  }
+  },
+  "subheader1español": {
+    "sh1.0": "Sobre el producto",
+    "sh2.0": "Ficha tecnica",
+    "sh3.0": "Comparativa"
+  },
+  "subheader1English": {
+    "sh1.0": "About the product",
+    "sh2.0": "Technical data",
+    "sh3.0": "Comparative"
 }
+  }
