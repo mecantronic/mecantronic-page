@@ -400,5 +400,22 @@
   "bnEnglish": {
     "3dbanner" :"Materialize your ideas with 3D printing and boost your business ",
     "3dbanner1": "to the future."
+  },
+  "t1Español" : {
+     "t1": "Crea lo que quieras con nuestra impresión 3D de última generación.",
+     "t2":"La impresión 3D es la clave para la innovación y el éxito empresarial en la era digital.",
+     "t3":"Ofrecemos servicios de impresión 3D para concretar tus ideas. El prototipado rápido permite realizar pruebas de concepto o mejorar tu diseño antes de pasar a la producción en serie.",
+     "t4":"La impresión con materiales técnicos (ABS, Nylon, PETG, Flex y Hips) permite la fabricación de productos definitivos de solicitación térmica y mecánica relativamente baja, o que se adapten a necesidades particulares.",
+     "t5":"La impresión en resina biocompatible permite la interacción de productos impresos con el cuerpo humano.",
+     "t6":"La tecnología de escaneo 3D permite la reproducción digital de un objeto físico para poder intervenir y, eventualmente, reimprimirlo."
+
+  },
+  "t1English" : {
+     "t1":"Create whatever you want with our state-of-the-art 3D printing.",
+     "t2":"3D printing is the key to innovation and business success in the digital age.",
+     "t3":"We offer 3D printing services to realize your ideas. Rapid prototyping allows you to perform proof-of-concepts or improve your design before moving to mass production.",
+     "t4":"Printing with technical materials (ABS, Nylon, PETG, Flex and Hips) allows the manufacture of definitive products with relatively low thermal and mechanical solicitation, or that are adapted to particular needs.",
+     "t5":"Biocompatible resin printing enables the interaction of printed products with the human body.",
+     "t6":"3D scanning technology allows the digital reproduction of a physical object so that it can be intervened and eventually reprinted."
   }
 }
