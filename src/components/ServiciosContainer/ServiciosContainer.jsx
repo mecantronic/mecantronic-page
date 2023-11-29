@@ -39,25 +39,16 @@ export const ServiciosContainer = ({ serviceToShow }) => {
               ) : (
                 <>
                   <p className="sobreP-3d">
-                    Ofrecemos servicios de impresión 3D para concretar tus
-                    ideas. El prototipado rápido permite realizar pruebas de
-                    concepto o mejorar tu diseño antes de pasar a la producción
-                    en serie.
+                   {t("t3")}
                   </p>
                   <p className="sobreP-3d">
-                    La impresión con materiales técnicos (ABS, Nylon, PETG, Flex
-                    y Hips) permite la fabricación de productos definitivos de
-                    solicitación térmica y mecánica relativamente baja, o que se
-                    adapten a necesidades particulares.
+                    {t("t4")}
                   </p>
                   <p className="sobreP-3d">
-                    La impresión en resina biocompatible permite la interacción
-                    de productos impresos con el cuerpo humano.
+                  {t("t5")}
                   </p>
                   <p className="sobreP-3d">
-                    La tecnología de escaneo 3D permite la reproducción digital
-                    de un objeto físico para poder intervenir y, eventualmente,
-                    reimprimirlo.
+                  {t("t6")}
                   </p>
                 </>
               )}
