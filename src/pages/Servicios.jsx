@@ -125,8 +125,15 @@ const Servicios = () => {
         },
       ],
       imgHero: "products/Kubox/portada.png",
+<<<<<<< HEAD
       sobrePrincipal:"Crea lo que quieras con nuestra impresión 3D de última generación.",
       sobreTitle:"La impresión 3D es la clave para la innovación y el éxito empresarial en la era digital.",
+=======
+      sobrePrincipal:
+        t("t1"),
+      sobreTitle:
+        t("t2"),
+>>>>>>> 90f9a910b2d3e47e61f8fa7d403af612eb2e5f0a
       sobreParagraph: {
         1:"Ofrecemos servicios de impresión 3D para concretar tus ideas. El prototipado rápido permite realizar pruebas de concepto o mejorar tu diseño antes de pasar a la producción en serie.",
         2:"La impresión con materiales técnicos (ABS, Nylon, PETG, Flex y Hips) permite la fabricación de productos definitivos de solicitación térmica y mecánica relativamente baja, o que se adapten a necesidades particulares.",
