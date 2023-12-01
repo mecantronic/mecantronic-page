@@ -417,5 +417,15 @@
      "t4":"Printing with technical materials (ABS, Nylon, PETG, Flex and Hips) allows the manufacture of definitive products with relatively low thermal and mechanical solicitation, or that are adapted to particular needs.",
      "t5":"Biocompatible resin printing enables the interaction of printed products with the human body.",
      "t6":"3D scanning technology allows the digital reproduction of a physical object so that it can be intervened and eventually reprinted."
+  },
+  "sh1Español": {
+  "sh1":"Sobre el producto",
+  "sh2": "Ficha tecnica",
+  "sh3": "Comparativa"
+  },
+  "sh1English": {
+    "sh1":"About the product",
+    "sh2":"Technical data",
+    "sh3":"Comparative"
   }
 }

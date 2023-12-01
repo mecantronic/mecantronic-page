@@ -6,14 +6,16 @@ import { ProductContainer } from '../components/ProductContainer/ProductContaine
 import { BannerMoreInfo } from '../components/BannerMoreInfo/BannerMoreInfo'
 import products from '../components/Utils/Products'
 import { SecondNavbar } from '../components/SecondNavbar/SecondNavbar'
+import { useTranslation } from 'react-i18next'
 
 
 export const Product = () => {
+  const { t } = useTranslation();
   const {product} =useParams();
   const productToShow = products[parseInt(product)-1];  
 
-  const secondNav = [{ texto: "Sobre el producto", link: "sobreProducto"},
-  {texto: "Ficha tecnica", link: "fichaTecnicaProducto"} , {texto: "Comparativa", link: "comparativaProductos"}  ]
+  const secondNav = [{ texto: t("sh1"), link: "sobreProducto"},
+  {texto: t("sh2"), link: "fichaTecnicaProducto"} , {texto: t("sh3"), link: "comparativaProductos"}  ]
 
   setTimeout(()=>{
     const root = document.getElementById("root");

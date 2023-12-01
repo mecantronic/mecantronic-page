@@ -30,7 +30,8 @@ i18n
           ...tr.aboutIAserviceEnglish,
           ...tr.CasosDeExito3DEnglish,
           ...tr.bnEnglish,
-          ...tr.t1English
+          ...tr.t1English,
+          ...tr.sh1English
 
         },
       },
@@ -57,7 +58,8 @@ i18n
           ...tr.aboutIAservice,
           ...tr.CasosDeExito3DEspañol,
           ...tr.bnEspañol,
-          ...tr.t1Español
+          ...tr.t1Español,
+          ...tr.sh1Español
 
         },
       },
