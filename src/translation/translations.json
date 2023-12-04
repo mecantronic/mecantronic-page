@@ -238,9 +238,8 @@
     "Descript1.2": "La profundidad de las napas en distintos puntos del campo constituye un activo importante para la toma de decisiones en la agricultura y ganadería. Desarrollamos un sistema que permite visualizar un mapa con las respectivas profundidades de napas en los puntos en que se han dispuesto sensores.",
     "Title1.3": "Reporte de cantidad de piezas producidas.",
     "Descript1.3": "Cuenta con una interfaz que te guía a lo largo de todo el proceso, brindando información en tiempo real sobre el estado de avance de la pieza, temperaturas de hotend y cama, etc.",
-    "Title1.4":"Sistema de control para embarcaciones eléctricas.",
+    "Title1.4": "Sistema de control para embarcaciones eléctricas.",
     "Descript1.4": "La firma VELOS se perfila como una start up pujante en el mundo de la náutica sustentable. Desde MEC, desarrollamos la electrónica asociada para el control de los motores eléctricos, carga de baterías y visualización de consumo, velocidad, etc."
-
   },
   "CasosdeExitoIOTEnglish": {
     "DetailTitle": "We show you some of the projects we have done.",
@@ -251,7 +250,7 @@
     "Descript1.2": "The depth of the water table at different points in the field is an important asset for decision making in agriculture and livestock. We developed a system that allows visualizing a map with the respective water table depths at the points where sensors have been installed.",
     "Title1.3": "Report on the quantity of parts produced.",
     "Descript1.3": "It has an interface that guides you through the entire process, providing real-time information on the state of progress of the part, hotend and bed temperatures, etc.",
-    "Title1.4":"Control system for electric boats.",
+    "Title1.4": "Control system for electric boats.",
     "Descript1.4": "VELOS is emerging as a thriving start up in the world of sustainable boating. From MEC, we develop the associated electronics for the control of electric motors, battery charging and visualization of consumption, speed, etc."
   },
   "TestimoniosEspañol": {
@@ -286,7 +285,7 @@
     "titulo1": "What do our customers say?",
     "user1": "Ian Bogado",
     "position1": "CEO",
-    "opinion1": "The team at MEC is amazing. They are always willing to help projects come to fruition, especially when things get complicated.  They have been instrumental in our growth and take-off and I hope we can continue working side by side for a long time to come.",
+    "opinion1": "The team at MEC is amazing. They are always willing tƒo help projects come to fruition, especially when things get complicated.  They have been instrumental in our growth and take-off and I hope we can continue working side by side for a long time to come.",
 
     "user2": "Alejandro Pronello",
     "position2": "CEO",
@@ -307,7 +306,6 @@
     "user6": "Fernando Lapolla",
     "position6": "undersecretary",
     "opinion6": "He emphasized the professionalism and warmth with which they carried out the project, regardless of the setbacks."
-    
   },
   "iaespañol": {
     "ia": "IA - Inteligencia artificial para",
@@ -361,27 +359,27 @@
     "st": "CASOS DE EXITO",
     "Detail": "Te mostramos algunos de los proyectos que realizamos.",
     "DetailsTe": "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
-    "Title1.10": "Prototipo de case de mando de vehículo naútico" ,
+    "Title1.10": "Prototipo de case de mando de vehículo naútico",
     "Description1.10": "Velos, una empresa líder en el diseño y fabricación de vehículos náuticos sustentables, se enfrentó al desafío de comandar motores eléctricos desde una interfaz amigable para el usuario. Para lograrlo, diseñó un mando de motor eléctrico con un display de información del sistema integrado.El resultado final de este equipamiento fue encapsulado en un diseño 3D versátil y de alta calidad. Nuestro equipo de expertos en ingeniería trabajó arduamente para crear una solución tecnológica a medida que cumpliera con los requisitos únicos de Velos.",
     "Title1.20": "Difusor de aire para vehículo de competición TC2000.",
     "Description1.20": "Se diseñó e imprimió en material técnico un dispositivo para la difusión de aire de forma tal de mejorar la performance de un auto de carrera de la categoría TC.",
-    "Title1.30" : "Diseño y fabricación de guía quirúrgica" ,
-    "Description1.30": "Cuando la intervención dental de un paciente requiere de múltiples implantes, es necesaria una guía que permita la inserción precisa de los pernos asociados al implante. Este proceso es fundamental, debido a que esta pieza debe ser biocompatible para poder fijarse enla boca del paciente." ,
-    "Title1.40": "Escaneo 3D de pieza estructural." ,
-    "Description1.40" : "Relevamiento digital de un soporte de hierro fabricado por medio de fundición cuyo diseño, a través de un software CAD, se vuelve engorroso y complejo."
+    "Title1.30": "Diseño y fabricación de guía quirúrgica",
+    "Description1.30": "Cuando la intervención dental de un paciente requiere de múltiples implantes, es necesaria una guía que permita la inserción precisa de los pernos asociados al implante. Este proceso es fundamental, debido a que esta pieza debe ser biocompatible para poder fijarse enla boca del paciente.",
+    "Title1.40": "Escaneo 3D de pieza estructural.",
+    "Description1.40": "Relevamiento digital de un soporte de hierro fabricado por medio de fundición cuyo diseño, a través de un software CAD, se vuelve engorroso y complejo."
   },
-  "CasosDeExito3DEnglish":{
+  "CasosDeExito3DEnglish": {
     "st": "Success stories",
     "Detail": "We show you some of the projects we have done.",
     "DetailsTe": "The structure ensures high rigidity and minimizes vibrations. Exclusive head system.",
-    "Title1.10": "Prototype of control case of a nautical vehicle" ,
-    "Description1.10":"Velos, a leading company in the design and manufacture of sustainable nautical vehicles, faced the challenge of controlling electric motors from a user-friendly interface. To achieve this, they designed an electric motor controller with an integrated system information display, the end result of which was encapsulated in a versatile, high quality 3D design. Our team of engineering experts worked hard to create a customized technology solution that met Velos' unique requirements." ,
+    "Title1.10": "Prototype of control case of a nautical vehicle",
+    "Description1.10": "Velos, a leading company in the design and manufacture of sustainable nautical vehicles, faced the challenge of controlling electric motors from a user-friendly interface. To achieve this, they designed an electric motor controller with an integrated system information display, the end result of which was encapsulated in a versatile, high quality 3D design. Our team of engineering experts worked hard to create a customized technology solution that met Velos' unique requirements.",
     "Title1.20": "Air diffuser for TC2000 racing car.",
-    "Description1.20": "An air diffusion device was designed and printed on technical material to improve the performance of a TC category race car." ,
-    "Title1.30" : "Design and manufacture of surgical guide",
-    "Description1.30":"When a patient's dental intervention requires multiple implants, a guide is necessary to allow the precise insertion of the pins associated with the implant. This process is fundamental, since this piece must be biocompatible in order to be fixed in the patient's mouth.",
+    "Description1.20": "An air diffusion device was designed and printed on technical material to improve the performance of a TC category race car.",
+    "Title1.30": "Design and manufacture of surgical guide",
+    "Description1.30": "When a patient's dental intervention requires multiple implants, a guide is necessary to allow the precise insertion of the pins associated with the implant. This process is fundamental, since this piece must be biocompatible in order to be fixed in the patient's mouth.",
     "Title1.40": "3D scanning of a structural part.",
-    "Description1.40" : "Digital survey of an iron support manufactured by casting whose design, through CAD software, becomes cumbersome and complex."
+    "Description1.40": "Digital survey of an iron support manufactured by casting whose design, through CAD software, becomes cumbersome and complex."
   },
   "subheader": {
     "sh_about_service": "Sobre el servicio",
@@ -394,38 +392,437 @@
     "sh_partners": "Strategic partners"
   },
   "bnEspañol": {
-    "3dbanner" :"Materializa tus ideas con impresión 3D e impulsa tu negocio ",
+    "3dbanner": "Materializa tus ideas con impresión 3D e impulsa tu negocio ",
     "3dbanner1": "al futuro."
   },
   "bnEnglish": {
-    "3dbanner" :"Materialize your ideas with 3D printing and boost your business ",
+    "3dbanner": "Materialize your ideas with 3D printing and boost your business ",
     "3dbanner1": "to the future."
   },
-  "t1Español" : {
-     "t1": "Crea lo que quieras con nuestra impresión 3D de última generación.",
-     "t2":"La impresión 3D es la clave para la innovación y el éxito empresarial en la era digital.",
-     "t3":"Ofrecemos servicios de impresión 3D para concretar tus ideas. El prototipado rápido permite realizar pruebas de concepto o mejorar tu diseño antes de pasar a la producción en serie.",
-     "t4":"La impresión con materiales técnicos (ABS, Nylon, PETG, Flex y Hips) permite la fabricación de productos definitivos de solicitación térmica y mecánica relativamente baja, o que se adapten a necesidades particulares.",
-     "t5":"La impresión en resina biocompatible permite la interacción de productos impresos con el cuerpo humano.",
-     "t6":"La tecnología de escaneo 3D permite la reproducción digital de un objeto físico para poder intervenir y, eventualmente, reimprimirlo."
-
+  "sk_kubox": {
+    "sk_support_title": "Soporte técnico",
+    "sk_support": "Te brindamos soporte técnico durante 1 año.",
+    "sk_instalation_title": "Instalación",
+    "sk_instalation": "Instalación y configuración para que solo tengas que disfrutarla.",
+    "sk_maintenance_title": "Mantenimiento",
+    "sk_maintenance": "Nos ocupamos del mantenimiento mensual.",
+    "sk_training_title": "Capacitación",
+    "sk_training": "Capacitamos a tu equipo para sacarle el máximo provecho a tu impresora.",
+    "sk_dataSheet": "FICHA TÉCNICA",
+    "sk_specs": "Conocé las especificaciones técnicas de esta impresora",
+    "sk_download": "Descargar"
   },
-  "t1English" : {
-     "t1":"Create whatever you want with our state-of-the-art 3D printing.",
-     "t2":"3D printing is the key to innovation and business success in the digital age.",
-     "t3":"We offer 3D printing services to realize your ideas. Rapid prototyping allows you to perform proof-of-concepts or improve your design before moving to mass production.",
-     "t4":"Printing with technical materials (ABS, Nylon, PETG, Flex and Hips) allows the manufacture of definitive products with relatively low thermal and mechanical solicitation, or that are adapted to particular needs.",
-     "t5":"Biocompatible resin printing enables the interaction of printed products with the human body.",
-     "t6":"3D scanning technology allows the digital reproduction of a physical object so that it can be intervened and eventually reprinted."
+  "sk_kuboxEnglish": {
+    "sk_support_title": "Technical Support",
+    "sk_support": "We provide technical support for 1 year.",
+    "sk_instalation_title": "Installation",
+    "sk_instalation": "Installation and configuration so you just have to enjoy it.",
+    "sk_maintenance_title": "Maintenance",
+    "sk_maintenance": "We take care of monthly maintenance.",
+    "sk_training_title": "Training",
+    "sk_training": "We train your team to get the most out of your printer.",
+    "sk_dataSheet": "SPECIFICATION SHEET",
+    "sk_specs": "Discover the technical specifications of this printer",
+    "sk_download": "Download"
+  },
+  "productsEspañol": {
+    "3dproducts": [
+      {
+        "id": 1,
+        "titleBanner": "- Impresora de uso dual y diseñada para satisfacer más de un objetivo.",
+        "title": "Kubox",
+        "subtitle": "impresora industrial",
+        "detailsTitle": "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
+        "detailsText": "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
+        "accordion": [
+          {
+            "title": "Modo impresora.",
+            "description": "El modelo más completo cuenta con doble extrusión para combinar colores o distinto tipo de materiales. Puede imprimir con ABS, NYLON, POM Y PVOH. Las boquillas son intercambiables."
+          },
+          {
+            "title": "Modo fresadora",
+            "description": "Previo cambio de cabezal y plataforma de trabajo, permite montar un minitorno para realizar mecanizados ligeros (ruteo de placas de circuito impreso, grabado y fresado de materiales no ferrosos)"
+          },
+          {
+            "title": "Fácil de usar e intuitiva.",
+            "description": "Cuenta con una interfaz que te guía a lo largo de todo el proceso, brindando información en tiempo real sobre el estado de avance de la pieza, temperaturas de hotend y cama, etc."
+          }
+        ],
+        "imgHero": "products/Kubox/portada.png",
+        "img": [{ "src": "1" }, { "src": "2" }, { "src": "3" }],
+        "datasheet": [
+          { "specification": "Volumen de impresión de 300x300x300mm." },
+          {
+            "specification": "Base de impresión calefaccionada de 220V - 500W controlado por relé de estado sólido."
+          },
+          {
+            "specification": "Doble cabezal de impresión con accionamiento vertical independiente AVI."
+          },
+          {
+            "specification": "Hotend e3d Lite6 + e3d V6 y extrusores dual drive."
+          },
+          {
+            "specification": "Drivers de motores PaP de la serie Tinamcs TMC."
+          },
+          {
+            "specification": "Electrónica de 32 bits con conexión WiFi y Ethernet."
+          },
+          { "specification": "Habitáculo cerrado." }
+        ],
+        "subtitleDatasheet": "subtitleDatasheet=>>>",
+        "strengths": [
+          {
+            "title": "Soporte técnico",
+            "strength": "Te brindamos soporte técnico durante 1 año."
+          },
+          {
+            "title": "Instalación",
+            "strength": "Instalación y configuración para que solo tengas que disfrutarla."
+          },
+          {
+            "title": "Mantenimiento",
+            "strength": "Nos ocupamos del mantenimiento mensual."
+          },
+          {
+            "title": "Capacitación",
+            "strength": "Capacitamos a tu equipo para sacarle el máximo provecho a tu impresora."
+          }
+        ],
+        "highlights": [
+          {
+            "subtitle": "¿A qué público está orientada?",
+            "highlight": [
+              {
+                "it": "A pymes que quieran modernizar sus procesos de prototipado y manufactura."
+              },
+              { "it": "A colegios técnicos." },
+              {
+                "it": "A talleres que deseen brindar servicio de impresión 3D y no quieran dolores de cabeza."
+              }
+            ]
+          },
+          {
+            "subtitle": " Usos posibles.",
+            "highlight": [
+              {
+                "it": "Fabricación de piezas definitivas en materiales técnicos o bien de prototipos con alto grado de precisión y repetitividad."
+              },
+              { "it": "Objetos pequeños, medianos o grandes." },
+              {
+                "it": "Producción de accesorios, repuestos y pruebas de concepto de ingeniería."
+              }
+            ]
+          },
+          {
+            "subtitle": "Dificultad de uso.",
+            "highlight": [
+              {
+                "it": "Es recomendable algo de experiencia previa aunque no es excluyente."
+              },
+              {
+                "it": "Ofrecemos capacitación y soporte técnico para que dejen la capacidad de uso instalada."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "titleBanner": "- Impresora diseñada para uso semi profesional, hobbista o para entornos educativos.",
+        "title": "Koron",
+        "subtitle": "Impresora para tu taller",
+        "detailsTitle": "Diseño compacto y terminaciones prolijas en estructura y cableado. La estructura garantiza una gran rigidez minimizando las vibraciones.",
+        "detailsText": "La estructura garantiza una gran rigidez minimizando las vibraciones. Exclusivo sistema de cabezales.",
+        "accordion": [
+          {
+            "title": "Ideal para empezar.",
+            "description": "La impresora más robusta del segmento. Fácil de usar y de mantener."
+          },
+          {
+            "title": "Jugá, creá y divertite.",
+            "description": "Excelente opción para emprendimientos personales e instituciones educativas."
+          },
+          {
+            "title": "Probá distintos materiales.",
+            "description": "Apta para imprimir con todas las variantes de PLA."
+          }
+        ],
+        "imgHero": "products/Koron/portada.png",
+        "img": [{ "src": "1" }, { "src": "2" }, { "src": "3" }],
+        "datasheet": [
+          { "specification": "Volumen de impresión de 200x200x200mm." },
+          {
+            "specification": "Base de impresión calefaccionada de 12V - 100W."
+          },
+          {
+            "specification": "Estructura fabricada en chapa de corte láser de 2.5mm de espesor."
+          },
+          { "specification": "Transmisión eje Z con tornillo de rosca recta." },
+          { "specification": "Hotend simil e3d Lite6." },
+          { "specification": "Extrusor dual drive." },
+          { "specification": "Habitáculo cerrado" }
+        ],
+        "subtitleDatasheet": "subtitleDatasheet subtitleDatasheet",
+        "strengths": [
+          {
+            "title": "Soporte técnico",
+            "strength": "Te brindamos soporte técnico durante 1 año."
+          },
+          {
+            "title": "Instalación",
+            "strength": "Instalación y configuración para que solo tengas que disfrutarla."
+          },
+          {
+            "title": "Mantenimiento",
+            "strength": "Nos ocupamos del mantenimiento mensual."
+          },
+          {
+            "title": "Capacitación",
+            "strength": "Capacitamos a tu equipo para sacarle el máximo provecho a tu impresora."
+          }
+        ],
+        "highlights": [
+          {
+            "subtitle": "¿A qué público está orientada?",
+            "highlight": [
+              { "it": "A instituciones educativas." },
+              {
+                "it": "Particulares que quieran comenzar un emprendimiento propio o simplemente jugar diseñando e imprimiendo.."
+              }
+            ]
+          },
+          {
+            "subtitle": " Usos posibles.",
+            "highlight": [
+              {
+                "it": "Fabricación de piezas definitivas de poca exigencia mecánica o bien de prototipos."
+              },
+              { "it": "Objetos pequeños o medianos." },
+              { "it": "Producción de figuras artísticas y/o decorativas" }
+            ]
+          },
+          {
+            "subtitle": "Dificultad de uso.",
+            "highlight": [
+              { "it": "Ideal para los primeros pasos." },
+              { "it": " Mantenimiento mínimo y simple." },
+              { "it": "Software intuitivo." }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "productsEnglish": {
+    "3dproducts": [
+      {
+        "id": 1,
+        "titleBanner": "- Dual-use printer designed to meet more than one purpose.",
+        "title": "Kubox",
+        "subtitle": "industrial printer",
+        "detailsTitle": "The structure ensures high rigidity, minimizing vibrations. Exclusive head system.",
+        "detailsText": "The structure ensures high rigidity, minimizing vibrations. Exclusive head system.",
+        "accordion": [
+          {
+            "title": "Printer mode.",
+            "description": "The most complete model features dual extrusion to combine colors or different types of materials. It can print with ABS, NYLON, POM, and PVOH. Nozzles are interchangeable."
+          },
+          {
+            "title": "Milling mode",
+            "description": "After changing the head and work platform, it allows mounting a mini lathe for light machining (routing of printed circuit boards, engraving, and milling of non-ferrous materials)"
+          },
+          {
+            "title": "Easy to use and intuitive.",
+            "description": "It has an interface that guides you throughout the process, providing real-time information about the progress of the piece, hotend and bed temperatures, etc."
+          }
+        ],
+        "imgHero": "products/Kubox/portada.png",
+        "img": [{ "src": "1" }, { "src": "2" }, { "src": "3" }],
+        "datasheet": [
+          { "specification": "Print volume of 300x300x300mm." },
+          {
+            "specification": "Heated printing bed of 220V - 500W controlled by solid-state relay."
+          },
+          {
+            "specification": "Dual print head with independent vertical drive AVI."
+          },
+          {
+            "specification": "Hotend e3d Lite6 + e3d V6 and dual drive extruders."
+          },
+          { "specification": "PaP series Tinamcs TMC motor drivers." },
+          {
+            "specification": "32-bit electronics with WiFi and Ethernet connection."
+          },
+          { "specification": "Closed chamber." }
+        ],
+        "subtitleDatasheet": "subtitleDatasheet =>>>",
+        "strengths": [
+          {
+            "title": "Technical support",
+            "strength": "We provide technical support for 1 year."
+          },
+          {
+            "title": "Installation",
+            "strength": "Installation and configuration so you only have to enjoy it."
+          },
+          {
+            "title": "Maintenance",
+            "strength": "We take care of monthly maintenance."
+          },
+          {
+            "title": "Training",
+            "strength": "We train your team to get the most out of your printer."
+          }
+        ],
+        "highlights": [
+          {
+            "subtitle": "Target audience",
+            "highlight": [
+              {
+                "it": "For SMEs looking to modernize their prototyping and manufacturing processes."
+              },
+              { "it": "For technical schools." },
+              {
+                "it": "For workshops that want to offer 3D printing services without headaches."
+              }
+            ]
+          },
+          {
+            "subtitle": "Possible uses",
+            "highlight": [
+              {
+                "it": "Manufacturing final parts in technical materials or prototypes with high precision and repeatability."
+              },
+              { "it": "Small, medium, or large objects." },
+              {
+                "it": "Production of accessories, spare parts, and engineering concept tests."
+              }
+            ]
+          },
+          {
+            "subtitle": "Difficulty of use",
+            "highlight": [
+              {
+                "it": "Some previous experience is recommended but not mandatory."
+              },
+              {
+                "it": "We offer training and technical support to ensure the installed use capacity."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "titleBanner": "- Printer designed for semi-professional, hobbyist, or educational environments.",
+        "title": "Koron",
+        "subtitle": "Printer for your workshop",
+        "detailsTitle": "Compact design and neat finishes in structure and wiring. The structure ensures high rigidity, minimizing vibrations.",
+        "detailsText": "The structure ensures high rigidity, minimizing vibrations. Exclusive head system.",
+        "accordion": [
+          {
+            "title": "Ideal to start.",
+            "description": "The sturdiest printer in the segment. Easy to use and maintain."
+          },
+          {
+            "title": "Play, create, and have fun.",
+            "description": "Excellent option for personal ventures and educational institutions."
+          },
+          {
+            "title": "Try different materials.",
+            "description": "Suitable for printing with all PLA variants."
+          }
+        ],
+        "imgHero": "products/Koron/portada.png",
+        "img": [{ "src": "1" }, { "src": "2" }, { "src": "3" }],
+        "datasheet": [
+          { "specification": "Print volume of 200x200x200mm." },
+          { "specification": "Heated printing bed of 12V - 100W." },
+          {
+            "specification": "Structure made of 2.5mm thick laser-cut sheet metal."
+          },
+          {
+            "specification": "Z-axis transmission with straight thread screw."
+          },
+          { "specification": "Hotend similar to e3d Lite6." },
+          { "specification": "Dual drive extruder." },
+          { "specification": "Closed chamber." }
+        ],
+        "subtitleDatasheet": "subtitleDatasheet subtitleDatasheet",
+        "strengths": [
+          {
+            "title": "Technical support",
+            "strength": "We provide technical support for 1 year."
+          },
+          {
+            "title": "Installation",
+            "strength": "Installation and configuration so you only have to enjoy it."
+          },
+          {
+            "title": "Maintenance",
+            "strength": "We take care of monthly maintenance."
+          },
+          {
+            "title": "Training",
+            "strength": "We train your team to get the most out of your printer."
+          }
+        ],
+        "highlights": [
+          {
+            "subtitle": "Target audience",
+            "highlight": [
+              { "it": "For educational institutions." },
+              {
+                "it": "Individuals who want to start their own venture or simply play designing and printing."
+              }
+            ]
+          },
+          {
+            "subtitle": "Possible uses",
+            "highlight": [
+              {
+                "it": "Manufacturing final parts with low mechanical requirements or prototypes."
+              },
+              { "it": "Small or medium-sized objects." },
+              { "it": "Production of artistic and/or decorative figures." }
+            ]
+          },
+          {
+            "subtitle": "Difficulty of use",
+            "highlight": [
+              { "it": "Ideal for first steps." },
+              { "it": "Minimum and simple maintenance." },
+              { "it": "Intuitive software." }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "t1Español": {
+    "t1": "Crea lo que quieras con nuestra impresión 3D de última generación.",
+    "t2": "La impresión 3D es la clave para la innovación y el éxito empresarial en la era digital.",
+    "t3": "Ofrecemos servicios de impresión 3D para concretar tus ideas. El prototipado rápido permite realizar pruebas de concepto o mejorar tu diseño antes de pasar a la producción en serie.",
+    "t4": "La impresión con materiales técnicos (ABS, Nylon, PETG, Flex y Hips) permite la fabricación de productos definitivos de solicitación térmica y mecánica relativamente baja, o que se adapten a necesidades particulares.",
+    "t5": "La impresión en resina biocompatible permite la interacción de productos impresos con el cuerpo humano.",
+    "t6": "La tecnología de escaneo 3D permite la reproducción digital de un objeto físico para poder intervenir y, eventualmente, reimprimirlo."
+  },
+  "t1English": {
+    "t1": "Create whatever you want with our state-of-the-art 3D printing.",
+    "t2": "3D printing is the key to innovation and business success in the digital age.",
+    "t3": "We offer 3D printing services to realize your ideas. Rapid prototyping allows you to perform proof-of-concepts or improve your design before moving to mass production.",
+    "t4": "Printing with technical materials (ABS, Nylon, PETG, Flex and Hips) allows the manufacture of definitive products with relatively low thermal and mechanical solicitation, or that are adapted to particular needs.",
+    "t5": "Biocompatible resin printing enables the interaction of printed products with the human body.",
+    "t6": "3D scanning technology allows the digital reproduction of a physical object so that it can be intervened and eventually reprinted."
   },
   "sh1Español": {
-  "sh1":"Sobre el producto",
-  "sh2": "Ficha tecnica",
-  "sh3": "Comparativa"
+    "sh1": "Sobre el producto",
+    "sh2": "Ficha tecnica",
+    "sh3": "Comparativa"
   },
   "sh1English": {
-    "sh1":"About the product",
-    "sh2":"Technical data",
-    "sh3":"Comparative"
+    "sh1": "About the product",
+    "sh2": "Technical data",
+    "sh3": "Comparative"
   }
 }
