@@ -1,16 +1,16 @@
 // @ts-nocheck
-import React from "react";
+import React, { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import { Banner } from "../components/Banner/Banner";
 import { ProductContainer } from "../components/ProductContainer/ProductContainer";
 import { BannerMoreInfo } from "../components/BannerMoreInfo/BannerMoreInfo";
-import products from "../components/Utils/Products";
 import { SecondNavbar } from "../components/SecondNavbar/SecondNavbar";
-import { useTranslation } from "react-i18next";
 
 export const Product = () => {
   const { t } = useTranslation();
   const { product } = useParams();
+  const products = t("3dproducts", { returnObjects: true });
   const productToShow = products[parseInt(product) - 1];
 
   const secondNav = [
