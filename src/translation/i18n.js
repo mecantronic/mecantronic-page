@@ -29,6 +29,9 @@ i18n
           ...tr.CasosdeExitoIOTEnglish,
           ...tr.aboutIAserviceEnglish,
           ...tr.bnEnglish,
+          ...tr.CasosdeExitoAIEnglish,
+          ...tr.t1English,
+          ...tr.productsEnglish,
           ...tr.sk_kuboxEnglish
         },
       },
@@ -54,6 +57,9 @@ i18n
           ...tr.subheader,
           ...tr.aboutIAservice,
           ...tr.bnEspañol,
+          ...tr.CasosDeExito3DEspañol,
+          ...tr.t1Español,
+          ...tr.productsEspañol,
           ...tr.sk_kubox
         },
       },
