@@ -32,7 +32,12 @@ i18n
           ...tr.CasosdeExitoAIEnglish,
           ...tr.t1English,
           ...tr.productsEnglish,
-          ...tr.sk_kuboxEnglish
+          ...tr.sk_kuboxEnglish,
+          ...tr.CasosDeExito3DEnglish,
+          ...tr.bnEnglish,
+          ...tr.t1English,
+          ...tr.sh1English
+
         },
       },
       es: {
@@ -60,7 +65,12 @@ i18n
           ...tr.CasosDeExito3DEspañol,
           ...tr.t1Español,
           ...tr.productsEspañol,
-          ...tr.sk_kubox
+          ...tr.sk_kubox,
+          ...tr.CasosDeExito3DEspañol,
+          ...tr.bnEspañol,
+          ...tr.t1Español,
+          ...tr.sh1Español
+
         },
       },
       // Agrega más idiomas según sea necesario
