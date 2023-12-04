@@ -11,10 +11,7 @@ export const Datasheet = ({ product }) => {
   return (
     <>
       <div className="datasheet">
-        <BannerTitles
-          subtitle={"Ficha técnica"}
-          title={"Conocé las especificaciones técnicas de esta impresora"}
-        />
+        <BannerTitles subtitle={t("sk_dataSheet")} title={t("sk_specs")} />
         <div>
           {product["datasheet"].map((specification) => {
             return (
