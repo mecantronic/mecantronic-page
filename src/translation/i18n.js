@@ -36,7 +36,8 @@ i18n
           ...tr.CasosDeExito3DEnglish,
           ...tr.bnEnglish,
           ...tr.t1English,
-          ...tr.sh1English
+          ...tr.sh1English,
+          ...tr.comparativakuboxEnglish
 
         },
       },
@@ -69,7 +70,8 @@ i18n
           ...tr.CasosDeExito3DEspañol,
           ...tr.bnEspañol,
           ...tr.t1Español,
-          ...tr.sh1Español
+          ...tr.sh1Español,
+          ...tr.comparativakuboxEspañol
 
         },
       },
