@@ -33,6 +33,7 @@ export const BannerEmpresas = () => {
         <img src={uali} alt="uali" />
         <img src={molinari} alt="molinari" />
         <img src={ASP} alt="ASP"  className="imgMobile asp"/>
+        <img src={'./assets/empresas/orsai-logo.svg'} alt="Orsai"  className="imgMobile orsai"/>
       </div>
     </div>
   );
