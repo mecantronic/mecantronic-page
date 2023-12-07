@@ -30,7 +30,7 @@ export const BannerEmpresas = () => {
         <img src={buenosaires} alt="buenos aires" />
         <img src={L184} alt="potencial" />
         <img src={moltech} alt="moltech" />
-        <img src={uali} alt="uali" />
+        <img src={'./assets/empresas/uali.png'} alt="uali" />
         <img src={molinari} alt="molinari" />
         <img src={ASP} alt="ASP"  className="imgMobile asp"/>
         <img src={'./assets/empresas/orsai-logo.svg'} alt="Orsai"  className="imgMobile orsai"/>

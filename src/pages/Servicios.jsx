@@ -90,7 +90,7 @@ const Servicios = () => {
       exitoImg: "ExitoIA.svg",
       empresaImg: [
         "../assets/empresas/orsai-logo.svg",
-        "../assets/empresas/uali.svg",
+        "../assets/empresas/uali.png",
         "../assets/empresas/infinem.svg"
       ],
     },
