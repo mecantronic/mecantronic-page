@@ -89,8 +89,9 @@ const Servicios = () => {
       sobreImg: "SobreIA.svg",
       exitoImg: "ExitoIA.svg",
       empresaImg: [
-        "../assets/empresas/uali.svg",
-        "../assets/empresas/infinem.svg",
+        "../assets/empresas/orsai-logo.svg",
+        "../assets/empresas/uali.png",
+        "../assets/empresas/infinem.svg"
       ],
     },
     {
