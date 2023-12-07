@@ -9,9 +9,9 @@ const NavbarDesktop = () => {
     const dataMenuItems = [
         {
             title: t("services"), class: "nivel1", submenu: [
-                { title: t("fservicioia"), class: "nivel2", link: "/servicios/2" },
-                { title: t("fservicioiot"), class: "nivel2", link: "/servicios/1" },
-                { title: t("fservicio3d"), class: "nivel2", link: "/servicios/3" },
+                { title: t("fservicioia"), class: "nivel2", link: "/servicios/IA" },
+                { title: t("fservicioiot"), class: "nivel2", link: "/servicios/IOT" },
+                { title: t("fservicio3d"), class: "nivel2", link: "/servicios/3D" },
             ]
         },
         {

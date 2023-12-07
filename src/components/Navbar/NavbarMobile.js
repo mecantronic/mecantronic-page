@@ -28,9 +28,9 @@ export default function CollapseNavbar() {
                     <p className='titleAccordionCollapse'>{t("services")}</p>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Link to={"/servicios/2"} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} ><span className='navbar-collapseButton '><p>Servicios de IA</p></span></Link>
-                    <Link to={"/servicios/1"} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} ><span className='navbar-collapseButton'><p>Servicios de IoT</p></span></Link>
-                    <Link to={"/servicios/3"} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} ><span className='navbar-collapseButton'><p>Servicios de 3D</p></span></Link>
+                    <Link to={"/servicios/IA"} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} ><span className='navbar-collapseButton '><p>Servicios de IA</p></span></Link>
+                    <Link to={"/servicios/IOT"} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} ><span className='navbar-collapseButton'><p>Servicios de IoT</p></span></Link>
+                    <Link to={"/servicios/3D"} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} ><span className='navbar-collapseButton'><p>Servicios de 3D</p></span></Link>
                 </AccordionDetails>
             </Accordion>
 
