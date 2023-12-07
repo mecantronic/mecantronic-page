@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1660f71f.css",
-    "main.js": "/static/js/main.491c77b3.js",
+    "main.css": "/static/css/main.069ef1b3.css",
+    "main.js": "/static/js/main.30c6dd19.js",
     "static/js/496.f244c821.chunk.js": "/static/js/496.f244c821.chunk.js",
     "static/media/impresora.svg": "/static/media/impresora.bf3189857adaee08d1a105ccbb45346c.svg",
     "static/media/aerogeneradores.svg": "/static/media/aerogeneradores.4af3118aec758ca0d966551e3920543f.svg",
@@ -36,12 +36,12 @@
     "static/media/Moltech.svg": "/static/media/Moltech.70a9adf48d08cadcf6385ee19ac2a453.svg",
     "static/media/3D.svg": "/static/media/3D.a6949a0cb36cd68147f3a4ecff2c7b4a.svg",
     "index.html": "/index.html",
-    "main.1660f71f.css.map": "/static/css/main.1660f71f.css.map",
-    "main.491c77b3.js.map": "/static/js/main.491c77b3.js.map",
+    "main.069ef1b3.css.map": "/static/css/main.069ef1b3.css.map",
+    "main.30c6dd19.js.map": "/static/js/main.30c6dd19.js.map",
     "496.f244c821.chunk.js.map": "/static/js/496.f244c821.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1660f71f.css",
-    "static/js/main.491c77b3.js"
+    "static/css/main.069ef1b3.css",
+    "static/js/main.30c6dd19.js"
   ]
 }
