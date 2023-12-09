@@ -11,7 +11,7 @@ export const Product = () => {
   const { t } = useTranslation();
   const { product } = useParams();
   const products = t("3dproducts", { returnObjects: true });
-  const productToShow = products[parseInt(product) - 1];
+  const productToShow = products.find((prod) => prod.title === product);
 
   const secondNav = [
     { texto: t("sh1"), link: "sobreProducto" },

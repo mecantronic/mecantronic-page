@@ -14,11 +14,12 @@ const Servicios = () => {
   const servicios = [
     {
       id: 1,
+      stitle: "IOT",
       titleBanner: t("banner_iot_1"),
       title: t("banner_iot_2"),
       subtitle: t("subtitl1"),
       detailsTitle: t("DetailTitle"),
-      detailsText:t("DetailText"),
+      detailsText: t("DetailText"),
       accordion: [
         {
           img: "ExitoIOT1.png",
@@ -28,7 +29,7 @@ const Servicios = () => {
         {
           img: "ExitoIOT2.png",
           title: t("Title1.2"),
-          description:t("Descript1.2"),
+          description: t("Descript1.2"),
         },
         {
           img: "ExitoIOT3.png",
@@ -38,7 +39,7 @@ const Servicios = () => {
         {
           img: "ExitoIOT4.png",
           title: t("Title1.4"),
-          description:  t("Descript1.4"),
+          description: t("Descript1.4"),
         },
       ],
       imgHero: "servicioIOT.png",
@@ -55,6 +56,7 @@ const Servicios = () => {
     },
     {
       id: 2,
+      stitle: "IA",
       titleBanner: t("ia"),
       title: t("ia1"),
       subtitle: t("subtitl1"),
@@ -96,8 +98,8 @@ const Servicios = () => {
     },
     {
       id: 3,
-      titleBanner:
-      t("3dbanner"),
+      stitle: "3D",
+      titleBanner: t("3dbanner"),
       title: t("3dbanner1"),
       subtitle: t("st"),
       detailsTitle: t("DetailsTe"),
@@ -116,8 +118,7 @@ const Servicios = () => {
         {
           img: "Exito3D3.png",
           title: t("Title1.30"),
-          description:
-            t("Description1.30"),
+          description: t("Description1.30"),
         },
         {
           img: "Exito3D4.png",
@@ -126,10 +127,8 @@ const Servicios = () => {
         },
       ],
       imgHero: "products/Kubox/portada.png",
-      sobrePrincipal:
-        t("t1"),
-      sobreTitle:
-        t("t2"),
+      sobrePrincipal: t("t1"),
+      sobreTitle: t("t2"),
       sobreParagraph: {
         1: " Ofrecemos servicios de impresión 3D para concretar tus ideas. El prototipado rápido permite realizar pruebas de concepto o mejorar tu diseño antes de pasar a la producción en serie.",
         2: "La impresión con materiales técnicos (ABS, Nylon, PETG, Flex y Hips) permite la fabricación de productos definitivos de solicitación térmica y mecánica relativamente baja, o que se adapten a necesidades particulares.",
@@ -146,7 +145,9 @@ const Servicios = () => {
     },
   ];
 
-  const serviceToShow = servicios[parseInt(servicio) - 1];
+  //const serviceToShow = servicios[parseInt(servicio) - 1];
+  const serviceToShow = servicios.find((prod) => prod.stitle === servicio);
+
   const secondNav = [
     { texto: t("sh_about_service"), link: "sobreServicio" },
     { texto: t("sh_about_success"), link: "casosDeExito" },
