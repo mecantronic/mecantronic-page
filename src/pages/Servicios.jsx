@@ -52,6 +52,7 @@ const Servicios = () => {
         "../assets/empresas/Velos.svg",
         "../assets/empresas/Molinari.svg",
         "../assets/empresas/Moltech.svg",
+        "../assets/empresas/Asp.svg"
       ],
     },
     {
@@ -138,7 +139,7 @@ const Servicios = () => {
       sobreImg: "../assets/Impresion.svg",
       exitoImg: "ExitoPrinter.svg",
       empresaImg: [
-        "../assets/empresas/ASP.svg",
+        "../assets/empresas/Asp.svg",
         "../assets/empresas/infinem.svg",
         "../assets/empresas/L184.svg",
       ],
