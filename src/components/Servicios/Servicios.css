@@ -160,7 +160,7 @@
 .servicios-card-btn {
   box-sizing: border-box;
   padding: 24px 48px;
-  width: 167px;
+  /* width: 167px; */
   height: 48px;
   border: 1px solid #DA1C2B;
   border-radius: 40px;
