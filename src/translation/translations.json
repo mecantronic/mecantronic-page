@@ -65,8 +65,8 @@
     "ferror_message_city": "Por favor, completa tu ciudad",
     "ferror_message_8characters": "Por favor, completa el mensaje con al menos 8 caracteres",
     "ferror_message_long": "Mensaje demasiado largo, debe contener menos de 200 caracteres",
-    "nproduct_iot": "Productos IOT",
-    "nproduct_3D": "Productos 3D",
+    "nproducts_iot": "Productos IOT",
+    "nproducts_3D": "Productos 3D",
     "fenviar": "Enviar"
   },
   "formularioEnglish": {
@@ -826,53 +826,87 @@
     "sh3": "Comparative"
   },
   "comparativakuboxEspañol": {
-    "stt":"COMPARATIVA",
-      "ttt":"Elegí la que más se adecúe a tus necesidades",
-      "vm": "Ver más",
-   "3dproducts:":[ {
-        "subtitle": "¿A qué público está orientada?", 
+    "stt": "COMPARATIVA",
+    "ttt": "Elegí la que más se adecúe a tus necesidades",
+    "vm": "Ver más",
+    "3dproducts:": [
+      {
+        "subtitle": "¿A qué público está orientada?",
         "highlight": [
-            {"it":"A pymes que quieran modernizar sus procesos de prototipado y manufactura."} , {"it":"A colegios técnicos."}, {"it":"A talleres que deseen brindar servicio de impresión 3D y no quieran dolores de cabeza."}
-        ] 
-    },
-    {
-        "subtitle": " Usos posibles.", 
-        "highlight":[
-            {"it":"Fabricación de piezas definitivas en materiales técnicos o bien de prototipos con alto grado de precisión y repetitividad."} , {"it":"Objetos pequeños, medianos o grandes."} , {"it":"Producción de accesorios, repuestos y pruebas de concepto de ingeniería."}
+          {
+            "it": "A pymes que quieran modernizar sus procesos de prototipado y manufactura."
+          },
+          { "it": "A colegios técnicos." },
+          {
+            "it": "A talleres que deseen brindar servicio de impresión 3D y no quieran dolores de cabeza."
+          }
         ]
-    },
-    {
-        "subtitle": "Dificultad de uso.", 
-        "highlight":[
-            {"it":"Es recomendable algo de experiencia previa aunque no es excluyente."} , {"it":"Ofrecemos capacitación y soporte técnico para que dejen la capacidad de uso instalada."}
+      },
+      {
+        "subtitle": " Usos posibles.",
+        "highlight": [
+          {
+            "it": "Fabricación de piezas definitivas en materiales técnicos o bien de prototipos con alto grado de precisión y repetitividad."
+          },
+          { "it": "Objetos pequeños, medianos o grandes." },
+          {
+            "it": "Producción de accesorios, repuestos y pruebas de concepto de ingeniería."
+          }
         ]
-    }
-  
-  ]
-},         
-"comparativakuboxEnglish":{
-  "stt":"COMPARATIVE",
-  "ttt":"Choose the one that best suits your needs.",
-  "vm": "More",
- "3dproducts:": [
-  {
-      "subtitle": "Who is the target audience?", 
-      "highlight": [
-          {"it":"SMEs that want to modernize their prototyping and manufacturing processes."} , {"it":"To technical schools."}, {"it":"To shops that want to provide 3D printing services and do not want headaches."}
-      ] 
+      },
+      {
+        "subtitle": "Dificultad de uso.",
+        "highlight": [
+          {
+            "it": "Es recomendable algo de experiencia previa aunque no es excluyente."
+          },
+          {
+            "it": "Ofrecemos capacitación y soporte técnico para que dejen la capacidad de uso instalada."
+          }
+        ]
+      }
+    ]
   },
-  {
-      "subtitle": "Possible uses.", 
-      "highlight":[
-          {"it":"Manufacture of definitive parts in technical materials or prototypes with a high degree of precision and repeatability."} , {"it":"Small, medium or large objects."} , {"it":"Production of accessories, spare parts and engineering proofs of concept."}
-      ]
-  },
-  {
-      "subtitle": "Difficulty of use.", 
-      "highlight":[
-          {"it":"Some previous experience is recommended, although it is not exclusive."} , {"it":"We offer training and technical support to leave the installed capacity of use."}
-      ]
-  }           
-]
+  "comparativakuboxEnglish": {
+    "stt": "COMPARATIVE",
+    "ttt": "Choose the one that best suits your needs.",
+    "vm": "More",
+    "3dproducts:": [
+      {
+        "subtitle": "Who is the target audience?",
+        "highlight": [
+          {
+            "it": "SMEs that want to modernize their prototyping and manufacturing processes."
+          },
+          { "it": "To technical schools." },
+          {
+            "it": "To shops that want to provide 3D printing services and do not want headaches."
+          }
+        ]
+      },
+      {
+        "subtitle": "Possible uses.",
+        "highlight": [
+          {
+            "it": "Manufacture of definitive parts in technical materials or prototypes with a high degree of precision and repeatability."
+          },
+          { "it": "Small, medium or large objects." },
+          {
+            "it": "Production of accessories, spare parts and engineering proofs of concept."
+          }
+        ]
+      },
+      {
+        "subtitle": "Difficulty of use.",
+        "highlight": [
+          {
+            "it": "Some previous experience is recommended, although it is not exclusive."
+          },
+          {
+            "it": "We offer training and technical support to leave the installed capacity of use."
+          }
+        ]
+      }
+    ]
   }
 }
