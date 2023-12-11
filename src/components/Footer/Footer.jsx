@@ -102,7 +102,7 @@ export const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.linkedin.com/company/11534294/admin/"
+                href="https://www.linkedin.com/company/mecantronic-sa/"
                 target="_blank"
                 rel="noreferrer"
               >
