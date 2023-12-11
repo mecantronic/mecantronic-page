@@ -45,8 +45,8 @@ export default function CollapseNavbar() {
                     <a href="https://www.noisen.com.ar/" target="_blank" rel="noreferrer" id='noisen'>
                         <span className='navItemCollapse'><p>Noisen</p></span>
                     </a>
-                    <Link to={"/products/Kubox"} id='kubox'><span className='navbar-collapseButton' onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} ><p>Kubox</p></span></Link>
-                    <Link to={"/products/Koron"} id='koron'><span className='navbar-collapseButton' onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} ><p>Koron</p></span></Link>
+                    <Link to={"/productos/Kubox"} id='kubox'><span className='navbar-collapseButton' onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} ><p>Kubox</p></span></Link>
+                    <Link to={"/productos/Koron"} id='koron'><span className='navbar-collapseButton' onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} ><p>Koron</p></span></Link>
                 </AccordionDetails>
             </Accordion>
 
