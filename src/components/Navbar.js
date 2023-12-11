@@ -29,7 +29,7 @@ const NavbarDesktop = () => {
                 },
             ],
         },
-        { title: t("aboutUs"), class: "nivel1", link: "/aboutUs" },
+        { title: t("aboutUs"), class: "nivel1", link: "/sobreNosotros" },
         { title: t("Contacto"), component: "Contacto", class: "nivel1" },
     ];
 

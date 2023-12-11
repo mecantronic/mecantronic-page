@@ -51,7 +51,7 @@ export default function CollapseNavbar() {
             </Accordion>
 
             <div className='collapseItem1'>
-                <Link to="/aboutUs" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("aboutUs")}</Link>
+                <Link to="/sobreNosotros" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("aboutUs")}</Link>
             </div>
             <div className='collapseItem1' id='btnNavCollapse'>
                 <ContactButton textoBoton={t("fcontact")} />
