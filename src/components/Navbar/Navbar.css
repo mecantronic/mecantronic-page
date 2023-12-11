@@ -22,7 +22,7 @@ header{
 
 .branNav{
   width: 153px;
-  height: 32px;
+  height: auto;
 }
 .menus {
   display: flex;
