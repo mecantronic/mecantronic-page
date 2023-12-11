@@ -72,11 +72,11 @@ function LanguageSwitch() {
   };
 
   return (
-    <div style={{ margin: 50 }}>
-      <div>
-        <span style={{ color: isSpanish ? "#d15962" : "#ffffff" }}>Es</span>
+    <div style={{ margin: "1rem" }}>
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <span style={{ color: isSpanish ? "#d15962" : "#ffffff", marginRight: "0.5rem" }}>Es</span>
         <FormControlLabel
-          style={{ margin: 4 }}
+          style={{ margin: "0.5rem" }}
           control={
             <IOSSwitch
               checked={isSpanish}
@@ -85,7 +85,7 @@ function LanguageSwitch() {
             />
           }
         />
-        <span style={{ color: isSpanish ? "#ffffff" : "#d15962" }}>En</span>
+        <span style={{ color: isSpanish ? "#ffffff" : "#d15962", marginLeft: "0.5rem" }}>En</span>
       </div>
     </div>
   );
