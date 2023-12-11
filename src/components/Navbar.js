@@ -23,8 +23,8 @@ const NavbarDesktop = () => {
                 },
                 {
                     title: t("nproducts_3D"), class: "nivel2", submenu: [
-                        { title: t("Kubox"), class: "nivel3", link: "/products/Kubox" },
-                        { title: t("Koron"), class: "nivel3", link: "/products/Koron" },
+                        { title: t("Kubox"), class: "nivel3", link: "/productos/Kubox" },
+                        { title: t("Koron"), class: "nivel3", link: "/productos/Koron" },
                     ]
                 },
             ],
