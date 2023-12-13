@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { ContactButton } from '../ContactButton/ContactButton';
 import React from 'react';
 import { useTranslation } from "react-i18next";
+import LanguageSelector from "../../translation/LenguageSelector";
 
 export default function CollapseNavbar() {
     const { t } = useTranslation();
@@ -56,6 +57,7 @@ export default function CollapseNavbar() {
             <div className='collapseItem1' id='btnNavCollapse'>
                 <ContactButton textoBoton={t("fcontact")} />
             </div>
+            <div> <LanguageSelector /> </div>
         </div>
     )
 }
