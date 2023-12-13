@@ -21,7 +21,7 @@ header{
 
 
 .branNav{
-  width: 153px;
+  max-width: 153px;
   height: auto;
 }
 .menus {
