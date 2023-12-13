@@ -172,6 +172,24 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 #menu-mobile-bh-content{
   padding: 0 !important;
 }
+/* Modificación del breakpoint */
+@media (max-width: 910px) {
+  .nav-collapse {
+    display: block;
+  }
+
+  #btn-hamb {
+    display: block;
+    width: 32px;
+    height: 32px;
+  }
+
+  .nav-area {
+    padding: 0 20px;
+  }
+
+  /* Agregar cualquier estilo adicional para dispositivos móviles aquí */
+}
 .css-15v22id-MuiAccordionDetails-root{
   padding: 0;
 }
