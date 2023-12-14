@@ -27,9 +27,11 @@ header {
   justify-content: space-between;
 }
 
+
 .branNav {
   width: 153px;
   height: 32px;
+
 }
 .menus {
   display: flex;
@@ -183,8 +185,10 @@ button.nivel1:hover,
 #menu-mobile-bh-content {
   padding: 0 !important;
 }
+
 .css-15v22id-MuiAccordionDetails-root {
   padding: 0px 8px 0px !important;
+
 }
 .css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
   display: none;
