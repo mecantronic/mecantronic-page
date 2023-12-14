@@ -15,11 +15,15 @@ header {
   );
   backdrop-filter: blur(20px);
   color: white;
+  padding: 0;
   z-index: 100;
   position: fixed;
+  top: 0;
+  width: 100%;
   border-radius: 0;
   padding-left: 160px;
   padding-right: 160px;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -187,12 +191,14 @@ button.nivel1:hover,
 }
 #nav-collapse {
   position: absolute;
-  top: 64px;
+  top: 85px;
   left: 0;
   width: 100%;
-  background-color: #9c1900;
+  background-color: #b7030e;
   border-radius: 0;
-  background-color: #da1c2b;
+  /* border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px; */
+  background-color: #b7030e;
   padding-bottom: 16px;
   width: 100%;
   display: none;
@@ -204,12 +210,12 @@ button.nivel1:hover,
   display: block;
 }
 #nav-collapse .collapseItem1 {
-  background-color: #da1c2b;
+  background-color: #b7030e;
   box-shadow: none;
 }
 #panel2-bh-header,
 #panel1-bh-header {
-  height: 36px !important;
+  height: 48px !important;
 }
 /* btn collapse */
 #btnNavCollapse {
@@ -217,18 +223,16 @@ button.nivel1:hover,
 #btnNavCollapse button.contact-btn {
   width: 100%;
   border-radius: 0;
-  background-color: #da1c2b !important;
+  background-color: #b7030e !important;
   text-align: left;
   padding-left: 16px;
-  height: 36px;
+  height: 48px;
 }
 .collapseItem1 {
   padding-left: 8px;
 }
 .collapseItem1 a {
   padding-left: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 700;
@@ -236,7 +240,7 @@ button.nivel1:hover,
   line-height: 21px;
   letter-spacing: 0.06em;
   color: #fcfcfc;
-  height: 36px;
+  height: 48px;
   display: flex;
   align-items: center;
 }
@@ -244,7 +248,7 @@ p.titleAccordionCollapse {
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 35px;
   letter-spacing: 0.06em;
   color: #fcfcfc;
