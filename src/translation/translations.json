@@ -129,7 +129,7 @@
     "area2.2": "Desarrollamos e implementamos servicios/ plataformas en las que se aplica inteligencia artificial para el análisis de señales, imágenes y videos.",
     "area2.3": "Ver más",
     "area3": "3D",
-    "area3.1": "Comercializamos distintos modelos de impresoras y máquinas CNC de diseño propio",
+    "area3.1": "Comercializamos distintos modelos de impresoras y máquinas CNC de diseño propio.",
     "area3.2": "Además, brindamos servicios de impresión en materiales técnicos y escaneo 3D.",
     "area3.3": "Ver más"
   },
@@ -138,7 +138,7 @@
     "area0.1": "Solutions for your company",
     "area1": "IoT",
     "area1.1": "We develop platforms that involve the control of devices and remote field data collection.",
-    "area1.2": "We designed a customized dashboard to make the visualization of information and metrics user-friendly.",
+    "area1.2": "We design a customized dashboard to make the visualization of information and metrics user-friendly.",
     "area1.3": "More",
     "area2": "IA",
     "area2.1": "We design and implement hardware and software to detect and identify patterns or events.",
@@ -179,7 +179,7 @@
   },
   "CompañiasEnglish": {
     "experiencia1": "EXPERIENCE",
-    "experiencia2": "Companies that have chosen us"
+    "experiencia2": "Companies that chose us"
   },
   "IoTBanner": {
     "banner_iot_1": "IOT - Soluciones de ingeniería para",
@@ -204,9 +204,9 @@
     "title2.2": "casos de éxito"
   },
   "CasosExitoEnglish": {
-    "P1": "Our device continuously monitors the noise level and changes color to alert when noise may be harmful to health. Alert thresholds can be customized through the device's web application.",
-    "P2": "Noisen has the ability to store and visualize noise measurements in real time and remotely. This makes it possible to know the noise pollution in the space at all times and take corrective measures to ensure a quiet and safe environment for everyone.",
-    "P3": "It is easy to configure and can be accessed and consulted from anywhere with a WiFi connection.",
+    "P1": "Our device continuously monitors the noise level and changes color to alert when noise may be harmful. Alert thresholds can be customized through the device's web application.",
+    "P2": "Noisen has the ability to store and visualize noise measurements in real time and remotely. This makes it possible to know the noise pollution in the area at all times and take corrective measures to ensure a quiet and safe environment for everyone.",
+    "P3": "It's easy to configure and can be accessed and consulted from anywhere with a WiFi connection.",
     "title1": "Wind turbine failure detection",
     "P1.5": "In this project we seek to detect wind turbine components using instance segmentation models. These segmentations allow us to visualize and post process each component separately.",
     "P2.5": "Once the blades are segmented, they are processed with an anomaly detection algorithm to locate and classify surface damage.",
@@ -214,7 +214,7 @@
     "title2": "3D printer manufacturing",
     "P1.8": "We commercialize different models of 3D printers for manufacturing or prototyping. We also provide printing services with special materials: ABS, Nylon, Hips, Flex and PETG.",
     "P2.8": "Commissioning and maintenance services are available to ensure a smooth 3D printing experience.",
-    "title3": "Projects we carry out",
+    "title3": "Projects we have carried out",
     "title2.2": "success stories"
   },
   "aboutIOTservice": {
@@ -285,7 +285,7 @@
     "titulo1": "What do our customers say?",
     "user1": "Ian Bogado",
     "position1": "CEO",
-    "opinion1": "The team at MEC is amazing. They are always willing tƒo help projects come to fruition, especially when things get complicated.  They have been instrumental in our growth and take-off and I hope we can continue working side by side for a long time to come.",
+    "opinion1": "The team at MEC is amazing. They are always willing to help projects come to fruition, especially when things get complicated.  They have been instrumental in our growth and take-off and I hope we can continue working side by side for a long time to come.",
 
     "user2": "Alejandro Pronello",
     "position2": "CEO",
@@ -323,7 +323,7 @@
   "aboutIAserviceEnglish": {
     "aIA_about": "Customized artificial intelligence solutions",
     "aIA_transform": "AI: Transforming the future of innovation and business.",
-    "aIA_text1": "We help to automatically identify and detect any type of event. We use Machine Learning algorithms to detect objects, patterns and/or events, allowing faster and more informed decisions in real time. With our AI-based solutions, facilities and assets can be monitored more efficiently and accurately, saving time and money in the medium and long term. Whether you need to monitor a production plant, control security in a retail store or ensure product quality, our specialized Computer Vision team can tailor systems to meet your needs for a complete view of operations."
+    "aIA_text1": "We help to automatically identify and detect any type of event. We use Machine Learning algorithms to detect objects, patterns and/or events, allowing faster and more informed decisions to be made in real time. With our AI-based solutions, facilities and assets can be monitored more efficiently and accurately, saving time and money in the medium and long term. Whether you need to monitor a production plant, control security in a retail store or ensure product quality, our specialized Computer Vision team can tailor systems to meet your needs for a complete view of operations."
   },
   "CasosdeExitoAIEspañol": {
     "subtitl1": "CASOS DE EXITO",
@@ -351,7 +351,7 @@
     "Title1.31": "Detection of oil spills",
     "Description1.31": "We developed an alert and monitoring system for environmentally sensitive areas in collaboration with Uali. We use drones equipped with artificial intelligence to detect oil spills on different types of surfaces.",
     "Title1.41": "Automatic fines generation.",
-    "Description1.41": "We developed an aerial cinemometer for the Dirección General de Transporte de España in collaboration with Uali and Rocking Data. We use a drone equipped with artificial intelligence to measure the speed and license plate of vehicles, allowing the generation of fines if applicable.",
+    "Description1.41": "We developed an aerial cinemometer for the Spain's DGT in collaboration with Uali and Rocking Data. We use a drone equipped with artificial intelligence to measure the speed and license plate of vehicles, allowing the generation of fines if applicable.",
     "TM": "TEAM WORK",
     "SE": "Strategic partners"
   },
@@ -462,12 +462,11 @@
             "specification": "Hotend e3d Lite6 + e3d V6 y extrusores dual drive."
           },
           {
-            "specification": "Drivers de motores PaP de la serie Tinamcs TMC."
+            "specification": "Drivers de motores Trinamic TMC."
           },
           {
             "specification": "Electrónica de 32 bits con conexión WiFi y Ethernet."
-          },
-          { "specification": "Habitáculo cerrado." }
+          }
         ],
         "subtitleDatasheet": "subtitleDatasheet=>>>",
         "strengths": [
@@ -559,8 +558,7 @@
           },
           { "specification": "Transmisión eje Z con tornillo de rosca recta." },
           { "specification": "Hotend simil e3d Lite6." },
-          { "specification": "Extrusor dual drive." },
-          { "specification": "Habitáculo cerrado" }
+          { "specification": "Extrusor dual drive." }
         ],
         "subtitleDatasheet": "subtitleDatasheet subtitleDatasheet",
         "strengths": [
@@ -587,7 +585,7 @@
             "highlight": [
               { "it": "A instituciones educativas." },
               {
-                "it": "Particulares que quieran comenzar un emprendimiento propio o simplemente jugar diseñando e imprimiendo.."
+                "it": "Particulares que quieran comenzar un emprendimiento propio o simplemente jugar diseñando e imprimiendo."
               }
             ]
           },
@@ -629,7 +627,7 @@
           },
           {
             "title": "Milling mode",
-            "description": "After changing the head and work platform, it allows mounting a mini lathe for light machining (routing of printed circuit boards, engraving, and milling of non-ferrous materials)"
+            "description": "After changing the head and work platform, it allows mounting a rotary tool for light machining (routing of printed circuit boards, engraving, and milling of non-ferrous materials)"
           },
           {
             "title": "Easy to use and intuitive.",
@@ -641,7 +639,7 @@
         "datasheet": [
           { "specification": "Print volume of 300x300x300mm." },
           {
-            "specification": "Heated printing bed of 220V - 500W controlled by solid-state relay."
+            "specification": "Heated printing surface of 220V - 500W controlled by solid-state relay."
           },
           {
             "specification": "Dual print head with independent vertical drive AVI."
@@ -649,11 +647,10 @@
           {
             "specification": "Hotend e3d Lite6 + e3d V6 and dual drive extruders."
           },
-          { "specification": "PaP series Tinamcs TMC motor drivers." },
+          { "specification": "Trinamic TMC motor drivers." },
           {
             "specification": "32-bit electronics with WiFi and Ethernet connection."
-          },
-          { "specification": "Closed chamber." }
+          }
         ],
         "subtitleDatasheet": "subtitleDatasheet =>>>",
         "strengths": [
@@ -737,7 +734,7 @@
         "img": [{ "src": "1" }, { "src": "2" }, { "src": "3" }],
         "datasheet": [
           { "specification": "Print volume of 200x200x200mm." },
-          { "specification": "Heated printing bed of 12V - 100W." },
+          { "specification": "Heated printing surface of 12V - 100W." },
           {
             "specification": "Structure made of 2.5mm thick laser-cut sheet metal."
           },
@@ -745,8 +742,7 @@
             "specification": "Z-axis transmission with straight thread screw."
           },
           { "specification": "Hotend similar to e3d Lite6." },
-          { "specification": "Dual drive extruder." },
-          { "specification": "Closed chamber." }
+          { "specification": "Dual drive extruder." }
         ],
         "subtitleDatasheet": "subtitleDatasheet subtitleDatasheet",
         "strengths": [
