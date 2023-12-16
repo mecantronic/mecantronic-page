@@ -29,9 +29,8 @@ header {
 
 
 .branNav {
-  width: 153px;
-  height: 32px;
-
+  max-width: 153px; /* Cambiado a max-width */
+  height: auto; /* Cambiado a auto */
 }
 .menus {
   display: flex;
