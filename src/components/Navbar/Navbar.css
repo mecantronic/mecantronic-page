@@ -1,7 +1,7 @@
 header {
   width: 100%;
 }
-.nav-area {
+/*.nav-area {
   width: 100%;
   display: flex;
   align-items: center;
@@ -25,13 +25,83 @@ header {
   padding-right: 160px;
   display: flex;
   justify-content: space-between;
+}*/
+/* ... Otro código existente ... */
+
+/* Ajustes generales para el navbar */
+.nav-area {
+  background: linear-gradient(106.12deg, rgba(169, 1, 1, 0.95) 22.42%, #ba000e 77.58%);
+  backdrop-filter: blur(20px);
+  color: white;
+  padding: 0;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos */
+  justify-content: space-between;
 }
 
+/* Estilos para pantallas grandes */
+@media (min-width: 911px) {
+  .nav-area {
+    padding: 0 160px;
+  }
+
+  .menus {
+    display: flex;
+  }
+
+  #btn-hamb {
+    display: none;
+  }
+
+  #nav-collapse {
+    display: none;
+  }
+
+  /* Ajustes para el botón de cambio de idioma */
+  .language-button {
+    display: inline-block;
+  }
+}
+
+/* Ajustes para pantallas pequeñas (max-width: 910px) */
+@media (max-width: 910px) {
+  .nav-area {
+    padding: 24px 20px;
+  }
+
+  .menus {
+    display: none;
+  }
+
+  #btn-hamb {
+    display: block;
+    width: 32px;
+    height: 32px;
+  }
+
+  #nav-collapse {
+    display: none;
+  }
+
+  .nav-collapse-open #nav-collapse {
+    display: block;
+  }
+
+  /* Ajustes para el botón de cambio de idioma */
+  .language-button {
+    display: inline-block;
+  }
+}
 
 .branNav {
   max-width: 153px; /* Cambiado a max-width */
   height: auto; /* Cambiado a auto */
 }
+
 .menus {
   display: flex;
   list-style: none;
@@ -274,7 +344,7 @@ p.titleAccordionCollapse {
   color: rgb(255, 255, 255);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 910px) {
   #nav-collapse {
     display: block;
   }
@@ -287,22 +357,22 @@ p.titleAccordionCollapse {
     display: none;
   }
   .nav-area {
-    padding: 0 20px;
+    padding: 24px 20px;
   }
 }
 
-@media (min-width: 800px) and (max-width: 1000px) {
+@media (min-width: 910px) and (max-width: 1000px) {
   .nav-area {
-    padding: 0 20px;
+    padding: 24px 20px;
   }
 }
 @media (min-width: 1000px) and (max-width: 1200px) {
   .nav-area {
-    padding: 0 50px;
+    padding: 24px 50px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1350px) {
   .nav-area {
-    padding: 0 100px;
+    padding: 24px 100px;
   }
 }
