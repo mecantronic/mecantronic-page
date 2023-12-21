@@ -1,332 +1,323 @@
-.contactContainer{
-    text-align: center;
-    padding-top: 130px; 
-    padding-bottom: 90px;
-    font-family: 'Ubuntu';
-    font-style: normal;    
-    letter-spacing: 0.06em;
-    font-weight: 700;
+.contactContainer {
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 90px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  letter-spacing: 0.06em;
+  font-weight: 700;
 }
-.contactContainer div:first-of-type{
-    display: flex;
-    justify-content: space-between;
+.contactContainer div:first-of-type {
+  display: flex;
+  justify-content: space-between;
 }
-.contactContainer button{
-    color: gray;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    border: gray 1px solid;
-    border-radius: 5px;
-    margin: 20px;
-    position: absolute;
-    right: 0;
+.contactContainer button {
+  color: gray;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  border: gray 1px solid;
+  border-radius: 5px;
+  margin: 20px;
+  position: absolute;
+  right: 0;
 }
-.contactContainer button:hover{
-    cursor: pointer;
-    transform: scale(1.1);
+.contactContainer button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
-.contactContainer h2{
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FF5B68;
+.contactContainer h2 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ff5b68;
 }
-.contactContainer h3{
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #404972;
+.contactContainer h3 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #404972;
 }
 
-
-.formContainer{
-    display: flex;
-    justify-content: space-around;
-    padding: 80px 340px;
+.formContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 340px;
 }
 .formContainer .contacData {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: left;
-    color: #FCFCFC;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 60%;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: left;
+  color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
 }
-.formContainer .contacData .contacDataContainer{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100%;
+.formContainer .contacData .contacDataContainer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+.formContainer .contacData .contacDataContainer .icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 240px;
+  gap: 5px;
+}
+.formContainer .contacData .contacDataContainer .icons > div {
+  border: 1px white solid;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formContainer .contacData .contacDataContainer .icons img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.formContainer .contacData .title {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ff5b68;
+}
+
+.formContainer .contacData .telefono {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ff5b68;
+}
+.formContainer .contacData .telefono p {
+  color: #fcfcfc;
+}
+
+.formularioContacto {
+  width: 50%;
+  margin: 0px auto;
+  padding: 64px;
+  border-radius: 32px;
+}
+#regularContactForm .formularioContacto {
+  max-width: 515px;
+  padding: 0;
+  margin-top: 80px;
+}
+.formularioContacto .formulario {
+  height: 100%;
+  width: 100%;
+}
+
+.formularioContacto .labelFormContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 24px auto 10px;
+}
+#modalFormConteiner .formularioContacto .labelFormContacto {
+  margin-bottom: 0px;
+}
+.formularioContacto .labelFormContacto label {
+  text-align: left;
+  width: 100%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+  margin-top: 12px;
+}
+
+.formularioContacto .labelFormContacto input,
+.formularioContacto textarea,
+.formularioContacto select {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  padding: 10px 24px 10px 0;
+  width: 100%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #747a87;
+  border: none;
+  border-bottom: 1px solid #000000;
+  background-color: transparent;
+}
+.formularioContacto .labelFormContacto input {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #b3b3b3;
+}
+::placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #b3b3b3;
+}
+
+.formularioContacto label,
+.formularioContacto .labelFormContacto input,
+.formularioContacto textarea {
+  width: 100%;
+}
+.formularioContacto textarea {
+}
+
+input.botonEnvio {
+  margin: auto;
+  padding: 12px 50px;
+  border-radius: 40px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #9b0800;
+  border: 1px solid #9b0800;
+  margin-top: 80px;
+}
+
+.botonEnvio:hover {
+  cursor: pointer;
+  box-sizing: border-box;
+  background: #fff4f5;
+}
+
+.errorForm {
+  color: red;
+}
+
+#regularContactForm .contactContainer button {
+  display: none;
+}
+#regularContactForm .formContainer {
+  padding: 0;
+}
+@media (max-width: 800px) {
+  #regularContactForm .formularioContacto {
     width: 100%;
-}
-.formContainer .contacData .contacDataContainer .icons{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 240px;
-    gap:5px;
-}
-.formContainer .contacData .contacDataContainer .icons >div{
-    border: 1px white solid;    
-    border-radius: 50%;
-    width: 65px;
-    height: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.formContainer .contacData .contacDataContainer .icons img{
-    max-width: 30px;
-    max-height: 30px;
-}
-
-.formContainer .contacData .title{
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-    color: #FF5B68;
-}
-
-.formContainer .contacData .telefono{
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 60px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-    color: #FF5B68;
-}
-.formContainer .contacData .telefono p{
-    color: #FCFCFC;
-}
-
-.formularioContacto{
-    width: 50%;
-    margin: 0px auto;
-    padding: 64px;
-    border-radius: 32px;
-}
-#regularContactForm .formularioContacto{
-    max-width: 515px;
-    padding: 0;
-    margin-top: 80px;
-}
-.formularioContacto .formulario{
-    height: 100%;
-    width: 100%;
-    
-}
-
-.formularioContacto .labelFormContacto{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;    
-    max-width: 500px;
-    margin: 24px auto 10px;
-}
-#modalFormConteiner .formularioContacto .labelFormContacto{
-    margin-bottom: 0px;
-}
-.formularioContacto .labelFormContacto label{
-    text-align: left;
-    width: 100%;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.01em;
-    color: #1A1A1A;
-    margin-bottom: 8px;
-    margin-top: 12px;
-}
-
-.formularioContacto .labelFormContacto input, .formularioContacto textarea, .formularioContacto select{
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.01em;
-    padding: 10px 24px 10px 0;
-    width: 100%;
-    font-family: 'Ubuntu';
+    padding: 0 16px;
+    margin-top: 10px;
+  }
+  #regularContactForm .formularioContacto .labelFormContacto label {
+    font-family: "Ubuntu";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #747a87;
-    border: none;
-    border-bottom: 1px solid #000000;
-    background-color: transparent;
-}
-.formularioContacto .labelFormContacto input{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.06em;
-    color: #B3B3B3;
-}
-::placeholder{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.06em;
-    color: #B3B3B3;    
-}
-
-.formularioContacto label, .formularioContacto .labelFormContacto input, .formularioContacto textarea{
-    width: 100%;
-}
-.formularioContacto textarea{
-    
-}
-
-input.botonEnvio {
-    margin: auto;
-    padding: 12px 50px; 
-    border-radius: 40px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
     letter-spacing: 0.01em;
-    color: #9B0800;
-    border: 1px solid #9B0800;
-    margin-top: 80px;    
+    color: #1a1a1a;
+  }
+  #regularContactForm .formularioContacto .labelFormContacto input {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #b3b3b3;
+  }
+  #regularContactForm .formularioContacto .labelFormContacto input,
+  .formularioContacto textarea,
+  #regularContactForm .formularioContacto select {
+    border-bottom: 1px solid #4d4d4d;
+  }
+  #regularContactForm .contactContainer h2 {
+    font-size: 14px;
+  }
+  #regularContactForm .contactContainer h3 {
+    font-size: 20px;
+  }
 }
 
-.botonEnvio:hover{
-     /*
-    font-weight: 900;
-    cursor: pointer;
-    */
+@media (min-width: 800px) and (max-width: 1000px) {
+  #regularContactForm .formularioContacto {
+    width: 75%;
+    padding: 0 16px;
+    margin-top: 30px;
+  }
 }
 
-.errorForm{
-    color: red;
+@media (min-width: 1300px) {
+  input.botonEnvio {
+    font-size: 24px;
+  }
 }
-
-
-#regularContactForm .contactContainer button{
-    display: none;
-}
-#regularContactForm  .formContainer{
-    padding: 0;
-
-}
-@media (max-width:800px){
-    #regularContactForm .formularioContacto{
-        width: 100%;
-        padding: 0 16px;
-        margin-top: 10px;
-    }
-    #regularContactForm .formularioContacto .labelFormContacto label{
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.01em;
-        color: #1A1A1A;
-    }
-    #regularContactForm .formularioContacto .labelFormContacto input{
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.01em;        
-        color: #B3B3B3;
-    }
-    #regularContactForm .formularioContacto .labelFormContacto input, .formularioContacto textarea, #regularContactForm  .formularioContacto select{
-        border-bottom: 1px solid #4D4D4D;
-    }
-    #regularContactForm .contactContainer h2{
-        font-size: 14px;
-    }
-    #regularContactForm .contactContainer h3{
-        font-size: 20px;
-    }
-}
-
-@media (min-width:800px) and (max-width:1000px){
-    #regularContactForm .formularioContacto{
-        width: 75%;
-        padding: 0 16px;
-        margin-top: 30px;
-    }
-}
-
-
-
-@media (min-width:1300px){    
-    input.botonEnvio{
-        font-size: 24px;
-    }
-
-}
-
 
 /* FORMULARIO CONTACTO MODAL  REDUCIDO*/
 /* formulario modal */
-@media (max-height:900px){
-    #modalFormConteiner .contactContainer .formContainer{
-        padding-top: 5px; /* tenia 48px antes */
-        padding-bottom: 0; /* tenia 30px antes */
-    }
-    #modalFormConteiner .contactContainer h2{
-        padding-top: 20px; /* tenia 48px antes */ 
-        padding-bottom: 0;
-    }
-    #modalFormConteiner .formularioContacto .labelFormContacto label{
-        margin-bottom: 5px; /* tenia 40px antes */
-    }
-    
+@media (max-height: 900px) {
+  #modalFormConteiner .contactContainer .formContainer {
+    padding-top: 5px; /* tenia 48px antes */
+    padding-bottom: 0; /* tenia 30px antes */
+  }
+  #modalFormConteiner .contactContainer h2 {
+    padding-top: 20px; /* tenia 48px antes */
+    padding-bottom: 0;
+  }
+  #modalFormConteiner .formularioContacto .labelFormContacto label {
+    margin-bottom: 5px; /* tenia 40px antes */
+  }
 }
-@media (min-height:900px){
-    #modalFormConteiner .contactContainer h2{
-        padding-top: 25px; /* tenia 48px antes */ 
-        padding-bottom: 10px; /* tenia 30px antes */
-    }
-    #modalFormConteiner .contactContainer .formContainer{
-        padding: 0 135px 10px 135px;
-    }
-    
+@media (min-height: 900px) {
+  #modalFormConteiner .contactContainer h2 {
+    padding-top: 25px; /* tenia 48px antes */
+    padding-bottom: 10px; /* tenia 30px antes */
+  }
+  #modalFormConteiner .contactContainer .formContainer {
+    padding: 0 135px 10px 135px;
+  }
 }
-@media (min-height:1000px){
-    #modalFormConteiner .contactContainer h2{
-        padding-top: 40px; /* tenia 48px antes */ 
-        padding-bottom: 40px; /* tenia 30px antes */
-    }
-    
+@media (min-height: 1000px) {
+  #modalFormConteiner .contactContainer h2 {
+    padding-top: 40px; /* tenia 48px antes */
+    padding-bottom: 40px; /* tenia 30px antes */
+  }
 }
-
-

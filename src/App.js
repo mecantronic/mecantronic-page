@@ -6,19 +6,20 @@ import { Home } from "./pages/Home";
 import { Product } from "./pages/Product";
 import { AboutUs } from "./pages/AboutUs";
 import { Footer } from "./components/Footer/Footer";
-import { Servicios } from "./pages/Servicios";
+import Servicios from "./pages/Servicios";
 import { ToastContainer } from "react-toastify";
 import { Navbar } from "./components/Navbar/Navbar";
+import i18n from "./translation/i18n";
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar/>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/servicios/:servicio" element={<Servicios />}></Route>
-        <Route path="/aboutUs" element={<AboutUs/>}></Route>
-        <Route path="/products/:product" element={<Product />}></Route>
+        <Route path="/sobreNosotros" element={<AboutUs />}></Route>
+        <Route path="/productos/:product" element={<Product />}></Route>
       </Routes>
       <ToastContainer
         position="bottom-left"
@@ -31,7 +32,7 @@ function App() {
         draggable
         pauseOnHover
       />
-      <Footer /> 
+      <Footer />
     </BrowserRouter>
   );
 }

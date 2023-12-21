@@ -8,10 +8,15 @@ import AboutInfo from "../components/Utils/AboutInfo"
 import { Slider } from '../components/Slider/Slider'
 import { BannerTitles } from '../components/BannerTitles/BannerTitles'
 import { SecondNavbar } from '../components/SecondNavbar/SecondNavbar'
+import { useTranslation } from 'react-i18next';
 
 export const AboutUs = () => {
-  const secondNav = [{ texto: "Sobre nosotros", link: "nosotros"},
-    {texto: "Equipo", link: "equipo"} ]
+
+  const { t } = useTranslation()
+
+
+  const secondNav = [{ texto: t("sobrenosotros"), link: "nosotros"},
+    {texto: t("equipo"), link: "equipo"} ]
 
   setTimeout(()=>{
     const root = document.getElementById("root");
@@ -20,14 +25,14 @@ export const AboutUs = () => {
   
   return (
     <span id="AboutUs">
-      <Banner img={"banner-about.png"} bg1={"bg-about-1.png"} info2={AboutInfo[0]["bannerInfo1"]} />
+      <Banner img={"banner-about.png"} bg1={"bg-about-1.png"} info2={t('main_banner')} />
       <SecondNavbar data={secondNav} />
       <span id="nosotros">
-        <BannerTitles title={"Conocé nuestra historia"} subtitle={"Quiénes somos"} />      
+        <BannerTitles title={t("history")} subtitle={t("about us")} />      
         <About/>  
       </span>  
       <span id="equipo">
-        <BannerTitles title={"Conocé a los expertos detrás de nuestra empresa"} subtitle={"NUESTRO EQUIPO DE TALENTO"}  />
+        <BannerTitles title={t("text4.1")} subtitle={t("text4")}  />
         <Slider elementos={AboutInfo} type="team"/>      
         <Slider elementos={AboutInfo} type="gallery"/>
         <BannerMoreInfo/>

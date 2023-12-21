@@ -10,13 +10,15 @@ import molinari from "../assets/empresas/Molinari.svg";
 import moltech from "../assets/empresas/Moltech.svg";
 import telefonica from "../assets/empresas/Telefonica.svg";
 import uali from "../assets/empresas/uali.svg";
+import { useTranslation } from "react-i18next";
 
 export const BannerEmpresas = () => {
+  const { t } = useTranslation();
   return (
     <div className="banner-empresas mb-20">
       <BannerTitles
-        subtitle={"EXPERIENCIA"}
-        title={"Empresas que ya nos eligieron"}
+        subtitle={t("experiencia1")}
+        title={t("experiencia2")}
       />
       <div className="clientes">
         <img src={shell} alt="shell" className="imgMobile shell"/>
@@ -28,9 +30,10 @@ export const BannerEmpresas = () => {
         <img src={buenosaires} alt="buenos aires" />
         <img src={L184} alt="potencial" />
         <img src={moltech} alt="moltech" />
-        <img src={uali} alt="uali" />
+        <img src={'./assets/empresas/uali.png'} alt="uali" />
         <img src={molinari} alt="molinari" />
         <img src={ASP} alt="ASP"  className="imgMobile asp"/>
+        <img src={'./assets/empresas/orsai-logo.svg'} alt="Orsai"  className="imgMobile orsai"/>
       </div>
     </div>
   );

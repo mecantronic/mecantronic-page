@@ -1,8 +1,10 @@
 import "./CardProductCompare.css"
 import React from "react"
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 export const CardProductCompare = ({product, productoActual}) =>{
+    const { t } = useTranslation();
     
     return (
         <div className={`CardProductCompare ${productoActual? "productoActual" :""}`}>
@@ -28,7 +30,7 @@ export const CardProductCompare = ({product, productoActual}) =>{
 
 
             </div>
-            <Link to={`/products/${product["id"]}`}  className="cardProductCompareBtn"  onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} >Ver más</Link>
+            <Link to={`/products/${product["id"]}`}  className="cardProductCompareBtn"  onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})} >{t("vm")}</Link>
         </div>
     )
 }

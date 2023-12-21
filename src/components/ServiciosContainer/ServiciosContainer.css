@@ -104,7 +104,7 @@
 
 /* clase solo para socios en servicios IA, 2 imagenes */
 .clientes .socioEstragicoIA{
-  margin: 0 100px;
+  margin: 0 50px;
 }
 
 .numAccordionItemServices{
@@ -307,12 +307,12 @@
 
 @media (min-width: 1100px){
   #casosDeExito{
-    margin: 10px auto;
-    padding: 200px 0;
+    margin: 100px auto;
+    padding: 100px 0;
     flex-direction: row;
     justify-content: center;
     max-width: 1200px;
-    height: 520px;
+    /* height: 520px; */
     gap: 110px;
   }
   .sobreimgAccordion{
